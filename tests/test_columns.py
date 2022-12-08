@@ -1,5 +1,7 @@
 import pandas as pd
 
+#Read output of preprocessing
+df_FC = pd.read_csv(r'tests/testfiles/FC_test_processed.csv',sep=';')
+
 def test_unique_sampleID():
-    df = pd.read_csv(r'tests/testfiles/FC_test.csv',sep=';')
-    assert df.columns[0] == 'ID'
+    assert df_FC.columns[0] == 'ID'

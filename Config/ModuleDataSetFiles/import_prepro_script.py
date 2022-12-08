@@ -8,13 +8,16 @@ Created on Mon Sep 21 13:24:40 2020
 #%%
 import pandas as pd
 import sys
+from pathlib import Path
 
 def main(argv):
-    input_file = argv[0]
+    input_file = Path(argv[0])
     df = pd.read_csv(input_file,sep=';')
     
     #Preprocessing
     df['SampleID'] = 'test'
+    
+    outfile = input_file.stem + '_processed.csv'
     df.to_csv('tests/testfiles/FC_testresult.csv')
         
 if __name__ == "__main__":
