@@ -18,8 +18,8 @@ def main(argv):
     df['SampleID'] = 'test'
     
     outfile = input_file.stem + '_processed.csv'
-    df.to_csv('tests/testfiles/FC_testresult.csv')
-        
+    df.to_csv(outfile,header=True, index=False, sep=';', encoding="utf-8-sig")
+
 if __name__ == "__main__":
     if len(sys.argv)>1:
         main(sys.argv[1:])
