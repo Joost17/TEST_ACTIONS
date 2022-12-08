@@ -17,7 +17,8 @@ def main(argv):
     #Preprocessing
     df['SampleID'] = 'test'
     
-    outfile = input_file.stem + '_processed.csv'
+    outfile = Path(r'tests/testfiles') / (input_file.stem + '_processed.csv')
+    print('Writing outputfile {}'.format(outfile))
     df.to_csv(outfile,header=True, index=False, sep=';', encoding="utf-8-sig")
 
 if __name__ == "__main__":
