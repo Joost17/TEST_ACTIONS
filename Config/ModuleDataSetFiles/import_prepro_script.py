@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 21 13:24:40 2020
+
+@author: driebergen
+
+"""
+#%%
+import pandas as pd
+import sys
+
+def main(argv):
+    input_file = argv[0]
+    df = pd.read_csv(input_file,sep=';')
+    
+    #Preprocessing
+    df['SampleID'] = 'test'
+    df.to_csv('tests/testfiles/FC_testresult.csv')
+        
+if __name__ == "__main__":
+    if len(sys.argv)>1:
+        main(sys.argv[1:])
+    else:  
+        args = [r'D:/FEWSProjects/FEWS-EFCIS_HKV/branches/2021-01-test/FEWS/tofss/Import/SampleData']
+        main(args)
+      
+
