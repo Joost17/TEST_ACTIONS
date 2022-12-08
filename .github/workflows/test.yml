@@ -42,7 +42,7 @@ jobs:
           python -m pip install pytest numpy pandas
           
       - name: Run preprocessing
-        run: python Config/ModuleDataSetFiles/import_prepro_script.py  
+        run: python Config/ModuleDataSetFiles/import_prepro_script.py tests/testfiles/FC_test.csv
       - name: Test with pytest
         run: pytest tests
         
