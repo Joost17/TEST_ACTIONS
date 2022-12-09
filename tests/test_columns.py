@@ -1,11 +1,20 @@
 import pandas as pd
+import chardet
 
 #Read output of preprocessing
-df_FC = pd.read_csv(r'tests/testfiles/FC_test_processed.csv',sep=';')
+file_fc        = r'tests/testfiles/FC_test.csv'
+df_FC          = pd.read_csv(file_fc,sep=';')
+file_fc_prepro = r'tests/testfiles/FC_test_processed.csv'
+df_FC_prepro   = pd.read_csv(file_fc,sep=';')
 
-def test_unique_sampleID():
-    assert df_FC.columns[0] == 'ID'
+
+def test_dtypes():
+    df_FC.dtypes['Kwaliteitsoordeel.code'] == object
 
 def test_encoding():
-    encoding = 0
-    assert 0==0
+    with open(file_fc, 'rb') as rawdata:
+        result = chardet.detect(rawdata.read(100000))
+    assert result['encoding'] == 'UTF-8-SIG'
+
+def test_length():
+    assert len(df_FC) == len(df_FC_prepro)
