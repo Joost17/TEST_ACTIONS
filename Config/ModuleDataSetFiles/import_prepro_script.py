@@ -10,16 +10,20 @@ import pandas as pd
 import sys
 from pathlib import Path
 
+def sort_dataframe(df,col_name):
+    return df.sort_values(by = col_name)
+
 def main(argv):
     input_file = Path(argv[0])
-    df = pd.read_csv(input_file,sep=';')
+    df_FC      = pd.read_csv(input_file,sep=';',dtype={'Kwaliteitsoordeel.code': object})
+    df_FC      = df_FC.convert_dtypes(convert_string=False)
+    df_FC      = sort_dataframe(df_FC, 'Monster.lokaalID')
     
     #Preprocessing
-    df['SampleID'] = 'test'
     
     outfile = Path(r'tests/testfiles') / (input_file.stem + '_processed.csv')
     print('Writing outputfile {}'.format(outfile))
-    df.to_csv(outfile,header=True, index=False, sep=';', encoding="utf-8-sig")
+    df_FC.to_csv(outfile,header=True, index=False, sep=';', encoding="utf-8-sig")
 
 if __name__ == "__main__":
     if len(sys.argv)>1:
