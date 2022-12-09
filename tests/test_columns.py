@@ -12,7 +12,7 @@ def test_dtypes():
     df_FC.dtypes['Kwaliteitsoordeel.code'] == object
 
 def test_encoding():
-    with open(file_fc, 'rb') as rawdata:
+    with open(file_fc_prepro, 'rb') as rawdata:
         result = chardet.detect(rawdata.read(100000))
     assert result['encoding'] == 'UTF-8-SIG'
 
