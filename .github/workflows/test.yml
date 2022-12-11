@@ -34,12 +34,15 @@ jobs:
     #     python-version: ["3.8"]
     #   fail-fast: false
     steps:
-    - uses: conda-incubator/setup-miniconda@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        activate-environment: anaconda-client-env
-        environment-file: etc/actions_env.yml
         python-version: 3.8
-        auto-activate-base: false
+    - name: Install dependencies
+      run: |
+        C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name base
+        C:\Miniconda\condabin\conda.bat init powershell
+        
     - run: |
           conda info
           conda list
