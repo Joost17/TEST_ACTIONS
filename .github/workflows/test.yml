@@ -29,10 +29,6 @@ jobs:
   do-test:
     name: Test preproccesing scripts
     runs-on: windows-2019
-    # strategy:
-    #   matrix:
-    #     python-version: ["3.8"]
-    #   fail-fast: false
     steps:
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -40,7 +36,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name base
+        C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name TEST_ACTIONS
         C:\Miniconda\condabin\conda.bat init powershell
         
     - run: |
@@ -57,7 +53,9 @@ jobs:
         python -m pip install pytest
         
     - name: Run preprocessing BIO
-      run: python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
+      run: |
+          C:\Miniconda\condabin\conda.bat activate TEST_ACTIONS
+          python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
     - name: Run preprocessing FC
       run: python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
 
