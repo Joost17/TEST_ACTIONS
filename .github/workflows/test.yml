@@ -2,10 +2,10 @@ name: test
 on:
   push:
     branches:
-      - main,test,ontwikkel
+      - productie,test,ontwikkel
   pull_request:
     branches:
-      - main,test,ontwikkel
+      - productie,test,ontwikkel
 
 jobs:
   do-explore:
