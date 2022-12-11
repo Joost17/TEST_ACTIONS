@@ -41,9 +41,9 @@ jobs:
         C:\Miniconda\condabin\conda.bat env update -n base -c defaults conda
         C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name base
     - run: |
-          C:\Miniconda\condabin\conda.bat activate TEST_ACTIONS
-          conda info
-          conda list
+          C:\Miniconda\condabin\conda.bat activate base
+          C:\Miniconda\condabin\conda.bat info
+          C:\Miniconda\condabin\conda.bat list
       # with:
       #   python-version: ${{ matrix.python-version }}
     # - name: Install test dependencies
