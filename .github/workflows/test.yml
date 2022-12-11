@@ -36,7 +36,7 @@ jobs:
         python-version: 3.8
     - name: Install dependencies
       run: |
-        C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name TEST_ACTIONS
+        C:\Miniconda\condabin\conda.bat env create -f etc/actions_env.yml
         C:\Miniconda\condabin\conda.bat init powershell
     - run: |
           C:\Miniconda\condabin\conda.bat activate TEST_ACTIONS
@@ -45,12 +45,12 @@ jobs:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v4
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install test dependencies
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install pytest
+      # with:
+      #   python-version: ${{ matrix.python-version }}
+    # - name: Install test dependencies
+    #   run: |
+    #     python -m pip install --upgrade pip
+    #     python -m pip install pytest
         
     - name: Run preprocessing BIO
       run: |
