@@ -27,7 +27,7 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
   do-test:
-    name: Test on Python
+    name: Test preproccesing scripts
     runs-on: windows-2019
     strategy:
       matrix:
