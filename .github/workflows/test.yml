@@ -30,12 +30,14 @@ jobs:
     name: Test preproccesing scripts
     runs-on: windows-2019
     steps:
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@v2
+    - name: Setup Conda dependencies
+      uses: goanpeca/setup-miniconda@v1
       with:
+        activate-environment: base
+        environment-file: actions_env.yml
         python-version: 3.8
-    - name: checkout repository 
-      uses: actions/checkout@v3
+        auto-activate-base: false
 #    - name: Install dependencies
 
       # with:
