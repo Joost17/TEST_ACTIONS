@@ -13,7 +13,7 @@ on:
 jobs:
   do-explore:
     name: Feedback runner
-    runs-on: ubuntu-latest
+    runs-on: windows-2019
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
@@ -28,7 +28,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
   do-test:
     name: Test on Python
-    runs-on: ubuntu-latest
+    runs-on: windows-2019
     strategy:
       matrix:
         python-version: ["3.8"]
@@ -44,8 +44,11 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install pytest numpy pandas chardet
           
-      - name: Run preprocessing
-        run: python Config/ModuleDataSetFiles/import_prepro_script.py tests/testfiles/FC_test.csv
+      - name: Run preprocessing FC
+        run: python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
+      - name: Run preprocessing BIO
+        run: python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
+
       - name: Test preprocessing
         run: pytest tests
         
