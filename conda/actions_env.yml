@@ -37,4 +37,3 @@ dependencies:
   - wincertstore=0.2=py310haa95532_2
   - xz=5.2.8=h8cc25b3_0
   - zlib=1.2.13=h8cc25b3_0
-prefix: C:\Users\Driebergen\AppData\Local\Continuum\anaconda3\envs\TEST_ACTIONS
