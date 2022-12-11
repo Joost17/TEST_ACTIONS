@@ -34,22 +34,30 @@ jobs:
         python-version: ["3.8"]
       fail-fast: false
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install test dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install pytest numpy pandas chardet
-          
-      - name: Run preprocessing FC
-        run: python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
-      - name: Run preprocessing BIO
-        run: python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: anaconda-client-env
+        environment-file: conda/actions_env.yml
+        auto-activate-base: false
+    - run: |
+          conda info
+          conda list
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install test dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install pytest
+        
+    - name: Run preprocessing BIO
+      run: python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
+    - name: Run preprocessing FC
+      run: python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
 
-      - name: Test preprocessing
-        run: pytest tests
+    - name: Test preprocessing BIO + FC
+      run: pytest tests
         
         
