@@ -38,8 +38,8 @@ jobs:
       run: |
         C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name TEST_ACTIONS
         C:\Miniconda\condabin\conda.bat init powershell
-        
     - run: |
+          C:\Miniconda\condabin\conda.bat activate TEST_ACTIONS
           conda info
           conda list
     - uses: actions/checkout@v3
