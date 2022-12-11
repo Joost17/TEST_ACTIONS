@@ -2,11 +2,14 @@ name: test
 on:
   push:
     branches:
-      - productie,test,ontwikkel
+      - productie
+      - test
+      - ontwikkel
   pull_request:
     branches:
-      - productie,test,ontwikkel
-
+      - productie
+      - test
+      - ontwikkel
 jobs:
   do-explore:
     name: Feedback runner
