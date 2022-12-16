@@ -3,7 +3,6 @@
 Created on Mon Sep 21 13:24:40 2020
 
 @author: driebergen
-
 """
 #%%
 import pandas as pd
