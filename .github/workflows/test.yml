@@ -44,4 +44,4 @@ jobs:
       
       - name: test
         run: |
-          python Config\ModuleDataSetFiles\PreProImport_FC.py tests\testfiles\FC_test.csv
+          python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
