@@ -15,17 +15,17 @@ ECHO 4. Indien akkoord, voer een daadwerkelijke merge+push uit van de ontwikkel 
 ECHO.
 ECHO.
 
-git checkout ontwikkel
-git pull
-git checkout test
-git pull
+::git checkout ontwikkel
+::git pull
+::git checkout test
+::git pull
 
 ECHO.
 ECHO Commits that are in ontwikkel but not in test
-git log test..ontwikkel --no-decorate
+::git log test..ontwikkel --no-decorate
 ECHO.
-ECHO Commits that are in test but not in ontwikkel
-git log ontwikkel..test --no-decorate
+::ECHO Commits that are in test but not in ontwikkel
+::git log ontwikkel..test --no-decorate
 ECHO.
 
 
