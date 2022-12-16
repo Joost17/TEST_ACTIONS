@@ -9,7 +9,9 @@ test:       [![test](https://github.com/Joost17/TEST_ACTIONS/actions/workflows/t
 ontwikkel:  [![ontwikkel](https://github.com/Joost17/TEST_ACTIONS/actions/workflows/test.yml/badge.svg?branch=ontwikkel)](https://github.com/Joost17/TEST_ACTIONS/actions/workflows/test.yml)
 
 
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Branch | Test preprocessing |  Test config  |
+| --- | --- | --- |
+| Productie | List all new or modified files |
+| Test | Show file differences that haven't been staged |
+| Ontwikkel | Show file differences that haven't been staged |
+
