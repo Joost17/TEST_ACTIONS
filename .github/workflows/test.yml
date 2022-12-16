@@ -35,13 +35,9 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: 3.9
-    - name: Add conda to system path
-      run: |
-        # $CONDA is an environment variable pointing to the root of the miniconda directory
-        echo $CONDA/bin >> $GITHUB_PATH
     - name: Install dependencies
       run: |
-        conda env update --file etc/actions_env.yml --name base
+        C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name base
     - run: conda info
     #- name: activate environment
     #  run: C:\Miniconda\condabin\conda.bat activate base
