@@ -44,5 +44,7 @@ jobs:
       - name: Run preprocessing FC
         run: |
           python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
+      - name: Install test dependencies
+        run: C:\Miniconda\condabin\conda.bat install pytest      
       - name: Test preprocessing
         run: pytest tests
