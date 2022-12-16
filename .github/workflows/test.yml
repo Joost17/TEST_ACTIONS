@@ -14,15 +14,13 @@ on:
  
 jobs:
   create-env:
-    name: ${{ matrix.os }} 
-    runs-on: ${{ matrix.os }}
+    name: Test preprocessing FEWS-EFCIS
+    runs-on: windows-2019
     defaults:
       run:
         shell: bash -l {0}
     strategy:
       fail-fast: false
-      matrix:
-        os: [windows-2019]
         
     steps:
       - name: checkout repository
