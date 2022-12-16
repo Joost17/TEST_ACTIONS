@@ -20,4 +20,4 @@ def test_length():
     assert len(df_BIO) == len(df_BIO_prepro)
 
 def test_sampleID_unique():
-    assert len(df_BIO_prepro) == len(df_BIO_prepro.drop_duplicates(subset=['Meetobject.code', 'Collectie_Datum','Collectie_Datum','Sample_Id_FEWS']))
+    assert len(df_BIO_prepro['Sample_Id_FEWS'].unique()) == len(df_BIO_prepro.drop_duplicates(subset=['Meetobject.code', 'Collectie_Datum','Collectie_Datum','Sample_Id_FEWS']))
