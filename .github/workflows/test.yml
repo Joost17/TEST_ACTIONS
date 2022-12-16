@@ -1,6 +1,9 @@
 name: test
 on:
   push:
+    paths:
+      - Config/ModuleDataSetFiles/PreProImport_BIO.py
+      - .github/workflows/test.yml
     branches:
       - productie
       - test
@@ -18,10 +21,7 @@ jobs:
     runs-on: windows-2019
     defaults:
       run:
-        shell: bash -l {0}
-    strategy:
-      fail-fast: false
-        
+        shell: bash -l {0}        
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
