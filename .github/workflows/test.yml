@@ -35,9 +35,8 @@ jobs:
       uses: goanpeca/setup-miniconda@v1
       with:
         environment-file: etc/actions_env.yml
-        activate-environment: base
         python-version: 3.8
-        auto-activate-base: false
+        auto-activate-base: true
     - run: conda info
     #- name: activate environment
     #  run: C:\Miniconda\condabin\conda.bat activate base
