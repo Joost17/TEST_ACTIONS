@@ -4,7 +4,7 @@ on:
     paths:
       - Config/ModuleDataSetFiles/PreProImport_BIO.py
       - .github/workflows/test.yml
-      branches:
+    branches:
       - productie
       - test
       - ontwikkel
