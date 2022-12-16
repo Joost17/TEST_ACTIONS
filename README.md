@@ -1,6 +1,4 @@
 # TEST_ACTIONS
-24sd
-sd
 
 | Branch | Test preprocessing |  Test config  |
 | --- | --- | --- |
