@@ -56,4 +56,4 @@ jobs:
       - name: Install test dependencies
         run: C:/Miniconda/condabin/conda.bat install pytest      
       - name: Test preprocessing
-        run: pytest tests
+        run: pytest tests/test_FC.py
