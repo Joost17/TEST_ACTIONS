@@ -37,7 +37,10 @@ jobs:
           auto-activate-base: false
           activate-environment: actions_env
           environment-file: etc/actions_env.yml
-        run: C:/Miniconda/condabin/conda.bat list
+      - name: list environment
+        run: |
+          C:/Miniconda/condabin/conda.bat info --envs
+          C:/Miniconda/condabin/conda.bat list
       - name: Run preprocessing BIO
         run: |
           python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
