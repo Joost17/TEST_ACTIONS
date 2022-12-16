@@ -31,6 +31,8 @@ jobs:
     runs-on: windows-2019
     steps:
     - uses: actions/checkout@v2
+    - name: Update Conda
+      run: C:\Miniconda\condabin\conda.bat update -n base conda
     - name: Setup environment
       uses: goanpeca/setup-miniconda@v1
       with:
