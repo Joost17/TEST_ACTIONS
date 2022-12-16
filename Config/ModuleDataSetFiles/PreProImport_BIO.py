@@ -9,6 +9,7 @@ Created on Mon Sep 21 13:24:40 2020
 import pandas as pd
 import sys
 from pathlib import Path
+import chardet
 
 def sort_dataframe(df,col_name):
     return df.sort_values(by = col_name)
