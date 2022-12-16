@@ -1,10 +1,6 @@
-name: base
+name: actions_env
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - chardet=4.0.0=py310haa95532_1003
-  - numpy=1.23.4=py310h60c9a35_0
-  - numpy-base=1.23.4=py310h04254f7_0
-  - pandas=1.5.2=py310h4ed8f06_0
-  - python=3.10.8=h966fe2a_1
+  - pandas
