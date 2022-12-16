@@ -38,7 +38,7 @@ jobs:
     - name: Install dependencies
       run: |
         C:\Miniconda\condabin\conda.bat env update --file etc/actions_env.yml --name base
-    - run: conda info
+    - run: C:\Miniconda\condabin\conda.bat info
     #- name: activate environment
     #  run: C:\Miniconda\condabin\conda.bat activate base
     - name: Run preprocessing BIO
