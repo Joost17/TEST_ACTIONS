@@ -36,6 +36,7 @@ jobs:
     - name: Setup environment
       uses: goanpeca/setup-miniconda@v1
       with:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         environment-file: etc/actions_env.yml
         python-version: 3.8
         auto-activate-base: true
