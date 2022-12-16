@@ -19,7 +19,6 @@ jobs:
     defaults:
       run:
         shell: bash -l {0}
-        
     strategy:
       fail-fast: false
       matrix:
@@ -33,15 +32,17 @@ jobs:
         uses: conda-incubator/setup-miniconda@v2
         with:
           mamba-version: "*"
-          channels: conda-forge,bioconda,defaults
+          python-version: "3.10"
+          channels: conda-forge,defaults
           auto-activate-base: false
           activate-environment: actions_env
           environment-file: etc/actions_env.yml
-      
-      - name: check solution
+          
+      - name: Run preprocessing BIO
         run: |
-          mamba env export
-      
-      - name: test
+          python Config\ModuleDataSetFiles\PreProImport_BIO.py tests\testfiles\Diatomeeen_test.csv
+      - name: Run preprocessing FC
         run: |
           python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
+      - name: Test preprocessing
+        run: pytest tests
