@@ -10,6 +10,7 @@ on:
       - test
       - ontwikkel
   pull_request:
+    paths:
       - Config/ModuleDataSetFiles/PreProImport_BIO.py
       - Config/ModuleDataSetFiles/PreProImport_FC.py
       - .github/workflows/test.yml
