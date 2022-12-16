@@ -1,4 +1,4 @@
-name: test
+name: pre-processing
 on:
   push:
     paths:
