@@ -1,7 +1,10 @@
 name: test
 on:
   push:
-    branches:
+    paths:
+      - Config/ModuleDataSetFiles/PreProImport_BIO.py
+      - .github/workflows/test.yml
+      branches:
       - productie
       - test
       - ontwikkel
