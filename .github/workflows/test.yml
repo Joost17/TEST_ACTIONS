@@ -37,9 +37,9 @@ jobs:
         activate-environment: base
         environment-file: etc/actions_env.yml
         python-version: 3.8
-        auto-activate-base: false
-    - name: activate environment
-      run: C:\Miniconda\condabin\conda.bat activate base
+        auto-activate-base: true
+    #- name: activate environment
+    #  run: C:\Miniconda\condabin\conda.bat activate base
     - name: Run preprocessing BIO
       run: python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
     - name: Run preprocessing FC
