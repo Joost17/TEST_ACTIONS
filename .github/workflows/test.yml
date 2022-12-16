@@ -53,7 +53,14 @@ jobs:
       - name: Run preprocessing FC
         run: |
           python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
+      - name: Cache environment
+        uses: actions/cache@v2
+        with:
+          path: C:/Miniconda/envs/actions_env
+          key: actions_env-${{ hashFiles('etc/actions_env.yml') }}
       - name: Install test dependencies
         run: C:/Miniconda/condabin/conda.bat install pytest      
-      - name: Test preprocessing
-        run: pytest tests/test_FC.py
+      - name: Test preprocessing BIO
+        run: pytest tests/test_BIO.py 
+      - name: Test preprocessing FC
+        run: pytest tests/test_FC.py 
