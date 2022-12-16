@@ -19,7 +19,6 @@ on:
       - test
       - ontwikkel
        
- 
 jobs:
   create-env:
     name: Test preprocessing FEWS-EFCIS
