@@ -2,27 +2,22 @@ name: test
 on:
   push:
     paths:
-      - Config/ModuleDataSetFiles/PreProImport_BIO.py
-      - Config/ModuleDataSetFiles/PreProImport_FC.py
-      - .github/workflows/test.yml
+      - .github/workflows/test_config.yml
     branches:
       - productie
       - test
       - ontwikkel
   pull_request:
     paths:
-      - Config/ModuleDataSetFiles/PreProImport_BIO.py
-      - Config/ModuleDataSetFiles/PreProImport_FC.py
-      - .github/workflows/test.yml
+      - .github/workflows/test_config.yml
     branches:
       - productie
       - test
       - ontwikkel
        
- 
 jobs:
   create-env:
-    name: Test preprocessing FEWS-EFCIS
+    name: Test config FEWS-EFCIS
     runs-on: windows-2019
     defaults:
       run:
@@ -47,15 +42,7 @@ jobs:
         run: |
           C:/Miniconda/condabin/conda.bat info --envs
           C:/Miniconda/condabin/conda.bat list
-      - name: Run preprocessing BIO
-        run: |
-          python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
-      - name: Run preprocessing FC
-        run: | 
-          python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
       - name: Install test dependencies
         run: C:/Miniconda/condabin/conda.bat install pytest      
-      - name: Test preprocessing BIO
-        run: pytest tests/test_BIO.py 
-      - name: Test preprocessing FC
-        run: pytest tests/test_FC.py 
+      - name: Test config
+        run: pytest tests/test_config.py
