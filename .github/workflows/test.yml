@@ -42,7 +42,7 @@ jobs:
       - name: Install test dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest numpy==1.23.4 pandas chardet
+          python -m pip install pytest numpy==1.23.4 pandas==1.5.2 chardet==4.0.0
           
       - name: Run preprocessing
         run: python Config/ModuleDataSetFiles/import_prepro_script.py tests/testfiles/FC_test.csv
