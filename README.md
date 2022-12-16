@@ -11,7 +11,7 @@ ontwikkel:  [![ontwikkel](https://github.com/Joost17/TEST_ACTIONS/actions/workfl
 
 | Branch | Test preprocessing |  Test config  |
 | --- | --- | --- |
-| Productie | List all new or modified files |
+| Productie | [![productie](https://github.com/Joost17/TEST_ACTIONS/actions/workflows/test.yml/badge.svg?branch=productie)](https://github.com/Joost17/TEST_ACTIONS/actions/workflows/test.yml) |
 | Test | Show file differences that haven't been staged |
 | Ontwikkel | Show file differences that haven't been staged |
 
