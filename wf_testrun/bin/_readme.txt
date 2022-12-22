@@ -1,6 +1,5 @@
 * execute permissions on Linux
-	When you unzip the files on Linux the execute premissions are automatically set when possible
-	You can also set the execute permissions with setExecutePermissions.sh
+	run setExecutePermissions.sh once after you unzipped the bin
 
 * Stand-Alone, Operator-Client or Config manager
     To launch a Delft-FEWS desktop application you need a (desktop) shortcut
