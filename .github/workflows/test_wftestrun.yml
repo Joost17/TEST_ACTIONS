@@ -1,4 +1,4 @@
-name: pre-processing
+name: Run workflow testrun FEWS-EFCIS
 on:
   push:
     branches:
@@ -27,4 +27,7 @@ jobs:
         
       - name: run workflow testrun
         run: |
+          ls ${{ github.workspace }}
           wf_testrun/run_wf_testrun.bat
+          ls ${{ github.workspace }}
+          
