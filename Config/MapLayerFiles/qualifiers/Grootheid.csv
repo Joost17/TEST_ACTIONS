@@ -1,0 +1,274 @@
+﻿fewsid;Code;Omschrijving;CASnummer;Groep;Id;Begin geldigheid;Eind geldigheid
+1;AANTFTE;Aantalfractie;NVT;Grootheid;5612;16 juni 2016;1 januari 2100
+2;AANTL;Aantal;NVT;Grootheid;2918;10 mei 2014;1 januari 2100
+3;AANTPLTE;Aantal per lengte;NVT;Grootheid;5330;3 oktober 2015;1 januari 2100
+4;AANTPMSA;Aantal per massa;NVT;Grootheid;5890;17 februari 2018;1 januari 2100
+5;AANTPOPVTE;Aantal per oppervlakte;NVT;Grootheid;2922;10 mei 2014;1 januari 2100
+6;AANTPTD;Aantal per tijd;NVT;Grootheid;6367;21 april 2020;1 januari 2100
+7;AANTPVLME;Aantal per volume;NVT;Grootheid;2929;10 mei 2014;1 januari 2100
+8;AANWZHD;Aanwezigheid;NVT;Grootheid;2938;10 mei 2014;1 januari 2100
+9;AANZSHD;Aanzuigsnelheid;NVT;Grootheid;4982;21 januari 2014;1 januari 2100
+10;ACCMLTDR;Accumulatieduur;NVT;Grootheid;2976;10 mei 2014;1 januari 2100
+11;ACDTT;Aciditeit;NVT;Grootheid;2977;10 mei 2014;1 januari 2100
+12;ACTVTCCTTE;Activiteitsconcentratie;NVT;Grootheid;4983;21 januari 2014;1 januari 2100
+13;AFGTSHPO4;Afgiftesnelheid fosfaat;NVT;Grootheid;3070;10 mei 2014;1 januari 2100
+14;AFSDRDMT;Afscheidingsrendement;NVT;Grootheid;3076;10 mei 2014;1 januari 2100
+15;AFVBRNRSG;Afvoerbare neerslag;NVT;Grootheid;6064;12 november 2019;1 januari 2100
+16;AFWKG;Afwijking;NVT;Grootheid;3081;10 mei 2014;1 januari 2100
+17;ALKLTT;Alkaliteit;NVT;Grootheid;278;10 mei 2014;1 januari 2100
+18;AV10_H;Aantal vrijheidsgraden bij het variantiedichtheidspectrum;NVT;Grootheid;3115;23 oktober 2014;1 januari 2100
+19;AV10_R;Aantal vrijheidsgraden behorend bij het golfrichtingspectrum;NVT;Grootheid;5148;23 oktober 2014;1 januari 2100
+20;BEDKG;Bedekking;NVT;Grootheid;3141;10 mei 2014;1 januari 2100
+21;BELTG;Belasting;NVT;Grootheid;5991;8 december 2018;1 januari 2100
+22;BEMSRBTE;Bemonsteringsbreedte;NVT;Grootheid;3119;8 december 2018;1 januari 2100
+23;BEMSRDR;Bemonsteringsduur;NVT;Grootheid;3121;8 december 2018;1 januari 2100
+24;BEMSROPVK;Bemonsteringsoppervlak;NVT;Grootheid;3123;8 december 2018;1 januari 2100
+25;BESBHD;Beschikbaarheid;NVT;Grootheid;5992;8 december 2018;1 januari 2100
+26;BIOMSFTE;Biomassafractie;NVT;Grootheid;4988;21 januari 2014;1 januari 2100
+27;BLOEIFQTE;Bloeifrequentie;NVT;Grootheid;5291;24 maart 2015;1 januari 2100
+28;BODHTE;Bodemhoogte;NVT;Grootheid;3237;10 mei 2014;1 januari 2100
+29;BREEDTE;Breedte;NVT;Grootheid;3238;10 mei 2014;1 januari 2100
+30;BZV/NKj;Verhouding BZV/stikstof Kjeldahl;NVT;Grootheid;4632;10 mei 2014;1 januari 2100
+31;BZV/Ptot;Verhouding BZV/fosfor totaal;NVT;Grootheid;4631;9 januari 2016;1 januari 2100
+32;CAPCTT;Capaciteit;NVT;Grootheid;3239;8 juni 2011;1 januari 2100
+33;CHLFa/FEOa;Verhouding chlorofyl-a/feofytine a;NVT;Grootheid;4649;8 juni 2011;1 januari 2100
+34;CONCTTE;(massa)Concentratie;NVT;Grootheid;2720;8 juni 2011;1 januari 2100
+35;CZV/BZV;Verhouding CZV/BZV;NVT;Grootheid;4650;8 juni 2011;1 januari 2100
+36;CZV/NKj;Verhouding CZV/stikstof Kjeldahl;NVT;Grootheid;4661;8 juni 2011;1 januari 2100
+37;CZV/Ntot;Verhouding CZV/stikstof totaal;NVT;Grootheid;4660;9 januari 2016;1 januari 2100
+38;CZV/Ptot;Verhouding CZV/fosfor totaal;NVT;Grootheid;4652;9 januari 2016;1 januari 2100
+39;Cl/GELDHD;Verhouding chloride/geleidendheid;NVT;Grootheid;4648;8 juni 2011;1 januari 2100
+40;Czz_s;Golfvariantiedichtheidspectrum;NVT;Grootheid;5152;20 november 2014;1 januari 2100
+41;DEBFTE;Debietfractie;NVT;Grootheid;5250;7 februari 2015;1 januari 2100
+42;DENTFCTSHD;Denitrificatiesnelheid;NVT;Grootheid;3302;8 juni 2011;1 januari 2100
+43;DENTFCTTD;Denitrificatietijd;NVT;Grootheid;3303;8 juni 2011;1 januari 2100
+44;DICHTHD;Dichtheid (soortelijke massa);NVT;Grootheid;627;8 juni 2011;1 januari 2100
+45;DIEPTE;Diepte;NVT;Grootheid;3343;8 juni 2011;1 januari 2100
+46;DOORSHTE;Doorstroomhoogte;NVT;Grootheid;3345;8 juni 2011;1 januari 2100
+47;DOSFTR;Doseerfactor;NVT;Grootheid;5993;8 december 2018;1 januari 2100
+48;DRAAIRTG;Draairichting;NVT;Grootheid;3350;7 oktober 2011;1 januari 2100
+49;DRAAITD;Draaitijd;NVT;Grootheid;3351;26 augustus 2011;1 januari 2100
+50;DROOGLGG;Drooglegging;NVT;Grootheid;3382;21 januari 2012;1 januari 2100
+51;DROOGVLGD;Droogvallingsgraad;NVT;Grootheid;3385;21 januari 2012;1 januari 2100
+52;DRUK;Druk;NVT;Grootheid;3476;8 juni 2011;1 januari 2100
+53;DS/OS;Verhouding droge stof/onopgeloste stoffen;NVT;Grootheid;4683;7 januari 2016;1 januari 2100
+54;DUUR;Duur;NVT;Grootheid;3482;8 juni 2011;1 januari 2100
+55;E;Extinctie;NVT;Grootheid;3544;8 juni 2011;1 januari 2100
+56;ELTSENGE;Elektrische energie;NVT;Grootheid;3485;26 augustus 2011;1 januari 2100
+57;ELTSSM;Elektrische stroom;NVT;Grootheid;3512;8 juni 2011;1 januari 2100
+58;ELTSSNG;Elektrische spanning;NVT;Grootheid;3503;8 juni 2011;1 januari 2100
+59;ENGE;Energie;NVT;Grootheid;3519;8 juni 2011;1 januari 2100
+60;EROD;Ethoxyresorufin-O-deethylase activiteit;NVT;Grootheid;3526;8 juni 2011;1 januari 2100
+61;EVPTPRTE;Evapotranspiratie;NVT;Grootheid;3531;8 juni 2011;1 januari 2100
+62;EXPSTDR;Expositieduur;NVT;Grootheid;3541;8 juni 2011;1 januari 2100
+63;EXTTCEFCELBB;Extinctiecoëfficiënt volgens wet van Lambert-Beer;NVT;Grootheid;5003;21 januari 2014;1 januari 2100
+64;EXTTCEFCELBT;Extinctiecoëfficiënt volgens wet van Lambert;NVT;Grootheid;5004;21 januari 2014;1 januari 2100
+65;FLUORCTE;Fluorescentie;NVT;Grootheid;3545;28 augustus 2011;1 januari 2100
+66;FOTNSDHD;Fotonenstroomdichtheid;NVT;Grootheid;5005;21 januari 2014;1 januari 2100
+67;FREQTE;Frequentie;NVT;Grootheid;3546;8 juni 2011;1 januari 2100
+68;Fp;Golffrequentie bij maximum v.h. variantiedichtheidspectrum;NVT;Grootheid;5092;23 oktober 2014;1 januari 2100
+69;GELDHD;Geleidendheid;NVT;Grootheid;3548;8 juni 2011;1 januari 2100
+70;GETVLTG;Getijverlating;NVT;Grootheid;3573;26 augustus 2011;1 januari 2100
+71;GEURVDNFTR;Geurverdunningsfactor;NVT;Grootheid;3577;28 augustus 2011;1 januari 2100
+72;GGH;Gemiddelde golfhoogte in het tijdsdomein;NVT;Grootheid;5149;28 oktober 2014;1 januari 2100
+73;GGT;Gemiddelde golfperiode in het tijdsdomein;NVT;Grootheid;5150;28 oktober 2014;1 januari 2100
+74;GLOBLSLG;Globale straling;NVT;Grootheid;3587;8 juni 2011;1 januari 2100
+75;GOLFHTE;Golfhoogte;NVT;Grootheid;3640;8 juni 2011;1 januari 2100
+76;H1/10;Gem. hoogte van hoogste 1/10 deel v.d. golven (tijdsdomein);NVT;Grootheid;5101;31 juli 2014;1 januari 2100
+77;H1/3;Gem. hoogte van hoogste 1/3 deel v.d. golven (tijdsdomein);NVT;Grootheid;3707;1 augustus 2014;1 januari 2100
+78;H1/50;Gem. hoogte van hoogste 1/50 deel v.d. golven (tijdsdomein);NVT;Grootheid;5102;31 juli 2014;1 januari 2100
+79;HEFHTE;Hefhoogte;NVT;Grootheid;3684;8 juni 2011;1 januari 2100
+80;HH;Hardheid;NVT;Grootheid;3680;8 juni 2011;1 januari 2100
+81;HHT;Hardheid tijdelijk;NVT;Grootheid;3683;8 juni 2011;1 januari 2100
+82;HOEK;Hoek;NVT;Grootheid;3686;8 juni 2011;1 januari 2100
+83;HOOGTE;Hoogte;NVT;Grootheid;872;8 juni 2011;1 januari 2100
+84;HOOGWTDG;Hoogwater dag;NVT;Grootheid;3724;27 augustus 2011;1 januari 2100
+85;HOOGWTNT;Hoogwater nacht;NVT;Grootheid;3744;27 augustus 2011;1 januari 2100
+86;HTE3;Significante deiningshoogte in het spectrale domein;NVT;Grootheid;3785;28 oktober 2014;1 januari 2100
+87;Hm0;Significante golfhoogte in het spectrale domein;NVT;Grootheid;3746;1 augustus 2014;1 januari 2100
+88;Hmax;Maximale golfhoogte in het tijdsdomein;NVT;Grootheid;5104;31 juli 2014;1 januari 2100
+89;I-TEQ;Internationaal toxisch equivalent volgens NATO/CCMS;NVT;Grootheid;3749;8 juni 2011;1 januari 2100
+90;INDCTAUT;Indicatie aan/uit;NVT;Grootheid;3745;8 juni 2011;1 januari 2100
+91;INDCTOPDT;Indicatie open/dicht;NVT;Grootheid;3748;8 juni 2011;1 januari 2100
+92;IONBLS;Ionenbalans;NVT;Grootheid;5289;24 maart 2015;1 januari 2100
+93;IONRTO;Ionenratio;NVT;Grootheid;3778;8 juni 2011;1 januari 2100
+94;IONSTE;Ionensterkte;NVT;Grootheid;3779;8 juni 2011;1 januari 2100
+95;IPSindex;Specifieke Vervuilingsgevoeligheid Index (IPS);NVT;Grootheid;5635;3 december 2016;1 januari 2100
+96;KGF;Korrelgroottefractie;NVT;Grootheid;1118;8 juni 2011;1 januari 2100
+97;KIEMGTL;Kiemgetal;NVT;Grootheid;3852;26 augustus 2011;1 januari 2100
+98;KRUINHTE;Kruinhoogte;NVT;Grootheid;3869;8 juni 2011;1 januari 2100
+99;KWALTKMK;Kwaliteitskenmerk;NVT;Grootheid;3871;26 januari 2012;1 januari 2100
+100;LAAGWTDG;Laagwater dag;NVT;Grootheid;3875;28 augustus 2011;1 januari 2100
+101;LC50;Verdunning waarbij 50 procent van de individuen sterft;NVT;Grootheid;3944;8 december 2018;1 januari 2100
+102;LEEFTD;Leeftijd;NVT;Grootheid;3881;8 juni 2011;1 januari 2100
+103;LENGTE;Lengte;NVT;Grootheid;3892;8 juni 2011;1 januari 2100
+104;LENGTFTE;Lengtefractie;NVT;Grootheid;5008;21 januari 2014;1 januari 2100
+105;LICHTEMSE;Lichtemissie;NVT;Grootheid;3893;8 juni 2011;1 januari 2100
+106;LICHTRFTFTE;lichtreflectie fractie;NVT;Grootheid;5083;30 oktober 2013;1 januari 2100
+107;LICHTSTE;Lichtsterkte;NVT;Grootheid;5009;21 januari 2014;1 januari 2100
+108;LICHTVZKG;Lichtverzwakking;NVT;Grootheid;3937;8 juni 2011;1 januari 2100
+109;LSVOLME;Liquid/solid volume;NVT;Grootheid;6436;8 juli 2020;1 januari 2100
+110;LUCHTDK;Luchtdruk;NVT;Grootheid;3948;8 juni 2011;1 januari 2100
+111;LUCHTSHD;Luchtsnelheid;NVT;Grootheid;3975;8 december 2018;1 januari 2100
+112;LUMNTE;Luminatie;NVT;Grootheid;5010;21 januari 2014;1 januari 2100
+113;MAAIVHTE;Maaiveldhoogte;NVT;Grootheid;3949;8 juni 2011;1 januari 2100
+114;MASSA;Massa;NVT;Grootheid;3950;8 juni 2011;1 januari 2100
+115;MASSFTE;Massafractie;NVT;Grootheid;2725;8 juni 2011;1 januari 2100
+116;MASSPOPVTE;Massa per oppervlakte;NVT;Grootheid;5295;25 april 2015;1 januari 2100
+117;MASSSM;Massastroom;NVT;Grootheid;3958;8 juni 2011;1 januari 2100
+118;MGETAL;M-getal;NVT;Grootheid;1121;1 juli 2013;1 januari 2100
+119;MOLRCCTTE;Molaire concentratie;NVT;Grootheid;3983;21 juli 2012;1 januari 2100
+120;MOLRFTE;Molaire fractie;NVT;Grootheid;3989;21 juli 2012;1 januari 2100
+121;MONSDTE;Bemonsteringsdiepte;NVT;Grootheid;4009;6 september 2019;1 januari 2100
+122;MONSLTE;Bemonsteringslengte;NVT;Grootheid;4011;6 september 2019;1 januari 2100
+123;MONSWGFTR;Monsterwegingsfactor;NVT;Grootheid;5762;8 december 2018;1 januari 2100
+124;NEERSG;Neerslag;NVT;Grootheid;3991;8 juni 2011;1 januari 2100
+125;NEERSOVST;Neerslagoverschot;NVT;Grootheid;5171;15 januari 2015;1 januari 2100
+126;NEERSTKRT;Neerslagtekort;NVT;Grootheid;5824;6 juli 2017;1 januari 2100
+127;NETTNRSG;Netto neerslag;NVT;Grootheid;6063;12 november 2019;1 januari 2100
+128;NG;Natgewicht;NVT;Grootheid;3990;8 juni 2011;1 januari 2100
+129;NITFCTRMG;Nitrificatieremming;NVT;Grootheid;3998;8 juni 2011;1 januari 2100
+130;NITFCTSHD;Nitrificatiesnelheid;NVT;Grootheid;4007;8 juni 2011;1 januari 2100
+131;NKj/NH4;Verhouding stikstof Kjeldahl/ammonium;NVT;Grootheid;4690;8 juni 2011;1 januari 2100
+132;NO3/NO2;Verhouding nitraat/nitriet;NVT;Grootheid;4686;8 juni 2011;1 januari 2100
+133;NORMFTE;Normfractie;NVT;Grootheid;4937;7 september 2013;1 januari 2100
+134;NOx/NO2;Verhouding stikstofoxiden/nitriet;NVT;Grootheid;4691;8 juni 2011;1 januari 2100
+135;OPNDR;Openingsduur;NVT;Grootheid;4008;8 juni 2011;1 januari 2100
+136;OPNMSHAOPO4;Opnamesnelheid anoxisch fosfaat;NVT;Grootheid;4060;8 juni 2011;1 januari 2100
+137;OPNMSHARPO4;Opnamesnelheid aeroob fosfaat;NVT;Grootheid;4056;8 juni 2011;1 januari 2100
+138;OPNPCTGE;Openingspercentage;NVT;Grootheid;4054;8 juni 2011;1 januari 2100
+139;OPPVPVK;Oppervlak proefvlak;NVT;Grootheid;4091;8 december 2018;1 januari 2100
+140;OPPVTE;Oppervlakte;NVT;Grootheid;4061;8 juni 2011;1 januari 2100
+141;OPPVTFTE;Oppervlaktefractie;NVT;Grootheid;4065;31 juli 2012;1 januari 2100
+142;OVERSDR;Overstortduur;NVT;Grootheid;4067;8 juni 2011;1 januari 2100
+143;OVERSFQTE;Overstortfrequentie;NVT;Grootheid;4070;8 juni 2011;1 januari 2100
+144;OVSHTE;Overstorthoogte;NVT;Grootheid;4084;8 juni 2011;1 januari 2100
+145;OVSVLME;Overstortvolume;NVT;Grootheid;4086;8 juni 2011;1 januari 2100
+146;PGETAL;P-getal;NVT;Grootheid;1348;1 juli 2013;1 januari 2100
+147;PID;PID-waarden;NVT;Grootheid;5169;13 januari 2015;1 januari 2100
+148;PMV;Kaliumpermanganaat verbruik;NVT;Grootheid;921;8 juni 2011;1 januari 2100
+149;PULSVLME;Pulsvolume;NVT;Grootheid;4090;8 juni 2011;1 januari 2100
+150;Ptot/Fe;Verhouding fosfor totaal/ijzer;NVT;Grootheid;4680;9 januari 2016;1 januari 2100
+151;Ptot/PO4;Verhouding fosfor totaal/fosfaat;NVT;Grootheid;4666;9 januari 2016;1 januari 2100
+152;Q;Debiet;NVT;Grootheid;3300;8 juni 2011;1 januari 2100
+153;Qp;Karakterisering van breedte van het spectrum van 30-500 mHz;NVT;Grootheid;4245;1 augustus 2014;1 januari 2100
+154;RECCLTFTR;Recirculatiefactor;NVT;Grootheid;4094;8 juni 2011;1 januari 2100
+155;REDPTTAL;Redoxpotentiaal;NVT;Grootheid;1456;8 juni 2011;1 januari 2100
+156;REINGRDMT;Reinigingsrendement;NVT;Grootheid;6044;17 september 2019;1 januari 2100
+157;RELTVLVTHD;Relatieve luchtvochtigheid;NVT;Grootheid;4101;8 juni 2011;1 januari 2100
+158;RPLI;Relatieve penislengte index;NVT;Grootheid;5614;18 juni 2016;1 januari 2100
+159;RPSI;Relatieve penisgrootte index;NVT;Grootheid;5613;18 juni 2016;1 januari 2100
+160;RTp;Relatieve piekperiode;NVT;Grootheid;5529;3 december 2015;1 januari 2100
+161;S0BH;Gemiddelde golfrichtingspreiding in het spectrale domein;NVT;Grootheid;5154;23 oktober 2014;1 januari 2100
+162;S0BH_s;Golfrichtingspreidingspectrum;NVT;Grootheid;3665;23 oktober 2014;1 januari 2100
+163;SALNTT;Saliniteit;NVT;Grootheid;4103;8 juni 2011;1 januari 2100
+164;SENSHTE;Sensorhoogte;NVT;Grootheid;4454;8 december 2018;1 januari 2100
+165;SHANNIDX;Shannon Index;NVT;Grootheid;5931;10 april 2018;1 januari 2100
+166;SLIBBLTG;Slibbelasting;NVT;Grootheid;4107;8 juni 2011;1 januari 2100
+167;SLIBDTE;Slibdikte;NVT;Grootheid;4108;8 juni 2011;1 januari 2100
+168;SLIBLTD;Slibleeftijd;NVT;Grootheid;4109;8 juni 2011;1 januari 2100
+169;SLIBSGHTE;Slibspiegel hoogte;NVT;Grootheid;4120;8 juni 2011;1 januari 2100
+170;SLIBVLMIDX;Slibvolume-index;NVT;Grootheid;1482;8 juni 2011;1 januari 2100
+171;SMAAKVDNFTR;Smaakverdunningsfactor;NVT;Grootheid;6006;30 januari 2019;1 januari 2100
+172;SOORT;Soort;NVT;Grootheid;4175;26 januari 2012;1 januari 2100
+173;SOORTADL;Soortenaandeel;NVT;Grootheid;5932;10 april 2018;1 januari 2100
+174;SOORTRDM;Soortenrijkdom;NVT;Grootheid;5290;24 maart 2015;1 januari 2100
+175;SPECFEGVBBLT;Specifiek energieverbruik beluchting;NVT;Grootheid;4226;28 augustus 2011;1 januari 2100
+176;SPECFEGVBTTL;Specifiek energieverbruik totaal;NVT;Grootheid;4244;28 augustus 2011;1 januari 2100
+177;SPECFENGVBTP;Specifiek energieverbruik transport;NVT;Grootheid;4248;28 augustus 2011;1 januari 2100
+178;SPECFETCTOWK;Specifiek elektriciteitsopwekking;NVT;Grootheid;4183;28 augustus 2011;1 januari 2100
+179;SPECFKAVR;Specifieke afvoer;NVT;Grootheid;5015;21 januari 2014;1 januari 2100
+180;SPECFKBGG;Specifieke berging;NVT;Grootheid;6065;12 november 2019;1 januari 2100
+181;SPECFKGPDTE;Specifieke gasproductie;NVT;Grootheid;4249;28 augustus 2011;1 januari 2100
+182;SPECFKSPDTE;Specifieke slibproductie;NVT;Grootheid;4256;28 augustus 2011;1 januari 2100
+183;SPECFOPVK;Specifiek oppervlak;NVT;Grootheid;5949;15 mei 2018;1 januari 2100
+184;SPGH;Standaardafwijking van de golfhoogte in het tijdsdomein;NVT;Grootheid;4611;23 oktober 2014;1 januari 2100
+185;SPGT;Standaardafwijking van de golfperiode in het tijdsdomein;NVT;Grootheid;4612;23 oktober 2014;1 januari 2100
+186;STERFTE;Sterfte;NVT;Grootheid;4620;8 december 2018;1 januari 2100
+187;STIJGHTE;Stijghoogte;NVT;Grootheid;4260;8 juni 2011;1 januari 2100
+188;STOFHVHD;Stofhoeveelheid;NVT;Grootheid;4294;21 juli 2012;1 januari 2100
+189;STOOKWDE;Stookwaarde (calorische onderwaarde, verbrandingswarmte);NVT;Grootheid;1499;8 juni 2011;1 januari 2100
+190;STRIJKLTE;Strijklengte;NVT;Grootheid;4511;8 juni 2011;1 januari 2100
+191;STROOMRTG;Stroomrichting;NVT;Grootheid;4513;8 juni 2011;1 januari 2100
+192;STROOMSHD;Stroomsnelheid;NVT;Grootheid;4519;8 juni 2011;1 januari 2100
+193;T;Temperatuur;NVT;Grootheid;1522;8 juni 2011;1 januari 2100
+194;T1/3;Gem. golfperiode langste 1/3 deel v.d. golven (tijdsdomein);NVT;Grootheid;5117;31 juli 2014;1 januari 2100
+195;TALBVWTR;Talud bovenwater (met flauwe hoek);NVT;Grootheid;4520;7 oktober 2011;1 januari 2100
+196;TALHK;Taludhoek;NVT;Grootheid;4582;7 oktober 2011;1 januari 2100
+197;TALODWTR;Talud onderwater (met flauwe hoek);NVT;Grootheid;4580;7 oktober 2011;1 januari 2100
+198;TE;Golfenergie in het spectrale domein;NVT;Grootheid;5151;23 oktober 2014;1 januari 2100
+199;TE3;Deiningsenergie in het spectrale domein;NVT;Grootheid;4659;23 oktober 2014;1 januari 2100
+200;TELLSD;Tellerstand;NVT;Grootheid;4602;28 augustus 2011;1 januari 2100
+201;TIindex;Trofie Index;NVT;Grootheid;5636;3 december 2016;1 januari 2100
+202;TOERTL;Toerental;NVT;Grootheid;4606;8 juni 2011;1 januari 2100
+203;TRANSMSE;Transmissie;NVT;Grootheid;4677;8 december 2018;1 januari 2100
+204;TROEBHD;Troebelheid;NVT;Grootheid;2031;8 juni 2011;1 januari 2100
+205;T_H1/3;Golfperiode die hoort bij H1/3;NVT;Grootheid;5105;31 juli 2014;1 januari 2100
+206;T_Hmax;Golfperiode die hoort bij Hmax;NVT;Grootheid;5106;31 juli 2014;1 januari 2100
+207;Th0;Gemiddelde golfrichting in het spectrale domein;NVT;Grootheid;3663;23 oktober 2014;1 januari 2100
+208;Th0_s;Golfrichtingspectrum;NVT;Grootheid;5153;23 oktober 2014;1 januari 2100
+209;Th3;Gem. richting deining tov ware noorden in spectrale domein;NVT;Grootheid;4663;23 oktober 2014;1 januari 2100
+210;Tm-10;Golfperiode bepaald uit de spectrale momenten m-1 en m0;NVT;Grootheid;5107;28 oktober 2014;1 januari 2100
+211;Tm01;Golfperiode bepaald uit de spectrale momenten m0 en m1;NVT;Grootheid;4664;28 oktober 2014;1 januari 2100
+212;Tm02;Golfperiode bepaald uit de spectrale momenten m0 en m2;NVT;Grootheid;4665;28 oktober 2014;1 januari 2100
+213;Tmax;Maximale golfperiode in het tijdsdomein;NVT;Grootheid;5108;31 juli 2014;1 januari 2100
+214;Tp;Periode waar het energiespectrum maximaal is;NVT;Grootheid;4676;1 augustus 2014;1 januari 2100
+215;Tp1;Piekperiode van 1e deelspectrum (bij dubbeltoppige spectra);NVT;Grootheid;5523;14 november 2015;1 januari 2100
+216;Tp2;Piekperiode van 2e deelspectrum (bij dubbeltoppige spectra);NVT;Grootheid;5524;14 november 2015;1 januari 2100
+217;Tpb;Blokpiekperiode;NVT;Grootheid;5520;14 november 2015;1 januari 2100
+218;Tpb1;Blokpiekperiode 1e deelspectrum (bij dubbeltoppige spectra);NVT;Grootheid;5525;14 november 2015;1 januari 2100
+219;Tpb2;Blokpiekperiode 2e deelspectrum (bij dubbeltoppige spectra);NVT;Grootheid;5526;14 november 2015;1 januari 2100
+220;Tpbeq;Equivalente blokpiekperiode;NVT;Grootheid;5522;14 november 2015;1 januari 2100
+221;Tpeq;Equivalente piekperiode;NVT;Grootheid;5521;14 november 2015;1 januari 2100
+222;Tpm;Karakteristieke piekperiode;NVT;Grootheid;5527;14 november 2015;1 januari 2100
+223;Tps;Piekperiode bep. uit gladgestreken energiespectrum rond piek;NVT;Grootheid;5519;14 november 2015;1 januari 2100
+224;UITLGG;Uitloging;NVT;Grootheid;5025;21 januari 2014;1 januari 2100
+225;VAARDTE;Vaardiepte;NVT;Grootheid;4622;8 juni 2011;1 januari 2100
+226;VERBDWDE;Verbrandingswaarde (calorische bovenwaarde);NVT;Grootheid;4624;8 juni 2011;1 januari 2100
+227;VERBTD;Verblijftijd;NVT;Grootheid;4623;27 augustus 2011;1 januari 2100
+228;VERDNFTR;Verdunningsfactor;NVT;Grootheid;4688;8 juli 2020;1 januari 2100
+229;VERDNG;Verdunning;NVT;Grootheid;4689;8 juli 2020;1 januari 2100
+230;VERDPG;Actuele verdamping;NVT;Grootheid;4627;24 november 2020;1 januari 2100
+231;VERDPTKT;Verdampingstekort;NVT;Grootheid;5080;13 maart 2014;1 januari 2100
+232;VERMGN;Vermogen;NVT;Grootheid;4700;28 augustus 2011;1 januari 2100
+233;VERPTSG;verplaatsing;NVT;Grootheid;5084;30 oktober 2013;1 januari 2100
+234;VERVLWDE;Vervuilingswaarde;NVT;Grootheid;4706;8 juni 2011;1 januari 2100
+235;VERZDGGD;Verzadigingsgraad;NVT;Grootheid;4712;28 juni 2011;1 januari 2100
+236;VISCSTT;Viscositeit;NVT;Grootheid;4713;8 juni 2011;1 januari 2100
+237;VISVFTR;Visvangstfactor;NVT;Grootheid;5278;8 december 2018;1 januari 2100
+238;VOLME;Volume;NVT;Grootheid;4716;8 juni 2011;1 januari 2100
+239;VOLMFTE;Volumefractie;NVT;Grootheid;4719;8 juni 2011;1 januari 2100
+240;VOZ;Vluchtige organische zuren;NVT;Grootheid;4715;8 juni 2011;1 januari 2100
+241;VOZ/ALKLTT;Verhouding VOZ/ALKLTT;NVT;Grootheid;4693;8 juni 2011;1 januari 2100
+242;WARMTE;Warmte;NVT;Grootheid;4721;8 juni 2011;1 januari 2100
+243;WATDK;waterdruk;NVT;Grootheid;5085;30 oktober 2013;1 januari 2100
+244;WATDTE;Waterdiepte;NVT;Grootheid;4723;8 juni 2011;1 januari 2100
+245;WATERBTE;Waterbreedte;NVT;Grootheid;4722;21 januari 2012;1 januari 2100
+246;WATEROPVTE;Wateroppervlakte;NVT;Grootheid;4725;21 januari 2012;1 januari 2100
+247;WATHTE;Waterhoogte;NVT;Grootheid;4724;8 juni 2011;1 januari 2100
+248;WATOZT;Wateropzet;NVT;Grootheid;4729;8 juni 2011;1 januari 2100
+249;WATSWSLG;Waterstandswisseling;NVT;Grootheid;4746;8 juni 2011;1 januari 2100
+250;WHO-TEQ;Toxisch equivalent volgens WHO;NVT;Grootheid;4607;8 juni 2011;1 januari 2100
+251;WINDKT;Windkracht;NVT;Grootheid;4747;8 juni 2011;1 januari 2100
+252;WINDRTG;Windrichting;NVT;Grootheid;4748;8 juni 2011;1 januari 2100
+253;WINDSHD;Windsnelheid;NVT;Grootheid;4749;8 juni 2011;1 januari 2100
+254;WOBBIDX;Wobbe index;NVT;Grootheid;4750;28 augustus 2011;1 januari 2100
+255;X_CODNT;X-coordinaat;NVT;Grootheid;4768;8 december 2018;1 januari 2100
+256;Y_CODNT;Y-coordinaat;NVT;Grootheid;4772;8 december 2018;1 januari 2100
+257;ZICHT;Doorzicht;NVT;Grootheid;3349;8 juni 2011;1 januari 2100
+258;dHs;Verschil significante golfhoogte in laatste twee iteraties;NVT;Grootheid;5530;3 december 2015;1 januari 2100
+259;dT;Temperatuurverschil;NVT;Grootheid;4605;28 augustus 2011;1 januari 2100
+260;pH;Zuurgraad;NVT;Grootheid;1398;9 juni 2011;1 januari 2100
+261;BODZT;Bodemzicht;NVT;Grootheid;;;
+262;ANMLE;Anomalie;NVT;Grootheid;6562;26 januari 2021;1 januari 2100
+263;D10;maximale korreldiameter voor 10% van het monstervolume;NVT;Grootheid;6514;27 oktober 2020;1 januari 2100
+264;D20;maximale korreldiameter voor 20% van het monstervolume;NVT;Grootheid;6515;27 oktober 2020;1 januari 2100
+265;D30;maximale korreldiameter voor 30% van het monstervolume;NVT;Grootheid;6516;27 oktober 2020;1 januari 2100
+266;D40;maximale korreldiameter voor 40% van het monstervolume;NVT;Grootheid;6517;27 oktober 2020;1 januari 2100
+267;D50;maximale korreldiameter voor 50% van het monstervolume;NVT;Grootheid;6518;27 oktober 2020;1 januari 2100
+268;D60;maximale korreldiameter voor 60% van het monstervolume;NVT;Grootheid;6519;27 oktober 2020;1 januari 2100
+269;D70;maximale korreldiameter voor 70% van het monstervolume;NVT;Grootheid;6520;27 oktober 2020;1 januari 2100
+270;D80;maximale korreldiameter voor 80% van het monstervolume;NVT;Grootheid;6521;27 oktober 2020;1 januari 2100
+271;D90;maximale korreldiameter voor 90% van het monstervolume;NVT;Grootheid;6522;27 oktober 2020;1 januari 2100
+272;POTTLVDPG;Potentiële verdamping;NVT;Grootheid;6528;2 december 2020;1 januari 2100
+273;REFRTVDPG;Referentieverdamping (gewas);NVT;Grootheid;6527;24 november 2020;1 januari 2100

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<timeSeriesExportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesExportRun.xsd">
+	<!-- This is an example export configuration file for exporting data from as UmAquo CSV file -->
+	<export>
+		<general>
+			<exportType>generalCSV</exportType>
+			<folder>$EXPORT_DIR$/IMmetingen/CSV</folder>
+			<exportFileName>
+				<name>_export_alles.csv</name>
+					<prefix>
+					<timeZeroFormattingString>yyyyMMdd</timeZeroFormattingString>
+				</prefix>
+			</exportFileName>
+			<table>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpunt-code"/>
+				<attributeColumn name="Meetpunt-omschrijving" id="locationname"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<attributeColumn name="X_begin" id="x1"/>
+				<attributeColumn name="Y_begin" id="y1"/>
+				<attributeColumn name="X_eind" id="x2"/>
+				<attributeColumn name="Y_eind" id="y2"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<qualifierColumn name="Duplicaat" prefix="DP_"/>
+				<propertyColumn name="X_monster" key="X_monster"/>
+				<propertyColumn name="Y_monster" key="Y_monster"/>
+				<propertyColumn name="ReferentieUitvoerder" key="OpdrachtreferentieUitvoerder"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<propertyColumn name="Resultaatdatum" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd" key="Resultaattijd"/>				
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<propertyColumn name="Gewicht_g" key="Gewicht_g"/>
+				<propertyColumn name="Oppervlakte_ha" key="Oppervlakte_ha"/>
+				<qualifierColumn name="Lengtecategorie" prefix="LC_"/>
+				<propertyColumn name="OPPVTE_open_water_ha" key="OPPVTE_openwater"/>
+				<propertyColumn name="OPPVTE_oever_ha" key="OPPVTE_oever"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<qualifierColumn name="Parameter" prefix="PC_"/>
+				<qualifierColumn name="Typering" prefix="TP_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<attributeColumn name="Soortnaam" id="nederlandse soortnaam"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="AnalyseCompartiment" prefix="ACO_"/>
+				<attributeColumn name="Waarnemingssoort" id="WNS_Code"/>
+				<qualifierColumn name="ParameterType" prefix="TT_"/>
+				<qualifierColumn name="Levensstadium" prefix="LS_"/>
+				<qualifierColumn name="Lengteklasse" prefix="LK_"/>
+				<qualifierColumn name="Geslacht" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm" prefix="VV_"/>
+				<qualifierColumn name="Levensvorm" prefix="LV_"/>
+				<qualifierColumn name="Gedrag" prefix="GG_"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<parameterColumn name="Parameter_Fews"/>
+				<attributeColumn name="Waarnemingssoort_code" id="WNS_Omschrijving"/>
+				<attributeColumn name="Parameter_oms" id="PAR_Omschrijving"/>
+				<attributeColumn name="Typering_oms" id="Typering"/>
+				<attributeColumn name="Grootheid_oms" id="Grootheid"/>
+				<attributeColumn name="Eenheid_oms" id="Eenheid_oms"/>
+				<attributeColumn name="Hoedanigheid_oms" id="Hoedanigheid"/>
+				<attributeColumn name="AnalyseCompartiment_oms" id="AnalyseCompartiment"/>
+				<flagColumn name="Validatiestatus"/>
+				<qualifierColumn name="MonsterCompartiment" prefix="MCO_"/>
+				<qualifierColumn name="Orgaan" prefix="OR_"/>
+				<qualifierColumn name="Organisme" prefix="OG_"/>
+				<propertyColumn name="BeginDiepte" key="BeginDiepte"/>
+				<propertyColumn name="EindDiepte" key="EindDiepte"/>
+				<propertyColumn name="Referentievlak.code" key="Referentievlak"/>
+				<qualifierColumn name="Bemonsteringsapparaat" prefix="BA_"/>
+				<qualifierColumn name="Waardebewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode" prefix="WP_"/>
+				<qualifierColumn name="Waardebepalingstechniek" prefix="WBT_"/>
+				<propertyColumn name="Meetinstantie" key="Meetinstantie"/>
+				<qualifierColumn name="LocatieTypeWaardeBepaling" prefix="LT_"/>
+				<qualifierColumn name="Kwaliteitsoordeel" prefix="KW_"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<attributeColumn name="ParameterType_oms" id="Taxontype"/>
+				<attributeColumn name="Levensstadium_oms" id="Levensstadium"/>
+				<attributeColumn name="Geslacht_oms" id="Geslacht"/>
+				<attributeColumn name="Verschijningsvorm_oms" id="Verschijningsvorm"/>
+				<attributeColumn name="Levensvorm_oms" id="Levensvorm"/>
+				<attributeColumn name="Gedrag_oms" id="Gedrag"/>
+				<attributeColumn name="Bemonsteringsapparaat_oms" id="Bemonsteringsapparaat"/>
+				<attributeColumn name="Waardebewerkingsmethode_oms" id="Waardebewerkingsmethode"/>
+				<attributeColumn name="Waardebepalingsmethode_oms" id="Waardebepalingsmethode"/>
+				<attributeColumn name="Waardebepalingstechniek_oms" id="Waardebepalingstechniek"/>
+				 
+				<attributeColumn name="LocatieTypeWaardeBepaling_oms" id="LocatietypeWaardeBepaling"/>
+				<attributeColumn name="Kwaliteitsoordeel_oms" id="Kwaliteitsoordeel"/>
+			</table>
+			<idMapId>IdExport_IMmetingen</idMapId>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString></exportMissingValueString>
+			<exportTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</exportTimeZone>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</general>
+		<filterId>Export_alles</filterId>
+	</export>
+</timeSeriesExportRun>

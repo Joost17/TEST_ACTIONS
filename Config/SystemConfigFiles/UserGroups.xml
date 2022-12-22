@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Repository path:    $HeadURL: https://hkvsub001.hkv.nl/svn/FEWS_BOSDELFLAND/trunk/FEWS/BosDelfland/Config/SystemConfigFiles/UserGroups.xml $-->
+<!--Last committed:     $Revision: 1101 $; $Author: verkaik@HKV $; $Date: 2018-09-11 13:27:54 +0200 (Tue, 11 Sep 2018) $-->
+<userGroups xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/userGroups.xsd">
+	<userGroup id="beheerders">
+		<user id="CiskaO"/>
+		<user id="Brigitte"/>
+		<user id="verkaik"/>
+		<user id="driebergen"/>
+		<user id="Job Verkaik"/>
+		<user id="Joost Driebergen"/>
+		<user id="Sibren Loos"/>
+		<user id="sa_efcis"/>
+	</userGroup>
+	<userGroup id="bewerken">
+		<user id="driebergen"/>
+	</userGroup>
+	<userGroup id="importeren_workflow">
+		<user id="driebergen"/>
+	</userGroup>
+	<userGroup id="exporteren_workflow">
+		<user id="Marijan"/>
+	</userGroup>
+	<userGroup id="raadplegers">
+		<user id="DG_FEWS-EFCIS_Gebruikers"/>
+	</userGroup>
+</userGroups>

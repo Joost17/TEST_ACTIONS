@@ -1,0 +1,183 @@
+﻿fewsid;code;naam;aquo;Id;ZOOPL;FYTPL;VISSN;Begin geldigheid;Eind geldigheid
+181;NVT;Vislengteklasse;NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+0;VL-000cm;Vislengteklasse >0 cm (+ 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+1;VL-001cm;Vislengteklasse 1 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+2;VL-002cm;Vislengteklasse 2 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+3;VL-003cm;Vislengteklasse 3 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+4;VL-004cm;Vislengteklasse 4 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+5;VL-005cm;Vislengteklasse 5 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+6;VL-006cm;Vislengteklasse 6 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+7;VL-007cm;Vislengteklasse 7 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+8;VL-008cm;Vislengteklasse 8 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+9;VL-009cm;Vislengteklasse 9 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+10;VL-010cm;Vislengteklasse 10 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+11;VL-011cm;Vislengteklasse 11 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+12;VL-012cm;Vislengteklasse 12 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+13;VL-013cm;Vislengteklasse 13 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+14;VL-014cm;Vislengteklasse 14 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+15;VL-015cm;Vislengteklasse 15 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+16;VL-016cm;Vislengteklasse 16 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+17;VL-017cm;Vislengteklasse 17 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+18;VL-018cm;Vislengteklasse 18 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+19;VL-019cm;Vislengteklasse 19 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+20;VL-020cm;Vislengteklasse 20 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+21;VL-021cm;Vislengteklasse 21 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+22;VL-022cm;Vislengteklasse 22 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+23;VL-023cm;Vislengteklasse 23 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+24;VL-024cm;Vislengteklasse 24 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+25;VL-025cm;Vislengteklasse 25 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+26;VL-026cm;Vislengteklasse 26 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+27;VL-027cm;Vislengteklasse 27 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+28;VL-028cm;Vislengteklasse 28 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+29;VL-029cm;Vislengteklasse 29 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+30;VL-030cm;Vislengteklasse 30 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+31;VL-031cm;Vislengteklasse 31 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+32;VL-032cm;Vislengteklasse 32 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+33;VL-033cm;Vislengteklasse 33 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+34;VL-034cm;Vislengteklasse 34 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+35;VL-035cm;Vislengteklasse 35 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+36;VL-036cm;Vislengteklasse 36 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+37;VL-037cm;Vislengteklasse 37 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+38;VL-038cm;Vislengteklasse 38 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+39;VL-039cm;Vislengteklasse 39 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+40;VL-040cm;Vislengteklasse 40 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+41;VL-041cm;Vislengteklasse 41 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+42;VL-042cm;Vislengteklasse 42 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+43;VL-043cm;Vislengteklasse 43 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+44;VL-044cm;Vislengteklasse 44 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+45;VL-045cm;Vislengteklasse 45 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+46;VL-046cm;Vislengteklasse 46 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+47;VL-047cm;Vislengteklasse 47 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+48;VL-048cm;Vislengteklasse 48 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+49;VL-049cm;Vislengteklasse 49 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+50;VL-050cm;Vislengteklasse 50 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+51;VL-051cm;Vislengteklasse 51 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+52;VL-052cm;Vislengteklasse 52 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+53;VL-053cm;Vislengteklasse 53 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+54;VL-054cm;Vislengteklasse 54 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+55;VL-055cm;Vislengteklasse 55 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+56;VL-056cm;Vislengteklasse 56 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+57;VL-057cm;Vislengteklasse 57 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+58;VL-058cm;Vislengteklasse 58 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+59;VL-059cm;Vislengteklasse 59 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+60;VL-060cm;Vislengteklasse 60 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+61;VL-061cm;Vislengteklasse 61 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+62;VL-062cm;Vislengteklasse 62 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+63;VL-063cm;Vislengteklasse 63 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+64;VL-064cm;Vislengteklasse 64 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+65;VL-065cm;Vislengteklasse 65 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+66;VL-066cm;Vislengteklasse 66 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+67;VL-067cm;Vislengteklasse 67 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+68;VL-068cm;Vislengteklasse 68 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+69;VL-069cm;Vislengteklasse 69 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+70;VL-070cm;Vislengteklasse 70 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+71;VL-071cm;Vislengteklasse 71 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+72;VL-072cm;Vislengteklasse 72 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+73;VL-073cm;Vislengteklasse 73 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+74;VL-074cm;Vislengteklasse 74 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+75;VL-075cm;Vislengteklasse 75 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+76;VL-076cm;Vislengteklasse 76 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+77;VL-077cm;Vislengteklasse 77 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+78;VL-078cm;Vislengteklasse 78 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+79;VL-079cm;Vislengteklasse 79 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+80;VL-080cm;Vislengteklasse 80 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+81;VL-081cm;Vislengteklasse 81 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+82;VL-082cm;Vislengteklasse 82 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+83;VL-083cm;Vislengteklasse 83 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+84;VL-084cm;Vislengteklasse 84 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+85;VL-085cm;Vislengteklasse 85 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+86;VL-086cm;Vislengteklasse 86 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+87;VL-087cm;Vislengteklasse 87 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+88;VL-088cm;Vislengteklasse 88 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+89;VL-089cm;Vislengteklasse 89 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+90;VL-090cm;Vislengteklasse 90 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+91;VL-091cm;Vislengteklasse 91 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+92;VL-092cm;Vislengteklasse 92 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+93;VL-093cm;Vislengteklasse 93 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+94;VL-094cm;Vislengteklasse 94 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+95;VL-095cm;Vislengteklasse 95 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+96;VL-096cm;Vislengteklasse 96 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+97;VL-097cm;Vislengteklasse 97 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+98;VL-098cm;Vislengteklasse 98 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+99;VL-099cm;Vislengteklasse 99 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+100;VL-100cm;Vislengteklasse 100 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+101;VL-101cm;Vislengteklasse 101 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+102;VL-102cm;Vislengteklasse 102 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+103;VL-103cm;Vislengteklasse 103 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+104;VL-104cm;Vislengteklasse 104 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+105;VL-105cm;Vislengteklasse 105 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+106;VL-106cm;Vislengteklasse 106 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+107;VL-107cm;Vislengteklasse 107 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+108;VL-108cm;Vislengteklasse 108 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+109;VL-109cm;Vislengteklasse 109 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+110;VL-110cm;Vislengteklasse 110 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+111;VL-111cm;Vislengteklasse 111 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+112;VL-112cm;Vislengteklasse 112 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+113;VL-113cm;Vislengteklasse 113 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+114;VL-114cm;Vislengteklasse 114 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+115;VL-115cm;Vislengteklasse 115 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+116;VL-116cm;Vislengteklasse 116 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+117;VL-117cm;Vislengteklasse 117 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+118;VL-118cm;Vislengteklasse 118 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+119;VL-119cm;Vislengteklasse 119 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+120;VL-120cm;Vislengteklasse 120 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+121;VL-121cm;Vislengteklasse 121 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+122;VL-122cm;Vislengteklasse 122 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+123;VL-123cm;Vislengteklasse 123 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+124;VL-124cm;Vislengteklasse 124 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+125;VL-125cm;Vislengteklasse 125 cm (+/- 0,5);NVT;8;False;False;True;13 december 2017 00:00:00;1 januari 2100 00:00:00
+126;BL-10-15mm;Benthoslengteklasse groter dan 10 en kleiner of gelijk 15 mm;;70;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+127;BL-100-105mm;Benthosl.klasse groter dan 100 en kleiner of gelijk 105 mm;;88;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+128;BL-105-110mm;Benthosl.klasse groter dan 105 en kleiner of gelijk 110 mm;;89;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+129;BL-110-115mm;Benthosl.klasse groter dan 110 en kleiner of gelijk 115 mm;;90;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+130;BL-115-120mm;Benthosl.klasse groter dan 115 en kleiner of gelijk 120 mm;;91;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+131;BL-120-125mm;Benthosl.klasse groter dan 120 en kleiner of gelijk 125 mm;;92;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+132;BL-125-130mm;Benthosl.klasse groter dan 125 en kleiner of gelijk 130 mm;;93;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+133;BL-130-135mm;Benthosl.klasse groter dan 130 en kleiner of gelijk 135 mm;;94;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+134;BL-135-140mm;Benthosl.klasse groter dan 135 en kleiner of gelijk 140 mm;;95;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+135;BL-140-145mm;Benthosl.klasse groter dan 140 en kleiner of gelijk 145 mm;;96;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+136;BL-145-150mm;Benthosl.klasse groter dan 145 en kleiner of gelijk 150 mm;;97;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+137;BL-15-20mm;Benthoslengteklasse groter dan 15 en kleiner of gelijk 20 mm;;71;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+138;BL-20-25mm;Benthoslengteklasse groter dan 20 en kleiner of gelijk 25 mm;;72;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+139;BL-20-30mm;Benthoslengteklasse groter dan 20 en kleiner of gelijk 30 mm;;102;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+140;BL-25-30mm;Benthoslengteklasse groter dan 25 en kleiner of gelijk 30 mm;;73;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+141;BL-30-35mm;Benthoslengteklasse groter dan 30 en kleiner of gelijk 35 mm;;74;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+142;BL-30-40mm;Benthoslengteklasse groter dan 30 en kleiner of gelijk 40 mm;;103;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+143;BL-35-40mm;Benthoslengteklasse groter dan 35 en kleiner of gelijk 40 mm;;75;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+144;BL-40-45mm;Benthoslengteklasse groter dan 40 en kleiner of gelijk 45 mm;;76;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+145;BL-45-50mm;Benthoslengteklasse groter dan 45 en kleiner of gelijk 50 mm;;77;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+146;BL-5-10mm;Benthoslengteklasse groter dan 5 en kleiner of gelijk 10 mm;;69;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+147;BL-5-20mm;Benthoslengteklasse groter dan 5 en kleiner of gelijk 20 mm;;101;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+148;BL-50-55mm;Benthoslengteklasse groter dan 50 en kleiner of gelijk 55 mm;;78;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+149;BL-55-60mm;Benthoslengteklasse groter dan 55 en kleiner of gelijk 60 mm;;79;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+150;BL-60-65mm;Benthoslengteklasse groter dan 60 en kleiner of gelijk 65 mm;;80;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+151;BL-65-70mm;Benthoslengteklasse groter dan 65 en kleiner of gelijk 70 mm;;81;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+152;BL-70-75mm;Benthoslengteklasse groter dan 70 en kleiner of gelijk 75 mm;;82;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+153;BL-75-80mm;Benthoslengteklasse groter dan 75 en kleiner of gelijk 80 mm;;83;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+154;BL-80-85mm;Benthoslengteklasse groter dan 80 en kleiner of gelijk 85 mm;;84;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+155;BL-85-90mm;Benthoslengteklasse groter dan 85 en kleiner of gelijk 90 mm;;85;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+156;BL-90-95mm;Benthoslengteklasse groter dan 90 en kleiner of gelijk 95 mm;;86;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+157;BL-95-100mm;Benthosl.klasse groter dan 95 en kleiner of gelijk 100 mm;;87;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+158;BL-gd150mm;Benthoslengteklasse groter dan 150 mm;;98;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+159;BL-gd7mm;Benthoslengteklasse groter dan 7mm;;100;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+160;BL-kd5mm;Benthoslengteklasse kleiner dan 5 mm;;68;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+161;BL-kd7mm;Benthoslengteklasse kleiner of gelijk aan 7mm;;99;;;;13 november 2018 00:00:00;1 januari 2100 00:00:00
+162;FL-1-2um;Fytoplanktonl.klasse groter dan 1 en kleiner of gelijk 2 um;;7;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+163;FL-10-20um;Fytoplanktonl.klasse groter dan 10 en kleiner of gelijk 20um;;6;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+164;FL-2-5um;Fytoplanktonl.klasse groter dan 2 en kleiner of gelijk 5 um;;8;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+165;FL-5-10um;Fytoplanktonl.klasse groter dan 5 en kleiner of gelijk 10 um;;9;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+166;FL-gd20um;Fytoplanktonlengteklasse groter dan 20 um;;10;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+167;FL-gd5um;Fytoplanktonlengteklasse groter dan 5 um;;11;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+168;FL-kd10um;Fytoplanktonlengteklasse kleiner of gelijk aan 10 um;;12;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+169;FL-kd1um;Fytoplanktonlengteklasse kleiner of gelijk aan 1 um;;13;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+170;FL-kd5um;Fytoplanktonlengteklasse kleiner of gelijk aan 5 um;;14;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+171;ZL-100-360um;Zoöplanktonlengteklasse 100-360 um;;25;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+172;ZL-50-100um;Zoöplanktonlengteklasse  50-100 um;;26;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+173;ZL-gd100um;Zoöplanktonlengteklasse groter dan 100 um;;27;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+174;ZL-gd1mm;Zoöplanktonlengteklasse groter dan 1 mm;;28;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+175;ZL-gd360um;Zoöplanktonlengteklasse groter dan 360 um;;29;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+176;ZL-kd1mm;Zoöplanktonlengteklasse kleiner dan 1 mm;;30;;;;13 december 2017 00:00:00;1 januari 2100 00:00:00
+177;FL-kd2um;Fytoplanktonlengteklasse kleiner of gelijk aan 2 um;;-99;;;;;
+178;FL-10-15um;Fytoplanktonl.klasse groter dan 10 en kleiner of gelijk 15um;;-99;;;;;
+179;FL-20-30um;Fytoplanktonl.klasse groter dan 20 en kleiner of gelijk 30um;;-99;;;;;
+180;FL-5um;Fytoplanktonl.klasse gelijk aan 5um;;-99;;;;;

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valueAttributeMaps xmlns="http://www.wldelft.nl/fews" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/valueAttributeMaps.xsd">
+  <valueAttributeMap id="Opschalingniveaus">
+    <attributes value="0">
+      <description>Geen waarschuwing</description>
+      <colour>green</colour>
+      <image>fluvial_site_data.gif</image>
+    </attributes>
+    <attributes value="1">
+      <description>Waarschuwing</description>
+      <colour>blue</colour>
+      <image>warninglevel3.gif</image>
+    </attributes>
+    <attributes value="2">
+      <description>AlarmFase1</description>
+      <colour>yellow</colour>
+      <image>warninglevel2.gif</image>
+    </attributes>
+    <attributes value="3">
+      <description>AlarmFase2</description>
+      <colour>orange</colour>
+      <image>warninglevel1.gif</image>
+    </attributes>
+    <attributes value="4">
+      <description>AlarmFase3</description>
+      <colour>red</colour>
+      <image>warninglevel1.gif</image>
+    </attributes>
+  </valueAttributeMap>
+  <valueAttributeMap id="Thresholds">
+    <attributes value="0">
+      <description>Geen waarschuwing</description>
+      <colour>green</colour>
+      <image>fluvial_site_data.gif</image>
+    </attributes>
+    <attributes value="1">
+      <description>Alarmfase1</description>
+      <colour>blue</colour>
+      <image>warninglevel3.gif</image>
+    </attributes>
+    <attributes value="2">
+      <description>AlarmFase2</description>
+      <colour>yellow</colour>
+      <image>warninglevel2.gif</image>
+    </attributes>
+    <attributes value="3">
+      <description>AlarmFase3</description>
+      <colour>orange</colour>
+      <image>warninglevel1.gif</image>
+    </attributes>
+    <attributes value="4">
+      <description>AlarmFase4</description>
+      <colour>red</colour>
+      <image>warninglevel1.gif</image>
+    </attributes>
+  </valueAttributeMap>
+  <!--Value Attributes for displaying matched thresholds-->
+  <valueAttributeMap id="SkillScoreThresholds">
+    <attributes value="1">
+      <description>Matching</description>
+      <colour>green</colour>
+    </attributes>
+    <attributes value="2">
+      <description>Missing Observed</description>
+      <colour>sandy brown</colour>
+    </attributes>
+    <attributes value="3">
+      <description>Missing Forecast</description>
+      <colour>yellow</colour>
+    </attributes>
+  </valueAttributeMap>
+<!--Hydrobiologische gegevens-->  
+  <valueAttributeMap id="DataAvailable">
+		<attributes value="0">
+			<description>Geen waarschuwing</description>
+			<colour>green</colour>
+			<image>fluvial_site_data.gif</image>
+		</attributes>
+		<attributes value="1">
+			<description>Waarschuwing</description>
+			<colour>blue</colour>
+			<image>warninglevel3.gif</image>
+		</attributes>
+	</valueAttributeMap>
+<!--Hydrobiologische gegevens-->
+</valueAttributeMaps>

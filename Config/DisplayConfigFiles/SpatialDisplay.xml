@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<gridDisplay xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/gridDisplay.xsd">
+	<title>Spatial Display</title>
+	<!--Hydrobiological data-->
+	<defaults>
+		<plotGroupId>Rhine Basin</plotGroupId>
+		<geoMap>
+			<geoDatum>Rijks Driehoekstelsel</geoDatum>
+			<projection>mercator</projection>
+			<defaultExtent id="Netherlands" name="Netherlands">
+				<left>7000</left>
+				<right>300000</right>
+				<top>629000</top>
+				<bottom>289000</bottom>
+			</defaultExtent>
+			<scaleBarVisible>true</scaleBarVisible>
+			<northArrowVisible>true</northArrowVisible>
+			<labelsVisible>true</labelsVisible>
+			<backgroundColor>alice blue</backgroundColor>
+			<openStreetMapLayer id="Osm">
+				<url>http://tile.openstreetmap.org</url>
+				<visible>true</visible>
+				<cacheDir>$REGION_HOME$/OsmTiles</cacheDir>
+			</openStreetMapLayer>
+		</geoMap>
+	</defaults>
+	<gridPlotGroup id="Rhine Basin">
+		<gridPlot id="Nitrogen Concentration">
+			<dataLayer>
+				<timeSeriesSet>
+					<moduleInstanceId>Import_SampleData</moduleInstanceId>
+					<valueType>sample</valueType>
+					<parameterId>Ntot[mg/l]</parameterId>
+					<qualifierId>CO_19</qualifierId>
+					<qualifierId>QU_27</qualifierId>
+					<qualifierId>UE_27</qualifierId>
+					<locationSetId>location</locationSetId>
+					<timeSeriesType>external historical</timeSeriesType>
+					<timeStep unit="nonequidistant"/>
+					<readWriteMode>read complete forecast</readWriteMode>
+				</timeSeriesSet>
+			</dataLayer>
+			<movieFrameDurationMillis>50</movieFrameDurationMillis>
+			<classBreaks>
+				<lowerColor>blue3</lowerColor>
+				<upperColor>light blue1</upperColor>
+				<lowerValue>0</lowerValue>
+				<lowerValue>0.5</lowerValue>
+				<lowerValue>1</lowerValue>
+				<lowerValue>1.5</lowerValue>
+				<lowerColor>pale green1</lowerColor>
+				<upperColor>yellow</upperColor>
+				<lowerValue>2</lowerValue>
+				<lowerValue>2.5</lowerValue>
+				<lowerValue>3</lowerValue>
+				<lowerColor>orange</lowerColor>
+				<upperColor>red</upperColor>
+				<lowerValue>3.5</lowerValue>
+				<lowerValue>4</lowerValue>
+				<lowerValue>4.5</lowerValue>
+				<lowerValue>5</lowerValue>
+			</classBreaks>
+		</gridPlot>
+		<gridPlot id="Phosporus Concentration">
+			<dataLayer>
+				<timeSeriesSet>
+					<moduleInstanceId>Import_SampleData</moduleInstanceId>
+					<valueType>sample</valueType>
+					<parameterId>Ptot</parameterId>
+					<qualifierId>CO_19</qualifierId>
+					<qualifierId>QU_27</qualifierId>
+					<qualifierId>UE_34</qualifierId>
+					<locationSetId>location</locationSetId>
+					<timeSeriesType>external historical</timeSeriesType>
+					<timeStep unit="nonequidistant"/>
+					<readWriteMode>read complete forecast</readWriteMode>
+				</timeSeriesSet>
+			</dataLayer>
+			<movieFrameDurationMillis>50</movieFrameDurationMillis>
+			<classBreaks>
+				<lowerColor>blue3</lowerColor>
+				<upperColor>light blue1</upperColor>
+				<lowerValue>0</lowerValue>
+				<lowerValue>0.05</lowerValue>
+				<lowerValue>0.1</lowerValue>
+				<lowerValue>0.15</lowerValue>
+				<lowerColor>pale green1</lowerColor>
+				<upperColor>yellow</upperColor>
+				<lowerValue>0.2</lowerValue>
+				<lowerValue>0.25</lowerValue>
+				<lowerValue>0.3</lowerValue>
+				<lowerColor>orange</lowerColor>
+				<upperColor>red</upperColor>
+				<lowerValue>0.35</lowerValue>
+				<lowerValue>0.4</lowerValue>
+				<lowerValue>0.45</lowerValue>
+				<lowerValue>0.5</lowerValue>
+			</classBreaks>
+		</gridPlot>
+		<gridPlot id="Nitrogen trend (in mg/l per year)">
+			<dataLayer>
+				<onlyCircles>true</onlyCircles>
+				<circleSizeFunction>10</circleSizeFunction>
+				<timeSeriesSet>
+					<moduleInstanceId>Import_from_R</moduleInstanceId>
+					<valueType>scalar</valueType>
+					<parameterId>Trendslope_mgl</parameterId>
+					<locationSetId>location</locationSetId>
+					<timeSeriesType>external historical</timeSeriesType>
+					<timeStep unit="nonequidistant"/>
+					<relativeViewPeriod unit="day" start="-1096" end="0"/>
+					<readWriteMode>read complete forecast</readWriteMode>
+				</timeSeriesSet>
+			</dataLayer>
+			<movieFrameDurationMillis>50</movieFrameDurationMillis>
+			<classBreaks>
+				<color color="green4" lowerValue="-10" label="smaller than -0.5 mg/l"/>
+				<color color="lawn green" lowerValue="-0.5" label="-0.5 to -0.1 mg/l"/>
+				<color color="yellow" lowerValue="-0.1" label="-0.1 to 0 mg/l"/>
+				<color color="white" opaquenessPercentage="90" lowerValue="0" label="no significant trend"/>
+				<color color="dark goldenrod1" lowerValue="0.0000001" label="0 - 0.1 mg/l"/>
+				<color color="red" lowerValue="0.1" label="larger than 0.1 mg/l"/>
+			</classBreaks>
+		</gridPlot>
+	</gridPlotGroup>
+</gridDisplay>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeSteps xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSteps.xsd">
+	<timeStep id="dag" unit="day" timeZone="GMT+1"/>
+	<timeStep id="week" unit="week" timeZone="GMT+1"/>
+	<yearlyTimeStep id="jaar">
+		<timeZone>GMT+1</timeZone>
+		<monthDay start="--01-01" end="--12-31" value="--01-01"/>
+	</yearlyTimeStep>
+	<yearlyTimeStep id="seizoen">
+		<timeZone>GMT+1</timeZone>
+		<monthDay start="--04-01" end="--10-01" value="--04-01"/>
+		<monthDay start="--10-01" end="--04-01" value="--10-01"/>
+	</yearlyTimeStep>
+	<yearlyTimeStep id="zomer">
+		<timeZone>GMT+1</timeZone>
+		<monthDay value="--09-30" start="--03-31" end="--09-30"/>
+	</yearlyTimeStep>
+	<timeStep id="maand" unit="month" timeZone="GMT+1"/>
+	<monthlyTimeStep id="maand-sobek">
+		<day value="01" start="01" end="01"/>
+	</monthlyTimeStep>
+	
+</timeSteps>

@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by HKV Lijn in water (HKV Lijn in water) -->
+<filters version="1.1" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews  http://fews.wldelft.nl/schemas/version1.0/filters.xsd">
+	<defaultFilterId>Fysische chemie</defaultFilterId>
+	<filter id="KRW waterlichamen" name="KRW waterlichamen">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="KRW waterlichamen"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Fysische chemie" name="Fysische chemie">
+		<child foreignKey="Fysische chemie volledig"/>
+		<child foreignKey="Meetnet Kader Richtlijn Water (KRW, FC)"/>
+		<child foreignKey="Meetnet Agrarisch en Stedelijk gebied (FC)"/>
+		<child foreignKey="Meetnet waterkwaliteit hoofdwater (FC)"/>
+		<child foreignKey="Meetnet Nutrienten Landbouw Specifiek OW (MNLSO, FC)"/>
+		<child foreignKey="Calamiteiten Meetnet Nucleaire Ongevallen (CMNO, FC)"/>
+		<child foreignKey="Meetnet gewasbeschermingsmiddelen (FC)"/>
+		<child foreignKey="Meetnet zwemwater (FC)"/>
+		<child foreignKey="Meetnet hygienische waterkwaliteit (FC)"/>
+		<child foreignKey="Roulerend meetnet 2006 -2019 (FC)"/>
+		<child foreignKey="Projecten (FC)"/>
+		<child foreignKey="Historische meetpunten (&lt; 2000) waarvan doel onbekend (FC)"/>
+	</filter>
+	<filter id="Meetnet Agrarisch en Stedelijk gebied (FC)" name="Meetnet Agrarisch en Stedelijk gebied">
+		<child foreignKey="Meetnet Agrarisch en Stedelijk gebied (FC) volledig"/>
+		<child foreignKey="Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)"/>
+		<child foreignKey="Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)"/>
+		<child foreignKey="Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)"/>
+	</filter>
+	<filter id="Meetnet gewasbeschermingsmiddelen (FC)" name="Meetnet gewasbeschermingsmiddelen">
+		<child foreignKey="Meetnet gewasbeschermingsmiddelen (FC) volledig"/>
+		<child foreignKey="Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM, FC)"/>
+	</filter>
+	<filter id="Roulerend meetnet 2006 -2019 (FC)" name="Roulerend meetnet 2006 -2019">
+		<child foreignKey="Roulerend meetnet 2006 -2019 (FC) volledig"/>
+		<child foreignKey="Centraal stadsdeel (FC)"/>
+		<child foreignKey="Groenraven Oost - Maartensdijk (FC)"/>
+		<child foreignKey="Kromme Rijn - Honswijk (FC)"/>
+		<child foreignKey="Langbroekerwetering (FC)"/>
+		<child foreignKey="Lopikerwaard (FC)"/>
+		<child foreignKey="Oude Rijn (FC)"/>
+	</filter>
+	<filter id="Projecten (FC)" name="Projecten">
+		<child foreignKey="Projecten (FC) volledig"/>
+		<child foreignKey="Lange weide (FC)"/>
+		<child foreignKey="Online waterkwaliteit Batau (FC)"/>
+		<child foreignKey="Onderwaterdrainage De Vlist (FC)"/>
+		<child foreignKey="Natuurgebieden (FC)"/>
+		<child foreignKey="Overige projecten (FC)"/>
+		<child foreignKey="Afgerond (FC)"/>
+	</filter>
+	<filter id="Biologie" name="Biologie">
+		<child foreignKey="Biologie volledig"/>
+		<child foreignKey="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		<child foreignKey="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+		<child foreignKey="Meetnet Macrofauna (BIO)"/>
+		<child foreignKey="Meetnet Natuurvriendelijke oevers (BIO)"/>
+		<child foreignKey="Meetnet Beschermde flora en fauna (wetNB, BIO)"/>
+		<child foreignKey="Meetnet Stadswateren (Ecoscans, BIO)"/>
+		<child foreignKey="Roulerend meetnet 2006 -2019 (BIO)"/>
+		<child foreignKey="Projecten (BIO)"/>
+	</filter>
+	<filter id="Meetnet Kader Richtlijn Water (KRW, BIO)" name="Meetnet Kader Richtlijn Water (KRW)">
+		<child foreignKey="Meetnet Kader Richtlijn Water (KRW, BIO) volledig"/>
+		<child foreignKey="NL14_01 Langbroekerwetering (BIO)"/>
+		<child foreignKey="NL14_02 Kromme Rijn (BIO)"/>
+		<child foreignKey="NL14_03 Westerlaak (BIO)"/>
+		<child foreignKey="NL14_04 Honswijk (BIO)"/>
+		<child foreignKey="NL14_05 Biltse Grift (BIO)"/>
+		<child foreignKey="NL14_06 Ravense Wetering (BIO)"/>
+		<child foreignKey="NL14_07 Merwedekanaal (BIO)"/>
+		<child foreignKey="NL14_08 Binnenstad Utrecht (BIO)"/>
+		<child foreignKey="NL14_09 Maartensdijk (BIO)"/>
+		<child foreignKey="NL14_10 Hollandse IJssel (BIO)"/>
+		<child foreignKey="NL14_11 De Keulevaart (BIO)"/>
+		<child foreignKey="NL14_12 De Pleijt (BIO)"/>
+		<child foreignKey="NL14_13 De Koekoek (BIO)"/>
+		<child foreignKey="NL14_15 Bijleveld (BIO)"/>
+		<child foreignKey="NL14_16 Leidsche Rijn (BIO)"/>
+		<child foreignKey="NL14_18 Galecop (BIO)"/>
+		<child foreignKey="NL14_19 Gerverscop (BIO)"/>
+		<child foreignKey="NL14_20 De Tol (BIO)"/>
+		<child foreignKey="NL14_21 Ouwenaar - Haarrijn (BIO)"/>
+		<child foreignKey="NL14_22 Wiericke's (BIO)"/>
+		<child foreignKey="NL14_23 Snelrewaard (BIO)"/>
+		<child foreignKey="NL14_24 Lange Linschoten (BIO)"/>
+		<child foreignKey="NL14_25 Montfoortse Vaart (BIO)"/>
+		<child foreignKey="NL14_26 Meijepolder (BIO)"/>
+		<child foreignKey="NL14_27 Oude Rijn (BIO)"/>
+		<child foreignKey="NL14_28 Zegveld (BIO)"/>
+		<child foreignKey="NL14_29 Grecht (BIO)"/>
+		<child foreignKey="NL14_30 Kockengen (BIO)"/>
+		<child foreignKey="NL14_31 Kamerik Teijlingens (BIO)"/>
+		<child foreignKey="NL14_32 Houtensewetering (BIO)"/>
+		<child foreignKey="NL14_33 Oud Kamerik (BIO)"/>
+	</filter>
+	<filter id="Meetnet Agrarisch en Stedelijk gebied (BIO)" name="Meetnet Agrarisch en Stedelijk gebied">
+		<child foreignKey="Meetnet Agrarisch en Stedelijk gebied (BIO) volledig"/>
+		<child foreignKey="Agrarisch &amp; Stedelijk Roulatiejaar 1 (BIO)"/>
+		<child foreignKey="Agrarisch &amp; Stedelijk Roulatiejaar 2 (BIO)"/>
+		<child foreignKey="Agrarisch &amp; Stedelijk Roulatiejaar 3 (BIO)"/>
+	</filter>
+	<filter id="Roulerend meetnet 2006 -2019 (BIO)" name="Roulerend meetnet 2006 -2019">
+		<child foreignKey="Roulerend meetnet 2006 -2019 (BIO) volledig"/>
+		<child foreignKey="Centraal stadsdeel (BIO)"/>
+		<child foreignKey="Groenraven Oost - Maartensdijk (BIO)"/>
+		<child foreignKey="Kromme Rijn - Honswijk (BIO)"/>
+		<child foreignKey="Langbroekerwetering (BIO)"/>
+		<child foreignKey="Lopikerwaard (BIO)"/>
+		<child foreignKey="Oude Rijn (BIO)"/>
+		<child foreignKey="Roulerend - buiten gebruik (BIO)"/>
+	</filter>
+	<filter id="Projecten (BIO)" name="Projecten">
+		<child foreignKey="Projecten (BIO) volledig"/>
+		<child foreignKey="Groen Blauwe Diensten (BIO)"/>
+		<child foreignKey="Overig water (BIO)"/>
+		<child foreignKey="Effectmonitoring maaibeheer (BIO)"/>
+		<child foreignKey="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+		<child foreignKey="Lange weide (BIO)"/>
+		<child foreignKey="Natuurgebieden (BIO)"/>
+		<child foreignKey="Overige projecten (BIO)"/>
+		<child foreignKey="Afgerond (BIO)"/>
+	</filter>
+	<!--Fysische chemie-->
+	<filter id="Fysische chemie volledig" name="Fysische chemie volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Fysische chemie"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Kader Richtlijn Water (KRW, FC)" name="Meetnet Kader Richtlijn Water (KRW)">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet waterkwaliteit hoofdwater (FC)" name="Meetnet waterkwaliteit hoofdwater">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet waterkwaliteit hoofdwater (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Nutrienten Landbouw Specifiek OW (MNLSO, FC)" name="Meetnet Nutrienten Landbouw Specifiek Oppervlaktewater (MNLSO)">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Nutrienten Landbouw Specifiek OW (MNLSO, FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Calamiteiten Meetnet Nucleaire Ongevallen (CMNO, FC)" name="Calamiteiten Meetnet Nucleaire Ongevallen (CMNO)">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Calamiteiten Meetnet Nucleaire Ongevallen (CMNO, FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet zwemwater (FC)" name="Meetnet zwemwater">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet zwemwater (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet hygienische waterkwaliteit (FC)" name="Meetnet hygienische waterkwaliteit">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet hygienische waterkwaliteit (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Historische meetpunten (&lt; 2000) waarvan doel onbekend (FC)" name="Historische meetpunten (&lt; 2000) waarvan doel onbekend">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Historische meetpunten (&lt; 2000) waarvan doel onbekend (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Agrarisch en Stedelijk gebied (FC) volledig" name="Meetnet Agrarisch en Stedelijk gebied volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)" name="Agrarisch &amp; Stedelijk Roulatiejaar 1">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)" name="Agrarisch &amp; Stedelijk Roulatiejaar 2">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)" name="Agrarisch &amp; Stedelijk Roulatiejaar 3">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet gewasbeschermingsmiddelen (FC) volledig" name="Meetnet gewasbeschermingsmiddelen volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet gewasbeschermingsmiddelen (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM, FC)" name="Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM)">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM, FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Roulerend meetnet 2006 -2019 (FC) volledig" name="Roulerend meetnet 2006 -2019 volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Roulerend meetnet 2006 -2019 (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Centraal stadsdeel (FC)" name="Centraal stadsdeel">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Centraal stadsdeel (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Groenraven Oost - Maartensdijk (FC)" name="Groenraven Oost - Maartensdijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Groenraven Oost - Maartensdijk (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Kromme Rijn - Honswijk (FC)" name="Kromme Rijn - Honswijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Kromme Rijn - Honswijk (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Langbroekerwetering (FC)" name="Langbroekerwetering">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Langbroekerwetering (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Lopikerwaard (FC)" name="Lopikerwaard">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Lopikerwaard (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Oude Rijn (FC)" name="Oude Rijn">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Oude Rijn (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Projecten (FC) volledig" name="Projecten volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Projecten (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Lange weide (FC)" name="Lange weide">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Lange weide (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Online waterkwaliteit Batau (FC)" name="Online waterkwaliteit Batau">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Online waterkwaliteit Batau (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Onderwaterdrainage De Vlist (FC)" name="Onderwaterdrainage De Vlist">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Onderwaterdrainage De Vlist (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Natuurgebieden (FC)" name="Natuurgebieden">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Natuurgebieden (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Overige projecten (FC)" name="Overige projecten">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Overige projecten (FC)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Afgerond (FC)" name="Afgerond">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Afgerond (FC)"/>
+		</locationConstraints>
+	</filter>
+	<!--Biologie-->
+	<filter id="Meetnet Macrofauna (BIO)" name="Meetnet Macrofauna">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Macrofauna (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Natuurvriendelijke oevers (BIO)" name="Meetnet Natuurvriendelijke oevers">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Natuurvriendelijke oevers (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Beschermde flora en fauna (wetNB, BIO)" name="Meetnet Beschermde flora en fauna (wetNB)">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Beschermde flora en fauna (wetNB, BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Stadswateren (Ecoscans, BIO)" name="Meetnet Stadswateren (Ecoscans)">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Stadswateren (Ecoscans, BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Biologie volledig" name="Biologie volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Biologie"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Kader Richtlijn Water (KRW, BIO) volledig" name="Meetnet Kader Richtlijn Water (KRW) volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_01 Langbroekerwetering (BIO)" name="NL14_01 Langbroekerwetering">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_01 Langbroekerwetering (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_02 Kromme Rijn (BIO)" name="NL14_02 Kromme Rijn">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_02 Kromme Rijn (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_03 Westerlaak (BIO)" name="NL14_03 Westerlaak">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_03 Westerlaak (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_04 Honswijk (BIO)" name="NL14_04 Honswijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_04 Honswijk (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_05 Biltse Grift (BIO)" name="NL14_05 Biltse Grift">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_05 Biltse Grift (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_06 Ravense Wetering (BIO)" name="NL14_06 Ravense Wetering">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_06 Ravense Wetering (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_07 Merwedekanaal (BIO)" name="NL14_07 Merwedekanaal">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_07 Merwedekanaal (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_08 Binnenstad Utrecht (BIO)" name="NL14_08 Binnenstad Utrecht">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_08 Binnenstad Utrecht (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_09 Maartensdijk (BIO)" name="NL14_09 Maartensdijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_09 Maartensdijk (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_10 Hollandse IJssel (BIO)" name="NL14_10 Hollandse IJssel">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_10 Hollandse IJssel (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_11 De Keulevaart (BIO)" name="NL14_11 De Keulevaart">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_11 De Keulevaart (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_12 De Pleijt (BIO)" name="NL14_12 De Pleijt">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_12 De Pleijt (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_13 De Koekoek (BIO)" name="NL14_13 De Koekoek">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_13 De Koekoek (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_15 Bijleveld (BIO)" name="NL14_15 Bijleveld">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_15 Bijleveld (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_16 Leidsche Rijn (BIO)" name="NL14_16 Leidsche Rijn">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_16 Leidsche Rijn (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_18 Galecop (BIO)" name="NL14_18 Galecop">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_18 Galecop (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_19 Gerverscop (BIO)" name="NL14_19 Gerverscop">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_19 Gerverscop (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_20 De Tol (BIO)" name="NL14_20 De Tol">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_20 De Tol (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_21 Ouwenaar - Haarrijn (BIO)" name="NL14_21 Ouwenaar - Haarrijn">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_21 Ouwenaar - Haarrijn (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_22 Wiericke's (BIO)" name="NL14_22 Wiericke's">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_22 Wiericke's (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_23 Snelrewaard (BIO)" name="NL14_23 Snelrewaard">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_23 Snelrewaard (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_24 Lange Linschoten (BIO)" name="NL14_24 Lange Linschoten">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_24 Lange Linschoten (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_25 Montfoortse Vaart (BIO)" name="NL14_25 Montfoortse Vaart">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_25 Montfoortse Vaart (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_26 Meijepolder (BIO)" name="NL14_26 Meijepolder">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_26 Meijepolder (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_27 Oude Rijn (BIO)" name="NL14_27 Oude Rijn">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_27 Oude Rijn (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_28 Zegveld (BIO)" name="NL14_28 Zegveld">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_28 Zegveld (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_29 Grecht (BIO)" name="NL14_29 Grecht">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_29 Grecht (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_30 Kockengen (BIO)" name="NL14_30 Kockengen">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_30 Kockengen (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_31 Kamerik Teijlingens (BIO)" name="NL14_31 Kamerik Teijlingens">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_31 Kamerik Teijlingens (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_32 Houtensewetering (BIO)" name="NL14_32 Houtensewetering">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_32 Houtensewetering (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="NL14_33 Oud Kamerik (BIO)" name="NL14_33 Oud Kamerik">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="NL14_33 Oud Kamerik (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Meetnet Agrarisch en Stedelijk gebied (BIO) volledig" name="Meetnet Agrarisch en Stedelijk gebied volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (BIO)" name="Agrarisch &amp; Stedelijk Roulatiejaar 1">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (BIO)" name="Agrarisch &amp; Stedelijk Roulatiejaar 2">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (BIO)" name="Agrarisch &amp; Stedelijk Roulatiejaar 3">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Roulerend meetnet 2006 -2019 (BIO) volledig" name="Roulerend meetnet 2006 -2019 volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Roulerend meetnet 2006 -2019 (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Centraal stadsdeel (BIO)" name="Centraal stadsdeel">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Centraal stadsdeel (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Groenraven Oost - Maartensdijk (BIO)" name="Groenraven Oost - Maartensdijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Groenraven Oost - Maartensdijk (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Kromme Rijn - Honswijk (BIO)" name="Kromme Rijn - Honswijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Kromme Rijn - Honswijk (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Langbroekerwetering (BIO)" name="Langbroekerwetering">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Langbroekerwetering (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Lopikerwaard (BIO)" name="Lopikerwaard">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Lopikerwaard (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Oude Rijn (BIO)" name="Oude Rijn">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Oude Rijn (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Roulerend - buiten gebruik (BIO)" name="Roulerend - buiten gebruik">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Roulerend - buiten gebruik (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Projecten (BIO) volledig" name="Projecten volledig">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Projecten (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Groen Blauwe Diensten (BIO)" name="Groen Blauwe Diensten">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Overig water (BIO)" name="Overig water">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Overig water (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Effectmonitoring maaibeheer (BIO)" name="Effectmonitoring maaibeheer">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Nevengeul en vlechtschermen bij Odijk (BIO)" name="Nevengeul en vlechtschermen bij Odijk">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Lange weide (BIO)" name="Lange weide">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Lange weide (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Natuurgebieden (BIO)" name="Natuurgebieden">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Natuurgebieden (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Overige projecten (BIO)" name="Overige projecten">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Overige projecten (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Afgerond (BIO)" name="Afgerond">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Afgerond (BIO)"/>
+		</locationConstraints>
+	</filter>
+	<filter id="Overige waterbeheerders" name="Overige waterbeheerders">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Overige waterbeheerders"/>
+		</locationConstraints>
+	</filter>
+	<!--filter id="Dummy meetnet" name="Dummy meetnet">
+		<relativeViewPeriod end="0" start="-104" unit="week"/>
+		<editable>true</editable>
+		<locationConstraints>
+			<attributeExists id="Dummy_meetnet"/>
+		</locationConstraints>
+	</filter-->
+	<filter id="Export IM-metingen" name="Export IM-metingen">
+		<viewPermission>beheerders</viewPermission>
+		<child foreignKey="Fysisch_chemische_data"/>
+		<child foreignKey="Biologische_data"/>
+		<child foreignKey="Export_alles"/>
+	</filter>
+	<filter id="Fysisch_chemische_data" name="Fysisch_chemische_data">
+		<child foreignKey="Export_IMmetingen_KRW_FC"/>
+		<child foreignKey="Export_IMmetingen_LEW_FC"/>
+		<child foreignKey="Export_IMmetingen_ASM_FC"/>
+		<child foreignKey="Export_IMmetingen_hoofdwater_FC"/>
+		<child foreignKey="Export_IMmetingen_zwemwater_FC"/>
+	</filter>
+	<filter id="Biologische_data" name="Biologische_data">
+		<child foreignKey="Export_IMmetingen_KRW_FYTO_BIO"/>
+		<child foreignKey="Export_IMmetingen_KRW_FYTO_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_KRW_MAFA_BIO"/>
+		<child foreignKey="Export_IMmetingen_KRW_MAFA_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_KRW_MAFY_BIO"/>
+		<child foreignKey="Export_IMmetingen_KRW_MAFY_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_KRW_VIS_BIO"/>
+		<child foreignKey="Export_IMmetingen_KRW_VIS_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_ASM_MAFA_BIO"/>
+		<child foreignKey="Export_IMmetingen_ASM_MAFA_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_ASM_MAFY_BIO"/>
+		<child foreignKey="Export_IMmetingen_ASM_MAFY_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_ASM_VIS_BIO"/>
+		<child foreignKey="Export_IMmetingen_ASM_VIS_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_LEW_FYTO_BIO"/>
+		<child foreignKey="Export_IMmetingen_LEW_FYTO_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_LEW_MAFA_BIO"/>
+		<child foreignKey="Export_IMmetingen_LEW_MAFA_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_LEW_MAFY_BIO"/>
+		<child foreignKey="Export_IMmetingen_LEW_MAFY_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_LEW_VIS_BIO"/>
+		<child foreignKey="Export_IMmetingen_LEW_VIS_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_PRJ_FYTO_BIO"/>
+		<child foreignKey="Export_IMmetingen_PRJ_FYTO_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_PRJ_MAFA_BIO"/>
+		<child foreignKey="Export_IMmetingen_PRJ_MAFA_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_PRJ_MAFY_BIO"/>
+		<child foreignKey="Export_IMmetingen_PRJ_MAFY_BIO_allTT"/>
+		<child foreignKey="Export_IMmetingen_PRJ_VIS_BIO"/>
+		<child foreignKey="Export_IMmetingen_PRJ_VIS_BIO_allTT"/>
+	</filter>
+	<filter id="Export_alles" name="Export alles">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod end="0" start="-31" startOverrulable="true" endOverrulable="true" unit="day"/>
+	</filter>
+	<!-- Biologische exports -->
+	<filter id="Export_IMmetingen_KRW_FYTO_BIO" name="Export_IMmetingen_KRW_FYTO_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-2196" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_fyto"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<anyValid>
+				<allValid>
+					<attributeExists id="bio_wf_fyto_tt"/>
+					<attributeTextEquals id="bio_wf_fyto_tt" equals="1"/>
+				</allValid>
+				<attributeTextEquals id="TWN taxontype" equals="Phytoplankton"/>
+			</anyValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_KRW_FYTO_BIO_allTT" name="Export_IMmetingen_KRW_FYTO_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-2196" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_fyto"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_KRW_MAFA_BIO" name="Export_IMmetingen_KRW_MAFA_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3294" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafa_tt"/>
+				<attributeTextEquals id="bio_wf_mafa_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_KRW_MAFA_BIO_allTT" name="Export_IMmetingen_KRW_MAFA_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3294" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_KRW_MAFY_BIO" name="Export_IMmetingen_KRW_MAFY_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafy_tt"/>
+				<attributeTextEquals id="bio_wf_mafy_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_KRW_MAFY_BIO_allTT" name="Export_IMmetingen_KRW_MAFY_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+		<!--qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafy_tt"/>
+				<attributeTextEquals id="bio_wf_mafy_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints-->
+	</filter>
+	<filter id="Export_IMmetingen_KRW_VIS_BIO" name="Export_IMmetingen_KRW_VIS_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-2196" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_vis_tt"/>
+				<attributeTextEquals id="bio_wf_vis_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_KRW_VIS_BIO_allTT" name="Export_IMmetingen_KRW_VIS_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-2196" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_MAFA_BIO" name="Export_IMmetingen_ASM_MAFA_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+				<attributeExists id="Meetnet Macrofauna (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafa_tt"/>
+				<attributeTextEquals id="bio_wf_mafa_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_MAFA_BIO_allTT" name="Export_IMmetingen_ASM_MAFA_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+				<attributeExists id="Meetnet Macrofauna (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_MAFY_BIO" name="Export_IMmetingen_ASM_MAFY_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafy_tt"/>
+				<attributeTextEquals id="bio_wf_mafy_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_MAFY_BIO_allTT" name="Export_IMmetingen_ASM_MAFY_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_VIS_BIO" name="Export_IMmetingen_ASM_VIS_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_vis_tt"/>
+				<attributeTextEquals id="bio_wf_vis_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_VIS_BIO_allTT" name="Export_IMmetingen_ASM_VIS_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_FYTO_BIO" name="Export_IMmetingen_LEW_FYTO_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_fyto"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_fyto_tt"/>
+				<attributeTextEquals id="bio_wf_fyto_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_FYTO_BIO_allTT" name="Export_IMmetingen_LEW_FYTO_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_fyto"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_MAFA_BIO" name="Export_IMmetingen_LEW_MAFA_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+				<attributeExists id="Meetnet Macrofauna (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafa_tt"/>
+				<attributeTextEquals id="bio_wf_mafa_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_MAFA_BIO_allTT" name="Export_IMmetingen_LEW_MAFA_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+				<attributeExists id="Meetnet Macrofauna (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_MAFY_BIO" name="Export_IMmetingen_LEW_MAFY_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafy_tt"/>
+				<attributeTextEquals id="bio_wf_mafy_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_MAFY_BIO_allTT" name="Export_IMmetingen_LEW_MAFY_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_VIS_BIO" name="Export_IMmetingen_ASM_VIS_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_vis_tt"/>
+				<attributeTextEquals id="bio_wf_vis_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_VIS_BIO_allTT" name="Export_IMmetingen_ASM_VIS_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, BIO)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_FYTO_BIO" name="Export_IMmetingen_PRJ_FYTO_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_fyto"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_fyto_tt"/>
+				<attributeTextEquals id="bio_wf_fyto_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_FYTO_BIO_allTT" name="Export_IMmetingen_PRJ_FYTO_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_fyto"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_MAFA_BIO" name="Export_IMmetingen_PRJ_MAFA_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafa_tt"/>
+				<attributeTextEquals id="bio_wf_mafa_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_MAFA_BIO_allTT" name="Export_IMmetingen_PRJ_MAFA_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafa"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_MAFY_BIO" name="Export_IMmetingen_PRJ_MAFY_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_mafy_tt"/>
+				<attributeTextEquals id="bio_wf_mafy_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_MAFY_BIO_allTT" name="Export_IMmetingen_PRJ_MAFY_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_mafy"/>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_VIS_BIO" name="Export_IMmetingen_PRJ_VIS_BIO">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+		<qualifierConstraints>
+			<allValid>
+				<attributeExists id="bio_wf_vis_tt"/>
+				<attributeTextEquals id="bio_wf_vis_tt" equals="1"/>
+			</allValid>
+		</qualifierConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_PRJ_VIS_BIO_allTT" name="Export_IMmetingen_PRJ_VIS_BIO_allTT">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-3660" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Groen Blauwe Diensten (BIO)"/>
+				<attributeExists id="Overig water (BIO)"/>
+				<attributeExists id="Effectmonitoring maaibeheer (BIO)"/>
+				<attributeExists id="Nevengeul en vlechtschermen bij Odijk (BIO)"/>
+				<attributeExists id="Lange weide (BIO)"/>
+				<attributeExists id="Natuurgebieden (BIO)"/>
+				<attributeExists id="Overige projecten (BIO)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<attributeExists id="bio_wf_vis"/>
+		</parameterConstraints>
+	</filter>
+	<!-- Fysisch-chemische exports -->
+	<filter id="Export_IMmetingen_KRW_FC" name="Export_IMmetingen_KRW_FC">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet Kader Richtlijn Water (KRW, FC)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<anyValid>
+				<attributeTextEquals id="group" equals="Veld fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Nutriënten"/>
+				<attributeTextEquals id="group" equals="Overig fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Blauwalgen"/>
+				<attributeTextEquals id="group" equals="Bacteriologisch"/>
+				<attributeTextEquals id="group" equals="Metalen"/>
+				<attributeTextEquals id="group" equals="Bestrijdingsmiddelen"/>
+				<attributeTextEquals id="group" equals="Organotin verbindingen"/>
+				<attributeTextEquals id="group" equals="Geneesmiddelen"/>
+				<attributeTextEquals id="group" equals="Overige organische microverontreinigingen"/>
+				<attributeTextEquals id="group" equals="Polyaromatische koolwaterstoffen (PAK)"/>
+			</anyValid>
+			<not>
+				<attributeExists id="EnumerationId"/>
+			</not>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_LEW_FC" name="Export_IMmetingen_LEW_FC">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Kader Richtlijn Water (KRW, FC)"/>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (FC)"/>
+				<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)"/>
+				<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)"/>
+				<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)"/>
+				<attributeExists id="Meetnet waterkwaliteit hoofdwater (FC)"/>
+				<attributeExists id="Meetnet Nutrienten Landbouw Specifiek OW (MNLSO, FC)"/>
+				<attributeExists id="Meetnet gewasbeschermingsmiddelen (FC)"/>
+				<attributeExists id="Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM, FC)"/>
+				<attributeExists id="Meetnet zwemwater (FC)"/>
+				<attributeExists id="Meetnet hygienische waterkwaliteit (FC)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<anyValid>
+				<attributeTextEquals id="group" equals="Veld fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Nutriënten"/>
+				<attributeTextEquals id="group" equals="Overig fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Blauwalgen"/>
+				<attributeTextEquals id="group" equals="Bacteriologisch"/>
+				<attributeTextEquals id="group" equals="Metalen"/>
+				<attributeTextEquals id="group" equals="Bestrijdingsmiddelen"/>
+				<attributeTextEquals id="group" equals="Organotin verbindingen"/>
+				<attributeTextEquals id="group" equals="Geneesmiddelen"/>
+				<attributeTextEquals id="group" equals="Overige organische microverontreinigingen"/>
+				<attributeTextEquals id="group" equals="Polyaromatische koolwaterstoffen (PAK)"/>
+			</anyValid>
+			<not>
+				<attributeExists id="EnumerationId"/>
+			</not>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_ASM_FC" name="Export_IMmetingen_ASM_FC">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1098" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<anyValid>
+				<attributeExists id="Meetnet Agrarisch en Stedelijk gebied (FC)"/>
+				<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)"/>
+				<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)"/>
+				<attributeExists id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)"/>
+			</anyValid>
+		</locationConstraints>
+		<parameterConstraints>
+			<anyValid>
+				<attributeTextEquals id="group" equals="Veld fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Nutriënten"/>
+				<attributeTextEquals id="group" equals="Overig fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Blauwalgen"/>
+				<attributeTextEquals id="group" equals="Bacteriologisch"/>
+				<attributeTextEquals id="group" equals="Metalen"/>
+				<attributeTextEquals id="group" equals="Bestrijdingsmiddelen"/>
+				<attributeTextEquals id="group" equals="Organotin verbindingen"/>
+				<attributeTextEquals id="group" equals="Geneesmiddelen"/>
+				<attributeTextEquals id="group" equals="Overige organische microverontreinigingen"/>
+				<attributeTextEquals id="group" equals="Polyaromatische koolwaterstoffen (PAK)"/>
+			</anyValid>
+			<not>
+				<attributeExists id="EnumerationId"/>
+			</not>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_hoofdwater_FC" name="Export_IMmetingen_hoofdwater_FC">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-366" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet waterkwaliteit hoofdwater (FC)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<anyValid>
+				<attributeTextEquals id="group" equals="Veld fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Nutriënten"/>
+				<attributeTextEquals id="group" equals="Overig fysisch-chemisch"/>
+				<attributeTextEquals id="group" equals="Blauwalgen"/>
+				<attributeTextEquals id="group" equals="Bacteriologisch"/>
+				<attributeTextEquals id="group" equals="Metalen"/>
+				<attributeTextEquals id="group" equals="Bestrijdingsmiddelen"/>
+				<attributeTextEquals id="group" equals="Organotin verbindingen"/>
+				<attributeTextEquals id="group" equals="Geneesmiddelen"/>
+				<attributeTextEquals id="group" equals="Overige organische microverontreinigingen"/>
+				<attributeTextEquals id="group" equals="Polyaromatische koolwaterstoffen (PAK)"/>
+			</anyValid>
+			<not>
+				<attributeExists id="EnumerationId"/>
+			</not>
+		</parameterConstraints>
+	</filter>
+	<filter id="Export_IMmetingen_zwemwater_FC" name="Export_IMmetingen_zwemwater_FC">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod unit="day" end="0" start="-1096" startOverrulable="true" endOverrulable="true"/>
+		<locationConstraints>
+			<attributeExists id="Meetnet zwemwater (FC)"/>
+		</locationConstraints>
+		<parameterConstraints>
+			<anyValid>
+				<attributeExists id="fc_wf_zwem"/>
+			</anyValid>
+		</parameterConstraints>
+	</filter>
+	<!-- FILTERS VOOR WEBSERVICE -->
+	<filter id="POWERBI_API" name="POWERBI_API">
+		<viewPermission>beheerders</viewPermission>
+		<relativeViewPeriod end="0" start="-52000" startOverrulable="true" endOverrulable="true" unit="week"/>
+	</filter>
+</filters>

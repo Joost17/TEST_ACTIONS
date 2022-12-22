@@ -1,0 +1,425 @@
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<timeSeriesImportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesImportRun.xsd">
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>TEST*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="Collectie_Datum" pattern="dd/MM/yyyy"/>
+				<locationColumn name="Meetobject.code"/>
+				<unitColumn name="Eenheid_Berekend"/>
+				<parameterColumn name="Parameter.code"/>
+				<qualifierColumn name="Compartiment_Code" prefix="MCO_"/>
+				<qualifierColumn name="Grootheid_Code" prefix="GH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Levensvorm.Code" prefix="LV_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<qualifierColumn name="Parameter_Specificatie" prefix="BN_"/>
+				<sampleIdColumn name="Meetset_Nummer"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<propertyColumn name="Namespace.code" key="namespace"/>
+				<valueColumn name="Waarde_Berekend" requireNumericalParameters="true"/>
+				<commentColumn name="Notitie_Code"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Fytoplankton</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>Vis*_succesvol.csv</fileNamePatternFilter>			
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<locationColumn name="Meetobject.LokaalID"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="MonsterCompartiment.code" prefix="MCO_"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Bemonsteringsapparaat.code" prefix="BA_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Lengteklasse" prefix="LC_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LK_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="Biotaxon.taxontype" prefix="TT_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<propertyColumn name="GeometriePunt.X" key="X_monster"/>
+				<propertyColumn name="GeometriePunt.Y" key="Y_monster"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="OPPVTE open water (ha)" key="OPPVTE_openwater"/>
+				<propertyColumn name="OPPVTE oever (ha)" key="OPPVTE_oever"/>
+				<propertyColumn name="Gewicht (g)" key="Gewicht_g"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<valueColumn name="Numeriekewaarde" requireNumericalParameters="true"/>
+				<commentColumn name="Notitie_Code"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Vis</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+				<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+	</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>Macrofyten*_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Collectie_Datum" pattern="d-M-yyyy"/>
+				<locationColumn name="Meetobject.code"/>
+				<unitColumn name="Eenheid_Gemeten"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="Compartiment_Code" prefix="MCO_"/>
+				<qualifierColumn name="Compartiment_Code" prefix="ACO_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<commentColumn name="Notitie_Code"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<propertyColumn name="Namespace.code" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="Project_Codes" key="OpdrachtreferentieUitvoerder"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<valueColumn name="Waarde_Gemeten" requireNumericalParameters="true"/>
+				<valueColumn name="Classificatie_Code" requireEnumerationParameters="true"/>
+				<limitSymbolColumn name="Limiet_Symbool"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Macrofyten</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+		</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>Fytoplankton*_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Collectie_Datum" pattern="dd-MM-yyyy"/>
+				<locationColumn name="Meetobject.code"/>
+				<unitColumn name="Eenheid_Berekend"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="Compartiment_Code" prefix="MCO_"/>
+				<qualifierColumn name="Compartiment_Code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid_Code" prefix="GH_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<qualifierColumn name="Levensvorm.Code" prefix="LV_"/>
+				<qualifierColumn name="LengteKlasse.Code" prefix="LK_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<propertyColumn name="Project_Codes" key="OpdrachtreferentieUitvoerder"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<propertyColumn name="Namespace.code" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<commentColumn name="Notitie_Code"/>
+				<limitSymbolColumn name="Limiet_Symbool"/>
+				<valueColumn name="Waarde_Berekend" requireNumericalParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Fytoplankton</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+		</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>Ecoscans_Macrofyten*_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Levensvorm.Code" prefix="LV_"/>
+				<qualifierColumn name="LevensStadium.code" prefix="LS_"/>
+				<qualifierColumn name="LengteKlasse.code" prefix="LK_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Gedrag.code" prefix="GG_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<qualifierColumn name="VerschijningsVorm.code" prefix="VV_"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<valueColumn name="Numeriekewaarde" requireNumericalParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" requireEnumerationParameters="true"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<commentColumn name="Notitie_Code"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Ecoscans</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+		</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>Macrofauna*_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Collectie_Datum" pattern="dd-MM-yyyy"/>
+				<locationColumn name="Meetobject.code"/>
+				<unitColumn name="Eenheid_Berekend"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="Grootheid_Code" prefix="GH_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Parameter_Kenmerken" prefix="LS_"/>
+				<qualifierColumn name="Compartiment_Code" prefix="MCO_"/>
+				<qualifierColumn name="Compartiment_Code" prefix="ACO_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<commentColumn name="Notitie_Code"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<propertyColumn name="Project_Codes" key="OpdrachtreferentieUitvoerder"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<propertyColumn name="Namespace.code" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<limitSymbolColumn name="Limiet_Symbool"/>
+				<valueColumn name="Waarde_Berekend" requireNumericalParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Macrofauna</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+		</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>Diatomeeen*_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Collectie_Datum" pattern="dd-MM-yyyy"/>
+				<locationColumn name="Meetobject.code"/>
+				<unitColumn name="Eenheid_Gemeten"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="Grootheid_Code" prefix="GH_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Parameter_Kenmerken" prefix="LS_"/>
+				<qualifierColumn name="Compartiment_Code" prefix="ACO_"/>
+				<qualifierColumn name="Compartiment_Code" prefix="MCO_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<propertyColumn name="Namespace.code" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="Project_Codes" key="OpdrachtreferentieUitvoerder"/>
+				<commentColumn name="Notitie_Code"/>
+				<propertyColumn name="Leverancier_Code" key="Meetinstantie"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<valueColumn name="Waarde_Gemeten" requireNumericalParameters="true"/>
+				<limitSymbolColumn name="Limiet_Symbool"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Diatomeeen</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+		</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/Biologie</folder>
+			<fileNamePatternFilter>FF*_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/Biologie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/Biologie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="DATUM" pattern="dd-MM-yyyy"/>
+				<timeColumn name="TIJD" pattern="HH:mm"/>
+				<locationColumn name="TRAJECT"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="Parameter.fews"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<qualifierColumn name="Gedrag.code" prefix="GG_"/>
+				<qualifierColumn name="LevensStadium.code" prefix="LS_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Compartiment.code" prefix="MCO_"/>
+				<sampleIdColumn name="Sample_Id_FEWS"/>
+				<commentColumn name="OPM_WAARN"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<propertyColumn name="Namespace.code" key="namespace"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="Opdrachtgever_Code" key="Meetinstantie"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<valueColumn name="WAARDE" requireNumericalParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_FloraFauna</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+		</general>
+	</import>
+</timeSeriesImportRun>

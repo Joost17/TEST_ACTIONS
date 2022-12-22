@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfiguration xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/clientConfig.xsd">
+	<clientType>Operator Client</clientType>
+	<otherRootConfigFiles>
+		<name>patch.jar</name>
+		<name>fews-splash.jpg</name>
+		<name>oc_efcis_test_global.properties</name>
+	</otherRootConfigFiles>
+	<jvmOption>-Xmn1100m</jvmOption>
+	<jvmOption>-Xmx1500m</jvmOption>
+	<autoExportModuleDataSet name="Products" exportDir="Products"/>
+</clientConfiguration>

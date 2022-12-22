@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Repository path:    $HeadURL: https://hkvsub001.hkv.nl/svn/FEWS_BOSDELFLAND/productie/FEWS/BosDelfland/Config/SystemConfigFiles/Permissions.xml $-->
+<!--Last committed:     $Revision: 1136 $; $Author: verkaik@HKV $; $Date: 2018-10-24 14:48:20 +0200 (Wed, 24 Oct 2018) $-->
+<permissions xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/permissions.xsd">
+	<permission id="beheerders">
+		<userGroup id="beheerders"/>
+	</permission>
+	<permission id="bewerken">
+		<userGroup id="bewerken"/>
+		<userGroup id="beheerders"/>
+	</permission>
+	<permission id="importeren_workflow">
+		<userGroup id="importeren_workflow"/>
+		<userGroup id="beheerders"/>
+	</permission>
+	<permission id="exporteren_workflow">
+		<userGroup id="exporteren_workflow"/>
+		<userGroup id="beheerders"/>
+	</permission>
+	<permission id="uitvoeren_taken">
+		<userGroup id="importeren_workflow"/>
+		<userGroup id="exporteren_workflow"/>
+		<userGroup id="beheerders"/>
+	</permission>
+	<permission id="raadplegen">
+		<userGroup id="beheerders"/>
+		<userGroup id="raadplegers"/>
+		<userGroup id="exporteren_workflow"/>
+	</permission>
+</permissions>

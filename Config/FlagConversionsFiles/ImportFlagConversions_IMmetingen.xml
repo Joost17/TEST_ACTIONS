@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flagConversions xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/flagConversions.xsd">
+	<flagConversion>
+		<inputFlag>
+			<value>0</value>
+			<description>Normale waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>3</value>
+			<description>Waarde heeft een grotere spreiding dan beschreven</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_DOUBTFUL</name>
+			<value>3</value>
+			<description>originele waarde, kwaliteit twijfelachtig</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>4</value>
+			<description>Bepaald met hele detectiegrens</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>55</value>
+			<description>Gevlagde waarde, bepaald met halve detectiegrens</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>5</value>
+			<description>Bepaald met halve detectiegrens</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>56</value>
+			<description>Gevlagde waarde, bepaald met nul waarde voor detectiegrens</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>6</value>
+			<description>Bepaald met nul waarde voor detectiegrens</description>
+		</inputFlag>
+		<outputFlag>
+			<name>MISSING_UNRELIABLE</name>
+			<value>6</value>
+			<description>Meetwaarde afkomstig van externe databron. Waarde is niet-valide (voldoet niet aan ingestelde validatiegrenzen) en is verwijderd</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>7</value>
+			<description>Waarde is verhoogde rapportagegrens</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>10</value>
+			<description>In de ruimte geïnterpoleerde waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>COMPLETED_RELIABLE</name>
+			<value>2</value>
+			<description>Opgevulde waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>20</value>
+			<description>In de tijd geïnterpoleerde waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>COMPLETED_RELIABLE</name>
+			<value>2</value>
+			<description>Opgevulde waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>25</value>
+			<description>In ruimte en tijd geïnterpoleerde waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>COMPLETED_RELIABLE</name>
+			<value>2</value>
+			<description>Opgevulde waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>30</value>
+			<description>Waarde beïnvloedt door ruimtelijke activiteiten</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>50</value>
+			<description>Niet-plausibele waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_DOUBTFUL</name>
+			<value>3</value>
+			<description>originele waarde van twijfelachtige kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>98</value>
+			<description>Waarde bepaald op onvolledige basis</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_DOUBTFUL</name>
+			<value>3</value>
+			<description>originele waarde van twijfelachtige kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>99</value>
+			<description>Hiaat waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_MISSING</name>
+			<value>9</value>
+			<description>ontbrekende waarde</description>
+		</outputFlag>
+	</flagConversion>
+	<defaultOuputFlag>
+		<name>ORIGINAL_RELIABLE</name>
+		<value>0</value>
+		<description>The data value is the original value retrieved from an external source and it successfully passes all validation criteria set.</description>
+	</defaultOuputFlag>
+	<missingValueFlag>
+		<name>ORIGINAL_MISSING</name>
+		<value>9</value>
+	</missingValueFlag>
+</flagConversions>

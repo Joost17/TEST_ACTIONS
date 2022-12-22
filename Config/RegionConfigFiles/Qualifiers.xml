@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by HKV Lijn in water (HKV Lijn in water) -->
+<qualifiers xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/qualifiers.xsd">
+	<allowReferencingUndefinedQualifiers>false</allowReferencingUndefinedQualifiers>
+	<!--Qualifiers Fysische Chemie en Biologie-->
+	<csvFile>
+		<file>Waarnemingssoort.csv</file>
+		<id>%Codes%</id>
+		<name>%Codes%</name>
+		<group>Waarnemingssoort</group>
+		<attribute id="ExternalQualifierId">
+			<text>%Codes%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>%Codes%</text>
+		</attribute>
+		<attribute id="Omschrijving">
+			<text>%Omschrijving%</text>
+		</attribute>
+		<attribute id="WNS_Omschrijving">
+			<text>%Omschrijving%</text>
+		</attribute>
+		<attribute id="WNS_Code">
+			<text>%Codes%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>TWN_taxontype.csv</file>
+		<id>TT_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Taxontype</group>
+		<attribute id="ExternalQualifierId">
+			<text>TT_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>TT_%Code%</text>
+		</attribute>
+		<attribute id="Taxontype">
+			<text>%Omschrijving%</text>
+		</attribute>
+		<attribute id="bio_wf_mafy_tt">
+			<text>%bio_wf_mafy%</text>
+		</attribute>
+		<attribute id="bio_wf_mafa_tt">
+			<text>%bio_wf_mafa%</text>
+		</attribute>
+		<attribute id="bio_wf_fyto_tt">
+			<text>%bio_wf_fyto%</text>
+		</attribute>
+		<attribute id="bio_wf_vis_tt">
+			<text>%bio_wf_vis%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>TWN_biotaxon.csv</file>
+		<id>BN_%fewsid%</id>
+		<name>%taxonname%</name>
+		<group>Biotaxon</group>
+		<attribute id="ExternalQualifierId">
+			<text>BN_%taxonnaamtype%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>BN_%taxonnaamtype%</text>
+		</attribute>
+		<attribute id="TWN naam">
+			<description>Taxonnaam</description>
+			<text>%taxonname%</text>
+		</attribute>
+		<attribute id="TWN taxontype">
+			<description>Taxontype</description>
+			<text>%taxontype%</text>
+		</attribute>
+		<attribute id="TWN Taxonniveau">
+			<description>Taxonniveau</description>
+			<text>%Taxonniveau%</text>
+		</attribute>
+		<attribute id="nederlandse soortnaam">
+			<description>Nederlandse naam</description>
+			<text>%localname%</text>
+		</attribute>
+		<attribute id="TWN taxongroup">
+			<description>Taxongroup</description>
+			<text>%taxongroup%</text>
+		</attribute>
+		<attribute id="mafy_oeverplanten">
+			<description>Macrofyten - oeverplanten</description>
+			<boolean>%mafy_oeverplanten%</boolean>
+		</attribute>
+		<attribute id="mafy_waterplanten">
+			<description>Macrofyten - waterplanten</description>
+			<boolean>%mafy_waterplanten%</boolean>
+		</attribute>
+		<attribute id="mafy_droge oever">
+			<description>Macrofyten - droge oever</description>
+			<boolean>%mafy_droge oever%</boolean>
+		</attribute>
+		<attribute id="mafy_emerse planten">
+			<description>Macrofyten - emerse planten</description>
+			<boolean>%mafy_emerse planten%</boolean>
+		</attribute>
+		<attribute id="mafy_drijfplanten">
+			<description>Macrofyten - drijfplanten</description>
+			<boolean>%mafy_drijfplanten%</boolean>
+		</attribute>
+		<attribute id="mafy_submerse planten">
+			<description>Macrofyten - submerse planten</description>
+			<boolean>%mafy_submerse planten%</boolean>
+		</attribute>
+		<attribute id="mafy_kroos">
+			<description>Macrofyten - kroos</description>
+			<boolean>%mafy_kroos%</boolean>
+		</attribute>
+		<attribute id="mafa_borstelarme wormen">
+			<description>Macrofauna - borstelarme wormen</description>
+			<boolean>%mafa_borstelarme wormen%</boolean>
+		</attribute>
+		<attribute id="mafa_veel borstelige wormen">
+			<description>Macrofauna - veel borstelige wormen</description>
+			<boolean>%mafa_veel borstelige wormen%</boolean>
+		</attribute>
+		<attribute id="mafa_watermijten en waterspinnen">
+			<description>Macrofauna - watermijten en waterspinnen</description>
+			<boolean>%mafa_watermijten en waterspinnen%</boolean>
+		</attribute>
+		<attribute id="mafa_vlokreeften">
+			<description>Macrofauna - vlokreeften</description>
+			<boolean>%mafa_vlokreeften%</boolean>
+		</attribute>
+		<attribute id="mafa_waterpissebedden">
+			<description>Macrofauna - waterpissebedden</description>
+			<boolean>%mafa_waterpissebedden%</boolean>
+		</attribute>
+		<attribute id="mafa_aasgarnalen">
+			<description>Macrofauna - aasgarnalen</description>
+			<boolean>%mafa_aasgarnalen%</boolean>
+		</attribute>
+		<attribute id="mafa_dansmuggen">
+			<description>Macrofauna - dansmuggen</description>
+			<boolean>%mafa_dansmuggen%</boolean>
+		</attribute>
+		<attribute id="mafa_haften">
+			<description>Macrofauna - haften</description>
+			<boolean>%mafa_haften%</boolean>
+		</attribute>
+		<attribute id="mafa_wantsen">
+			<description>Macrofauna - wantsen</description>
+			<boolean>%mafa_wantsen%</boolean>
+		</attribute>
+		<attribute id="mafa_tweekleppigen">
+			<description>Macrofauna - tweekleppigen</description>
+			<boolean>%mafa_tweekleppigen%</boolean>
+		</attribute>
+		<attribute id="mafa_slakken">
+			<description>Macrofauna - slakken</description>
+			<boolean>%mafa_slakken%</boolean>
+		</attribute>
+		<attribute id="mafa_overig">
+			<description>Macrofauna - overig</description>
+			<boolean>%mafa_overig%</boolean>
+		</attribute>
+		<attribute id="vis_eurytoop">
+			<description>Vissen - eurytoop</description>
+			<boolean>%vis_eurytoop%</boolean>
+		</attribute>
+		<attribute id="vis_limnofiel">
+			<description>Vissen - limnofiel</description>
+			<boolean>%vis_limnofiel%</boolean>
+		</attribute>
+		<attribute id="vis_rheofiel">
+			<description>Vissen - rheofiel</description>
+			<boolean>%vis_rheofiel%</boolean>
+		</attribute>
+		<attribute id="fyto_goudalgen">
+			<description>Fytoplankton - oudalgen</description>
+			<boolean>%fyto_goudalgen%</boolean>
+		</attribute>
+		<attribute id="fyto_sieralgen">
+			<description>Fytoplankton - sieralgen</description>
+			<boolean>%fyto_sieralgen%</boolean>
+		</attribute>
+		<attribute id="fyto_diatomeeën">
+			<description>Fytoplankton - diatomeeën</description>
+			<boolean>%fyto_diatomeeën%</boolean>
+		</attribute>
+		<attribute id="fyto_oogflagilaten">
+			<description>Fytoplankton - oogflagilaten</description>
+			<boolean>%fyto_oogflagilaten%</boolean>
+		</attribute>
+		<attribute id="fyto_cryptophyten">
+			<description>Fytoplankton - cryptophyten</description>
+			<boolean>%fyto_cryptophyten%</boolean>
+		</attribute>
+		<attribute id="fyto_groenalgen">
+			<description>Fytoplankton - groenalgen</description>
+			<boolean>%fyto_groenalgen%</boolean>
+		</attribute>
+		<attribute id="fyto_blauwalgen">
+			<description>Fytoplankton - blauwalgen</description>
+			<boolean>%fyto_blauwalgen%</boolean>
+		</attribute>
+		<attribute id="fyto_overig">
+			<description>Fytoplankton - overig</description>
+			<boolean>%fyto_overig%</boolean>
+		</attribute>
+		<attribute id="exo_macrofyten">
+			<description>Exoten - macrofyten</description>
+			<boolean>%exo_macrofyten%</boolean>
+		</attribute>
+		<attribute id="exo_macrofauna">
+			<description>Exoten - macrofauna</description>
+			<boolean>%exo_macrofauna%</boolean>
+		</attribute>
+		<attribute id="exo_vissen">
+			<description>Exoten - vissen</description>
+			<boolean>%exo_vissen%</boolean>
+		</attribute>
+		<attribute id="exo_kreeften">
+			<description>Exoten - kreeften</description>
+			<boolean>%exo_kreeften%</boolean>
+		</attribute>
+		<attribute id="NBwet_macrofyten">
+			<description>Beschermde macrofyten</description>
+			<boolean>%NBwet_macrofyten%</boolean>
+		</attribute>
+		<attribute id="NBwet_vissen">
+			<description>Beschermde vissen</description>
+			<boolean>%NBwet_vissen%</boolean>
+		</attribute>
+		<attribute id="NBwet_amfibieën">
+			<description>Beschermde amfibieën</description>
+			<boolean>%NBwet_amfibieën%</boolean>
+		</attribute>
+		<attribute id="NBwet_reptielen">
+			<description>Beschermde reptielen</description>
+			<boolean>%NBwet_reptielen%</boolean>
+		</attribute>
+		<attribute id="NBwet_weekdieren">
+			<description>Beschermde weekdieren</description>
+			<boolean>%NBwet_weekdieren%</boolean>
+		</attribute>
+		<attribute id="NBwet_insecten">
+			<description>Beschermde insecten</description>
+			<boolean>%NBwet_insecten%</boolean>
+		</attribute>
+		<attribute id="NBwet_vogels">
+			<description>Beschermde vogels</description>
+			<boolean>%NBwet_vogels%</boolean>
+		</attribute>
+		<attribute id="NBwet_zoogdieren">
+			<description>Beschermde zoogdieren</description>
+			<boolean>%NBwet_zoogdieren%</boolean>
+		</attribute>
+		<attribute id="Rlijst_gevoelig">
+			<description>Rode lijst - gevoelig</description>
+			<boolean>%Rlijst_gevoelig%</boolean>
+		</attribute>
+		<attribute id="Rlijst_kwetsbaar">
+			<description>Rode lijst - kwetsbaar</description>
+			<boolean>%Rlijst_kwetsbaar%</boolean>
+		</attribute>
+		<attribute id="Rlijst_bedreigd">
+			<description>Rode lijst - bedreigd</description>
+			<boolean>%Rlijst_bedreigd%</boolean>
+		</attribute>
+		<attribute id="Rlijst_ernstig bedreigd">
+			<description>Rode lijst - ernstig bedreigd</description>
+			<boolean>%Rlijst_ernstig bedreigd%</boolean>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Duplicates.csv</file>
+		<id>DP_%fewsid%</id>
+		<name>%Code%</name>
+		<group>Duplicaat</group>
+		<attribute id="ExternalQualifierId">
+			<text>DP_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>DP_%Code%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Waardebewerkingsmethode.csv</file>
+		<id>WB_%fewsid%</id>
+		<name>%Code%</name>
+		<group>Waardebewerkingsmethode</group>
+		<attribute id="ExternalQualifierId">
+			<text>WB_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>WB_%Code%</text>
+		</attribute>
+		<attribute id="Waardebewerkingsmethode">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Typering.csv</file>
+		<id>TP_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Typering</group>
+		<attribute id="ExternalQualifierId">
+			<text>TP_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>TP_%Code%</text>
+		</attribute>
+		<attribute id="Typering">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Grootheid.csv</file>
+		<id>GH_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Grootheid</group>
+		<attribute id="ExternalQualifierId">
+			<text>GH_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>GH_%Code%</text>
+		</attribute>
+		<attribute id="Grootheid">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Hoedanigheid.csv</file>
+		<id>HH_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Hoedanigheid</group>
+		<attribute id="ExternalQualifierId">
+			<text>HH_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>HH_%Code%</text>
+		</attribute>
+		<attribute id="Hoedanigheid">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Compartiment.csv</file>
+		<id>ACO_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>AnalyseCompartiment</group>
+		<attribute id="ExternalQualifierId">
+			<text>ACO_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>ACO_%Code%</text>
+		</attribute>
+		<attribute id="AnalyseCompartiment">
+			<text>%Omschrijving%</text>
+		</attribute>
+		<attribute id="aquoid">
+			<text>%Id%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Compartiment.csv</file>
+		<id>MCO_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>MonsterCompartiment</group>
+		<attribute id="ExternalQualifierId">
+			<text>MCO_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>MCO_%Code%</text>
+		</attribute>
+		<attribute id="MonsterCompartiment">
+			<text>%Omschrijving%</text>
+		</attribute>
+		<attribute id="aquoid">
+			<text>%Id%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>TWN_biotaxon.csv</file>
+		<id>OG_%fewsid%</id>
+		<name>%taxonname%</name>
+		<group>Organisme</group>
+		<attribute id="ExternalQualifierId">
+			<text>OG_%taxonnaamtype%</text>
+		</attribute>
+		<attribute id="TWN naam">
+			<description>Taxonnaam</description>
+			<text>%taxonname%</text>
+		</attribute>
+		<attribute id="TWN taxontype">
+			<description>Taxontype</description>
+			<text>%taxontype%</text>
+		</attribute>
+		<attribute id="TWN Taxonniveau">
+			<description>Taxonniveau</description>
+			<text>%Taxonniveau%</text>
+		</attribute>
+		<attribute id="nederlandse soortnaam">
+			<description>Nederlandse naam</description>
+			<text>%localname%</text>
+		</attribute>
+		<attribute id="TWN taxongroup">
+			<description>Taxongroup</description>
+			<text>%taxongroup%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Orgaan.csv</file>
+		<id>OR_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Orgaan</group>
+		<attribute id="ExternalQualifierId">
+			<text>OR_%CODE%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Lengtecategorie.csv</file>
+		<id>LC_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Lengtecategorie</group>
+		<attribute id="ExternalQualifierId">
+			<text>LC_%code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>LC_%code%</text>
+		</attribute>
+		<attribute id="Lengtecategorieaquo">
+			<text>%Id%</text>
+		</attribute>
+		<attribute id="Lengtecategorie">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Lengteklasse.csv</file>
+		<id>LK_%fewsid%</id>
+		<name>%naam%</name>
+		<group>Lengteklasse</group>
+		<attribute id="ExternalQualifierId">
+			<text>LK_%code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>LK_%code%</text>
+		</attribute>
+		<attribute id="Lengteklasseaquo">
+			<text>%Id%</text>
+		</attribute>
+		<attribute id="Lengteklasse">
+			<text>%naam%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Levensstadium.csv</file>
+		<id>LS_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Levensstadium</group>
+		<attribute id="ExternalQualifierId">
+			<text>LS_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>LS_%Code%</text>
+		</attribute>
+		<attribute id="Levensstadium">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Geslacht.csv</file>
+		<id>GS_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Geslacht</group>
+		<attribute id="ExternalQualifierId">
+			<text>GS_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>GS_%Code%</text>
+		</attribute>
+		<attribute id="Geslacht">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Verschijningsvorm.csv</file>
+		<id>VV_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Verschijningsvorm</group>
+		<attribute id="ExternalQualifierId">
+			<text>VV_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>VV_%Code%</text>
+		</attribute>
+		<attribute id="Verschijningsvorm">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Levensvorm.csv</file>
+		<id>LV_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Levensvorm</group>
+		<attribute id="ExternalQualifierId">
+			<text>LV_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>LV_%Code%</text>
+		</attribute>
+		<attribute id="Levensvorm">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Gedrag.csv</file>
+		<id>GG_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Gedrag</group>
+		<attribute id="ExternalQualifierId">
+			<text>GG_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>GG_%Code%</text>
+		</attribute>
+		<attribute id="aquoid">
+			<text>%Id%</text>
+		</attribute>
+		<attribute id="Gedrag">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Bemonsteringsapparaat.csv</file>
+		<id>BA_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Bemonsteringsapparaat</group>
+		<attribute id="ExternalQualifierId">
+			<text>BA_%Id%</text>
+		</attribute>
+		<attribute id="Bemonsteringsapparaat">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Waardebepalingsmethode.csv</file>
+		<id>WP_%fewsid%</id>
+		<name>%Code%</name>
+		<group>Waardebepalingsmethode</group>
+		<attribute id="ExternalQualifierId">
+			<text>WP_%Code%</text>
+		</attribute>
+		<attribute id="Waardebepalingsmethode">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Waardebepalingstechniek.csv</file>
+		<id>WBT_%fewsid%</id>
+		<name>%Code%</name>
+		<group>Waardebepalingstechniek</group>
+		<attribute id="ExternalQualifierId">
+			<text>WBT_%Code%</text>
+		</attribute>
+		<attribute id="Waardebepalingstechniek">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Kwaliteitsoordeel.csv</file>
+		<id>KW_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>Kwaliteitsoordeel</group>
+		<attribute id="ExternalQualifierId">
+			<text>KW_%Code%</text>
+		</attribute>
+		<attribute id="Kwaliteitsoordeel">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>LocatietypeWaardeBepaling.csv</file>
+		<id>LT_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>LocatietypeWaardeBepaling</group>
+		<attribute id="ExternalQualifierId">
+			<text>LT_%Id%</text>
+		</attribute>
+		<attribute id="LocatietypeWaardeBepaling">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<csvFile>
+		<file>Parametercode.csv</file>
+		<id>PC_%fewsid%</id>
+		<name>%Omschrijving%</name>
+		<group>ParameterCode</group>
+		<attribute id="ExternalQualifierId">
+			<text>PC_%Code%</text>
+		</attribute>
+		<attribute id="ExternalQualifierId_DUMP">
+			<text>PC_%Code%</text>
+		</attribute>
+		<attribute id="ParameterCode">
+			<text>%Omschrijving%</text>
+		</attribute>
+	</csvFile>
+	<qualifierRootNode id="IMmetingen">
+		<qualifierNode id="MonsterCompartiment">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="MCO_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="AnalyseCompartiment">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="ACO_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="ParameterCode">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="PC_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Hoedanigheid">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="HH_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Grootheid">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="GH_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Typering">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="TP_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Waarnemingssoort">
+			<constraints>
+				<idStartsWith prefix="WNS"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Taxontype">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="TT_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Biotaxon">
+			<qualifierNode id="Alle taxa">
+				<constraints>
+					<attributeTextStartsWith id="ExternalQualifierId" prefix="BN_"/>
+				</constraints>
+			</qualifierNode>
+			<qualifierNode id="Macrofyten">
+				<qualifierNode id="alle taxa macrofyten">
+					<constraints>
+						<anyValid>
+							<attributeTextEquals id="TWN taxontype" equals="Macrophytes"/>
+							<attributeTrue id="mafy_oeverplanten"/>
+							<attributeTrue id="mafy_waterplanten"/>
+							<attributeTrue id="mafy_droge oever"/>
+							<attributeTrue id="mafy_emerse planten"/>
+							<attributeTrue id="mafy_drijfplanten"/>
+							<attributeTrue id="mafy_submerse planten"/>
+							<attributeTrue id="mafy_kroos"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="oeverplanten">
+					<constraints>
+						<attributeTrue id="mafy_oeverplanten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="waterplanten">
+					<constraints>
+						<attributeTrue id="mafy_waterplanten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="droge oever">
+					<constraints>
+						<attributeTrue id="mafy_droge oever"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="emerse planten">
+					<constraints>
+						<attributeTrue id="mafy_emerse planten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="drijfplanten">
+					<constraints>
+						<attributeTrue id="mafy_drijfplanten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="submerse planten">
+					<constraints>
+						<attributeTrue id="mafy_submerse planten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="kroos">
+					<constraints>
+						<attributeTrue id="mafy_kroos"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Macrofauna">
+				<qualifierNode id="alle taxa macrofauna">
+					<name>alle taxa macrofauna</name>
+					<constraints>
+						<anyValid>
+							<attributeTextEquals id="TWN taxontype" equals="Macroinvertebrates"/>
+							<attributeTrue id="mafa_borstelarme wormen"/>
+							<attributeTrue id="mafa_veel borstelige wormen"/>
+							<attributeTrue id="mafa_watermijten en waterspinnen"/>
+							<attributeTrue id="mafa_vlokreeften"/>
+							<attributeTrue id="mafa_waterpissebedden"/>
+							<attributeTrue id="mafa_aasgarnalen"/>
+							<attributeTrue id="mafa_dansmuggen"/>
+							<attributeTrue id="mafa_haften"/>
+							<attributeTrue id="mafa_wantsen"/>
+							<attributeTrue id="mafa_tweekleppigen"/>
+							<attributeTrue id="mafa_slakken"/>
+							<attributeTrue id="mafa_overig"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_borstelarme wormen">
+					<name>borstelarme wormen</name>
+					<constraints>
+						<attributeTrue id="mafa_borstelarme wormen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_veel borstelige wormen">
+					<name>veel borstelige wormen</name>
+					<constraints>
+						<attributeTrue id="mafa_veel borstelige wormen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_watermijten en waterspinnen">
+					<name>watermijten en waterspinnen</name>
+					<constraints>
+						<attributeTrue id="mafa_watermijten en waterspinnen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_vlokreeften">
+					<name>vlokreeften</name>
+					<constraints>
+						<attributeTrue id="mafa_vlokreeften"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_waterpissebedden">
+					<name>waterpissebedden</name>
+					<constraints>
+						<attributeTrue id="mafa_waterpissebedden"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_aasgarnalen">
+					<name>aasgarnalen</name>
+					<constraints>
+						<attributeTrue id="mafa_aasgarnalen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_dansmuggen">
+					<name>dansmuggen</name>
+					<constraints>
+						<attributeTrue id="mafa_dansmuggen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_haften">
+					<name>haften</name>
+					<constraints>
+						<attributeTrue id="mafa_haften"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_wantsen">
+					<name>wantsen</name>
+					<constraints>
+						<attributeTrue id="mafa_wantsen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_tweekleppigen">
+					<name>tweekleppigen</name>
+					<constraints>
+						<attributeTrue id="mafa_tweekleppigen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_slakken">
+					<name>slakken</name>
+					<constraints>
+						<attributeTrue id="mafa_slakken"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="mafa_overig">
+					<name>overig</name>
+					<constraints>
+						<attributeTrue id="mafa_overig"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Vissen">
+				<qualifierNode id="alle taxa vissen">
+					<constraints>
+						<anyValid>
+							<attributeTextEquals id="TWN taxontype" equals="Fish"/>
+							<attributeTrue id="vis_eurytoop"/>
+							<attributeTrue id="vis_limnofiel"/>
+							<attributeTrue id="vis_rheofiel"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="eurytoop">
+					<constraints>
+						<attributeTrue id="vis_eurytoop"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="limnofiel">
+					<constraints>
+						<attributeTrue id="vis_limnofiel"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="rheofiel">
+					<constraints>
+						<attributeTrue id="vis_rheofiel"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Fytoplankton">
+				<qualifierNode id="alle taxa fytoplankton">
+					<name>alle taxa fytoplankton</name>
+					<constraints>
+						<anyValid>
+							<attributeTextEquals id="TWN taxontype" equals="Phytoplankton"/>
+							<attributeTrue id="fyto_goudalgen"/>
+							<attributeTrue id="fyto_sieralgen"/>
+							<attributeTrue id="fyto_diatomeeën"/>
+							<attributeTrue id="fyto_oogflagilaten"/>
+							<attributeTrue id="fyto_cryptophyten"/>
+							<attributeTrue id="fyto_groenalgen"/>
+							<attributeTrue id="fyto_blauwalgen"/>
+							<attributeTrue id="fyto_overig"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_goudalgen">
+					<name>goudalgen</name>
+					<constraints>
+						<attributeTrue id="fyto_goudalgen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_sieralgen">
+					<name>sieralgen</name>
+					<constraints>
+						<attributeTrue id="fyto_sieralgen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_diatomeeën">
+					<name>diatomeeën</name>
+					<constraints>
+						<attributeTrue id="fyto_diatomeeën"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_oogflagilaten">
+					<name>oogflagilaten</name>
+					<constraints>
+						<attributeTrue id="fyto_oogflagilaten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_cryptophyten">
+					<name>cryptophyten</name>
+					<constraints>
+						<attributeTrue id="fyto_cryptophyten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_groenalgen">
+					<name>groenalgen</name>
+					<constraints>
+						<attributeTrue id="fyto_groenalgen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_blauwalgen">
+					<name>blauwalgen</name>
+					<constraints>
+						<attributeTrue id="fyto_blauwalgen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="fyto_overig">
+					<name>overig</name>
+					<constraints>
+						<attributeTrue id="fyto_overig"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Diatomeeën">
+				<constraints>
+					<attributeTextEquals id="TWN taxontype" equals="Diatoms"/>
+				</constraints>
+			</qualifierNode>
+			<qualifierNode id="Macroalgen">
+				<constraints>
+					<attributeTextEquals id="TWN taxontype" equals="Macroalgae"/>
+				</constraints>
+			</qualifierNode>
+			<qualifierNode id="Overige soortgroepen">
+				<qualifierNode id="amfibieën">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Amphibia"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="reptielen">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Reptiles"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="vogels">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Birds"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="vlinders">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Butterflies"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="zoogdieren">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Mammals"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="nematoden">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Nematodes"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="zooplankton">
+					<constraints>
+						<attributeTextEquals id="TWN taxontype" equals="Zooplankton"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Exoten">
+				<qualifierNode id="alle exoten">
+					<name>alle exoten</name>
+					<constraints>
+						<anyValid>
+							<attributeTrue id="exo_macrofyten"/>
+							<attributeTrue id="exo_macrofauna"/>
+							<attributeTrue id="exo_vissen"/>
+							<attributeTrue id="exo_kreeften"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="exo_macrofyten">
+					<name>macrofyten</name>
+					<constraints>
+						<attributeTrue id="exo_macrofyten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="exo_macrofauna">
+					<name>macrofauna</name>
+					<constraints>
+						<attributeTrue id="exo_macrofauna"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="exo_vissen">
+					<name>vissen</name>
+					<constraints>
+						<attributeTrue id="exo_vissen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="exo_kreeften">
+					<name>kreeften</name>
+					<constraints>
+						<attributeTrue id="exo_kreeften"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Beschermd">
+				<qualifierNode id="alle beschermde soorten">
+					<name>alle beschermde soorten</name>
+					<constraints>
+						<anyValid>
+							<attributeTrue id="NBwet_macrofyten"/>
+							<attributeTrue id="NBwet_vissen"/>
+							<attributeTrue id="NBwet_amfibieën"/>
+							<attributeTrue id="NBwet_reptielen"/>
+							<attributeTrue id="NBwet_weekdieren"/>
+							<attributeTrue id="NBwet_insecten"/>
+							<attributeTrue id="NBwet_vogels"/>
+							<attributeTrue id="NBwet_zoogdieren"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_macrofyten">
+					<name>macrofyten</name>
+					<constraints>
+						<attributeTrue id="NBwet_macrofyten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_vissen">
+					<name>vissen</name>
+					<constraints>
+						<attributeTrue id="NBwet_vissen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_amfibieën">
+					<name>amfibieën</name>
+					<constraints>
+						<attributeTrue id="NBwet_amfibieën"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_reptielen">
+					<name>reptielen</name>
+					<constraints>
+						<attributeTrue id="NBwet_reptielen"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_weekdieren">
+					<name>weekdieren</name>
+					<constraints>
+						<attributeTrue id="NBwet_weekdieren"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_insecten">
+					<name>insecten</name>
+					<constraints>
+						<attributeTrue id="NBwet_insecten"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_vogels">
+					<name>vogels</name>
+					<constraints>
+						<attributeTrue id="NBwet_vogels"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="NBwet_zoogdieren">
+					<name>zoogdieren</name>
+					<constraints>
+						<attributeTrue id="NBwet_zoogdieren"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+			<qualifierNode id="Rode lijst">
+				<qualifierNode id="alle rode lijst soorten">
+					<constraints>
+						<anyValid>
+							<attributeTrue id="Rlijst_gevoelig"/>
+							<attributeTrue id="Rlijst_kwetsbaar"/>
+							<attributeTrue id="Rlijst_bedreigd"/>
+							<attributeTrue id="Rlijst_ernstig bedreigd"/>
+						</anyValid>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="gevoelig">
+					<constraints>
+						<attributeTrue id="Rlijst_gevoelig"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="kwetsbaar">
+					<constraints>
+						<attributeTrue id="Rlijst_kwetsbaar"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="bedreigd">
+					<constraints>
+						<attributeTrue id="Rlijst_bedreigd"/>
+					</constraints>
+				</qualifierNode>
+				<qualifierNode id="ernstig bedreigd">
+					<constraints>
+						<attributeTrue id="Rlijst_ernstig bedreigd"/>
+					</constraints>
+				</qualifierNode>
+			</qualifierNode>
+		</qualifierNode>
+		<qualifierNode id="Duplicaat">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="DP_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Waardebewerkingsmethode">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="WB_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Lengteklasse">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="LK_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Lengtecategorie">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="LC_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Levensvorm">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="LV_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Levensstadium">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="LS_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Verschijningsvorm">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="VV_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Geslacht">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="GS_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Gedrag">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="GG_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Organisme">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="OG_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Orgaan">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="OR_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Bemonsteringsapparaat">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="BA_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Waardebepalingsmethode">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="WP_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Waardebepalingstechniek">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="WBT_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="LocatietypeWaardeBepaling">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="LT_"/>
+			</constraints>
+		</qualifierNode>
+		<qualifierNode id="Kwaliteitsoordeel">
+			<constraints>
+				<attributeTextStartsWith id="ExternalQualifierId" prefix="KW_"/>
+			</constraints>
+		</qualifierNode>
+	</qualifierRootNode>
+</qualifiers>

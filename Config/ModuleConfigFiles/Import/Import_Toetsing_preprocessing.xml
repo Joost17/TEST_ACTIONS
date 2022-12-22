@@ -1,0 +1,43 @@
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<generalAdapterRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/generalAdapterRun.xsd">
+	<!-- MODULE VOOR HET PREPROCESSEN VAN DE IMPORTBESTANDEN VOOR CHEMIE/BIOLOGIE -->
+	<general>
+		<rootDir>%REGION_HOME%/Modules/Import_preprocessing</rootDir>
+		<workDir>%ROOT_DIR%</workDir>
+		<exportDir>%ROOT_DIR%</exportDir>
+		<importDir>%ROOT_DIR%</importDir>
+		<dumpFileDir>%REGION_HOME%/temp</dumpFileDir>
+		<dumpDir>%ROOT_DIR%</dumpDir>
+		<diagnosticFile>$DATA_DIR$/logs</diagnosticFile>
+	</general>
+	<activities>
+		<startUpActivities>
+			<purgeActivity>
+				<filter>$DATA_DIR$/fromfss/ImportPrePro_Logging/*</filter>
+			</purgeActivity>
+		</startUpActivities>
+		<executeActivities>
+			<executeActivity>
+				<command>
+					<executable>run_PreProImportToetsing_EFCIS.bat</executable>
+				</command>
+				<arguments>
+					<argument>$CONDA_BAT$</argument>
+					<argument>$CONDA_ENV$</argument>
+					<argument>$CONFIG_DIR$</argument>
+					<argument>$IMPORT_FOLDER$/Toetsing</argument>
+					<argument>$DATA_DIR$/fromfss/ImportPrePro_Logging/</argument>
+				</arguments>			
+				<logFile>
+					<file>$DATA_DIR$/fromfss/ImportPrePro_Logging/log_PreProToetsing_EFCIS.txt</file>
+					<infoLinePattern>*INFO*</infoLinePattern>
+					<errorLinePattern>*ERROR*</errorLinePattern>
+					<warningLinePattern>*WARNING*</warningLinePattern>
+					<debugLinePattern>*DEBUG*</debugLinePattern>
+				</logFile>
+				<timeOut>600000</timeOut>
+				<ignoreDiagnostics>true</ignoreDiagnostics>
+			</executeActivity>
+		</executeActivities>
+	</activities>
+</generalAdapterRun>

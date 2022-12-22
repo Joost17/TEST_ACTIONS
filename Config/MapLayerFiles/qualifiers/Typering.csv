@@ -1,0 +1,178 @@
+﻿fewsid;Code;Omschrijving;CASnummer;Groep;Id;Begin geldigheid;Eind geldigheid
+1;AFMD;Afmeldreden niet genomen monster;NVT;Typering;3059;10 mei 2014 00:00:00;1 januari 2100 00:00:00
+2;ANSNL-D01;Biodiversiteit;NVT;Typering;5347;22 september 2015 00:00:00;1 januari 2100 00:00:00
+3;ANSNL-D02;Exoten;NVT;Typering;5348;22 september 2015 00:00:00;1 januari 2100 00:00:00
+4;ANSNL-D03;Commerciële vis, schaal- en schelpdieren;NVT;Typering;5349;22 september 2015 00:00:00;1 januari 2100 00:00:00
+5;ANSNL-D04;Voedselwebben;NVT;Typering;5350;22 september 2015 00:00:00;1 januari 2100 00:00:00
+6;ANSNL-D05;Eutrofiering;NVT;Typering;5351;22 september 2015 00:00:00;1 januari 2100 00:00:00
+7;ANSNL-D06;Zeebodemintegriteit;NVT;Typering;5352;22 september 2015 00:00:00;1 januari 2100 00:00:00
+8;ANSNL-D07;Hydrografische eigenschappen;NVT;Typering;5353;22 september 2015 00:00:00;1 januari 2100 00:00:00
+9;ANSNL-D08;Vervuilende stoffen;NVT;Typering;5354;22 september 2015 00:00:00;1 januari 2100 00:00:00
+10;ANSNL-D09;Vervuilende stoffen visserijproducten;NVT;Typering;5355;22 september 2015 00:00:00;1 januari 2100 00:00:00
+11;ANSNL-D10;Zwerfvuil;NVT;Typering;5356;22 september 2015 00:00:00;1 januari 2100 00:00:00
+12;ANSNL-D10C1;D10C1 afval (excl. microafval);NVT;TyperingMarien;5793;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+13;ANSNL-D10C2;D10C2 microafval;NVT;TyperingMarien;5794;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+14;ANSNL-D10C3;D10C3 afval in de magen van zeedieren;NVT;TyperingMarien;5795;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+15;ANSNL-D10C4;D10C4 nadelige effecten van afval;NVT;TyperingMarien;5796;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+16;ANSNL-D11;Onderwatergeluid;NVT;Typering;5357;22 september 2015 00:00:00;1 januari 2100 00:00:00
+17;ANSNL-D11C1;D11C1 antropogeen impulsief geluid;NVT;TyperingMarien;5797;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+18;ANSNL-D11C2;D11C2 antropogeen continu geluid;NVT;TyperingMarien;5798;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+19;ANSNL-D1C1;D1C1 sterftecijfer van bijvangst;NVT;TyperingMarien;5799;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+20;ANSNL-D1C2;D1C2 populatiedichtheid;NVT;TyperingMarien;5800;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+21;ANSNL-D1C3;D1C3 populatie demografie;NVT;TyperingMarien;5801;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+22;ANSNL-D1C4;D1C4 populatie verspreiding;NVT;TyperingMarien;5802;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+23;ANSNL-D1C5;D1C5 habitat voor de soort;NVT;TyperingMarien;5803;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+24;ANSNL-D1C6;D1C6 toestand van het habitattype;NVT;TyperingMarien;5804;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+25;ANSNL-D2C1;D2C1 geïntroduceerde niet-inheemse soorten;NVT;TyperingMarien;5769;13 december 2017 00:00:00;1 januari 2100 00:00:00
+26;ANSNL-D2C2;D2C2 dichth. + verspreid. ingeburgerde niet-inheemse soorten;NVT;TyperingMarien;5770;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+27;ANSNL-D2C3;D2C3 deel dat neg. veranderd is door niet-inheemse soorten;NVT;TyperingMarien;5771;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+28;ANSNL-D3C1;D3C1 visserijsterfte;NVT;TyperingMarien;5772;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+29;ANSNL-D3C2;D3C2 paaibiomassa;NVT;TyperingMarien;5773;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+30;ANSNL-D3C3;D3C3 leeftijdsopbouw en grootteverdeling;NVT;TyperingMarien;5774;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+31;ANSNL-D4C1;D4C1 diversiteit van het trofische gilde;NVT;TyperingMarien;5807;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+32;ANSNL-D4C2;D4C2 dichtheid van het trofische gilde;NVT;TyperingMarien;5808;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+33;ANSNL-D4C3;D4C3 grootteverdeling van het trofische gilde;NVT;TyperingMarien;5809;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+34;ANSNL-D4C4;D4C4 productiviteit van het trofische gilde;NVT;TyperingMarien;5810;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+35;ANSNL-D5C1;D5C1 nutriëntenconcentratie;NVT;TyperingMarien;5775;13 december 2017 00:00:00;1 januari 2100 00:00:00
+36;ANSNL-D5C2;D5C2 chlorofyl-a-concentratie;NVT;TyperingMarien;5776;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+37;ANSNL-D5C3;D5C3 schadelijke algenbloei;NVT;TyperingMarien;5777;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+38;ANSNL-D5C4;D5C4 doorzicht;NVT;TyperingMarien;5778;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+39;ANSNL-D5C5;D5C5 opgeloste-zuurstofconcentratie;NVT;TyperingMarien;5779;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+40;ANSNL-D5C6;D5C6 dichtheid van opportunistische macroalgen;NVT;TyperingMarien;5780;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+41;ANSNL-D5C7;D5C7 schadelijke effecten nutriënten op macrofytengemeensch.;NVT;TyperingMarien;5781;13 december 2017 00:00:00;1 januari 2100 00:00:00
+42;ANSNL-D5C8;D5C8 schadelijke effecten nutriënten op macrofaunagemeensch.;NVT;TyperingMarien;5782;13 december 2017 00:00:00;1 januari 2100 00:00:00
+43;ANSNL-D6C1;D6C1 fysiek verlies van de natuurlijke zeebodem;NVT;TyperingMarien;5783;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+44;ANSNL-D6C2;D6C2 fysieke verstoringen van de zeebodem;NVT;TyperingMarien;5784;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+45;ANSNL-D6C3;D6C3 omvang van habitattype dat schade is berokkend;NVT;TyperingMarien;5785;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+46;ANSNL-D6C4;D6C4 omvang van het verlies van het habitattype;NVT;TyperingMarien;5805;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+47;ANSNL-D6C5;D6C5 conditie van het benthisch habitat;NVT;TyperingMarien;5806;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+48;ANSNL-D7C1;D7C1 permanente wijziging v.d. hydrografische omstandigheden;NVT;TyperingMarien;5786;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+49;ANSNL-D7C2;D7C2 nadelige wijzig. hydrograf. omstandigh. per habitattype;NVT;TyperingMarien;5787;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+50;ANSNL-D8C1;D8C1 verontreinigingen in het milieu;NVT;TyperingMarien;5788;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+51;ANSNL-D8C2;D8C2 nadelige effecten van verontreinigingen;NVT;TyperingMarien;5789;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+52;ANSNL-D8C3;D8C3 significante ernstige verontreinigingen;NVT;TyperingMarien;5790;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+53;ANSNL-D8C4;D8C4 schadelijke effecten van significante ernstige verontr.;NVT;TyperingMarien;5791;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+54;ANSNL-D9C1;D9C1 verontreinigingen in visserijproducten;NVT;TyperingMarien;5792;3 mei 2017 00:00:00;1 januari 2100 00:00:00
+55;BEMSDOVZDE;Bemonsterde oeverzijde;NVT;Typering;4986;8 december 2018 00:00:00;1 januari 2100 00:00:00
+56;BESDWG;Beschaduwing;NVT;Typering;3140;10 mei 2014 00:00:00;1 januari 2100 00:00:00
+57;BEWKGD;Bewolkingsgraad;NVT;Typering;3150;10 mei 2014 00:00:00;1 januari 2100 00:00:00
+58;BIJZDRBSDLGM;Bijzondere bestanddelen grondmonster;NVT;Typering;3172;8 juli 2020;1 januari 2100
+59;BIOLT;Biologie totaal;NVT;Typering;5839;9 december 2017 00:00:00;1 januari 2100 00:00:00
+60;BLADVL;Bladval;NVT;Typering;3210;10 mei 2014 00:00:00;1 januari 2100 00:00:00
+61;BLOEIBAG;Bloei blauwalg (kwalitatief);NVT;Typering;3211;10 mei 2014 00:00:00;1 januari 2100 00:00:00
+62;BODKLTT;Bodemkwaliteit (eindoordeel);NVT;Typering;4936;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+63;BRAKKRTR;Brakkarakter;NVT;Typering;3216;10 mei 2014 00:00:00;1 januari 2100 00:00:00
+64;CATCANBTRDLG;Categorie Cyanobacteriedrijflaag;NVT;Typering;3301;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+65;CATCANBTRMT;Categorie Cyanobacteriemat;NVT;Typering;5950;19 mei 2018 00:00:00;1 januari 2100 00:00:00
+66;CHEMT;Chemische toestand;NVT;Typering;5840;9 december 2017 00:00:00;1 januari 2100 00:00:00
+67;DOODSOZK;Doodsoorzaak;NVT;Typering;5631;25 augustus 2016 00:00:00;1 januari 2100 00:00:00
+68;DROOGSWTGG;Droogstand watergang;NVT;Typering;3525;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+69;ECOLT;Ecologie toestand of potentieel;NVT;Typering;5841;9 december 2017 00:00:00;1 januari 2100 00:00:00
+70;EUNIS_cde;EUNIS code;NVT;Typering;5759;28 januari 2017 00:00:00;1 januari 2100 00:00:00
+71;FYSCHEM;Algemene fysisch-chemische parameters;NVT;Typering;5842;9 december 2017 00:00:00;1 januari 2100 00:00:00
+72;FYTOBEN;Fytobenthos-kwaliteit;NVT;Typering;5719;3 december 2016 00:00:00;1 januari 2100 00:00:00
+73;FYTOPL;Fytoplankton-kwaliteit;NVT;Typering;5716;3 december 2016 00:00:00;1 januari 2100 00:00:00
+74;FYT_ABUN;Abundantie fytoplankton;NVT;Typering;5714;3 december 2016 00:00:00;1 januari 2100 00:00:00
+75;FYT_SRTS;Soortensamenstelling fytoplankton;NVT;Typering;5715;3 december 2016 00:00:00;1 januari 2100 00:00:00
+76;GEHSDE;Gehoorschade;NVT;Typering;5632;25 augustus 2016 00:00:00;1 januari 2100 00:00:00
+77;GEOLGSODGD;Geologische ondergrond;NVT;Typering;3669;21 januari 2012 00:00:00;1 januari 2100 00:00:00
+78;GETETTPE;Getijextreemtype;NVT;Typering;3679;26 augustus 2011 00:00:00;1 januari 2100 00:00:00
+79;GETFSE;Getijfase;NVT;Typering;6051;12 november 2019 00:00:00;1 januari 2100 00:00:00
+80;GEURITSTT;Geurintensiteit;NVT;Typering;3682;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+81;GRONDSBMSGD;Grondsoort bijmengsel grind;NVT;Typering;3688;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+82;GRONDSBMSHMS;Grondsoort bijmengsel humus;NVT;Typering;3690;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+83;GRONDSBMSLTM;Grondsoort bijmengsel lutum;NVT;Typering;3697;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+84;GRONDSMDAN;Grondsoort mediaan;NVT;Typering;3698;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+85;GRONDST;Grondsoort;NVT;Typering;3699;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+86;GWALGCHM;Algemene chemische toestand grondwater;NVT;Typering;5843;9 december 2017 00:00:00;1 januari 2100 00:00:00
+87;GWEINDOD;Eindoordeel grondwater;NVT;Typering;5844;9 december 2017 00:00:00;1 januari 2100 00:00:00
+88;GWINTAOW;Interactie grondwater met oppervlaktewater;NVT;Typering;5845;9 december 2017 00:00:00;1 januari 2100 00:00:00
+89;GWINTATE;Interactie grondwater met terrestrische ecosystemen;NVT;Typering;5846;9 december 2017 00:00:00;1 januari 2100 00:00:00
+90;GWINTRUS;Intrusies grondwater (kwantiteit);NVT;Typering;5847;9 december 2017 00:00:00;1 januari 2100 00:00:00
+91;GWINVLDW;Invloed grondwater op drinkwaterwinning;NVT;Typering;5848;9 december 2017 00:00:00;1 januari 2100 00:00:00
+92;GWINVLOW;Invloed grondwater op het oppervlaktewater;NVT;Typering;5849;9 december 2017 00:00:00;1 januari 2100 00:00:00
+93;GWINVLTE;Invloed grondwater op terrestrische ecosystemen;NVT;Typering;5850;9 december 2017 00:00:00;1 januari 2100 00:00:00
+94;GWKWALT;Toestand grondwaterkwaliteit;NVT;Typering;5851;9 december 2017 00:00:00;1 januari 2100 00:00:00
+95;GWKWANT;Toestand grondwaterkwantiteit;NVT;Typering;5852;9 december 2017 00:00:00;1 januari 2100 00:00:00
+96;GWSTADMR;Stadium maatregelen grondwater;NVT;Typering;5853;9 december 2017 00:00:00;1 januari 2100 00:00:00
+97;GWTSTIJG;Trends in stijghoogten grondwater;NVT;Typering;5854;9 december 2017 00:00:00;1 januari 2100 00:00:00
+98;GWWATERB;Waterbalans grondwater;NVT;Typering;5855;9 december 2017 00:00:00;1 januari 2100 00:00:00
+99;GWZOUTIT;Zoutintrusies en andere intrusies grondwater;NVT;Typering;5856;9 december 2017 00:00:00;1 januari 2100 00:00:00
+100;HABTDVSTT;Habitatdiversiteit;NVT;Typering;3711;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+101;HECHTGBDHD;Hechtgebondenheid;NVT;Typering;1870;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+102;HELDHD;Helderheid;NVT;Typering;3734;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+103;HMFCON;Riviercontinuïteit;NVT;Typering;5857;12 december 2017 00:00:00;1 januari 2100 00:00:00
+104;HMFGET;Getijdenregime;NVT;Typering;5858;9 december 2017 00:00:00;1 januari 2100 00:00:00
+105;HMFMOR;Morfologie;NVT;Typering;5859;9 december 2017 00:00:00;1 januari 2100 00:00:00
+106;HMFREG;Hydrologisch regime;NVT;Typering;5860;9 december 2017 00:00:00;1 januari 2100 00:00:00
+107;HMFT;Hydromorfologie totaal;NVT;Typering;5861;9 december 2017 00:00:00;1 januari 2100 00:00:00
+108;IMPSSDUM;Imposexstadium;NVT;Typering;5328;22 september 2015 00:00:00;1 januari 2100 00:00:00
+109;INBDF;In bedrijf;NVT;Typering;3848;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+110;INRTEBHR;Inrichting en beheer;NVT;Typering;3858;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+111;INRTG;Inrichting;NVT;Typering;3860;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+112;INTSSDUM;Intersexstadium;NVT;Typering;5326;22 september 2015 00:00:00;1 januari 2100 00:00:00
+113;ISOLTE;Isolatie;NVT;Typering;3874;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+114;KENMKHD;Kenmerkendheid;NVT;Typering;5837;13 december 2017 00:00:00;1 januari 2100 00:00:00
+115;KLEURITSTT;Kleur intensiteit;NVT;Typering;935;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+116;KWD_AREA;Areaal kwelders;NVT;Typering;5862;9 december 2017 00:00:00;1 januari 2100 00:00:00
+117;KWD_KWAL;Kwaliteit kwelders;NVT;Typering;5863;9 december 2017 00:00:00;1 januari 2100 00:00:00
+118;LANDGBK;Landgebruik;NVT;Typering;3939;21 januari 2012 00:00:00;1 januari 2100 00:00:00
+119;LANDSPLKLGG;Landschappelijk ligging;NVT;Typering;3941;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+120;LEVDHD;Levendigheid;NVT;Typering;3952;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+121;LEVSDM;Levensstadium;NVT;Typering;3954;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+122;MAALGEN;Macroalgen-kwaliteit;NVT;Typering;5864;9 december 2017 00:00:00;1 januari 2100 00:00:00
+123;MAFAUNA;Macrofauna-kwaliteit;NVT;Typering;5721;3 december 2016 00:00:00;1 januari 2100 00:00:00
+124;MAFYTEN;Macrofyten-kwaliteit;NVT;Typering;5865;9 december 2017 00:00:00;1 januari 2100 00:00:00
+125;MAF_ALGV;Algemene verstoring macrofauna;NVT;Typering;5909;10 april 2018 00:00:00;1 januari 2100 00:00:00
+126;MAF_DIVS;Diversiteit macrofauna;NVT;Typering;5911;10 april 2018 00:00:00;1 januari 2100 00:00:00
+127;MAF_SEDV;Sedimentvervuiling macrofauna;NVT;Typering;5910;10 april 2018 00:00:00;1 januari 2100 00:00:00
+128;MAF_ZOET;Zoetwatersoorten macrofauna;NVT;Typering;5908;10 april 2018 00:00:00;1 januari 2100 00:00:00
+129;MEADRG;Meandering;NVT;Typering;3996;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+130;MFT_ABGV;Abundantie groeivormen macrofyten;NVT;Typering;5717;3 december 2016 00:00:00;1 januari 2100 00:00:00
+131;MFT_SRTS;Soortensamenstelling macrofyten;NVT;Typering;5718;3 december 2016 00:00:00;1 januari 2100 00:00:00
+132;MNCR_cde;MNCR code;NVT;Typering;5760;28 januari 2017 00:00:00;1 januari 2100 00:00:00
+133;NEERSVM;Neerslagvorm;NVT;Typering;4055;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+134;NUTRIENT;Nutriënten;NVT;Typering;5866;12 december 2017 00:00:00;1 januari 2100 00:00:00
+135;OEVBGIG;Oeverbegroeiing;NVT;Typering;4076;13 december 2017 00:00:00;1 januari 2100 00:00:00
+136;OEVST;Oeversoort;NVT;Typering;4080;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+137;OEVVTPG;Oeververtrapping;NVT;Typering;4081;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+138;ONDHD;Onderhoud;NVT;Typering;4083;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+139;OVWFLORA;Overige waterflora-kwaliteit;NVT;Typering;5720;3 december 2016 00:00:00;1 januari 2100 00:00:00
+140;OWEINDOD;Eindoordeel oppervlaktewater;NVT;Typering;5867;9 december 2017 00:00:00;1 januari 2100 00:00:00
+141;OWSTADMR;Stadium maatregelen oppervlaktewater;NVT;Typering;5868;9 december 2017 00:00:00;1 januari 2100 00:00:00
+142;PERMNTE;Permanentie;NVT;Typering;4173;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+143;PROFL;Profiel;NVT;Typering;4186;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+144;RISCNVCANBTR;Risiconiveau cyanobacteriën;NVT;Typering;4261;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+145;SAPBE;Saprobie;NVT;Typering;4306;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+146;SEXE;Sexe (geslacht);NVT;Typering;4468;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+147;STAATOBDG;Staat van ontbinding;NVT;Typering;5630;25 augustus 2016 00:00:00;1 januari 2100 00:00:00
+148;STOFEU;Overige stoffen met EU norm;NVT;Typering;5869;9 december 2017 00:00:00;1 januari 2100 00:00:00
+149;STOFOV;Specifieke verontreinigende stoffen;NVT;Typering;5870;9 december 2017 00:00:00;1 januari 2100 00:00:00
+150;STOFPR;Prioritaire stoffen totaal;NVT;Typering;5871;9 december 2017 00:00:00;1 januari 2100 00:00:00
+151;STOFPR_33-45;Prioritaire stoffen - nieuw vanaf 2013 - nr. 34 t/m 45;NVT;Typering;5872;9 december 2017 00:00:00;1 januari 2100 00:00:00
+152;STOFPR_UBQJ;Prioritaire stoffen - ubiquitair;NVT;Typering;5873;9 december 2017 00:00:00;1 januari 2100 00:00:00
+153;STOFPR_UBQN;Prioritaire stoffen - niet-ubiquitair;NVT;Typering;5874;9 december 2017 00:00:00;1 januari 2100 00:00:00
+154;STROMG;Stroming;NVT;Typering;4628;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+155;STROMVRATE;Stromingsvariatie;NVT;Typering;4629;21 januari 2012 00:00:00;1 januari 2100 00:00:00
+156;STRUCTR;Structuur;NVT;Typering;4635;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+157;SUBSDFRTATE;Substraatdifferentiatie;NVT;Typering;4638;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+158;TOXCTT;Toxiciteit;NVT;Typering;4673;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+159;TROEBHKRTRTK;Troebelheidkarakteristiek;NVT;Typering;5838;13 december 2017 00:00:00;1 januari 2100 00:00:00
+160;TROFE;Trofie;NVT;Typering;4681;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+161;VARAEGKRTR;Variant-eigen karakter;NVT;Typering;4684;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+162;VERZRG;Verzuring;NVT;Typering;4701;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+163;VIS;Vis-kwaliteit;NVT;Typering;5633;7 december 2016 00:00:00;1 januari 2100 00:00:00
+164;VISSD;Visstand;NVT;Typering;4707;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+165;VIS_ABUN;Abundantie vissen;NVT;Typering;5722;3 december 2016 00:00:00;1 januari 2100 00:00:00
+166;VIS_LTOB;Leeftijdsopbouw vissen;NVT;Typering;5723;3 december 2016 00:00:00;1 januari 2100 00:00:00
+167;VIS_SRTS;Soortensamenstelling vissen;NVT;Typering;5724;3 december 2016 00:00:00;1 januari 2100 00:00:00
+168;VITLTT;Vitaliteit;NVT;Typering;4708;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+169;VOEDSSTGE;Voedselstrategie;NVT;Typering;4710;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+170;VOEDTSD;Voedingstoestand;NVT;Typering;5629;25 augustus 2016 00:00:00;1 januari 2100 00:00:00
+171;WATCME;Waterchemie;NVT;Typering;4720;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+172;WEERGSHD;Weergesteldheid;NVT;Typering;4730;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+173;ZGV_AREA;Areaal zeegrasvelden;NVT;Typering;5875;9 december 2017 00:00:00;1 januari 2100 00:00:00
+174;ZGV_DSRT;Dichtheid soorten zeegras;NVT;Typering;5876;9 december 2017 00:00:00;1 januari 2100 00:00:00
+175;ZOUTHHDG;Zouthuishouding;NVT;Typering;4836;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+176;ZUURKRTR;Zuurkarakter;NVT;Typering;4851;8 juni 2011 00:00:00;1 januari 2100 00:00:00
+177;ZWEMWTKLTT;Zwemwaterkwaliteit (eindoordeel);NVT;Typering;4862;19 december 2015 00:00:00;1 januari 2100 00:00:00

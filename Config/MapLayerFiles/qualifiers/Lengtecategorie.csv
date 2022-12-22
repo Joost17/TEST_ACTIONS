@@ -1,0 +1,11 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+46;15;VL-0;Vislengteklasse-0 (0+: vis in het eerste levensjaar);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+47;16;VL-1;Vislengteklasse-1 (ouder dan 0+ en met een lengte t/m 15 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+48;17;VL-2;Vislengteklasse-2 (16 t/m 25 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+49;18;VL-3;Vislengteklasse-3 (26 t/m 40 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+50;19;VL-4;Vislengteklasse-4 (groter dan 40 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+51;20;VLSK-1;Vislengte snoek klasse 1 (0 t/m 15 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+52;21;VLSK-2;Vislengte snoek klasse 2 (16 t/m 35 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+53;22;VLSK-3;Vislengte snoek klasse 3 (36 t/m 44 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+54;23;VLSK-4;Vislengte snoek klasse 4 (45 t/m 54 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00
+55;24;VLSK-5;Vislengte snoek klasse 5 (groter dan 54 cm);Lengteklasse;13 december 2017 00:00:00;1 januari 2100 00:00:00

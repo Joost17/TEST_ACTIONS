@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reports xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/reports.xsd" version="1.0">
+	<declarations>
+		<systemStatusTable tableStyle="tableStyle1" id="liveSystemStatusTableMC">
+			<statusTableSubType>liveSystemStatus</statusTableSubType>
+			<tableTitle>System Status</tableTitle>
+			<headerRows>1</headerRows>
+			<itemHeader>Item</itemHeader>
+			<benchmarkHeader>Benchmark</benchmarkHeader>
+			<statusHeader>Status</statusHeader>
+			<statusHeaderSplit>1</statusHeaderSplit>
+			<showOutputFieldsOnly>false</showOutputFieldsOnly>
+		</systemStatusTable>
+		<systemStatusTable tableStyle="tableStyle1" id="completedWorkflowsTableMC">
+			<statusTableSubType>completedWorkflowStatus</statusTableSubType>
+			<tableTitle>Number of runs per workflow (past 24 hrs)</tableTitle>
+			<headerRows>2</headerRows>
+			<itemHeader>Workflows</itemHeader>
+			<benchmarkHeader>Nr of Runs</benchmarkHeader>
+			<statusHeader>Status</statusHeader>
+			<statusHeaderSplit>2</statusHeaderSplit>
+			<statusSubHeader>Nr. of Runs</statusSubHeader>
+			<statusSubHeader>Nr. Failed</statusSubHeader>
+			<showOutputFieldsOnly>false</showOutputFieldsOnly>
+		</systemStatusTable>
+		<systemStatusTable tableStyle="tableStyle1" id="importStatusTableMC">
+			<statusTableSubType>importStatus</statusTableSubType>
+			<tableTitle>Import into FEWS</tableTitle>
+			<headerRows>1</headerRows>
+			<itemHeader>Data feed</itemHeader>
+			<benchmarkHeader>Benchmark &lt;br&gt;(time from now)</benchmarkHeader>
+			<statusHeader>Last import time</statusHeader>
+			<statusHeaderSplit>1</statusHeaderSplit>
+			<extraOutputFieldHeader>Last file imported</extraOutputFieldHeader>
+			<extraOutputFieldHeader>Nr. of files read</extraOutputFieldHeader>
+			<extraOutputFieldHeader>Nr. of files failed</extraOutputFieldHeader>
+			<showOutputFieldsOnly>false</showOutputFieldsOnly>
+		</systemStatusTable>
+		<systemStatusTable tableStyle="tableStyle1" id="logLevelErrorMC">
+			<statusTableSubType>logMessageListing</statusTableSubType>
+			<tableTitle>Log messages Amalgamates</tableTitle>
+			<headerRows>1</headerRows>
+			<itemHeader/>
+			<benchmarkHeader/>
+			<statusHeader>Log level</statusHeader>
+			<statusHeaderSplit>1</statusHeaderSplit>
+			<extraOutputFieldHeader>Log creation time</extraOutputFieldHeader>
+			<extraOutputFieldHeader>Log message</extraOutputFieldHeader>
+			<extraOutputFieldHeader>TaskrunId</extraOutputFieldHeader>
+			<showOutputFieldsOnly>true</showOutputFieldsOnly>
+		</systemStatusTable>
+		<dateFormat id="dateFormat1">
+			<pattern>dd/MM/yyyy HH:mm z</pattern>
+		</dateFormat>
+		<numberFormat id="numberFormat1">{0,number,###0.00}</numberFormat>
+		<templateDir>doetErNietToe</templateDir>
+		<reportsRootDir>$EXPORT_DIR$/HTML_REPORT</reportsRootDir>
+		<sendToLocalFileSystem>false</sendToLocalFileSystem>
+		<timeZone>
+			<timeZoneName>GMT</timeZoneName>
+		</timeZone>
+	</declarations>
+	<!--Tables-->
+	<report>
+		<systemStatusTable id="liveSystemStatusTable" formatId="liveSystemStatusTableMC">
+			<mcStatusQuery>
+				<itemTextStatus/>
+				<benchmarkTextStatus>Alive</benchmarkTextStatus>
+			</mcStatusQuery>
+			<fssStatusQuery>
+				<itemTextStatus/>
+				<benchmarkTextStatus>Alive</benchmarkTextStatus>
+				<itemTextSize>Size of local datastore</itemTextSize>
+				<benchmarkTextSize>5000 Mb</benchmarkTextSize>
+			</fssStatusQuery>
+			<singleRecordQuery>
+				<tableName>logEntries</tableName>
+				<inputField/>
+				<recordId/>
+				<statusField/>
+				<itemText>Log Table Size</itemText>
+				<benchmarkText>50.000</benchmarkText>
+			</singleRecordQuery>
+		</systemStatusTable>
+		<systemStatusTable id="completedWorkflowsTable" formatId="completedWorkflowsTableMC">
+			<workflowStatusQuery>
+				<workflowId>wf_Import_IMmetingen_EFCIS_dump</workflowId>
+				<itemText>Import data van EFCIS dump</itemText>
+				<benchmarkText>1</benchmarkText>
+				<selectCompletedWorkflowsOnly>true</selectCompletedWorkflowsOnly>
+				<statusField>taskRunStatus</statusField>
+			</workflowStatusQuery>
+			<workflowStatusQuery>
+				<workflowId>wf_Import_IMmetingen_Biologie</workflowId>
+				<itemText>Import Biologische sample data</itemText>
+				<benchmarkText>1</benchmarkText>
+				<selectCompletedWorkflowsOnly>true</selectCompletedWorkflowsOnly>
+				<statusField>taskRunStatus</statusField>
+			</workflowStatusQuery>
+			<workflowStatusQuery>
+				<workflowId>wf_Import_IMmetingen_FysischeChemie</workflowId>
+				<itemText>Import Fysisch-chemische sample data</itemText>
+				<benchmarkText>1</benchmarkText>
+				<selectCompletedWorkflowsOnly>true</selectCompletedWorkflowsOnly>
+				<statusField>taskRunStatus</statusField>
+			</workflowStatusQuery>
+			<workflowStatusQuery>
+				<workflowId>wf_Import_IMmetingen_toetsing</workflowId>
+				<itemText>Import toetswaarden en -oordelen csv files</itemText>
+				<benchmarkText>1</benchmarkText>
+				<selectCompletedWorkflowsOnly>true</selectCompletedWorkflowsOnly>
+				<statusField>taskRunStatus</statusField>
+			</workflowStatusQuery>
+		</systemStatusTable>
+		<systemStatusTable id="importStatusTable" formatId="importStatusTableMC">
+			<datafeedStatusQuery>
+				<benchmarkText id="EFCISdump" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Chemie" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Vis" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Macrofyten" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Ecoscans" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Macrofauna" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Fytoplankton" text="&lt;2 d"/>
+				<benchmarkText id="Samples_Diatomeeen" text="&lt;2 d"/>
+				<benchmarkText id="Samples_FloraFauna" text="&lt;2 d"/>
+				<statusField>lastImportTime</statusField>
+				<extraOutputField>lastFileImported</extraOutputField>
+				<extraOutputField>filesReadCount</extraOutputField>
+				<extraOutputField>filesFailedCount</extraOutputField>
+			</datafeedStatusQuery>
+		</systemStatusTable>
+		<template>status_report_template.html</template>
+		<outputSubDir/>
+		<outputFileName>index.html</outputFileName>
+		<defineLocal id="ReportTitle">Systemstatus</defineLocal>
+	</report>
+</reports>

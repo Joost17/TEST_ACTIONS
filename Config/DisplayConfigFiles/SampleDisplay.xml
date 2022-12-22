@@ -1,0 +1,10 @@
+<sampleDisplay xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews 
+http://fews.wldelft.nl/schemas/version1.0/sampleDisplay.xsd">
+	<enableEditor>true</enableEditor>
+	<permissions>
+	<editorPermission>bewerken</editorPermission>
+	</permissions>
+	<season label="Heel jaar" timeZone="CET" startMonthDay="--01-01" endMonthDay="--12-31"/>
+	<season label="Zomer" timeZone="CET" startMonthDay="--04-01" endMonthDay="--09-30"/>
+	<season label="Winter" timeZone="CET" startMonthDay="--10-01" endMonthDay="--03-31"/>
+</sampleDisplay>

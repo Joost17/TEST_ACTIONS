@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<locationSets xmlns="http://www.wldelft.nl/fews" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/locationSets.xsd">
+	<!--Hydrobiologische gegevens-->
+	<locationSet id="meetnet">
+		<csvFile>
+			<file>Location</file>
+			<geoDatum>Rijks Driehoekstelsel</geoDatum>
+			<id>%loc_id%</id>
+			<name>%loc_id_oms%</name>
+			<toolTip><![CDATA[<html>
+    <table id="details">
+      <tr>
+	<td width="50" valign="top">Locatie</td>
+	<td width="5" valign="top">:</td>
+	<td width="200" valign="top">%loc_oms%</td>
+      </tr>
+      <tr>
+	<td width="50" valign="top">Foto</td>
+	<td width="5" valign="top">:</td>
+	<td width="200" valign="top"><img src="file:$MAPDIR$/FEWS-EFCIS/Locatiefotos/%Foto_id%" border="0" width="300" height="300"/></td>
+    </tr>
+    </table>
+</html>]]></toolTip>
+			<x>%x1%</x>
+			<y>%y1%</y>
+			<attribute id="x1">
+				<description>x1</description>
+				<text>%x1%</text>
+			</attribute>
+			<attribute id="y1">
+				<description>y1</description>
+				<text>%y1%</text>
+			</attribute>
+			<attribute id="x2">
+				<description>x2</description>
+				<text>%x2%</text>
+			</attribute>
+			<attribute id="y2">
+				<description>y2</description>
+				<text>%y2%</text>
+			</attribute>
+			<attribute id="Namespace">
+				<description>Namespace</description>
+				<text>%NAMESPACE%</text>
+			</attribute>
+			<attribute id="locationname">
+				<description>locationname</description>
+				<text>%loc_oms%</text>
+			</attribute>
+			<attribute id="watertype">
+				<description>watertype</description>
+				<text>%watertype%</text>
+			</attribute>
+			<attribute id="watertype_oms">
+				<description>watertype_oms</description>
+				<text>%watertype_oms%</text>
+			</attribute>
+			<attribute id="waterlichaam">
+				<description>waterlichaam</description>
+				<text>%waterlichaam%</text>
+			</attribute>
+			<attribute id="ExternalLocationId">
+				<description>external location ID</description>
+				<text>%Namespace_loc_id%</text>
+			</attribute>
+		<attribute id="Fysische chemie">
+		<text>%Fysische chemie%</text>
+	</attribute>
+	<attribute id="Meetnet Kader Richtlijn Water (KRW, FC)">
+		<text>%Meetnet Kader Richtlijn Water (KRW, FC)%</text>
+	</attribute>
+	<attribute id="Meetnet Agrarisch en Stedelijk gebied (FC)">
+		<text>%Meetnet Agrarisch en Stedelijk gebied (FC)%</text>
+	</attribute>
+	<attribute id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)">
+		<text>%Agrarisch &amp; Stedelijk Roulatiejaar 1 (FC)%</text>
+	</attribute>
+	<attribute id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)">
+		<text>%Agrarisch &amp; Stedelijk Roulatiejaar 2 (FC)%</text>
+	</attribute>
+	<attribute id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)">
+		<text>%Agrarisch &amp; Stedelijk Roulatiejaar 3 (FC)%</text>
+	</attribute>
+	<attribute id="Meetnet waterkwaliteit hoofdwater (FC)">
+		<text>%Meetnet waterkwaliteit hoofdwater (FC)%</text>
+	</attribute>
+	<attribute id="Meetnet Nutrienten Landbouw Specifiek OW (MNLSO, FC)">
+		<text>%Meetnet Nutrienten Landbouw Specifiek Oppervlaktewater (MNLSO, FC)%</text>
+	</attribute>
+	<attribute id="Calamiteiten Meetnet Nucleaire Ongevallen (CMNO, FC)">
+		<text>%Calamiteiten Meetnet Nucleaire Ongevallen (CMNO, FC)%</text>
+	</attribute>
+	<attribute id="Meetnet gewasbeschermingsmiddelen (FC)">
+		<text>%Meetnet gewasbeschermingsmiddelen (FC)%</text>
+	</attribute>
+	<attribute id="Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM, FC)">
+		<text>%Landelijk Meetnet GewasBeschermingsMiddelen (LMGBM, FC)%</text>
+	</attribute>
+	<attribute id="Meetnet zwemwater (FC)">
+		<text>%Meetnet zwemwater (FC)%</text>
+	</attribute>
+	<attribute id="Meetnet hygienische waterkwaliteit (FC)">
+		<text>%Meetnet hygienische waterkwaliteit (FC)%</text>
+	</attribute>
+	<attribute id="Roulerend meetnet 2006 -2019 (FC)">
+		<text>%Roulerend meetnet 2006 -2019 (FC)%</text>
+	</attribute>
+	<attribute id="Centraal stadsdeel (FC)">
+		<text>%Centraal stadsdeel (FC)%</text>
+	</attribute>
+	<attribute id="Groenraven Oost - Maartensdijk (FC)">
+		<text>%Groenraven Oost - Maartensdijk (FC)%</text>
+	</attribute>
+	<attribute id="Kromme Rijn - Honswijk (FC)">
+		<text>%Kromme Rijn - Honswijk (FC)%</text>
+	</attribute>
+	<attribute id="Langbroekerwetering (FC)">
+		<text>%Langbroekerwetering (FC)%</text>
+	</attribute>
+	<attribute id="Lopikerwaard (FC)">
+		<text>%Lopikerwaard (FC)%</text>
+	</attribute>
+	<attribute id="Oude Rijn (FC)">
+		<text>%Oude Rijn (FC)%</text>
+	</attribute>
+	<attribute id="Projecten (FC)">
+		<text>%Projecten (FC)%</text>
+	</attribute>
+	<attribute id="Lange weide (FC)">
+		<text>%Lange weide (FC)%</text>
+	</attribute>
+	<attribute id="Online waterkwaliteit Batau (FC)">
+		<text>%Online waterkwaliteit Batau (FC)%</text>
+	</attribute>
+	<attribute id="Onderwaterdrainage De Vlist (FC)">
+		<text>%Onderwaterdrainage De Vlist (FC)%</text>
+	</attribute>
+	<attribute id="Overige projecten (FC)">
+		<text>%Overige projecten (FC)%</text>
+	</attribute>
+	<attribute id="Natuurgebieden (FC)">
+		<text>%Natuurgebieden (FC)%</text>
+	</attribute>	
+	<attribute id="Afgerond (FC)">
+		<text>%Afgerond (FC)%</text>
+	</attribute>
+	<attribute id="Historische meetpunten (&lt; 2000) waarvan doel onbekend (FC)">
+		<text>%Historische meetpunten (&lt; 2000) waarvan doel onbekend (FC)%</text>
+	</attribute>
+	<attribute id="Biologie">
+		<text>%Biologie%</text>
+	</attribute>
+	<attribute id="Meetnet Kader Richtlijn Water (KRW, BIO)">
+		<text>%Meetnet Kader Richtlijn Water (KRW, BIO)%</text>
+	</attribute>
+	<attribute id="NL14_01 Langbroekerwetering (BIO)">
+		<text>%NL14_01 Langbroekerwetering (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_02 Kromme Rijn (BIO)">
+		<text>%NL14_02 Kromme Rijn (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_03 Westerlaak (BIO)">
+		<text>%NL14_03 Westerlaak (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_04 Honswijk (BIO)">
+		<text>%NL14_04 Honswijk (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_05 Biltse Grift (BIO)">
+		<text>%NL14_05 Biltse Grift (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_06 Ravense Wetering (BIO)">
+		<text>%NL14_06 Ravense Wetering (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_07 Merwedekanaal (BIO)">
+		<text>%NL14_07 Merwedekanaal (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_08 Binnenstad Utrecht (BIO)">
+		<text>%NL14_08 Binnenstad Utrecht (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_09 Maartensdijk (BIO)">
+		<text>%NL14_09 Maartensdijk (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_10 Hollandse IJssel (BIO)">
+		<text>%NL14_10 Hollandse IJssel (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_11 De Keulevaart (BIO)">
+		<text>%NL14_11 De Keulevaart (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_12 De Pleijt (BIO)">
+		<text>%NL14_12 De Pleijt (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_13 De Koekoek (BIO)">
+		<text>%NL14_13 De Koekoek (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_15 Bijleveld (BIO)">
+		<text>%NL14_15 Bijleveld (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_16 Leidsche Rijn (BIO)">
+		<text>%NL14_16 Leidsche Rijn (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_18 Galecop (BIO)">
+		<text>%NL14_18 Galecop (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_19 Gerverscop (BIO)">
+		<text>%NL14_19 Gerverscop (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_20 De Tol (BIO)">
+		<text>%NL14_20 De Tol (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_21 Ouwenaar - Haarrijn (BIO)">
+		<text>%NL14_21 Ouwenaar - Haarrijn (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_22 Wiericke's (BIO)">
+		<text>%NL14_22 Wiericke's (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_23 Snelrewaard (BIO)">
+		<text>%NL14_23 Snelrewaard (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_24 Lange Linschoten (BIO)">
+		<text>%NL14_24 Lange Linschoten (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_25 Montfoortse Vaart (BIO)">
+		<text>%NL14_25 Montfoortse Vaart (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_26 Meijepolder (BIO)">
+		<text>%NL14_26 Meijepolder (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_27 Oude Rijn (BIO)">
+		<text>%NL14_27 Oude Rijn (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_28 Zegveld (BIO)">
+		<text>%NL14_28 Zegveld (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_29 Grecht (BIO)">
+		<text>%NL14_29 Grecht (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_30 Kockengen (BIO)">
+		<text>%NL14_30 Kockengen (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_31 Kamerik Teijlingens (BIO)">
+		<text>%NL14_31 Kamerik Teijlingens (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_32 Houtensewetering (BIO)">
+		<text>%NL14_32 Houtensewetering (BIO)%</text>
+	</attribute>
+	<attribute id="NL14_33 Oud Kamerik (BIO)">
+		<text>%NL14_33 Oud Kamerik (BIO)%</text>
+	</attribute>
+	<attribute id="Meetnet Agrarisch en Stedelijk gebied (BIO)">
+		<text>%Meetnet Agrarisch en Stedelijk gebied (BIO)%</text>
+	</attribute>
+	<attribute id="Agrarisch &amp; Stedelijk Roulatiejaar 1 (BIO)">
+		<text>%Agrarisch &amp; Stedelijk Roulatiejaar 1 (BIO)%</text>
+	</attribute>
+	<attribute id="Agrarisch &amp; Stedelijk Roulatiejaar 2 (BIO)">
+		<text>%Agrarisch &amp; Stedelijk Roulatiejaar 2 (BIO)%</text>
+	</attribute>
+	<attribute id="Agrarisch &amp; Stedelijk Roulatiejaar 3 (BIO)">
+		<text>%Agrarisch &amp; Stedelijk Roulatiejaar 3 (BIO)%</text>
+	</attribute>
+	<attribute id="Meetnet Macrofauna (BIO)">
+		<text>%Meetnet Macrofauna (BIO)%</text>
+	</attribute>
+	<attribute id="Meetnet Natuurvriendelijke oevers (BIO)">
+		<text>%Meetnet Natuurvriendelijke oevers (BIO)%</text>
+	</attribute>
+	<attribute id="Meetnet Beschermde flora en fauna (wetNB, BIO)">
+		<text>%Meetnet Beschermde flora en fauna (wetNB, BIO)%</text>
+	</attribute>
+	<attribute id="Meetnet Stadswateren (Ecoscans, BIO)">
+		<text>%Meetnet Stadswateren (Ecoscans, BIO)%</text>
+	</attribute>
+	<attribute id="Roulerend meetnet 2006 -2019 (BIO)">
+		<text>%Roulerend meetnet 2006 -2019 (BIO)%</text>
+	</attribute>
+	<attribute id="Centraal stadsdeel (BIO)">
+		<text>%Centraal stadsdeel (BIO)%</text>
+	</attribute>
+	<attribute id="Groenraven Oost - Maartensdijk (BIO)">
+		<text>%Groenraven Oost - Maartensdijk (BIO)%</text>
+	</attribute>
+	<attribute id="Kromme Rijn - Honswijk (BIO)">
+		<text>%Kromme Rijn - Honswijk (BIO)%</text>
+	</attribute>
+	<attribute id="Langbroekerwetering (BIO)">
+		<text>%Langbroekerwetering (BIO)%</text>
+	</attribute>
+	<attribute id="Lopikerwaard (BIO)">
+		<text>%Lopikerwaard (BIO)%</text>
+	</attribute>
+	<attribute id="Oude Rijn (BIO)">
+		<text>%Oude Rijn (BIO)%</text>
+	</attribute>
+	<attribute id="Roulerend - buiten gebruik (BIO)">
+		<text>%Roulerend - buiten gebruik (BIO)%</text>
+	</attribute>
+	<attribute id="Projecten (BIO)">
+		<text>%Projecten (BIO)%</text>
+	</attribute>
+	<attribute id="Groen Blauwe Diensten (BIO)">
+		<text>%Groen Blauwe Diensten (BIO)%</text>
+	</attribute>
+	<attribute id="Overig water (BIO)">
+		<text>%Overig water (BIO)%</text>
+	</attribute>
+	<attribute id="Effectmonitoring maaibeheer (BIO)">
+		<text>%Effectmonitoring maaibeheer (BIO)%</text>
+	</attribute>
+	<attribute id="Nevengeul en vlechtschermen bij Odijk (BIO)">
+		<text>%Nevengeul en vlechtschermen bij Odijk (BIO)%</text>
+	</attribute>
+	<attribute id="Lange weide (BIO)">
+		<text>%Lange weide (BIO)%</text>
+	</attribute>
+	<attribute id="Overige projecten (BIO)">
+		<text>%Overige projecten (BIO)%</text>
+	</attribute>
+	<attribute id="Natuurgebieden (BIO)">
+		<text>%Natuurgebieden (BIO)%</text>
+	</attribute>
+	<attribute id="Afgerond (BIO)">
+		<text>%Afgerond (BIO)%</text>
+	</attribute>
+	<attribute id="KRW waterlichamen">
+		<text>%KRW waterlichamen%</text>
+	</attribute>
+	<attribute id="Overige waterbeheerders">
+		<text>%Overige waterbeheerders%</text>
+	</attribute>
+		</csvFile>
+	</locationSet>
+</locationSets>

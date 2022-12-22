@@ -1,0 +1,16 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+1;52;EB-F;Energiebron-Fototroof;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+2;53;EB-H;Energiebron-Heterotroof;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+3;54;LV-CEL;Levensvorm-Cel (los);Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+4;55;LV-COE;Levensvorm-Coenobium;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+5;56;LV-FIL;Levensvorm-Filament;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+6;57;LV-KOL;Levensvorm-Kolonie;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+7;58;LV-KOL2-4cel;Levensvorm-Kolonie 2 tot 4 cellen;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+8;59;LV-KOL5-10ce;Levensvorm-Kolonie 5 tot 10 cellen;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+9;60;LV-KOLkd2cel;Levensvorm-Kolonie kleiner dan 2 cellen;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+10;61;LV-SOL;Levensvorm-Solitair;Levensvorm;13 december 2017 00:00:00;1 januari 2100 00:00:00
+11;-99;LV-KOL2;Levensvorm-Kolonie 2 cellen;Extra;;
+12;-99;LV-KOL4;Levensvorm-Kolonie 4 cellen;Extra;;
+13;-99;LV-KOL16;Levensvorm-Kolonie 16 cellen;Extra;;
+14;-99;LV-KOL32;Levensvorm-Kolonie 32 cellen;Extra;;
+15;-99;LV-KOL50;Levensvorm-Kolonie 50 cellen;Extra;;

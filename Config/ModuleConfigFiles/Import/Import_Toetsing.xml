@@ -1,0 +1,397 @@
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<timeSeriesImportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesImportRun.xsd">
+		<!-- Importeer biologische toetsbestanden (eerst het deel met Monster.lokaalID) -->
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/jaarlijks</folder>
+			<fileNamePatternFilter>with sampleid Toetsing biologie*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/jaarlijks</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/jaarlijks</backupFolder>
+			<deleteImportedFiles>false</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Toetsdatumtijd_new" pattern="yyyy-MM-dd HH:mm"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="Toetswaarde"/>
+				<propertyColumn name="Meetobject.namespace" key="namespace"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<qualifierColumn name="Analysecompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="taxontype" prefix="TT_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Levensvorm.code" prefix="LV_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm.code" prefix="VV_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LC_"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+				<qualifierColumn name="Waardebewerkingmethode.code" prefix="WB_"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" requireNumericalParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_biologie</dataFeedId>
+			<mergeWithExistingSampleData>true</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/jaarlijks</folder>
+			<fileNamePatternFilter>with sampleid Toetsing biologie*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/jaarlijks</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/jaarlijks</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Toetsdatumtijd_new" pattern="yyyy-MM-dd HH:mm"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<parameterColumn name="Toetsoordeel"/>
+				<propertyColumn name="Meetobject.namespace" key="namespace"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<qualifierColumn name="Analysecompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="taxontype" prefix="TT_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Levensvorm.code" prefix="LV_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm.code" prefix="VV_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LC_"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+				<qualifierColumn name="Waardebewerkingmethode.code" prefix="WB_"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<valueColumn name="Alfanumeriekewaarde" requireEnumerationParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_biologie</dataFeedId>
+			<mergeWithExistingSampleData>true</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<!-- Importeer biologische toetsbestanden zonder Monster.lokaalID -->
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/jaarlijks</folder>
+			<fileNamePatternFilter>without sampleid Toetsing biologie*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/jaarlijks</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/jaarlijks</backupFolder>
+			<deleteImportedFiles>false</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Toetsdatumtijd_new" pattern="yyyy-MM-dd HH:mm"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="Toetswaarde"/>
+				<propertyColumn name="Meetobject.namespace" key="namespace"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<qualifierColumn name="Analysecompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="taxontype" prefix="TT_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Levensvorm.code" prefix="LV_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm.code" prefix="VV_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LC_"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+				<qualifierColumn name="Waardebewerkingmethode.code" prefix="WB_"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" requireNumericalParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_biologie</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/jaarlijks</folder>
+			<fileNamePatternFilter>without sampleid Toetsing biologie*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/jaarlijks</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/jaarlijks</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateTimeColumn name="Toetsdatumtijd_new" pattern="yyyy-MM-dd HH:mm"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<parameterColumn name="Toetsoordeel"/>
+				<propertyColumn name="Meetobject.namespace" key="namespace"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<qualifierColumn name="Analysecompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="taxontype" prefix="TT_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="Levensvorm.code" prefix="LV_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm.code" prefix="VV_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LC_"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+				<qualifierColumn name="Waardebewerkingmethode.code" prefix="WB_"/>
+				<valueColumn name="Alfanumeriekewaarde" requireEnumerationParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_biologie</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<!-- IMPORT KRW MONITORINGSLOCATIES -->
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/jaarlijks</folder>
+			<fileNamePatternFilter>Toetsing KRWToetsResultaat monitoringslocaties*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/jaarlijks</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/jaarlijks</backupFolder>
+			<deleteImportedFiles>false</deleteImportedFiles>
+			<table>
+				<dateColumn name="EindDatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Eindtijd" pattern="HH:mm"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+
+				<locationColumn name="meetobjectcode"/>
+				<unitColumn name="Eenheid"/>
+				<parameterColumn name="Toetswaarde"/>
+				<qualifierColumn name="CompartimentCode" prefix="ACO_"/>
+				<qualifierColumn name="ToetsGrootheidCode" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="LevensStadiumCode" prefix="LS_"/>
+				<qualifierColumn name="LengteKlasseCode" prefix="LC_"/>
+				<qualifierColumn name="GeslachtCode" prefix="GS_"/>
+				<qualifierColumn name="VerschijningsVormCode" prefix="VV_"/>
+				<qualifierColumn name="LevensVormCode" prefix="LV_"/>
+				<qualifierColumn name="GedragCode" prefix="GG_"/>
+				<qualifierColumn name="Bewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="waarnemingssoort.code"/>
+				<limitSymbolColumn name="BepalingsGrens"/>
+				<valueColumn name="KentalWaarde" requireNumericalParameters="true"/>
+				
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_toetsing_KRW_meetlocaties</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_KRW_meetlocaties</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/jaarlijks</folder>
+			<fileNamePatternFilter>Toetsing KRWToetsResultaat monitoringslocaties*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/jaarlijks</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/jaarlijks</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="EindDatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Eindtijd" pattern="HH:mm"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+
+				<locationColumn name="meetobjectcode"/>
+				<parameterColumn name="Toetsoordeel"/>
+				<qualifierColumn name="CompartimentCode" prefix="ACO_"/>
+				<qualifierColumn name="ToetsGrootheidCode" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="LevensStadiumCode" prefix="LS_"/>
+				<qualifierColumn name="LengteKlasseCode" prefix="LC_"/>
+				<qualifierColumn name="GeslachtCode" prefix="GS_"/>
+				<qualifierColumn name="VerschijningsVormCode" prefix="VV_"/>
+				<qualifierColumn name="LevensVormCode" prefix="LV_"/>
+				<qualifierColumn name="GedragCode" prefix="GG_"/>
+				<qualifierColumn name="Bewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="waarnemingssoort.code"/>
+				<valueColumn name="Alfanumeriekewaarde" requireEnumerationParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_toetsing_KRW_meetlocaties</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_KRW_meetlocaties</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<!-- IMPORT KRW MONITORINGSLOCATIES -->
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/meerjarig</folder>
+			<fileNamePatternFilter>Toetsing KRWOordeel waterlichamen*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/meerjarig</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/meerjarig</backupFolder>
+			<deleteImportedFiles>false</deleteImportedFiles>
+			<table>
+				<dateColumn name="EindDatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Eindtijd" pattern="HH:mm"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+
+				<locationColumn name="GeoObjectCode"/>
+				<unitColumn name="Eenheid"/>
+				<parameterColumn name="Toestandswaarde"/>
+				<qualifierColumn name="CompartimentCode" prefix="ACO_"/>
+				<qualifierColumn name="Bewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="KwaliteitCode" prefix="KW_"/>
+				<qualifierColumn name="waarnemingssoort.code"/>
+				<limitSymbolColumn name="BepalingsGrens"/>
+				
+				<valueColumn name="KentalWaarde" requireNumericalParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_toetsing_KRW_meetlocaties</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_KRW_waterlichamen</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/Toetsing/meerjarig</folder>
+			<fileNamePatternFilter>Toetsing KRWOordeel waterlichamen*</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/Toetsing/meerjarig</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/Toetsing/meerjarig</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="EindDatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Eindtijd" pattern="HH:mm"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+
+				<locationColumn name="GeoObjectCode"/>
+				<parameterColumn name="Toestandsoordeel"/>
+				<qualifierColumn name="CompartimentCode" prefix="ACO_"/>
+				<qualifierColumn name="Bewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="KwaliteitCode" prefix="KW_"/>
+				<qualifierColumn name="waarnemingssoort.code"/>
+				<valueColumn name="Alfanumeriekewaarde" requireEnumerationParameters="true"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_toetsing_KRW_meetlocaties</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Toetsing_KRW_waterlichamen</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+					<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>
+</general>
+	</import>
+</timeSeriesImportRun>

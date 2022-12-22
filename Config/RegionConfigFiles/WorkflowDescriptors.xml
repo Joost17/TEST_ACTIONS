@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2020 (x64) (http://www.altova.com) by HKV Lijn in water (HKV Lijn in water) -->
+<workflowDescriptors xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/workflowDescriptors.xsd" version="1.0">
+	<!--Workflows for importing tasks-->
+	<workflowDescriptor id="wf_Import_IMmetingen_EFCIS_dump" name="Import data van EFCIS dump" forecast="false" visible="true" autoApprove="false">
+		<description>Import data van EFCIS dump</description>
+		<viewPermission>importeren_workflow</viewPermission>
+		<runPermission>importeren_workflow</runPermission>
+		<enabledModifierGroups>
+			<groupId>Dummy_Groep</groupId>
+		</enabledModifierGroups>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Import_IMmetingen_Biologie" name="Import Biologische sample data" forecast="false" visible="true" autoApprove="false">
+		<description>Import Biologische sample data</description>
+		<viewPermission>importeren_workflow</viewPermission>
+		<runPermission>importeren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Import_IMmetingen_FysischeChemie" name="Import Fysisch-chemische sample data" forecast="false" visible="true" autoApprove="false">
+		<description>Import Fysisch-chemische sample data</description>
+		<viewPermission>importeren_workflow</viewPermission>
+		<runPermission>importeren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Import_IMmetingen_toetsing" name="Import toetswaarden en -oordelen csv files" forecast="false" visible="true" autoApprove="false">
+		<description>Import toetswaarden en -oordelen csv files</description>
+		<viewPermission>importeren_workflow</viewPermission>
+		<runPermission>importeren_workflow</runPermission>
+	</workflowDescriptor>
+	<!--Workflows for exporting tasks-->
+	<workflowDescriptor id="wf_Export_IMmetingen_alles" name="Export Biologie en Fysische-Chemie uitgebreid" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer fysisch-chemische en biologische gegevens van afgelopen maand voor alle locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_FC" name="wf_Export_IMmetingen_KRW_FC_Aquokit" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer fysisch-chemische gegevens van afgelopen drie jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_FC" name="wf_Export_IMmetingen_LEW_FC_Aquokit" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer fysisch-chemische gegevens van afgelopen jaar voor alle locaties, uitgezonderd projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_FC" name="wf_Export_IMmetingen_ASM_FC_Aquokit" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer fysisch-chemische gegevens van afgelopen drie jaar voor locaties van agrarisch-stedelijk meetnet</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_hoofdwater_FC" name="wf_Export_IMmetingen_hoofdlocaties_Aquokit" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer fysisch-chemische gegevens van afgelopen jaar voor locaties hoofdwater</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+		<workflowDescriptor id="wf_Export_IMmetingen_zwemwater_FC" name="wf_Export_IMmetingen_zwemwater_FC" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer fysisch-chemische gegevens van afgelopen 3 jaar voor locaties zwemwater</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_FYTO_BIO" name="wf_Export_IMmetingen_KRW_FYTO_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van fytoplankton van afgelopen zes jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_FYTO_BIO_allTT" name="wf_Export_IMmetingen_KRW_FYTO_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van fytoplankton (met alle taxontypes) van afgelopen zes jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_MAFA_BIO" name="wf_Export_IMmetingen_KRW_MAFA_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna van afgelopen negen jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_MAFA_BIO_allTT" name="wf_Export_IMmetingen_KRW_MAFA_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna (met alle taxontypes) van afgelopen negen jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_MAFY_BIO" name="wf_Export_IMmetingen_KRW_MAFY_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten en diatomeeen van afgelopen drie jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_MAFY_BIO_allTT" name="wf_Export_IMmetingen_KRW_MAFY_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten en diatomeeen (met alle taxontypes) van afgelopen drie jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_VIS_BIO" name="wf_Export_IMmetingen_KRW_VIS_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen van afgelopen zes jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_KRW_VIS_BIO_allTT" name="wf_Export_IMmetingen_KRW_VIS_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen (met alle taxontypes) van afgelopen zes jaar voor KRW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_MAFA_BIO" name="wf_Export_IMmetingen_ASM_MAFA_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna van afgelopen drie jaar voor ASM-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_MAFA_BIO_allTT" name="wf_Export_IMmetingen_ASM_MAFA_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna (met alle taxontypes) van afgelopen drie jaar voor ASM-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_MAFY_BIO" name="wf_Export_IMmetingen_ASM_MAFY_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten van afgelopen drie jaar voor ASM-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_MAFY_BIO_allTT" name="wf_Export_IMmetingen_ASM_MAFY_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten (met alle taxontypes) van afgelopen drie jaar voor ASM-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_VIS_BIO" name="wf_Export_IMmetingen_ASM_VIS_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen van afgelopen drie jaar voor ASM-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_ASM_VIS_BIO_allTT" name="wf_Export_IMmetingen_ASM_VIS_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen (met alle taxontypes) van afgelopen drie jaar voor ASM-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_MAFA_BIO" name="wf_Export_IMmetingen_LEW_MAFA_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_MAFA_BIO_allTT" name="wf_Export_IMmetingen_LEW_MAFA_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna (met alle taxontypes) van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_MAFY_BIO" name="wf_Export_IMmetingen_LEW_MAFY_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_MAFY_BIO_allTT" name="wf_Export_IMmetingen_LEW_MAFY_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten (met alle taxontypes) van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_FYTO_BIO" name="wf_Export_IMmetingen_LEW_FYTO_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van fytoplankton van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_FYTO_BIO_allTT" name="wf_Export_IMmetingen_LEW_FYTO_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van fytoplankton (met alle taxontypes) van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_VIS_BIO" name="wf_Export_IMmetingen_LEW_VIS_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_LEW_VIS_BIO_allTT" name="wf_Export_IMmetingen_LEW_VIS_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen (met alle taxontypes) van afgelopen jaar voor LEW-locaties</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_MAFA_BIO" name="wf_Export_IMmetingen_PRJ_MAFA_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_MAFA_BIO_allTT" name="wf_Export_IMmetingen_PRJ_MAFA_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofauna (met alle taxontypes) van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_MAFY_BIO" name="wf_Export_IMmetingen_PRJ_MAFY_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_MAFY_BIO_allTT" name="wf_Export_IMmetingen_PRJ_MAFY_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van macrofyten (met alle taxontypes) van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_FYTO_BIO" name="wf_Export_IMmetingen_PRJ_FYTO_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van fytoplankton van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_FYTO_BIO_allTT" name="wf_Export_IMmetingen_PRJ_FYTO_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van fytoplankton (met alle taxontypes) van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_VIS_BIO" name="wf_Export_IMmetingen_PRJ_VIS_BIO" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_PRJ_VIS_BIO_allTT" name="wf_Export_IMmetingen_PRJ_VIS_BIO_allTT" forecast="false" visible="true" autoApprove="false">
+		<description>Exporteer biologische gegevens van vissen (met alle taxontypes) van afgelopen tien jaar voor Projecten</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_IMmetingen_TEST" name="Export (validatie) TEST" forecast="false" visible="true" autoApprove="false">
+		<description>Export (validatie) TEST</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
+	<!--Workflows for amalgamates-->
+	<workflowDescriptor id="wf_AmalgamateImportScalarDay" name="Amalgamate day" forecast="false" visible="true" autoApprove="false">
+		<description>Amalgamate day</description>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_AmalgamateImportScalarWeek" name="Amalgamate week" forecast="false" visible="true" autoApprove="false">
+		<description>Amalgamate week</description>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_AmalgamateImportScalarMonth" name="Amalgamate month" forecast="false" visible="true" autoApprove="false">
+		<description>Amalgamate month</description>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_AmalgamateImportScalarYear" name="Amalgamate year" forecast="false" visible="true" autoApprove="false">
+		<description>Amalgamate year</description>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<!-- SYSTEEM -->
+	<workflowDescriptor id="wf_UpdateSnapshot" name="Update the TimeSeriesStatusSnapshot" forecast="false" visible="true" autoApprove="false">
+		<description>Met deze taak wordt de TimeSeriesStatusSnapshot geupdate</description>
+		<schedulingAllowed>true</schedulingAllowed>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<workflowDescriptor id="wf_Export_ReportSystemStatus" name="Export Systeemstatus" forecast="false" visible="true" autoApprove="false">
+		<description>Met deze taak wordt de Statusrapport gemaakt en ge&#235;xporteerd</description>
+		<runExpiryTime unit="week" multiplier="5"/>
+		<schedulingAllowed>true</schedulingAllowed>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<!--Workflows for data management-->
+	<workflowDescriptor id="Database_Maintenance" forecast="false" visible="true" autoApprove="false">
+		<description>Maintenance of the Database</description>
+		<viewPermission>beheerders</viewPermission>
+	</workflowDescriptor>
+	<rootNode>
+		<node name="Import IM Metingen">
+			<workflowId>wf_Import_IMmetingen_EFCIS_dump</workflowId>
+			<workflowId>wf_Import_IMmetingen_Biologie</workflowId>
+			<workflowId>wf_Import_IMmetingen_FysischeChemie</workflowId>
+			<workflowId>wf_Import_IMmetingen_toetsing</workflowId>
+		</node>
+		<node name="Export IM Metingen">
+			<workflowId>wf_Export_IMmetingen_alles</workflowId>
+			<node name="Export Fysisch chemische data">
+				<workflowId>wf_Export_IMmetingen_KRW_FC</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_FC</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_FC</workflowId>
+				<workflowId>wf_Export_IMmetingen_hoofdwater_FC</workflowId>
+				<workflowId>wf_Export_IMmetingen_zwemwater_FC</workflowId>
+			</node>
+			<node name="Export Biologische data">
+				<workflowId>wf_Export_IMmetingen_KRW_FYTO_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_FYTO_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_MAFA_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_MAFA_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_MAFY_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_MAFY_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_VIS_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_KRW_VIS_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_MAFA_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_MAFA_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_MAFY_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_MAFY_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_VIS_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_ASM_VIS_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_FYTO_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_FYTO_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_MAFA_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_MAFA_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_MAFY_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_MAFY_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_VIS_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_LEW_VIS_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_FYTO_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_FYTO_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_MAFA_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_MAFA_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_MAFY_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_MAFY_BIO_allTT</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_VIS_BIO</workflowId>
+				<workflowId>wf_Export_IMmetingen_PRJ_VIS_BIO_allTT</workflowId>
+			</node>
+		</node>
+	</rootNode>
+</workflowDescriptors>

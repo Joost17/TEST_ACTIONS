@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<parameters version="1.0" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/parameters.xsd">
+	<displayUnitConversionsId>ImportUnitConversions_IMmetingen</displayUnitConversionsId>
+	<!--waterkwaliteitsgegevens-->
+	<enumerations>
+		<enumeration id="BEGZG[DIMSLS]">
+			<value code="0" label="Geen"/>
+			<value code="1" label="Weinig"/>
+			<value code="2" label="Matig"/>
+			<value code="3" label="Veel"/>
+		</enumeration>
+		<enumeration id="BEGAREAAL[DIMSLS]">
+			<value code="101" label="Geheel"/>
+		</enumeration>
+		<enumeration id="BLADVL[DIMSLS]">
+			<value code="0" label="Geen"/>
+			<value code="1" label="Weinig"/>
+			<value code="2" label="Matig"/>
+			<value code="3" label="Veel"/>
+			<value code="9" label="Anders"/>
+		</enumeration>
+		<enumeration id="FLOATLS[DIMSLS]">
+			<value code="0" label="Nee"/>
+			<value code="1" label="Ja"/>
+		</enumeration>
+		<enumeration id="GEURITSTT[DIMSLS]">
+			<value code="100" label="Geen"/>
+			<!--<value code="1" label="Weinig"/>-->
+			<value code="101" label="Zwak"/>
+			<value code="102" label="Matig"/>
+			<value code="103" label="Sterk"/>
+		</enumeration>
+		<enumeration id="GRONDST[DIMSLS]">
+			<value code="1" label="Klei"/>
+			<value code="2" label="Veen"/>
+			<value code="3" label="Zand"/>
+			<value code="4" label="Klei-Veen"/>
+			<value code="5" label="Klei-Zand"/>
+			<value code="6" label="Veen-Zand"/>
+			<value code="98" label="Mengvorm"/>
+			<value code="99" label="Overige"/>
+		</enumeration>
+		<enumeration id="HELDHD[DIMSLS]">
+			<value code="1" label="Helder"/>
+			<value code="2" label="Matig"/>
+			<value code="3" label="Troebel"/>
+		</enumeration>
+		<enumeration id="ISOLTE[DIMSLS]">
+			<value code="1" label="Open"/>
+			<value code="2" label="Half gesloten"/>
+			<value code="3" label="Geheel gesloten"/>
+			<value code="4" label="Periodiek gesloten aanvoer/afvoer"/>
+			<value code="5" label="Periodiek gesloten aanvoer"/>
+			<value code="6" label="Periodiek gesloten afvoer"/>
+			<value code="8" label="Onbekend"/>
+			<value code="9" label="Anders"/>
+		</enumeration>
+		<enumeration id="KWELIDCTE[DIMSLS]">
+			<value code="0" label="Niet van toepassing"/>
+			<value code="1" label="Ijzerneerslag"/>
+			<value code="2" label="Bacterievlies"/>
+			<value code="3" label="Bruin troebel"/>
+			<value code="4" label="Melkachtig"/>
+			<value code="5" label="Opwelling"/>
+			<value code="101" label="Aanwezig"/>
+			<value code="102" label="Vegetatief"/>
+		</enumeration>
+		<enumeration id="LANDSPLKLGG[DIMSLS]">
+			<value code="1" label="Natuurlijk"/>
+			<value code="2" label="Half natuurlijk"/>
+			<value code="3" label="Niet natuurlijk"/>
+			<value code="9" label="Anders"/>
+			<value code="101" label="Akkerbouw"/>
+			<value code="102" label="Grasland"/>
+			<value code="103" label="Industrie"/>
+			<value code="104" label="Park"/>
+			<value code="105" label="Wonen"/>
+		</enumeration>
+		<enumeration id="MEADRG[DIMSLS]">
+			<value code="1" label="Sterk"/>
+			<value code="2" label="Matig"/>
+			<value code="3" label="Geen"/>
+		</enumeration>
+		<enumeration id="OEVBGIG[DIMSLS]">
+			<value code="0" label="Geen"/>
+			<value code="1" label="Matig"/>
+			<value code="2" label="Sterk"/>
+		</enumeration>
+		<enumeration id="OEVBSIG[DIMSLS]">
+			<value code="100" label="Geen"/>
+			<value code="101" label="Ja"/>
+			<value code="102" label="Houten palenrij"/>
+			<value code="103" label="Damwand beton"/>
+			<!--<value code="4" label="Nee"/>-->
+		</enumeration>
+		<enumeration id="OEVST[DIMSLS]">
+			<value code="1" label="Natuurlijk"/>
+			<value code="2" label="Plasberm"/>
+			<value code="3" label="Beschoeid"/>
+			<value code="4" label="Kademuur"/>
+			<value code="5" label="Floatland"/>
+			<value code="6" label="Niet natuurlijk"/>
+			<value code="9" label="Anders"/>
+			<value code="12" label="Vooroever openingen"/>
+			<value code="101" label="Aarden oever"/>
+			<value code="102" label="Natuurvriendelijk"/>
+			<!--<value code="0" label="?"/>-->
+		</enumeration>
+		<enumeration id="ONDHD[DIMSLS]">
+			<value code="0" label="Niet van toepassing"/>
+			<value code="1" label="Onlangs"/>
+			<value code="2" label="Een kant"/>
+			<value code="3" label="Bemonsterde kant"/>
+			<value code="4" label="Niet bemonsterde kant"/>
+			<value code="5" label="Middenloop"/>
+			<value code="9" label="Anders"/>
+			<value code="101" label="Beide kanten"/>
+			<!--<value code="7" label="Geen"/>-->
+		</enumeration>
+		<enumeration id="PROFL[DIMSLS]">
+			<value code="1" label="Natuurlijk"/>
+			<value code="2" label="Verwaarloosd"/>
+			<value code="3" label="Genormaliseerd"/>
+		</enumeration>
+		<enumeration id="STROOMSHD[DIMSLS]">
+			<value code="100" label="Geen"/>
+			<value code="101" label="Zwak"/>
+			<value code="102" label="Matig"/>
+			<value code="103" label="Sterk"/>
+		</enumeration>
+		<enumeration id="SOORT[DIMSLS]">
+			<value code="1" label="Betonbekleding"/>
+			<value code="2" label="Detritus"/>
+			<value code="3" label="Dreissenabank"/>
+			<value code="4" label="Grind"/>
+			<value code="5" label="Hout"/>
+			<value code="6" label="Ijzeroer"/>
+			<value code="7" label="Ijzeroker"/>
+			<value code="8" label="Klei"/>
+			<value code="9" label="Glas"/>
+			<value code="10" label="Leem"/>
+			<value code="11" label="Riet"/>
+			<value code="12" label="Slib"/>
+			<value code="13" label="Steen"/>
+			<value code="14" label="Blad"/>
+			<value code="15" label="Stamhout"/>
+			<value code="16" label="Veen"/>
+			<value code="17" label="Zand"/>
+			<value code="18" label="Takken"/>
+			<value code="19" label="Boomwortels"/>
+			<value code="20" label="Staalbekleding"/>
+			<value code="21" label="Geotextiel"/>
+			<value code="22" label="Klinkhout"/>
+			<value code="23" label="Plant"/>
+			<value code="24" label="Knikkerkorf"/>
+			<value code="25" label="Rietdobber"/>
+			<value code="27" label="Stenenzak"/>
+			<value code="101" label="Betontegel"/>
+			<value code="102" label="Bodem"/>
+			<value code="103" label="Draadalgen"/>
+			<value code="104" label="Fijn grind"/>
+			<value code="105" label="Fijne detritus"/>
+			<value code="106" label="Grof grind"/>
+			<value code="107" label="Grove detritus"/>
+			<!--<value code="35" label="Slib - H2S"/>
+			<value code="36" label="Slib + H2S"/>-->
+			<value code="108" label="Slib met zwavel"/>
+			<value code="109" label="Slib zonder zwavel"/>
+			<value code="110" label="Waterplant"/>
+			<value code="100" label="Geen"/>
+			<!--<value code="40" label="NVT"/>-->
+		</enumeration>
+		<enumeration id="SUBSDFRTATE[DIMSLS]">
+			<value code="1" label="Divers"/>
+			<value code="2" label="Matig"/>
+			<value code="3" label="Uniform"/>
+			<value code="100" label="Geen"/>
+			<value code="101" label="Weinig"/>
+			<value code="102" label="Veel"/>
+		</enumeration>
+		<enumeration id="TALBVWTR[DIMSLS]">
+			<value code="1" label="Flauw (&lt;25graden)"/>
+			<value code="2" label="Steil (>25graden)"/>
+		</enumeration>
+		<enumeration id="TALODWTR[DIMSLS]">
+			<value code="1" label="Flauw (&lt;25graden)"/>
+			<value code="2" label="Steil (>25graden)"/>
+			<value code="3" label="Plasberm"/>
+		</enumeration>
+		<enumeration id="VERORNGG[DIMSLS]">
+			<value code="0" label="Niet van toepassing"/>
+			<value code="1" label="Vast afval"/>
+			<value code="2" label="Rioolresten"/>
+			<value code="3" label="Plantenmateriaal"/>
+			<value code="4" label="Olie"/>
+			<value code="5" label="Kadavers"/>
+			<value code="6" label="Dode vis"/>
+			<value code="7" label="Schuim"/>
+			<value code="8" label="Mest-Gier"/>
+			<!--<value code="9" label="Geen"/>-->
+		</enumeration>
+		<enumeration id="BODZT[DIMSLS]">
+			<value code="0" label="Nee"/>
+			<value code="1" label="Ja"/>
+		</enumeration>
+		<enumeration id="GEUR[DIMSLS]">
+			<value code="0" label="Niet van toepassing"/>
+			<value code="1" label="Zwavel"/>
+			<value code="2" label="Fenol"/>
+			<value code="3" label="Muf"/>
+			<value code="4" label="Riool"/>
+			<value code="5" label="Ijzer"/>
+			<value code="6" label="Chemisch"/>
+			<value code="9" label="Anders"/>
+			<!--<value code="100" label="Nee"/>-->
+			<value code="101" label="Ja"/>
+			<value code="102" label="Neutraal"/>
+		</enumeration>
+		<enumeration id="KLEUR[DIMSLS]">
+			<value code="0" label="Niet van toepassing"/>
+			<value code="1" label="Bruin"/>
+			<value code="2" label="Bruingeel"/>
+			<value code="3" label="Geel"/>
+			<value code="4" label="Groen"/>
+			<value code="5" label="Groengeel"/>
+			<value code="6" label="Zwart"/>
+			<value code="7" label="Grijs"/>
+			<value code="8" label="Grijsgroen"/>
+			<value code="9" label="Wit"/>
+			<value code="10" label="Purper"/>
+			<value code="11" label="Roestbruin"/>
+			<value code="99" label="Anders"/>
+			<value code="101" label="Bruingroen"/>
+			<value code="102" label="Geelbruin"/>
+			<value code="103" label="Geelgroen"/>
+			<value code="104" label="Grijsbruin"/>
+			<value code="105" label="Kleurloos"/>
+		</enumeration>
+		<enumeration id="WNS9756">
+			<value code="100" label="Geen"/>
+			<value code="101" label="Inlaten/Inmalen"/>
+			<value code="102" label="Noord"/>
+			<value code="103" label="Oost"/>
+			<value code="104" label="Uitmalen"/>
+			<value code="105" label="West"/>
+			<value code="106" label="Zuid"/>
+		</enumeration>
+		<enumeration id="VUIL[DIMSLS]">
+			<value code="100" label="Nee"/>
+			<value code="101" label="Ja"/>
+			<value code="102" label="Geen of nauwelijks"/>
+			<value code="103" label="Veel"/>
+		</enumeration>
+		<enumeration id="WNS3875">
+			<value code="101" label="Bewolkt/Wind"/>
+			<value code="102" label="Bewolkt/Windstil"/>
+			<value code="103" label="Halfbewolkt/Wind"/>
+			<value code="104" label="Halfbewolkt/Windstil"/>
+			<value code="105" label="Helder/Wind"/>
+			<value code="106" label="Helder/Windstil"/>
+			<value code="107" label="Mist"/>
+			<value code="108" label="Neerslag/Wind"/>
+			<value code="109" label="Neerslag/Windstil"/>
+		</enumeration>
+		<enumeration id="TTSODL[DIMSLS]">
+			<value code="1" label="Voldoet"/>
+			<value code="2" label="Voldoet niet"/>
+			<value code="3" label="Zeer goed"/>
+			<value code="4" label="Goed"/>
+			<value code="5" label="Matig"/>
+			<value code="6" label="Ontoereikend"/>
+			<value code="7" label="Slecht"/>
+			<value code="81" label="Niet toetsbaar"/>
+		</enumeration>
+		<enumeration id="TSTNDODL[DIMSLS]">
+			<value code="1" label="Voldoet"/>
+			<value code="2" label="Voldoet niet"/>
+			<value code="3" label="Zeer goed"/>
+			<value code="4" label="Goed"/>
+			<value code="5" label="Matig"/>
+			<value code="6" label="Ontoereikend"/>
+			<value code="7" label="Slecht"/>
+			<value code="81" label="Niet toetsbaar"/>
+		</enumeration>
+	</enumerations>
+	<parametersCsvFile>
+		<file>Parameters.csv</file>
+		<id>%Parameter_Code%</id>
+		<name>%FewsName%</name>
+		<enumerationId>%EnumerationId%</enumerationId>
+		<parameterType>%type%</parameterType>
+		<unit>%unit%</unit>
+		<valueResolution>%value_resolution%</valueResolution>
+		<allowMissing>%allow_missing%</allowMissing>
+		<attribute id="InternalParameterId">
+			<text>%Parameter_Code%</text>
+		</attribute>
+		<attribute id="group">
+			<text>%FewsParGroup%</text>
+		</attribute>
+		<attribute id="WnsId">
+			<text>%WnsId%</text>
+		</attribute>
+		<attribute id="H_MIN">
+			<number>%H_MIN%</number>
+		</attribute>
+		<attribute id="H_MAX">
+			<number>%H_MAX%</number>
+		</attribute>
+		<attribute id="S_MIN">
+			<number>%S_MIN%</number>
+		</attribute>
+		<attribute id="S_MAX">
+			<number>%S_MAX%</number>
+		</attribute>
+		<attribute id="PAR_Code">
+			<text>%PAR_Code%</text>
+		</attribute>
+		<attribute id="PAR_Omschrijving">
+			<text>%PAR_Omschrijving%</text>
+		</attribute>
+		<attribute id="Eenheid_oms">
+			<text>%Eenheid_oms%</text>
+		</attribute>
+		<attribute id="EnumerationId">
+			<text>%EnumerationId%</text>
+		</attribute>
+		<attribute id="unit_export">
+			<text>%unit_export%</text>
+		</attribute>
+		<attribute id="bio_wf_mafy">
+			<text>%bio_wf_mafy%</text>
+		</attribute>
+		<attribute id="bio_wf_mafa">
+			<text>%bio_wf_mafa%</text>
+		</attribute>
+		<attribute id="bio_wf_fyto">
+			<text>%bio_wf_fyto%</text>
+		</attribute>
+		<attribute id="bio_wf_vis">
+			<text>%bio_wf_vis%</text>
+		</attribute>
+		<attribute id="fc_wf_zwem">
+			<text>%fc_wf_zwem%</text>
+		</attribute>		
+		<attributeFile>
+			<csvFile>ParameterAttributes_EFCIS.csv</csvFile>
+			<parameterId>%FewsId%</parameterId>
+			<attribute id="EFCIS_ID">
+				<text>%wns_code%</text>
+			</attribute>
+			<attribute id="Eenheid">
+				<text>%eenheid%</text>
+			</attribute>
+		</attributeFile>
+	</parametersCsvFile>
+	<parameterRootNode id="Parameters">
+		<parameterNode id="1. Veldmetingen en -waarnemingen">
+			<parameterNode id="Veld biologisch">
+				<constraints>
+					<attributeTextEquals id="group" equals="Veld biologisch"/>
+				</constraints>
+			</parameterNode>
+			<parameterNode id="Veld fysisch-chemisch">
+				<constraints>
+					<attributeTextEquals id="group" equals="Veld fysisch-chemisch"/>
+				</constraints>
+			</parameterNode>
+		</parameterNode>
+		<parameterNode id="2. Fysisch-chemisch">
+			<parameterNode id="Algemeen fysisch-chemisch">
+				<parameterNode id="Nutriënten">
+					<constraints>
+						<attributeTextEquals id="group" equals="Nutriënten"/>
+					</constraints>
+				</parameterNode>
+				<parameterNode id="Overig fysisch-chemisch">
+					<constraints>
+						<attributeTextEquals id="group" equals="Overig fysisch-chemisch"/>
+					</constraints>
+				</parameterNode>
+				<parameterNode id="Blauwalgen">
+					<constraints>
+						<attributeTextEquals id="group" equals="Blauwalgen"/>
+					</constraints>
+				</parameterNode>
+				<parameterNode id="Bacteriologisch">
+					<constraints>
+						<attributeTextEquals id="group" equals="Bacteriologisch"/>
+					</constraints>
+				</parameterNode>
+			</parameterNode>
+			<parameterNode id="Metalen">
+				<constraints>
+					<attributeTextEquals id="group" equals="Metalen"/>
+				</constraints>
+			</parameterNode>
+			<parameterNode id="Organische microverontreinigingen">
+				<parameterNode id="Bestrijdingsmiddelen">
+					<constraints>
+						<attributeTextEquals id="group" equals="Bestrijdingsmiddelen"/>
+					</constraints>
+				</parameterNode>
+				<parameterNode id="Organotin verbindingen">
+					<constraints>
+						<attributeTextEquals id="group" equals="Organotin verbindingen"/>
+					</constraints>
+				</parameterNode>
+				<parameterNode id="Geneesmiddelen">
+					<constraints>
+						<attributeTextEquals id="group" equals="Geneesmiddelen"/>
+					</constraints>
+				</parameterNode>				
+				<parameterNode id="Overige organische microverontreinigingen">
+					<constraints>
+						<attributeTextEquals id="group" equals="Overige organische microverontreinigingen"/>
+					</constraints>
+				</parameterNode>
+				<parameterNode id="Polyaromatische koolwaterstoffen (PAK)">
+					<constraints>
+						<attributeTextEquals id="group" equals="Polyaromatische koolwaterstoffen (PAK)"/>
+					</constraints>
+				</parameterNode>
+			</parameterNode>
+		</parameterNode>
+		<parameterNode id="3. Biologisch">
+			<constraints>
+				<anyValid>
+					<attributeTextEquals id="group" equals="3. Biologisch"/>
+				</anyValid>
+			</constraints>
+		</parameterNode>
+		<parameterNode id="4. Toetsresultaten (per jaar)">
+			<constraints>
+				<attributeTextEquals id="group" equals="4. Toetsresultaten (per jaar)"/>
+			</constraints>
+		</parameterNode>
+		<parameterNode id="5. Toestandsbeoordeling (meerjarig)">
+			<constraints>
+				<attributeTextEquals id="group" equals="5. Toestandsbeoordeling (meerjarig)"/>
+			</constraints>
+		</parameterNode>
+		<parameterNode id="Overig">
+			<constraints>
+				<not>
+					<attributeExists id="group"/>
+				</not>
+			</constraints>
+		</parameterNode>
+	<parameterNode id="6. Afgemeld">
+			<constraints>
+				<attributeTextEquals id="group" equals="6. Afgemeld"/>
+			</constraints>
+		</parameterNode>		
+		<parameterNode id="7. Niet bemeten">
+			<constraints>
+				<attributeTextEquals id="group" equals="7. Niet bemeten"/>
+			</constraints>
+		</parameterNode>
+	</parameterRootNode>
+</parameters>

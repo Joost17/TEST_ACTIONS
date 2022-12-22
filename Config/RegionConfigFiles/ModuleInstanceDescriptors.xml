@@ -1,0 +1,27 @@
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<moduleInstanceDescriptors xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/moduleInstanceDescriptors.xsd" version="1.0">
+	<!--Import Module Instances-->
+	<moduleInstanceDescriptor id="Import_IMmetingen"/>
+	<moduleInstanceDescriptor id="Import_IMmetingen_Biologie"/>
+	<moduleInstanceDescriptor id="Import_IMmetingen_FysischeChemie"/>
+	<moduleInstanceDescriptor id="Import_IMmetingen_preprocessing"/>
+	<moduleInstanceDescriptor id="Import_EFCIS_dump"/>
+	<moduleInstanceDescriptor id="Import_Toetsing"/>
+	<moduleInstanceDescriptor id="Import_Toetsing_preprocessing"/>
+	<!--Export Module Instances-->
+	<moduleInstanceDescriptor id="Export_IMmetingen_alles"/>
+	<moduleInstanceDescriptor id="Export_IMmetingen_FC"/>
+	<moduleInstanceDescriptor id="Export_IMmetingen_BIO"/>
+	<moduleInstanceDescriptor id="Export_IMmetingen_TEST"/>
+	<moduleInstanceDescriptor id="Export_PostProcessing"/>
+	<moduleInstanceDescriptor id="Export_ReportSystemStatus"/>
+	<!--Data management -->
+	<moduleInstanceDescriptor id="Amalgamate_ImportData"/>
+	<moduleInstanceDescriptor id="AmalgamateImportScalarDay"/>
+	<moduleInstanceDescriptor id="AmalgamateImportScalarWeek"/>
+	<moduleInstanceDescriptor id="AmalgamateImportScalarMonth"/>
+	<moduleInstanceDescriptor id="AmalgamateImportScalarYear"/>
+	<moduleInstanceDescriptor id="RollingBarrel"/>
+	<moduleInstanceDescriptor id="MarkedRecordManager"/>
+	<moduleInstanceDescriptor id="ReportSystemStatus"/>
+</moduleInstanceDescriptors>

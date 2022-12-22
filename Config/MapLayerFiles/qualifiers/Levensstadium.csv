@@ -1,0 +1,23 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+1;31;LS-AD;Levensstadium-Adult;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+2;32;LS-CE;Levensstadium-Cercarie;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+3;33;LS-CO;Levensstadium-Copepodiet;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+4;67;LS-CYST;Levensstadium-Cyste ruststadium bij bepaalde organismen;Levensstadium;18 april 2018 00:00:00;1 januari 2100 00:00:00
+5;34;LS-DL;Levensstadium-Dauer larve;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+6;35;LS-EI;Levensstadium-Ei;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+7;36;LS-EL;Levensstadium-Eerste levensjaar;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+8;37;LS-EM;Levensstadium-Embryo;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+9;38;LS-EP;Levensstadium-Ephippium;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+10;39;LS-EX;Levensstadium-Exuvium;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+11;40;LS-FL;Levensstadium-Flagellaat;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+12;41;LS-JU;Levensstadium-Juveniel;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+13;42;LS-KU;Levensstadium-Kuiken;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+14;43;LS-LA;Levensstadium-Larve;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+15;44;LS-NA;Levensstadium-Nauplius;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+16;45;LS-NY;Levensstadium-Nimf;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+17;46;LS-OV;Levensstadium-Onvolwassen;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+18;47;LS-PO;Levensstadium-Pop;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+19;48;LS-PU;Levensstadium-Pul of donsjong;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+20;49;LS-SP;Levensstadium-Spore;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+21;50;LS-VE;Levensstadium-Veliger;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00
+22;51;LS-XX;Levensstadium-Onbekend;Levensstadium;13 december 2017 00:00:00;1 januari 2100 00:00:00

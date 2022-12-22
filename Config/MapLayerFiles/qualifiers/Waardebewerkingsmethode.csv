@@ -1,0 +1,57 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+1;0;NVT;NVT;;;
+2;1;BER;Berekend;Methodiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+3;6;C10;CUWVO 10 percentiel;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+4;7;C90;CUWVO 90 percentiel;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+5;2;GEM;Gemiddelde;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+6;3;GSD;Gestandaardiseerde waarde;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+7;8;JGM;Jaargemiddelde;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+8;9;MAX;Maximum;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+9;10;MED;50-Percentiel (mediaan);Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+10;11;MIN;Minimum;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+11;57;MODUS;Modus;Statistiek;9 april 2016 00:00:00;1 januari 2100 00:00:00
+12;12;NBO;Aantal meetwaarden boven maximum detectiegrens;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+13;13;NON;Aantal meetwaarden onder minimum detectiegrens;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+14;14;NUM;Aantal meetwaarden;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+15;5;NVT;Niet van toepassing;(technisch);11 juni 2011 00:00:00;1 januari 2100 00:00:00
+16;59;P02.5;2.5-Percentiel;Percentielen;9 april 2016 00:00:00;1 januari 2100 00:00:00
+17;15;P05;5-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+18;16;P10;10-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+19;17;P15;15-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+20;18;P20;20-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+21;19;P25;25-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+22;20;P30;30-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+23;21;P35;35-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+24;22;P40;40-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+25;23;P45;45-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+26;24;P55;55-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+27;25;P60;60-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+28;60;P60-P10;Ratio 60-Percentiel en 10-Percentiel;Percentielen;12 december 2017 00:00:00;1 januari 2100 00:00:00
+29;26;P65;65-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+30;27;P67;67-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+31;28;P70;70-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+32;29;P75;75-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+33;30;P80;80-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+34;31;P85;85-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+35;32;P90;90-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+36;56;P90ZMR;90-Percentiel zomerperiode;Richtlijn/protocol;6 september 2014 00:00:00;1 januari 2100 00:00:00
+37;33;P90ZWR;90 percentiel volgens Zwemwaterrichtlijn 2006;Percentielen;8 december 2012 00:00:00;1 januari 2100 00:00:00
+38;34;P95;95-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+39;35;P95ZWR;95 percentiel volgens Zwemwaterrichtlijn 2006 ;Percentielen;8 december 2012 00:00:00;1 januari 2100 00:00:00
+40;36;P96;96-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+41;37;P97;97-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+42;58;P97.5;97.5-Percentiel;Percentielen;9 april 2016 00:00:00;1 januari 2100 00:00:00
+43;38;P98;98-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+44;39;P98MAX;98-Percentiel van de maximale dagwaarde;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+45;40;P99;99-Percentiel;Percentielen;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+46;41;S07;Sommatie waarden deelparameters (factor 0.7 als onder bepg);Sommatie deelparameters;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+47;42;S10;Sommatie waarden deelparameters boven bepalingsgrens;Sommatie deelparameters;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+48;4;SOM;Sommatie waarden;Sommatie deelparameters;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+49;43;STD;Standaarddeviatie;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+50;44;VAR;Variantie;Statistiek;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+51;45;WGM;Wintergemiddelde;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+52;46;ZGM;Zomergemiddelde;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+53;54;ZHJMAX;Hoogste waarde gedurende een zomerhalfjaar;Richtlijn/protocol;4 september 2014 00:00:00;1 januari 2100 00:00:00
+54;55;ZHJMIN;Laagste waarde gedurende een zomerhalfjaar;Richtlijn/protocol;4 september 2014 00:00:00;1 januari 2100 00:00:00
+55;48;ZHM;Zomerhalfjaar doorzicht;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+56;49;ZPH;Zomerhalfjaar ionenconcentratie;Richtlijn/protocol;11 juni 2011 00:00:00;1 januari 2100 00:00:00

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unitConversions xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/unitConversions.xsd">
+  <unitConversion>
+    <inputUnitType>oC</inputUnitType>
+    <outputUnitType>deg C</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+  <unitConversion>
+    <inputUnitType>mm/hr</inputUnitType>
+    <outputUnitType>mm/h</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+  <unitConversion>
+    <inputUnitType>Pa</inputUnitType>
+    <outputUnitType>Bar</outputUnitType>
+    <multiplier>0.00001</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+  <unitConversion>
+    <inputUnitType>W/m2</inputUnitType>
+    <outputUnitType>mW/m2</outputUnitType>
+    <multiplier>1000</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+  <unitConversion>
+    <inputUnitType>/100ml</inputUnitType>
+    <outputUnitType>n/dl</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>/m</inputUnitType>
+    <outputUnitType>n/m</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>/ml</inputUnitType>
+    <outputUnitType>n/ml</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>dimsls</inputUnitType>
+    <outputUnitType>n</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>kvd/l</inputUnitType>
+    <outputUnitType>n/l</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>mg N/l</inputUnitType>
+    <outputUnitType>mg/l</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>mg O2/l</inputUnitType>
+    <outputUnitType>mg/l</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>mg P/l</inputUnitType>
+    <outputUnitType>mg/l</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>mg/l</inputUnitType>
+    <outputUnitType>ug/l</outputUnitType>
+    <multiplier>1000</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+    <unitConversion>
+    <inputUnitType>mg/l CaCO3</inputUnitType>
+    <outputUnitType>meq/l</outputUnitType>
+    <multiplier>1</multiplier>
+    <incrementer>0</incrementer>
+  </unitConversion>
+ </unitConversions>

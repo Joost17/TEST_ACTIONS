@@ -1,0 +1,60 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Cijfercode;Begin geldigheid;Eind geldigheid
+1;40;AL;Afval;Medium;119;24 september 2016 00:00:00;1 januari 2100 00:00:00
+2;37;AT;Asfalt;Medium;116;24 september 2016 00:00:00;1 januari 2100 00:00:00
+3;3;AW;Afvalwater;Medium;30;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+4;8;BF;Bouwstof;Medium;109;19 januari 2013 00:00:00;1 januari 2100 00:00:00
+5;55;BN;Bronwater;Medium;134;9 oktober 2020;1 januari 2100
+6;38;BR;Bodemverbeteraar;Medium;117;24 september 2016 00:00:00;1 januari 2100 00:00:00
+7;1;BS;Bodem/Sediment;Medium-MilieuCompartiment;40;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+8;50;BW;Bedrijfswater;Medium;129;8 december 2018 00:00:00;1 januari 2100 00:00:00
+9;9;CH;Chemische hulpstoffen;Medium;90;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+10;44;CM;Constructiemateriaal;Medium;123;24 september 2016 00:00:00;1 januari 2100 00:00:00
+11;56;DA;Dialysewater;Medium;135;9 oktober 2020;1 januari 2100
+12;10;DL;Drijflaag;Medium;103;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+13;52;DN;Duin;Biotoop;131;27 september 2019 00:00:00;1 januari 2100 00:00:00
+14;11;DW;Drinkwater;Medium;18;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+15;47;EN;Epilimnion;Biotoop;126;27 september 2019 00:00:00;1 januari 2100 00:00:00
+16;34;ET;Eluaat;Medium;113;24 september 2016 00:00:00;1 januari 2100 00:00:00
+17;32;EZ;Emerse zone;Biotoop;110;28 juni 2014 00:00:00;1 januari 2100 00:00:00
+18;51;GS;Gas;Medium;130;1 februari 2019 00:00:00;1 januari 2100 00:00:00
+19;43;GT;Granulaat;Medium;122;24 september 2016 00:00:00;1 januari 2100 00:00:00
+20;2;GW;Grondwater;Medium-MilieuCompartiment;15;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+21;12;HW;Hemelwater;Medium-MilieuCompartiment;35;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+22;49;HY;Hypolimnion;Biotoop;128;27 september 2019 00:00:00;1 januari 2100 00:00:00
+23;13;KH;Klinkhout;Biotoop;72;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+24;59;KL;Koelwater;Medium;138;9 oktober 2020;1 januari 2100
+25;14;KS;Kunstmatig substraat;Biotoop;73;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+26;15;LM;Litoraal;Biotoop;85;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+27;16;LT;Lucht;Medium-MilieuCompartiment;80;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+28;17;LW;Lozingswater;Medium;31;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+29;46;LZ;Limnische zone;Biotoop;125;27 september 2019 00:00:00;1 januari 2100 00:00:00
+30;48;MN;Metalimnion;Biotoop;127;27 september 2019 00:00:00;1 januari 2100 00:00:00
+31;18;NT;Niet van toepassing;(technisch);99;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+32;19;OE;Organisme (biota);(technisch);60;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+33;42;OK;Oppervlak;Medium;121;24 september 2016 00:00:00;1 januari 2100 00:00:00
+34;35;OL;Olie;Medium;114;24 september 2016 00:00:00;1 januari 2100 00:00:00
+35;99;ON;Onbekend;Medium;199;9 oktober 2020;1 januari 2100
+36;45;OO;Oppervlaktewater en Oever;Biotoop;124;14 november 2017 00:00:00;1 januari 2100 00:00:00
+37;20;OP;Onderhoudspad (maaipad);Biotoop;107;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+38;21;OR;Oever;Biotoop;100;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+39;4;OW;Oppervlaktewater;Medium-MilieuCompartiment;10;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+40;53;OZ;Onverzadigde zone;Biotoop;132;12 november 2019 00:00:00;1 januari 2100 00:00:00
+41;57;PC;Proceswater;Medium;136;9 oktober 2020;1 januari 2100
+42;22;PM;Profundaal;Biotoop;86;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+43;23;PW;Poriewater;Medium-MilieuCompartiment;20;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+44;5;SB;Slib;Medium;112;27 januari 2015 00:00:00;1 januari 2100 00:00:00
+45;39;SD;Stof (Lucht);Medium-MilieuCompartiment;118;4 oktober 2019 00:00:00;1 januari 2100 00:00:00
+46;24;SN;Steen;Biotoop;71;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+47;25;SR;Siliconenrubber;Biotoop;105;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+48;33;SZ;Submerse zone;Biotoop;111;28 juni 2014 00:00:00;1 januari 2100 00:00:00
+49;26;TD;Talud;Biotoop;106;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+50;41;TS;Teeltsubstraat;Medium;120;24 september 2016 00:00:00;1 januari 2100 00:00:00
+51;27;VE;Vegetatie;Medium;65;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+52;58;VF;Vaste stof;Medium;137;9 oktober 2020;1 januari 2100
+53;54;WZ;Wortelzone;Biotoop;133;12 november 2019 00:00:00;1 januari 2100 00:00:00
+54;60;YS;IJs;Medium;139;9 oktober 2020;1 januari 2100
+55;28;ZB;Zuiveringsslib;Medium;55;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+56;29;ZD;Zand;Medium;43;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+57;36;ZR;Zeewater;Medium;115;24 september 2016 00:00:00;1 januari 2100 00:00:00
+58;30;ZS;Zwevende stof;Medium-MilieuCompartiment;50;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+59;31;ZW;Zwembadwater;Medium;108;10 juni 2011 00:00:00;1 januari 2100 00:00:00

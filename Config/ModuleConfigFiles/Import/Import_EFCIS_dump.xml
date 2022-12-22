@@ -1,0 +1,68 @@
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<timeSeriesImportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesImportRun.xsd">
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/EFCISdump</folder>
+			<fileNamePatternFilter>*.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/EFCISdump</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/EFCISdump</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="datum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="tijd" pattern="HH:mm"/>
+				<locationColumn name="loc_id"/>
+				<unitColumn name="eenheid"/>
+				<parameterColumn name="wns_code"/>
+				<qualifierColumn name="WNS_ID"/>
+				<qualifierColumn name="compartiment" prefix="MCO_"/>
+				<qualifierColumn name="compartiment" prefix="ACO_"/>
+				<qualifierColumn name="hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="taxonnaamtype" prefix="BN_"/>
+				<qualifierColumn name="TaxonType" prefix="TT_"/>
+				<qualifierColumn name="Grootheid.Code" prefix="GH_"/>
+				<qualifierColumn name="Typering.Code" prefix="TP_"/>
+				<qualifierColumn name="Duplicate" prefix="DP_"/>
+				<qualifierColumn name="Parameter.Code" prefix="PC_"/>
+				<qualifierColumn name="lengtecategorie" prefix="LC_"/>
+				<qualifierColumn name="lengteklasse" prefix="LK_"/>
+				<qualifierColumn name="waardebewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="levensvorm" prefix="LV_"/>
+				<qualifierColumn name="levensstadium" prefix="LS_"/>
+				<qualifierColumn name="gedrag" prefix="GG_"/>
+				<qualifierColumn name="geslacht" prefix="GS_"/>
+				<qualifierColumn name="verschijningsvorm" prefix="VV_"/>
+				<propertyColumn name="uitvoerende" key="Meetinstantie"/>
+				<sampleIdColumn name="SampleId"/>
+				<limitSymbolColumn name="teken"/>
+				<propertyColumn name="activiteit" key="activiteit"/>
+				<propertyColumn name="Meetobject.Namespace" key="namespace"/>
+				<propertyColumn name="vis_g" key="Gewicht_g"/>
+				<propertyColumn name="vis_opp_ha" key="Oppervlakte_ha"/>
+				<valueColumn name="waarde_n" ignoreForEnumerationParameters="true"/>
+				<valueColumn name="waarde_a" ignoreForNumericalParameters="true"/>
+				<!--valueColumn name="waarde_n" requireNumericalParameters="true"/>
+				<valueColumn name="waarde_a" requireEnumerationParameters="true"/-->
+				<commentColumn name="opmerkingen"/>
+				<flagColumn name="validation_state"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_EFCISdump</idMapId>
+			<unitConversionsId>ImportUnitConversions</unitConversionsId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>EFCISdump</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+			<!--rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues-->
+		</general>
+	</import>
+</timeSeriesImportRun>
