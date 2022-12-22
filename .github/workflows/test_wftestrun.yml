@@ -27,7 +27,7 @@ jobs:
         
       - name: run workflow testrun
         run: |
-          ls ${{ github.workspace }}
+          ls 
           wf_testrun/run_wf_testrun.bat
-          ls ${{ github.workspace }}
+          ls 
           
