@@ -1,0 +1,38 @@
+name: pre-processing
+on:
+  push:
+    paths:
+      - Config/ModuleDataSetFiles/PreProImport_BIO.py
+      - Config/ModuleDataSetFiles/PreProImport_FC.py
+      - .github/workflows/test.yml
+    branches:
+      - productie
+      - test
+      - ontwikkel
+  pull_request:
+    paths:
+      - Config/ModuleDataSetFiles/PreProImport_BIO.py
+      - Config/ModuleDataSetFiles/PreProImport_FC.py
+      - .github/workflows/test.yml
+    branches:
+      - productie
+      - test
+      - ontwikkel
+      
+jobs:
+  create-env:
+    name: Workflow testrun
+    runs-on: windows-2019
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      fail-fast: false
+        
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
+        
+      - name: run workflow testrun
+        run: |
+          wf_testrun/run_wf_testrun.bat
