@@ -1,19 +1,11 @@
 name: pre-processing
 on:
   push:
-    paths:
-      - Config/ModuleDataSetFiles/PreProImport_BIO.py
-      - Config/ModuleDataSetFiles/PreProImport_FC.py
-      - .github/workflows/test.yml
     branches:
       - productie
       - test
       - ontwikkel
   pull_request:
-    paths:
-      - Config/ModuleDataSetFiles/PreProImport_BIO.py
-      - Config/ModuleDataSetFiles/PreProImport_FC.py
-      - .github/workflows/test.yml
     branches:
       - productie
       - test
