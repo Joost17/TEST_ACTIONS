@@ -28,6 +28,4 @@ jobs:
       - name: run workflow testrun
         run: |
           ls 
-          wf_testrun/run_wf_testrun.bat
-          ls 
           
