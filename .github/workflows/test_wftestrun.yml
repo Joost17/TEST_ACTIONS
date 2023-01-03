@@ -44,4 +44,4 @@ jobs:
       - name: Install test dependencies
         run: C:/Miniconda/condabin/conda.bat install pytest      
       - name: Test config
-        run: pytest tests/test_config.py
+        run: pytest tests/test_wf_test.py
