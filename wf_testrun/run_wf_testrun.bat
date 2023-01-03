@@ -3,7 +3,7 @@ ECHO DRAAI DAARBIJ ALS VOORBEELD DE TAAK ImportPvss
 
 
 ::SET REGION_HOME=..
-
+cd wf_testrun
 RMDIR /Q /S %CD%\Config
 RMDIR /Q /S %CD%\localDataStore
 RMDIR /Q /S %CD%\temp
