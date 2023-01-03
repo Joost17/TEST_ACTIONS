@@ -29,6 +29,7 @@ jobs:
         run: ls
       - name: run workflow testrun
         run: wf_testrun/run_wf_testrun.bat
-          
+      - name: list directory
+        run: ls
           
           
