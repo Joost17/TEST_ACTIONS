@@ -25,7 +25,10 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v2
         
+      - name: list directory
+        run: ls
       - name: run workflow testrun
-        run: |
-          ls 
+        run: wf_testrun/run_wf_testrun.bat
+          
+          
           
