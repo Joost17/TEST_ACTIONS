@@ -1,6 +1,3 @@
-import pandas as pd
-import chardet
-
 #Read output of preprocessing
 file_BIO        = r'tests/testfiles/Diatomeeen_test.csv'
 df_BIO          = pd.read_csv(file_BIO,sep=';')
