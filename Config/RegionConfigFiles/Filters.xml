@@ -10,7 +10,7 @@
 		</locationConstraints>
 	</filter>
 	<filter id="Fysische chemie" name="Fysische chemie">
-		<child foreignKey="Fysische chemie volledig"/>
+		<child foreignKey="Fysische chemie volledigas"/>
 		<child foreignKey="Meetnet Kader Richtlijn Water (KRW, FC)"/>
 		<child foreignKey="Meetnet Agrarisch en Stedelijk gebied (FC)"/>
 		<child foreignKey="Meetnet waterkwaliteit hoofdwater (FC)"/>
