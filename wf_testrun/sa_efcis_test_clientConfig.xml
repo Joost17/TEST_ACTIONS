@@ -10,5 +10,7 @@ http://fews.wldelft.nl/schemas/version1.0/clientConfig.xsd">
 		<debugEnabled>false</debugEnabled>
 	</logging>
 	<autoExportModuleDataSet name="Products" exportDir="Products"/>
-	<!--autoExportModuleDataSet name="Import_preprocessing" exportDir="Modules/Import_preprocessing"/--><!--zodat preprocessing goed werkt en los te draaien is-->
+	<autoExportModuleDataSet name="Import_preprocessing" exportDir="Modules/Import_preprocessing"/>
+		<autoExportModuleDataSet name="Export_postprocessing" exportDir="Modules/Export_postprocessing"/>
+
 </clientConfiguration> 

@@ -7,7 +7,7 @@
 	</general>
 	<activities>
 		<workflowActivity>
-			<workflowId>wf_Import_IMmetingen_Biologie</workflowId>
+			<workflowId>wf_Export_IMmetingen_alles</workflowId>
 		</workflowActivity>
 	</activities>
 </workflowTestRun>
