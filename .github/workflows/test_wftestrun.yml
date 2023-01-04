@@ -1,4 +1,5 @@
 name: workflow testrun
+on:
   push:
     branches:
       - productie
