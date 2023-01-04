@@ -1,0 +1,35 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+1;1;BD;Bloed;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+2;34;BV;Bruinvlees;;9 januari 2016 00:00:00;1 januari 2100 00:00:00
+3;2;DB;Dijbeen;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+4;3;DI;Dierlijk weefsel;;28 maart 2012 00:00:00;1 januari 2100 00:00:00
+5;4;DM;Darm;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+6;5;DR;Dooier;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+7;6;EO;Embryo;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+8;7;EP;Ellepijp;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+9;8;ES;Eierschaal;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+10;9;EV;Eivlies;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+11;10;FT;Filet;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+12;11;GL;Gal;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+13;12;HB;Handwortelbeen;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+14;13;HN;Hersenen;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+15;14;HT;Hart;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+16;15;KP;Kop;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+17;16;LC;Levercel;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+18;17;LR;Lever;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+19;18;MG;Maag;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+20;19;NR;Nier;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+21;20;OB;Opperarmbeen;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+22;21;OG;Oog;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+23;22;PA;Plasma;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+24;23;PS;Penis;Orgaan;22 september 2015 00:00:00;1 januari 2100 00:00:00
+25;24;SB;Scheenbeen;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+26;25;SF;Struif;;22 september 2011 00:00:00;1 januari 2100 00:00:00
+27;26;SL;Snavel;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+28;27;SP;Schelp;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+29;28;ST;Staart;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+30;29;SW;Spierweefsel;Orgaan;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+31;30;T4;genetisch gemodificeerde T47D-cellijn;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+32;31;VN;Vin;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+33;32;VS;Vlees;;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+34;33;Vl;Vleugel;;10 juni 2011 00:00:00;1 januari 2100 00:00:00

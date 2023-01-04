@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<timeSeriesExportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesExportRun.xsd">
+	<!-- This is an example export configuration file for exporting data from as UmAquo CSV file -->
+	<export>
+		<general>
+			<exportType>generalCSV</exportType>
+			<folder>$EXPORT_DIR$/IMmetingen/CSV</folder>
+			<exportFileName>
+				<name>_$EXPORT_NAME$.csv</name>
+				<prefix>
+					<timeZeroFormattingString>yyyyMMdd</timeZeroFormattingString>
+				</prefix>
+			</exportFileName>
+			<table>
+							<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<propertyColumn name="Meetobject.Namespace" key="namespace"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<dateColumn name="Monsterophaaldatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<propertyColumn name="Resultaatdatum" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd" key="Resultaattijd"/>
+				<timeColumn name="Monsterophaaltijd" pattern="HH:mm:ss"/>
+				<qualifierColumn name="MonsterCompartiment.code" prefix="MCO_"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<attributeColumn name="Eenheid.code" id="unit_export"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<qualifierColumn name="Levensstadium.code" prefix="LS_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LK_"/>
+				<qualifierColumn name="Levensvorm.code" prefix="LV_"/>
+				<qualifierColumn name="Verschijningsvorm.code" prefix="VV_"/>
+				<qualifierColumn name="Gedrag.code" prefix="GG_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Bemonsteringsapparaat.code" prefix="BA_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<attributeColumn name="GeometriePunt.X_RD" id="x1"/>
+				<attributeColumn name="GeometriePunt.Y_RD" id="y1"/>
+				<attributeColumn name="Omschrijving" id="locationname"/>
+				<attributeColumn name="Waterlichaam.identificatie" id="waterlichaam"/>
+				<attributeColumn name="KRWwatertype.code" id="watertype"/>
+				<propertyColumn name="GeometriePunt.X" key="X_monster"/>
+				<propertyColumn name="GeometriePunt.Y" key="Y_monster"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+			</table>
+			<idMapId>IdExport_IMmetingen</idMapId>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString></exportMissingValueString>
+			<exportTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</exportTimeZone>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</general>
+		<filterId>$FILTERID$</filterId>
+	</export>
+</timeSeriesExportRun>
+                                                                                                                                                                                                                         

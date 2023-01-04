@@ -1,0 +1,12 @@
+classlist;40459;MR2b6iXH5hx/eA6G1mBg3yp6G8STd55Tf1inePxcZ+A=
+fontconfig.bfc;4630;lorJm7qvikmkdMk05zrVj4jGx/KjY8tEdx4DeERONro=
+fontconfig.properties.src;12345;tEVARzuXNk4PeooAAt0h16BxcCj6FTPxObyY9AyRwPA=
+jawt.lib;1682;37CHwDx5VNKPjhutqef9weIIkwAuaZBFpx4C7BLRg90=
+jrt-fs.jar;106283;aslly244edY9L1crFJxak0oq2oDla1a8IGjaYGvuWhk=
+jvm.cfg;29;qp77lpREwUhOKa3sq1WhIkWAkGFudmsvEjDvBbw4Z+A=
+jvm.lib;1006988;FvBt2u7XOjXG3O7Uf9EjyShXSSbj1XBvBH27imWXzAo=
+modules;28326321;6LR94zNZtDU647Tud61QDt26MMJ3BEt8UTd1cNk7cv8=
+psfont.properties.ja;3793;WkvVG5ab8Yf/htlPSnH9+/pgJ2KXX6PHPSZLRXX3x48=
+psfontj2d.properties;11390;eAxWXVrz7m9ouIe3XAQc30agWS9nAS8S7raRKD6SYwo=
+tzdb.dat;107853;QcjzA4S8HONe9zuQNeRChRN+CRE8ULNQcmOZTxlGRj0=
+tzmappings;9577;g3Ve+8skR29ht7V7z1RwcWFnhDE0fl3i17iU0CKgCJo=

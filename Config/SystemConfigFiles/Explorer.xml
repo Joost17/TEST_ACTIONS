@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<explorer version="1.1" xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/explorer.xsd">
+	<systemInformation>
+		<systemCaption>$EXPLORER_SYSTEMCAPTION$</systemCaption>
+		<systemHelpUrl>$WIKI_URL$</systemHelpUrl>
+	</systemInformation>
+	<timeSeriesStatus>remotely updated snapshot</timeSeriesStatus>
+	<dateTime>
+		<timeZoneName>CET</timeZoneName>
+		<dateTimeFormat>dd-MM-yyyy HH:mm:ss</dateTimeFormat>
+		<cardinalTimeStep unit="hour" multiplier="1"/>
+		<adjustSystemTimeAutomatically>false</adjustSystemTimeAutomatically>
+	</dateTime>
+	<statusBarConfig>
+		<dateTimeFormat>HH:mm:ss</dateTimeFormat>
+		<timeGMT>false</timeGMT>
+		<timeCurrent>true</timeCurrent>
+		<timeLastRefresh>true</timeLastRefresh>
+		<statusOfSystem>true</statusOfSystem>
+		<mouseCoordinates>true</mouseCoordinates>
+		<userName>true</userName>
+	</statusBarConfig>
+	<globalDatum>NAP</globalDatum>
+	<map>
+		<geoDatum>Rijks Driehoekstelsel</geoDatum>
+		<projection>web_mercator</projection>
+		<defaultExtent id="HDSR" name="De Stichtse Rijnlanden">
+			<left>110000</left>
+			<right>168500</right>
+			<top>468500</top>
+			<bottom>438500</bottom>
+		</defaultExtent>
+		<extraExtent id="IJSSEL" name="IJssel">
+			<left>110000</left>
+			<right>134000</right>
+			<top>452500</top>
+			<bottom>438500</bottom>
+		</extraExtent>
+		<extraExtent id="KROMMERIJN" name="Kromme Rijn">
+			<left>135500</left>
+			<right>168500</right>
+			<top>462900</top>
+			<bottom>440700</bottom>
+		</extraExtent>
+		<extraExtent id="LEIDSCHERIJN" name="Leidsche Rijn">
+			<left>123500</left>
+			<right>143700</right>
+			<top>468500</top>
+			<bottom>444800</bottom>
+		</extraExtent>
+		<extraExtent id="OUDERIJN" name="Oude Rijn">
+			<left>110000</left>
+			<right>127250</right>
+			<top>464250</top>
+			<bottom>447250</bottom>
+		</extraExtent>
+		<extraExtent id="OOST" name="Oost">
+			<left>129000</left>
+			<right>168500</right>
+			<top>468500</top>
+			<bottom>438500</bottom>
+		</extraExtent>
+		<extraExtent id="WEST" name="West">
+			<left>110000</left>
+			<right>136250</right>
+			<top>468500</top>
+			<bottom>438500</bottom>
+		</extraExtent>
+		<scaleBarVisible>true</scaleBarVisible>
+		<northArrowVisible>true</northArrowVisible>
+		<labelsVisible>true</labelsVisible>
+		<openStreetMapLayer id="Osm" name="OpenStreetMap"> 
+			<url>https://tile.openstreetmap.org</url>
+			<visible>false</visible>
+			<cacheDir>$MAPDIR$/OsmTiles</cacheDir>
+		</openStreetMapLayer>
+		<wmsLayer id="Luchtfoto PDOK">
+			<url>https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0?request=GetCapabilities&amp;service=wms</url>
+			<wmsLayerName>Actueel_ortho25</wmsLayerName>
+			<visible>false</visible>
+			<cacheDir>$MAPDIR$/Luchtfoto_PDOK_2020</cacheDir>
+		</wmsLayer>
+		<layer id="Topografie" name="ArcGIS World Topo Map">
+			<className>nl.wldelft.libx.openmap.GenericTileServerLayer</className>
+			<visible>true</visible>
+			<properties>
+				<string key="tileUrlPattern" value="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/%ZOOM%/%ROW%/%COLUMN%"/>
+				<string key="cacheDir" value="$MAPDIR$/Esri_topo"/>
+				<int key="minZoomLevel" value="1"/>
+				<int key="maxZoomLevel" value="19"/>
+				<int key="topZoomLevel" value="21"/>
+				<int key="tileSize" value="256"/>
+			</properties>
+		</layer>
+		<esriShapeLayer id="Provincies">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Provincies.shp</file>
+			<visible>false</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%Provincien%</toolTip>
+			<lineColor>gray40</lineColor>
+		</esriShapeLayer>
+		<esriShapeLayer id="Gemeentes">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Gemeentes.shp</file>
+			<visible>false</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%Gemeentena%</toolTip>
+			<lineColor>gray30</lineColor>
+		</esriShapeLayer>
+		<esriShapeLayer id="Waterschappen">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Waterschappen.shp</file>
+			<visible>true</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%waterschap%</toolTip>
+			<maxScale>1:150000</maxScale>
+			<lineColor>gray25</lineColor>
+		</esriShapeLayer>
+		<esriShapeLayer id="Rayons">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Rayons.shp</file>
+			<visible>true</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%RAYON_WSB%</toolTip>
+		</esriShapeLayer>
+		<esriShapeLayer id="Afvoergebieden">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Afvoergebieden.shp</file>
+			<visible>true</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%NAAM%</toolTip>
+		</esriShapeLayer>
+		<esriShapeLayer id="Peilgebieden">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Peilgebieden.shp</file>
+			<visible>false</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%NAAM%</toolTip>
+		</esriShapeLayer>
+		<esriShapeLayer id="Waterlichamen - vlak">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Waterlichamen_SGBP3_EFCIS_vlak.shp</file>
+			<visible>false</visible>
+			<toolTip>%OWMNAAM%</toolTip>
+			<minScale>1:4000000</minScale>
+			<maxScale>1:2500</maxScale>
+			<classBreaksAttributeName>OWMTYPE</classBreaksAttributeName>
+			<classBreaks>
+				<color lowerValue="1" label="M1a" color="dark orchid2" opaquenessPercentage="90"/>
+				<color lowerValue="2" label="M10" color="pale green3" opaquenessPercentage="90"/>
+				<color lowerValue="3" label="M3" color="tomato3" opaquenessPercentage="90"/>
+				<color lowerValue="4" label="M6a" color="steel blue2" opaquenessPercentage="90"/>
+				<color lowerValue="5" label="M6b" color="steel blue4" opaquenessPercentage="90"/>
+				<color lowerValue="6" label="M7b" color="tan" opaquenessPercentage="90"/>
+				<color lowerValue="7" label="M8" color="plum" opaquenessPercentage="90"/>
+				<color lowerValue="8" label="R6" color="sky blue" opaquenessPercentage="90"/>
+			</classBreaks>
+		</esriShapeLayer>
+		<esriShapeLayer id="Waterlichamen - lijn">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Waterlichamen_SGBP3_EFCIS_lijn.shp</file>
+			<visible>false</visible>
+			<toolTip>%OWMNAAM%</toolTip>
+			<minScale>1:4000000</minScale>
+			<maxScale>1:2500</maxScale>
+			<classBreaksAttributeName>OWMTYPE</classBreaksAttributeName>
+			<classBreaks>
+				<color lowerValue="1" label="M1a" color="dark orchid2" opaquenessPercentage="90"/>
+				<color lowerValue="2" label="M10" color="pale green3" opaquenessPercentage="90"/>
+				<color lowerValue="3" label="M3" color="tomato3" opaquenessPercentage="90"/>
+				<color lowerValue="4" label="M6a" color="steel blue2" opaquenessPercentage="90"/>
+				<color lowerValue="5" label="M6b" color="steel blue4" opaquenessPercentage="90"/>
+				<color lowerValue="6" label="M7b" color="tan" opaquenessPercentage="90"/>
+				<color lowerValue="7" label="M8" color="plum" opaquenessPercentage="90"/>
+				<color lowerValue="8" label="R6" color="sky blue" opaquenessPercentage="90"/>
+			</classBreaks>
+		</esriShapeLayer>
+		<esriShapeLayer id="Watergangen">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Watergangen_prim_sec.shp</file>
+			<visible>false</visible>
+			<toolTip>%NAAM%</toolTip>
+			<lineColor>royal blue</lineColor>
+		</esriShapeLayer>
+		<esriShapeLayer id="Gemalen">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/BR_Gemalen.shp</file>
+			<visible>false</visible>
+			<toolTip>%NAAM%</toolTip>
+			<pointIconId>gemaal.gif</pointIconId>
+		</esriShapeLayer>
+		<esriShapeLayer id="RWZI's en lozingspunten">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/RWZIs_en_lozingspunten.shp</file>
+			<visible>false</visible>
+			<toolTip>%Info%</toolTip>
+			<pointIconId>rwzi.gif</pointIconId>
+			<classBreaksAttributeName>Type</classBreaksAttributeName>
+			<classBreaks>
+				<break lowerValue="0" label="Lozingspunt" icon="lozingspunt.gif"/>
+				<break lowerValue="1" label="RWZI" icon="rwzi.gif"/>
+			</classBreaks>
+		</esriShapeLayer>
+		<esriShapeLayer id="Bodemkaart">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/Bodemkaart_HDSR.shp</file>
+			<visible>false</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%GRONDSOORT%</toolTip>
+			<minScale>1:4000000</minScale>
+			<maxScale>1:2500</maxScale>
+			<classBreaksAttributeName>GRONDSOORT</classBreaksAttributeName>
+			<classBreaks>
+				<color lowerValue="1" label="Zand" color="goldenrod1" opaquenessPercentage="30"/>
+				<color lowerValue="2" label="Lichte zavel" color="chartreuse" opaquenessPercentage="30"/>
+				<color lowerValue="3" label="Zware zavel" color="sea green2" opaquenessPercentage="30"/>
+				<color lowerValue="4" label="Klei op veen" color="dark sea green1" opaquenessPercentage="30"/>
+				<color lowerValue="5" label="Veen" color="medium purple1" opaquenessPercentage="30"/>
+				<color lowerValue="6" label="Lichte klei" color="yellow green" opaquenessPercentage="30"/>
+				<color lowerValue="7" label="Zware klei" color="forest green" opaquenessPercentage="30"/>
+				<color lowerValue="8" label="Water" color="pale turquoise1" opaquenessPercentage="30"/>
+				<color lowerValue="9" label="Moeras" color="light pink3" opaquenessPercentage="30"/>
+				<color lowerValue="10" label="Bebouwing" color="gray70" opaquenessPercentage="30"/>
+				<color lowerValue="11" label="Overig" color="gray88" opaquenessPercentage="30"/>
+			</classBreaks>
+		</esriShapeLayer>
+		<esriShapeLayer id="Natuurvriendelijke oevers - vlak">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/NVOs_vlak.shp</file>
+			<visible>false</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%INRICHTING%</toolTip>
+			<minScale>1:4000000</minScale>
+			<maxScale>1:2500</maxScale>
+			<classBreaksAttributeName>INRICHTING</classBreaksAttributeName>
+			<classBreaks>
+				<color lowerValue="1" label="Flauw talud 1:3" color="dark sea green1" opaquenessPercentage="90"/>
+				<color lowerValue="2" label="Flauw talud 1:4" color="lawn green" opaquenessPercentage="90"/>
+				<color lowerValue="3" label="Flauw talud 1:5" color="chartreuse3" opaquenessPercentage="90"/>
+				<color lowerValue="4" label="Flauw talud > 1:5" color="chartreuse4" opaquenessPercentage="90"/>
+				<color lowerValue="5" label="Plasberm" color="burlywood1" opaquenessPercentage="90"/>
+				<color lowerValue="6" label="Drasberm" color="burlywood4" opaquenessPercentage="90"/>
+				<color lowerValue="99" label="Onbekend" color="gray70" opaquenessPercentage="90"/>
+			</classBreaks>
+		</esriShapeLayer>
+		<esriShapeLayer id="Natuurvriendelijke oevers - lijn">
+			<file>$MAPDIR$/FEWS-EFCIS/Shapes/NVOs_lijn.shp</file>
+			<visible>false</visible>
+			<usedBySelectByMapItemTool>true</usedBySelectByMapItemTool>
+			<toolTip>%INRICHTING%</toolTip>
+			<minScale>1:4000000</minScale>
+			<maxScale>1:2500</maxScale>
+			<classBreaksAttributeName>INRICHTING</classBreaksAttributeName>
+			<classBreaks>
+				<color lowerValue="1" label="Flauw talud 1:3" color="dark sea green1" opaquenessPercentage="90"/>
+				<color lowerValue="2" label="Flauw talud 1:4" color="lawn green" opaquenessPercentage="90"/>
+				<color lowerValue="3" label="Flauw talud 1:5" color="chartreuse3" opaquenessPercentage="90"/>
+				<color lowerValue="4" label="Flauw talud > 1:5" color="chartreuse4" opaquenessPercentage="90"/>
+				<color lowerValue="5" label="Plasberm" color="burlywood1" opaquenessPercentage="90"/>
+				<color lowerValue="6" label="Drasberm" color="burlywood4" opaquenessPercentage="90"/>
+				<color lowerValue="99" label="Onbekend" color="gray70" opaquenessPercentage="90"/>
+			</classBreaks>
+		</esriShapeLayer>
+	</map>
+	<showThresholdWarningIcons>true</showThresholdWarningIcons>
+	<interactiveExportFormats>
+		<interactiveExportFormat>
+			<name>Export Fysische-Chemie beknopt</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpunt-code"/>
+				<attributeColumn name="Meetpunt-omschrijving" id="locationname"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<attributeColumn name="Waarnemingssoort" id="WNS_Code"/>
+				<attributeColumn name="Waarnemingssoort_code" id="WNS_Omschrijving"/>
+				<qualifierColumn name="Parameter-afkorting" prefix="PC_"/>
+				<attributeColumn name="Parameter-uitgeschreven" id="ParameterCode"/>
+				<qualifierColumn name="Typering" prefix="TP_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<attributeColumn name="X_coordinaat" id="x1"/>
+				<attributeColumn name="Y_coordinaat" id="y1"/>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<flagColumn name="Validatiestatus"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export Fysische-Chemie uitgebreid</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpunt-code"/>
+				<attributeColumn name="Meetpunt-omschrijving" id="locationname"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<attributeColumn name="X_begin" id="x1"/>
+				<attributeColumn name="Y_begin" id="y1"/>
+				<attributeColumn name="X_eind" id="x2"/>
+				<attributeColumn name="Y_eind" id="y2"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<qualifierColumn name="Duplicaat" prefix="DP_"/>
+				<propertyColumn name="ReferentieUitvoerder" key="OpdrachtreferentieUitvoerder"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<qualifierColumn name="Parameter" prefix="PC_"/>
+				<qualifierColumn name="Typering" prefix="TP_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="AnalyseCompartiment" prefix="ACO_"/>
+				<attributeColumn name="Waarnemingssoort" id="WNS_Code"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<parameterColumn name="Parameter_Fews"/>
+				<attributeColumn name="Waarnemingssoort_code" id="WNS_Omschrijving"/>
+				<attributeColumn name="Eenheid_oms" id="Eenheid_oms"/>
+				<attributeColumn name="Parameter_oms" id="PAR_Omschrijving"/>
+				<attributeColumn name="Typering_oms" id="Typering"/>
+				<attributeColumn name="Grootheid_oms" id="Grootheid"/>
+				<attributeColumn name="Hoedanigheid_oms" id="Hoedanigheid"/>
+				<attributeColumn name="AnalyseCompartiment_oms" id="AnalyseCompartiment"/>
+				<flagColumn name="Validatiestatus"/>
+				<qualifierColumn name="MonsterCompartiment" prefix="MCO_"/>
+				<qualifierColumn name="Orgaan" prefix="OR_"/>
+				<qualifierColumn name="Organisme" prefix="OG_"/>
+				<propertyColumn name="BeginDiepte" key="BeginDiepte"/>
+				<propertyColumn name="EindDiepte" key="EindDiepte"/>
+				<propertyColumn name="Referentievlak.code" key="Referentievlak"/>
+				<qualifierColumn name="Bemonsteringsapparaat" prefix="BA_"/>
+				<qualifierColumn name="Waardebewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode" prefix="WP_"/>
+				<qualifierColumn name="Waardebepalingstechniek" prefix="WBT_"/>
+				<propertyColumn name="Meetinstantie" key="Meetinstantie"/>
+				<qualifierColumn name="LocatieTypeWaardeBepaling" prefix="LT_"/>
+				<qualifierColumn name="Kwaliteitsoordeel" prefix="KW_"/>
+				<attributeColumn name="Bemonsteringsapparaat_oms" id="Bemonsteringsapparaat"/>
+				<attributeColumn name="Waardebewerkingsmethode_oms" id="Waardebewerkingsmethode"/>
+				<attributeColumn name="Waardebepalingsmethode_oms" id="Waardebepalingsmethode"/>
+				<attributeColumn name="Waardebepalingstechniek_oms" id="Waardebepalingstechniek"/>
+				<attributeColumn name="LocatieTypeWaardeBepaling_oms" id="LocatietypeWaardeBepaling"/>
+				<attributeColumn name="Kwaliteitsoordeel_oms" id="Kwaliteitsoordeel"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export IM-metingen Fysische-Chemie</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<propertyColumn name="Meetobject.Namespace" key="namespace"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<attributeColumn name="GeometriePunt.X_RD" id="x1"/>
+				<attributeColumn name="GeometriePunt.Y_RD" id="y1"/>
+				<attributeColumn name="Omschrijving" id="locationname"/>
+				<attributeColumn name="Waterlichaam.identificatie" id="waterlichaam"/>
+				<attributeColumn name="KRWwatertype.code" id="watertype"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<propertyColumn name="ResultaatDatum" key="Resultaatdatum"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<dateColumn name="Einddatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Eindtijd" pattern="HH:mm:ss"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<attributeColumn name="Parameter.groep" id="PAR_Omschrijving"/>
+				<attributeColumn name="Eenheid.code" id="unit_export"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export Biologie beknopt</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpunt"/>
+				<attributeColumn name="Omschrijving" id="locationname"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<attributeColumn name="X_coordinaat" id="x1"/>
+				<attributeColumn name="Y_coordinaat" id="y1"/>
+				<sampleIdColumn name="Monster"/>
+				<dateColumn name="Datum" pattern="yyyy-MM-dd"/>
+				<qualifierColumn name="Compartiment" prefix="MCO_"/>
+				<qualifierColumn name="Parameter-afkorting" prefix="PC_"/>
+				<attributeColumn name="Parameter-uitgeschreven" id="ParameterCode"/>
+				<qualifierColumn name="Typering" prefix="TP_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<qualifierColumn name="ParameterType" prefix="TT_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<attributeColumn name="Soortnaam" id="nederlandse soortnaam"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="Waardebewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Levensstadium" prefix="LS_"/>
+				<qualifierColumn name="Lengteklasse" prefix="LK_"/>
+				<qualifierColumn name="Levensvorm" prefix="LV_"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<flagColumn name="Validatiestatus"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export Biologie uitgebreid</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpuntcode"/>
+				<attributeColumn name="Meetpunt-omschrijving" id="locationname"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<attributeColumn name="X_begin" id="x1"/>
+				<attributeColumn name="Y_begin" id="y1"/>
+				<attributeColumn name="X_eind" id="x2"/>
+				<attributeColumn name="Y_eind" id="y2"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<qualifierColumn name="Duplicaat" prefix="DP_"/>
+				<propertyColumn name="X_monster" key="X_monster"/>
+				<propertyColumn name="Y_monster" key="Y_monster"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<propertyColumn name="Resultaatdatum" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd" key="Resultaattijd"/>
+				<qualifierColumn name="AnalyseCompartiment" prefix="ACO_"/>
+				<qualifierColumn name="MonsterCompartiment" prefix="MCO_"/>
+				<parameterColumn name="Parameter_Fews"/>
+				<qualifierColumn name="Parameter" prefix="PC_"/>
+				<qualifierColumn name="Typering" prefix="TP_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<qualifierColumn name="ParameterType" prefix="TT_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<attributeColumn name="Soortnaam" id="nederlandse soortnaam"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="Waardebewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Levensstadium" prefix="LS_"/>
+				<qualifierColumn name="Lengteklasse" prefix="LK_"/>
+				<qualifierColumn name="Lengtecategorie" prefix="LC_"/>
+				<propertyColumn name="Gewicht_g" key="Gewicht_g"/>
+				<propertyColumn name="Oppervlakte_ha" key="Oppervlakte_ha"/>
+				<qualifierColumn name="Geslacht" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm" prefix="VV_"/>
+				<qualifierColumn name="Levensvorm" prefix="LV_"/>
+				<qualifierColumn name="Gedrag" prefix="GG_"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<flagColumn name="Validatiestatus"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<qualifierColumn name="Bemonsteringsapparaat" prefix="BA_"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<propertyColumn name="OPPVTE_open_water_ha" key="OPPVTE_openwater"/>
+				<propertyColumn name="OPPVTE_oever_ha" key="OPPVTE_oever"/>
+				<qualifierColumn name="Waardebepalingsmethode" prefix="WP_"/>
+				<propertyColumn name="Meetinstantie" key="Meetinstantie"/>
+				<propertyColumn name="ReferentieUitvoerder" key="OpdrachtreferentieUitvoerder"/>
+				<attributeColumn name="AnalyseCompartiment_oms" id="AnalyseCompartiment"/>
+				<attributeColumn name="Bemonsteringsapparaat_oms" id="Bemonsteringsapparaat"/>
+				<attributeColumn name="Eenheid_oms" id="Eenheid_oms"/>
+				<attributeColumn name="Gedrag_oms" id="Gedrag"/>
+				<attributeColumn name="Geslacht_oms" id="Geslacht"/>
+				<attributeColumn name="Grootheid_oms" id="Grootheid"/>
+				<attributeColumn name="Hoedanigheid_oms" id="Hoedanigheid"/>
+				<attributeColumn name="Levensstadium_oms" id="Levensstadium"/>
+				<attributeColumn name="Levensvorm_oms" id="Levensvorm"/>
+				<attributeColumn name="Parameter_oms" id="PAR_Omschrijving"/>
+				<attributeColumn name="ParameterType_oms" id="Taxontype"/>
+				<attributeColumn name="Typering_oms" id="Typering"/>
+				<attributeColumn name="Verschijningsvorm_oms" id="Verschijningsvorm"/>
+				<attributeColumn name="Waardebepalingsmethode_oms" id="Waardebepalingsmethode"/>
+				<attributeColumn name="Waardebepalingstechniek_oms" id="Waardebepalingstechniek"/>
+				<attributeColumn name="Waardebewerkingsmethode_oms" id="Waardebewerkingsmethode"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export Biologie vissen</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpunt"/>
+				<attributeColumn name="Omschrijving" id="locationname"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<attributeColumn name="X_begin" id="x1"/>
+				<attributeColumn name="Y_begin" id="y1"/>
+				<attributeColumn name="X_eind" id="x2"/>
+				<attributeColumn name="Y_eind" id="y2"/>
+				<propertyColumn name="X_monster" key="X_monster"/>
+				<propertyColumn name="Y_monster" key="Y_monster"/>
+				<sampleIdColumn name="Monster"/>
+				<dateColumn name="Datum" pattern="yyyy-MM-dd"/>
+				<qualifierColumn name="Compartiment" prefix="MCO_"/>
+				<qualifierColumn name="Parameter" prefix="PC_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<qualifierColumn name="ParameterType" prefix="TT_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<attributeColumn name="Soortnaam" id="nederlandse soortnaam"/>
+				<qualifierColumn name="Lengteklasse" prefix="LK_"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<flagColumn name="Validatiestatus"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<qualifierColumn name="Bemonsteringsapparaat" prefix="BA_"/>
+				<attributeColumn name="Bemonsteringsapparaat_oms" id="Bemonsteringsapparaat"/>
+				<propertyColumn name="OPPVTE_open_water_ha" key="OPPVTE_openwater"/>
+				<propertyColumn name="OPPVTE_oever_ha" key="OPPVTE_oever"/>
+				<qualifierColumn name="Lengtecategorie" prefix="LC_"/>
+				<propertyColumn name="Gewicht_g" key="Gewicht_g"/>
+				<propertyColumn name="Oppervlakte_ha" key="Oppervlakte_ha"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export IM-metingen Biologie</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<qualifierColumn name="Parameter_Type" prefix="TT_"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<propertyColumn name="Meetobject.Namespace" key="namespace"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<dateColumn name="Monsterophaaldatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<propertyColumn name="Resultaatdatum" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd" key="Resultaattijd"/>
+				<timeColumn name="Monsterophaaltijd" pattern="HH:mm:ss"/>
+				<qualifierColumn name="MonsterCompartiment.code" prefix="MCO_"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<attributeColumn name="Eenheid.code" id="unit_export"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<qualifierColumn name="Levensstadium.code" prefix="LS_"/>
+				<qualifierColumn name="Lengteklasse.code" prefix="LK_"/>
+				<qualifierColumn name="Levensvorm.code" prefix="LV_"/>
+				<qualifierColumn name="Verschijningsvorm.code" prefix="VV_"/>
+				<qualifierColumn name="Gedrag.code" prefix="GG_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="Bemonsteringsapparaat.code" prefix="BA_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<attributeColumn name="GeometriePunt.X_RD" id="x1"/>
+				<attributeColumn name="GeometriePunt.Y_RD" id="y1"/>
+				<attributeColumn name="Omschrijving" id="locationname"/>
+				<attributeColumn name="Waterlichaam.identificatie" id="waterlichaam"/>
+				<attributeColumn name="KRWwatertype.code" id="watertype"/>
+				<propertyColumn name="GeometriePunt.X" key="X_monster"/>
+				<propertyColumn name="GeometriePunt.Y" key="Y_monster"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+		<interactiveExportFormat>
+			<name>Export Biologie en Fysische-Chemie uitgebreid</name>
+			<exportType>generalCsv</exportType>
+			<IdMapId>IdExport_IMmetingen</IdMapId>
+			<timeZoneName>CET</timeZoneName>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString/>
+			<table>
+				<attributeColumn name="Waterlichaam" id="waterlichaam"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<locationColumn name="Meetpunt-code"/>
+				<attributeColumn name="Meetpunt-omschrijving" id="locationname"/>
+				<attributeColumn name="Watertype" id="watertype"/>
+				<attributeColumn name="X_begin" id="x1"/>
+				<attributeColumn name="Y_begin" id="y1"/>
+				<attributeColumn name="X_eind" id="x2"/>
+				<attributeColumn name="Y_eind" id="y2"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<qualifierColumn name="Duplicaat" prefix="DP_"/>
+				<propertyColumn name="X_monster" key="X_monster"/>
+				<propertyColumn name="Y_monster" key="Y_monster"/>
+				<propertyColumn name="ReferentieUitvoerder" key="OpdrachtreferentieUitvoerder"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<propertyColumn name="Resultaatdatum" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd" key="Resultaattijd"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<propertyColumn name="Gewicht_g" key="Gewicht_g"/>
+				<propertyColumn name="Oppervlakte_ha" key="Oppervlakte_ha"/>
+				<qualifierColumn name="Lengtecategorie" prefix="LC_"/>
+				<propertyColumn name="OPPVTE_open_water_ha" key="OPPVTE_openwater"/>
+				<propertyColumn name="OPPVTE_oever_ha" key="OPPVTE_oever"/>
+				<attributeColumn name="Eenheid" id="unit_export"/>
+				<qualifierColumn name="Parameter" prefix="PC_"/>
+				<qualifierColumn name="Typering" prefix="TP_"/>
+				<qualifierColumn name="Grootheid" prefix="GH_"/>
+				<attributeColumn name="Biotaxon.naam" id="TWN naam"/>
+				<attributeColumn name="Soortnaam" id="nederlandse soortnaam"/>
+				<qualifierColumn name="Hoedanigheid" prefix="HH_"/>
+				<qualifierColumn name="AnalyseCompartiment" prefix="ACO_"/>
+				<attributeColumn name="Waarnemingssoort" id="WNS_Code"/>
+				<qualifierColumn name="ParameterType" prefix="TT_"/>
+				<qualifierColumn name="Levensstadium" prefix="LS_"/>
+				<qualifierColumn name="Lengteklasse" prefix="LK_"/>
+				<qualifierColumn name="Geslacht" prefix="GS_"/>
+				<qualifierColumn name="Verschijningsvorm" prefix="VV_"/>
+				<qualifierColumn name="Levensvorm" prefix="LV_"/>
+				<qualifierColumn name="Gedrag" prefix="GG_"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<parameterColumn name="Parameter_Fews"/>
+				<attributeColumn name="Waarnemingssoort_code" id="WNS_Omschrijving"/>
+				<attributeColumn name="Parameter_oms" id="PAR_Omschrijving"/>
+				<attributeColumn name="Typering_oms" id="Typering"/>
+				<attributeColumn name="Grootheid_oms" id="Grootheid"/>
+				<attributeColumn name="Eenheid_oms" id="Eenheid_oms"/>
+				<attributeColumn name="Hoedanigheid_oms" id="Hoedanigheid"/>
+				<attributeColumn name="AnalyseCompartiment_oms" id="AnalyseCompartiment"/>
+				<flagColumn name="Validatiestatus"/>
+				<qualifierColumn name="MonsterCompartiment" prefix="MCO_"/>
+				<qualifierColumn name="Orgaan" prefix="OR_"/>
+				<qualifierColumn name="Organisme" prefix="OG_"/>
+				<propertyColumn name="BeginDiepte" key="BeginDiepte"/>
+				<propertyColumn name="EindDiepte" key="EindDiepte"/>
+				<propertyColumn name="Referentievlak.code" key="Referentievlak"/>
+				<qualifierColumn name="Bemonsteringsapparaat" prefix="BA_"/>
+				<qualifierColumn name="Waardebewerkingsmethode" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode" prefix="WP_"/>
+				<qualifierColumn name="Waardebepalingstechniek" prefix="WBT_"/>
+				<propertyColumn name="Meetinstantie" key="Meetinstantie"/>
+				<qualifierColumn name="LocatieTypeWaardeBepaling" prefix="LT_"/>
+				<qualifierColumn name="Kwaliteitsoordeel" prefix="KW_"/>
+				<propertyColumn name="Wegingsfactor" key="wegingsfactor"/>
+				<attributeColumn name="ParameterType_oms" id="Taxontype"/>
+				<attributeColumn name="Levensstadium_oms" id="Levensstadium"/>
+				<attributeColumn name="Geslacht_oms" id="Geslacht"/>
+				<attributeColumn name="Verschijningsvorm_oms" id="Verschijningsvorm"/>
+				<attributeColumn name="Levensvorm_oms" id="Levensvorm"/>
+				<attributeColumn name="Gedrag_oms" id="Gedrag"/>
+				<attributeColumn name="Bemonsteringsapparaat_oms" id="Bemonsteringsapparaat"/>
+				<attributeColumn name="Waardebewerkingsmethode_oms" id="Waardebewerkingsmethode"/>
+				<attributeColumn name="Waardebepalingsmethode_oms" id="Waardebepalingsmethode"/>
+				<attributeColumn name="Waardebepalingstechniek_oms" id="Waardebepalingstechniek"/>
+				<attributeColumn name="LocatieTypeWaardeBepaling_oms" id="LocatietypeWaardeBepaling"/>
+				<attributeColumn name="Kwaliteitsoordeel_oms" id="Kwaliteitsoordeel"/>
+			</table>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+		</interactiveExportFormat>
+	</interactiveExportFormats>
+	<explorerTasks>
+		<explorerTask name="Attributenfilter">
+			<mnemonic>A</mnemonic>
+			<predefinedDisplay>attribute filter</predefinedDisplay>
+			<toolbarTask>false</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl A</accelerator>
+			<permission>beheerders</permission>
+			<toolWindow>true</toolWindow>
+			<loadAtStartup>false</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Monsterweergave">
+			<iconFile>sample.png</iconFile>
+			<mnemonic>M</mnemonic>
+			<displayConfigFileName>SampleDisplay</displayConfigFileName>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl M</accelerator>
+			<loadAtStartup>false</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Grafiek">
+			<iconFile>graph.gif</iconFile>
+			<mnemonic>G</mnemonic>
+			<predefinedDisplay>time series dialog</predefinedDisplay>
+			<!--<arguments>chart</arguments>
+			<taskClass>nl.wldelft.fews.gui.plugin.timeseries.PlotsTimeSeriesDialog</taskClass>-->
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>true</allowMultipleInstances>
+			<accelerator>ctrl G</accelerator>
+			<loadAtStartup>true</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Bewerken">
+			<iconFile>table.gif</iconFile>
+			<mnemonic>B</mnemonic>
+			<arguments>table</arguments>
+			<taskClass>nl.wldelft.fews.gui.plugin.timeseries.TimeSeriesDialog</taskClass>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl B</accelerator>
+			<permission>bewerken</permission>
+		</explorerTask>
+		<explorerTask name="Intervalstatistiek">
+			<mnemonic>V</mnemonic>
+			<predefinedDisplay>interval statistics</predefinedDisplay>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl V</accelerator>
+			<loadAtStartup>false</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Tabellen">
+			<iconFile>csvfile.png</iconFile>
+			<mnemonic>L</mnemonic>
+			<predefinedDisplay>tabular config files display</predefinedDisplay>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl L</accelerator>
+			<toolWindow>false</toolWindow>
+			<loadAtStartup>false</loadAtStartup>
+		</explorerTask>
+		<explorerTask name="Systeemmonitor">
+			<iconFile>sysmon.png</iconFile>
+			<mnemonic>S</mnemonic>
+			<taskClass>nl.wldelft.fews.gui.plugin.systemmonitor.SystemMonitorDialog</taskClass>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl S</accelerator>
+		</explorerTask>
+		<explorerTask name="Workflow Navigator">
+			<iconFile>tree.png</iconFile>
+			<mnemonic>W</mnemonic>
+			<taskClass>nl.wldelft.fews.gui.plugin.workflownavigator.WorkflowNavigator</taskClass>
+			<toolbarTask>false</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<accelerator>ctrl W</accelerator>
+			<permission>beheerders</permission>
+		</explorerTask>
+		<explorerTask name="Handmatige Taak">
+			<iconFile>manforc.png</iconFile>
+			<mnemonic>H</mnemonic>
+			<taskClass>nl.wldelft.fews.gui.plugin.manualforecast.ManualForecastDialog</taskClass>
+			<toolbarTask>true</toolbarTask>
+			<menubarTask>true</menubarTask>
+			<allowMultipleInstances>false</allowMultipleInstances>
+			<accelerator>ctrl H</accelerator>
+			<permission>uitvoeren_taken</permission>
+		</explorerTask>
+	</explorerTasks>
+	<logPanelConfig>
+		<clientFilter>
+			<clientId>Stand alone</clientId>
+			<logFilter>
+				<level>DEBUG</level>
+				<eventType>system</eventType>
+			</logFilter>
+			<logFilter>
+				<level>DEBUG</level>
+				<eventType>debug</eventType>
+			</logFilter>
+		</clientFilter>
+		<clientFilter>
+			<clientId>Operator Client</clientId>
+			<logFilter>
+				<level>INFO</level>
+				<eventType>system</eventType>
+			</logFilter>
+			<logFilter>
+				<level>INFO</level>
+				<eventType>debug</eventType>
+			</logFilter>
+		</clientFilter>
+	</logPanelConfig>
+	<panelSizes>
+		<loggingPanelSize>0</loggingPanelSize>
+		<listsPanelSize>20</listsPanelSize>
+		<filterListSize>30</filterListSize>
+		<locationListSize>40</locationListSize>
+		<parameterListSize>30</parameterListSize>
+		<qualifierListSize>30</qualifierListSize>
+		<forecastListSize>0</forecastListSize>
+	</panelSizes>
+	<panelHeaderLabels>
+		<locationPanelHeader>Meetpunten</locationPanelHeader>
+		<parameterPanelHeader>Parameters</parameterPanelHeader>
+		<qualifierPanelHeader>Subparameters</qualifierPanelHeader>
+		<forecastPanelHeader>Forecasts</forecastPanelHeader>
+	</panelHeaderLabels>
+	<autoLogin>true</autoLogin>
+	<fileMenu>
+		<exportTimeSeries visible="true"/>
+	</fileMenu>
+	<notification enabled="true"/>
+	<parameterListConfig>
+		<sortOption>name</sortOption>
+	</parameterListConfig>
+	<numberOfTimeSeriesBlobsForWarning>1800000</numberOfTimeSeriesBlobsForWarning>
+</explorer>

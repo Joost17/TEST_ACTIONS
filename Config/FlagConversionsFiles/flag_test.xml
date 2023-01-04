@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flagConversions xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/flagConversions.xsd">
+<flagConversion>
+		<inputFlag>
+			<value>1</value>
+			<description>Normale waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>	
+		<flagConversion>
+		<inputFlag>
+			<value>3</value>
+			<description>Normale waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>Corrected_DOUBTFULL</name>
+			<value>5</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<value>6</value>
+			<description>Normale waarde</description>
+		</inputFlag>
+		<outputFlag>
+			<name>CORRECTED_UNRELIABLE</name>
+			<value>7</value>
+			<description>originele waarde van goede kwaliteit</description>
+		</outputFlag>
+	</flagConversion>
+		<missingValueFlag>
+		<name>ORIGINAL_MISSING</name>
+		<value>9</value>
+	</missingValueFlag>
+</flagConversions>

@@ -1,0 +1,802 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Titel;Begin geldigheid;Eind geldigheid
+1;1049;AP04GVIII.16;Accreditatieprogramma04-SG.VIII_v12_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+2;1050;AP04SB.II.16;Accreditatieprogramma04-SB.II_v9_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+3;1048;AP04SB.IV.16;Accreditatieprogramma04-SB.IV_v9_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+4;1052;AP04SB.V.16;Accreditatieprogramma04-SB.V_v9_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+5;1046;AP04SB.XI.16;Accreditatieprogramma04-SB.XI_v9_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+6;1045;AP04SG.I.16;Accreditatieprogramma04-SG.I_v12_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+7;1047;AP04SG.X.16;Accreditatieprogramma04-SG.X_v12_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+8;1051;AP04SG.XI.16;Accreditatieprogramma04-SG.XI_v12_20160623;Voorschrift;;18 februari 2020 00:00:00;1 januari 2100 00:00:00
+9;330;AQUOKIT;Met Aquo-kit berekend oordeel of toetsresultaat;Methodiek;;5 november 2013 00:00:00;1 januari 2100 00:00:00
+10;331;AUTOMATISCH;Niet genormaliseerde automatische waardebepaling;Algemeen niet-genormaliseerd;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+11;332;BLAUWAP:2010;Blauwalgenprotocol 2010;Voorschrift vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+12;333;BLAUWAP:2011;Blauwalgenprotocol 2011;Voorschrift vervallen;;7 juli 2012 00:00:00;1 januari 2100 00:00:00
+13;334;BLAUWAP:2012;Blauwalgenprotocol 2012;Voorschrift;;18 mei 2021;1 januari 2100
+14;335;CIW;Bepaling klasse (1-5) volgens CIW-methodiek;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+15;233;CMA2IC7.15;CMA/2/I/C.7 september 2015;Norm bodem-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+16;266;CMA2IIA10.12;CMA/2/II/A.10 september 2012;Norm bodem-fysisch;;30 juli 2019 00:00:00;1 januari 2100 00:00:00
+17;323;CMA2IIA4.13;CMA/2/II/A.4 juni 2013;Norm bodem-fysisch;;30 juli 2019 00:00:00;1 januari 2100 00:00:00
+18;293;D1485.96;DIN EN 1485:1996-11;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+19;285;D38404-6.84;DIN 38404-6:1984-05;Norm bodem/water-fysisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+20;286;D38405-26.89;DIN 38405-26:1989-04;Norm bodem/water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+21;287;D38405-27.92;DIN 38405-27:1992-07;Norm bodem/water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+22;288;D38406-29.99;DIN 38406-29:1999-05;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+23;295;D38407-30.07;DIN 38407-30:2007-12;Norm water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+24;1011;D38407-42.11;DIN 38407-42:2011-03;Norm water-chemisch;;8 december 2017 00:00:00;1 januari 2100 00:00:00
+25;223;D38409-23.10;DIN 38409-23:2010-12;Norm bodem/water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+26;289;D38412-16.85;DIN 38412-16:1985-12;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+27;122;D38414-4.84;DIN 38414-4:1984-10;Norm bodem-fysisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+28;321;D4030-2.08;DIN 4030-2:2008-06;Norm bodem/water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+29;290;D51577-1.82;DIN 51577-1:1982-11;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+30;336;DESK;Bepaling klasse door deskundige;Methodiek;;1 augustus 2014 00:00:00;1 januari 2100 00:00:00
+31;337;EBEO;Bepaling waarde / EBEO-klasse (1-5) volgens EBEO-systematiek;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+32;199;EIGENMETHODE;Eigen methode;Voorschrift;;10 april 2020 00:00:00;1 januari 2100 00:00:00
+33;322;EPA8270CD;US EPA Method 8270D/8270C;Norm bodem/water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+34;338;GWPROTEU.13;Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 EU;Methodiek;;5 november 2013 00:00:00;1 januari 2100 00:00:00
+35;339;GWPROTNL.13;Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 NL;Methodiek;;5 november 2013 00:00:00;1 januari 2100 00:00:00
+36;340;HH-W10B:2010;HH-10B Analyse van zoöplankton voor EBeo;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+37;341;HH-W11A:2010;HH-11A Inventarisatie van vegetatie;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+38;342;HH-W12B:2010;HH-12B Analyse van macrofauna;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+39;343;HH-W13A:2010;HH-13A Bestandsopname van vis voor de KRW;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+40;344;HH-W7B:2010;HH-7B Analyse van fytoplankton in oppervlaktewater;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+41;345;HH-W8B:2010;HH-8B Analyse van sieralgen in opp.w. met een omkeermicrosc.;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+42;346;HH-W8C:2010;HH-8C Analyse van sieralgen in opp.w. met staande microsc.;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+43;347;HH-W9B:2010;HH-9B Analyse van kiezelwieren in oppervlaktewater;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+44;348;I10048.91;ISO 10048:1991 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+45;349;I10229.94;ISO 10229:1994 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+46;350;I10253.06;NEN-EN-ISO 10253:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+47;351;I10260.92;ISO 10260:1992 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+48;55;I10301.97;NEN-EN-ISO 10301:1997 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+49;56;I10304-1.09;NEN-EN-ISO 10304-1:2009 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+50;354;I10304-1.95;NEN-EN-ISO 10304-1:1995 en;Norm vervallen;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+51;57;I10304-2.96;NEN-EN-ISO 10304-2:1996 en;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+52;58;I10304-3.97;NEN-EN-ISO 10304-3:1997 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+53;357;I10304-4.99;NEN-EN-ISO 10304-4:1999 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+54;358;I10359-1.92;ISO 10359-1:1992 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+55;359;I10359-2.94;ISO 10359-2:1994 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+56;360;I10381-2.02;ISO 10381-2:2002 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+57;361;I10382.02;ISO 10382:2002 en;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+58;219;I10382.03;NEN-ISO 10382:2003 en;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+59;208;I10390.05;NEN-ISO 10390:2005 en;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+60;252;I10523.08;NEN-ISO 10523:2008 en;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+61;365;I10523.12;NEN-EN-ISO 10523:2012 en;Norm water-fysisch;;22 juli 2014 00:00:00;1 januari 2100 00:00:00
+62;366;I10523.94;ISO 10523:1994 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+63;367;I10530.92;ISO 10530:1992 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+64;368;I10566.94;ISO 10566:1994 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+65;228;I10693.04;NEN-ISO 10693:2004 en;Norm vervallen;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+66;1044;I10693.14;NEN-EN-ISO 10693:2014 en;Norm bodem-chemisch;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+67;370;I10694.95;ISO 10694:1995 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+68;371;I10695.00;NEN-EN-ISO 10695:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+69;372;I10704.12;NEN-ISO 10704:2012 en;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+70;373;I10705-1.01;NEN-EN-ISO 10705-1:2001 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+71;374;I10705-2.01;NEN-EN-ISO 10705-2:2001 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+72;375;I10706.00;NEN-ISO 10706:2000 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+73;376;I10707.97;NEN-EN-ISO 10707:1997 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+74;377;I10708.97;ISO 10708:1997 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+75;378;I10712.96;NEN-EN-ISO 10712:1996 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+76;379;I11047.98;ISO 11047:1998 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+77;380;I11048.95;ISO 11048:1995 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+78;381;I11083.06;NEN-ISO 11083:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+79;269;I11083.94;ISO 11083:1994 en;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+80;382;I11260.94;ISO 11260:1994 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+81;270;I11261.95;ISO 11261:1995 en;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+82;384;I11262.03;ISO 11262:2003 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+83;385;I11263.94;ISO 11263:1994 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+84;386;I11264.07;NEN-ISO 11264:2007 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+85;387;I11265.94;ISO 11265:1994 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+86;388;I11271.02;ISO 11271:2002 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+87;389;I11272.98;ISO 11272:1998 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+88;390;I11274.98;ISO 11274:1998 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+89;391;I11277.98;ISO 11277:1998 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+90;392;I11348-1.99;NEN-EN-ISO 11348-1:1999 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+91;393;I11348-2.99;NEN-EN-ISO 11348-2:1999 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+92;394;I11348-3.99;NEN-EN-ISO 11348-3:1999 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+93;59;I11369.97;NEN-EN-ISO 11369:1997 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+94;207;I11423-1.97;ISO 11423-1:1997 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+95;397;I11423-2.97;ISO 11423-2:1997 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+96;398;I11461.01;ISO 11461:2001 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+97;399;I11465.05;NEN-ISO 11465:2005 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+98;400;I11466.95;ISO 11466:1995 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+99;401;I11508.98;ISO 11508:1998 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+100;1033;I11731-2.08;NEN-EN-ISO 11731-2:2008 en;Norm vervallen;;8 augustus 2018 00:00:00;1 januari 2100 00:00:00
+101;1032;I11731.17;NEN-EN-ISO 11731:2017 en;Norm water-biologisch;;8 augustus 2018 00:00:00;1 januari 2100 00:00:00
+102;402;I11731.98;ISO 11731:1998 en;Norm vervallen;;8 augustus 2018 00:00:00;1 januari 2100 00:00:00
+103;403;I11732.05;NEN-EN-ISO 11732:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+104;404;I11733.04;NEN-EN-ISO 11733:2004 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+105;405;I11734.98;NEN-EN-ISO 11734:1998 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+106;406;I11885.07;ISO 11885:2007 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+107;250;I11885.98;NEN-EN-ISO 11885:1998 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+108;408;I11905-1.98;NEN-EN-ISO 11905-1:1998 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+109;409;I11923.97;ISO 11923:1997 en;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+110;60;I11969.97;NEN-EN-ISO 11969:1997 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+111;1010;I12010.14;NEN-EN-ISO 12010:2014 en;Norm water-chemisch;;12 september 2017 00:00:00;1 januari 2100 00:00:00
+112;411;I12020.00;NEN-EN-ISO 12020:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+113;1013;I12846.12;NEN-EN-ISO 12846:2012 en;Norm water-chemisch;;8 december 2017 00:00:00;1 januari 2100 00:00:00
+114;412;I12890.00;NEN-ISO 12890:2000 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+115;963;I13320.09-12;NEN-ISO 13320:2009-12 en;Norm bodem-fysisch;;29 november 2014 00:00:00;1 januari 2100 00:00:00
+116;413;I13358.97;ISO 13358:1997 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+117;175;I13395.97;NEN-EN-ISO 13395:1997 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+118;415;I13536.95;ISO 13536:1995 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+119;416;I13641-1.03;NEN-ISO 13641-1:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+120;417;I13641-2.03;NEN-ISO 13641-2:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+121;418;I13829.00;NEN-ISO 13829:2000 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+122;419;I13877.98;ISO 13877:1998 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+123;420;I13878.98;ISO 13878:1998 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+124;421;I14154.05;NEN-ISO 14154:2005 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+125;422;I14235.98;ISO 14235:1998 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+126;423;I14254.01;ISO 14254:2001 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+127;424;I14255.05;NEN-ISO 14255:2005 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+128;425;I14256-2.05;ISO 14256-2:2005 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+129;211;I14402.99;NEN-EN-ISO 14402:1999 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+130;1015;I14403-2.09;NEN-EN-ISO 14403-2:2009 Ontw. en;Norm vervallen;;29 juni 2018 00:00:00;1 januari 2100 00:00:00
+131;1014;I14403-2.12;NEN-EN-ISO 14403-2:2012 en;Norm water-chemisch;;29 juni 2018 00:00:00;1 januari 2100 00:00:00
+132;176;I14403.02;NEN-EN-ISO 14403:2002 en;Norm vervallen;;29 juni 2018 00:00:00;1 januari 2100 00:00:00
+133;428;I14442.06;NEN-ISO 14442:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+134;429;I14592-1.03;NEN-ISO 14592-1:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+135;430;I14592-2.03;NEN-ISO 14592-2:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+136;431;I14593.05;NEN-EN-ISO 14593:2005 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+137;432;I14669.99;ISO 14669:1999 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+138;433;I14869-1.01;ISO 14869-1:2001 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+139;434;I14869-2.02;ISO 14869-2:2002 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+140;435;I14870.01;ISO 14870:2001 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+141;436;I14911.99;NEN-EN-ISO 14911:1999 en;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+142;297;I15009.02;NEN-ISO 15009:2002 en;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+143;438;I15061.01;NEN-EN-ISO 15061:2001 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+144;439;I15088.07;ISO 15088:2007 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+145;440;I15089.00;ISO 15089:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+146;441;I15178.00;ISO 15178:2000 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+147;442;I15522.99;NEN-ISO 15522:1999 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+148;443;I15553.06;NEN-ISO 15553:2006 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+149;8;I15586.03;NEN-EN-ISO 15586:2003 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+150;445;I15587-1.02;NEN-EN-ISO 15587-1:2002 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+151;446;I15587-2.02;NEN-EN-ISO 15587-2:2002 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+152;447;I15680.03;NEN-EN-ISO 15680:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+153;448;I15681-1.05;NEN-EN-ISO 15681-1:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+154;298;I15681-2.05;NEN-EN-ISO 15681-2:2005 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+155;296;I15682.01;NEN-EN-ISO 15682:2001 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+156;451;I15705.03;NEN-ISO 15705:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+157;452;I15913.03;NEN-EN-ISO 15913:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+158;453;I15923-1.13;NEN-ISO 15923-1:2013 en;Norm water-chemisch;;9 juli 2014 00:00:00;1 januari 2100 00:00:00
+159;454;I16221.01;NEN-ISO 16221:2001 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+160;455;I16240.05;ISO 16240:2005 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+161;456;I16264.02;ISO 16264:2002 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+162;457;I16264.04;NEN-EN-ISO 16264:2004 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+163;458;I16266.06;ISO 16266:2006 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+164;459;I16588.03;NEN-EN-ISO 16588:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+165;460;I16590.00;ISO 16590:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+166;461;I16665.05;NEN-EN-ISO 16665:2005 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+167;462;I16703.04;ISO 16703:2004 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+168;463;I16720.07;NEN-EN-ISO 16720:2007 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+169;225;I16772.04;NEN-ISO 16772:2004 en;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+170;465;I17294-1.06;NEN-EN-ISO 17294-1:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+171;277;I17294-2.04;NEN-EN-ISO 17294-2:2004 en;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+172;1000;I17294-2.16;NEN-EN-ISO 17294-2:2016 en;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+173;303;I17353.05;NEN-EN-ISO 17353:2005 en;Norm water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+174;253;I17380.06;NEN-ISO 17380:2006 en;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+175;964;I17380.13;NEN-EN-ISO 17380:2013;Norm bodem-chemisch;;29 november 2014 00:00:00;1 januari 2100 00:00:00
+176;469;I17495.03;NEN-EN-ISO 17495:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+177;470;I17852.06;ISO 17852:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+178;471;I17852.08;NEN-EN-ISO 17852:2008 en;Norm water-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+179;472;I17858.07;ISO 17858:2007 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+180;473;I17993.04;NEN-EN-ISO 17993:2004 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+181;474;I17994.04;NEN-EN-ISO 17994:2004 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+182;237;I18073.04;NEN-ISO 18073:2004 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+183;476;I18287.06;NEN-ISO 18287:2006 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+184;477;I18412.06;NEN-EN-ISO 18412:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+185;478;I18749.04;NEN-ISO 18749:2004 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+186;479;I18856.05;NEN-EN-ISO 18856:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+187;301;I18857-1.06;NEN-EN-ISO 18857-1:2006 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+188;481;I19250.03;NEN-EN-ISO 19250:2003 Ontw. en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+189;482;I19493.07;NEN-EN-ISO 19493:2007 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+190;483;I20079.06;NEN-EN-ISO 20079:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+191;484;I20179.05;NEN-ISO 20179:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+192;1036;I20236.18;NEN-ISO 20236:2018 en;Norm water-chemisch;;4 december 2019 00:00:00;1 januari 2100 00:00:00
+193;485;I20279.05;ISO 20279:2005 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+194;486;I20280.07;ISO 20280:2007 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+195;487;I21427-1.06;NEN-ISO 21427-1:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+196;488;I21427-2.06;NEN-ISO 21427-2:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+197;489;I22032.06;ISO 22032:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+198;490;I22036.08;ISO 22036:2008 en;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+199;280;I22155.05;NEN-ISO 22155:2005 en;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+200;492;I22155.11;NEN-ISO 22155:2011en;Norm bodem-chemisch;;1 augustus 2014 00:00:00;1 januari 2100 00:00:00
+201;292;I22478.06;NEN-EN-ISO 22478:2006 en;Norm water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+202;494;I22743.06;NEN-ISO 22743:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+203;495;I23161.09;ISO 23161:2009;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+204;496;I23470.07;ISO 23470:2007 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+205;497;I23631.06;NEN-EN-ISO 23631:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+206;498;I23893-1.07;ISO 23893-1:2007 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+207;499;I23913.06;NEN-ISO 23913:2006 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+208;1012;I25101.09;ISO 25101:2009 en;Norm water-chemisch;;8 december 2017 00:00:00;1 januari 2100 00:00:00
+209;1043;I28540.11;ISO 28540:2011 en;Norm water-chemisch;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+210;500;I4832.06;ISO 4832:2006 en;Norm water-biologisch;;27 april 2013 00:00:00;1 januari 2100 00:00:00
+211;271;I5663.93;NEN-ISO 5663:1993 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+212;502;I5664.04;NEN-ISO 5664:2004 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+213;503;I5666.99;ISO 5666:1999 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+214;88;I5667-1.94;NEN-ISO 5667-1:1994 en;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+215;977;I5667-11.09;ISO 5667-11:2009 en;Norm water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+216;80;I5667-11.93;ISO 5667-11:1993 en;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+217;504;I5667-16.98;NEN-EN-ISO 5667-16:1998 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+218;90;I5667-2.93;NEN-ISO 5667-2:1993 en;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+219;87;I5667-3.12;NEN-EN-ISO 5667-3:2012 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+220;81;I5667-4.87;ISO 5667-4:1987 en;Norm water;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+221;505;I5813.93;NEN-ISO 5813:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+222;234;I5814.93;NEN-ISO 5814:1993 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+223;507;I5815-1.03;ISO 5815-1:2003 en;Norm vervallen;;7 augustus 2020;1 januari 2100
+224;1056;I5815-1.19;NEN-EN-ISO 5815-1:2019 en;Norm water-chemisch;;7 augustus 2020;1 januari 2100
+225;508;I5815-2.03;ISO 5815-2:2003 en;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+226;61;I5961.95;NEN-EN-ISO 5961:1995 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+227;510;I6058.84;ISO 6058:1984 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+228;511;I6059.05;NEN-ISO 6059:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+229;512;I6060.89;ISO 6060:1989 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+230;278;I6222.99;NEN-EN-ISO 6222:1999 en;Norm water-biologisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+231;514;I6332.04;NEN-ISO 6332:2004 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+232;515;I6333.88;NEN-ISO 6333:1988 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+233;516;I6340.93;NEN-ISO 6340:1993 en;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+234;304;I6341.12;NEN-EN-ISO 6341:2012 en;Norm water-biologisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+235;517;I6341.96;NEN-EN-ISO 6341:1996 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+236;518;I6439.90;ISO 6439:1990 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+237;519;I6461-1.93;NEN-ISO 6461-1:1993 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+238;300;I6461-2.93;NEN-ISO 6461-2:1993 en;Norm water-biologisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+239;62;I6468.97;NEN-EN-ISO 6468:1997 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+240;522;I6595.93;NEN-EN-ISO 6595:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+241;523;I6703-1.84;ISO 6703-1:1984 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+242;524;I6703-2.84;ISO 6703-2:1984 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+243;525;I6703-3.84;ISO 6703-3:1984 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+244;526;I6777.93;NEN-ISO 6777:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+245;527;I6778.84;ISO 6778:1984 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+246;528;I6878.04;NEN-EN-ISO 6878:2004 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+247;529;I7027.00;NEN-EN-ISO 7027:2000 en;Norm vervallen;;12 september 2017 00:00:00;1 januari 2100 00:00:00
+248;1009;I7027.16;NEN-EN-ISO 7027-1:2016 en;Norm water-fysisch;;12 september 2017 00:00:00;1 januari 2100 00:00:00
+249;232;I7027.94;NEN-ISO 7027:1994 en;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+250;530;I7150-1.02;NEN-ISO 7150-1:2002 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+251;531;I7346-1.97;NEN-EN-ISO 7346-1:1997 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+252;532;I7346-2.97;NEN-EN-ISO 7346-2:1997 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+253;533;I7346-3.97;NEN-EN-ISO 7346-3:1997 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+254;534;I7393-1.00;NEN-EN-ISO 7393-1:2000 en;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+255;535;I7393-2.00;NEN-EN-ISO 7393-2:2000 en;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+256;536;I7393-3.00;NEN-EN-ISO 7393-3:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+257;537;I7827.96;NEN-EN-ISO 7827:1996 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+258;538;I7828.94;NEN-ISO 7828:1994 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+259;539;I7875-1.96;ISO 7875-1:1996 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+260;222;I7875-2.84;ISO 7875-2:1984 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+261;209;I7887.12;NEN-EN-ISO 7887:2012 en;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+262;542;I7887.94;NEN-EN-ISO 7887:1994 en;Norm vervallen;;3 november 2012 00:00:00;1 januari 2100 00:00:00
+263;178;I7888.94;NEN-ISO 7888:1994 en;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+264;544;I7890-3.99;NEN-ISO 7890-3:1999 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+265;545;I7899-1.98;NEN-EN-ISO 7899-1:1998 en;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+266;1003;I7899-1C1.00;NEN-EN-ISO 7899-1:1998/C1:2000 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+267;279;I7899-2.00;NEN-EN-ISO 7899-2:2000 en;Norm water-biologisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+268;547;I7980.00;NEN-EN-ISO 7980:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+269;548;I7981-1.05;NEN-ISO 7981-1:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+270;549;I7981-2.05;NEN-ISO 7981-2:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+271;7;I8165-1.92;ISO 8165-1:1992 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+272;551;I8165-2.99;ISO 8165-2:1999 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+273;552;I8192.07;NEN-EN-ISO 8192:2007 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+274;553;I8245.99;ISO 8245:1999 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+275;554;I8265.94;NEN-ISO 8265:1994 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+276;555;I8288.86;ISO 8288:1986 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+277;226;I8467.95;NEN-EN-ISO 8467:1995 en;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+278;557;I8689-1.00;NEN-EN-ISO 8689-1:2000 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+279;558;I8689-2.00;NEN-EN-ISO 8689-2:2000 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+280;559;I8692.04;NEN-EN-ISO 8692:2004 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+281;560;I9174.98;ISO 9174:1998 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+282;561;I9297.89;ISO 9297:1989 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+283;302;I9308-1.00;NEN-EN-ISO 9308-1:2000 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+284;563;I9308-3.99;NEN-EN-ISO 9308-3:1999 en;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+285;1004;I9308-3C1.00;NEN-EN-ISO 9308-3:1999/C1:2000 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+286;564;I9377-1.00;NEN-EN-ISO 9377-1:2000 Ontw. en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+287;246;I9377-2.00;NEN-EN-ISO 9377-2:2000 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+288;566;I9377-4.99;NEN-EN-ISO 9377-4:1999 Ontw. en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+289;567;I9390.90;ISO 9390:1990 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+290;568;I9391.95;NEN-EN-ISO 9391:1995 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+291;569;I9408.99;NEN-EN-ISO 9408:1999 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+292;570;I9439.00;NEN-EN-ISO 9439:2000 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+293;571;I9509.06;NEN-EN-ISO 9509:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+294;572;I9562.04;NEN-EN-ISO 9562:2004 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+295;573;I9697.92;ISO 9697:1992 en;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+296;574;I9698.89;ISO 9698:1989 en;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+297;575;I9887.94;NEN-EN-ISO 9887:1994 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+298;576;I9888.99;NEN-EN-ISO 9888:1999 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+299;577;I9963-1.94;ISO 9963-1:1994 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+300;200;I9963-1.96;NEN-EN-ISO 9963-1:1996 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+301;579;I9963-2.94;ISO 9963-2:1994 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+302;580;I9963-2.96;NEN-EN-ISO 9963-2:1996 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+303;581;I9964-1.93;ISO 9964-1:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+304;582;I9964-2.93;ISO 9964-2:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+305;583;I9964-3.93;ISO 9964-3:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+306;584;I9965.93;ISO 9965:1993 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+307;976;KNMI5WIND.01;KNMI Handboek Waarnemingen, Hoofdstuk 5. Wind, maart 2001;Voorschrift;;7 november 2015 00:00:00;1 januari 2100 00:00:00
+308;585;KRW;Bepaling afgeleide waarde volgens KRW-methodiek;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+309;962;LEIDDPS:2012;Leidraad voor passive sampling 2012;Voorschrift;;8 november 2014 00:00:00;1 januari 2100 00:00:00
+310;586;MODEL;Waarde is bepaald/berekend volgens model;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+311;169;N12176.98;NEN-EN 12176:1998 en;Norm slib;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+312;588;N12260.03;NEN-EN 12260:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+313;51;N1233.97;NEN-EN 1233:1997 en,nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+314;52;N12338.98;NEN-EN 12338:1998 en;Norm vervallen;;8 december 2017 00:00:00;1 januari 2100 00:00:00
+315;591;N12457-1.02;NEN-EN 12457-1:2002 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+316;592;N12457-2.02;NEN-EN 12457-2:2002 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+317;593;N12457-3.02;NEN-EN 12457-3:2002 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+318;276;N12457-4.02;NEN-EN 12457-4:2002 en;Norm slib;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+319;53;N12673.99;NEN-EN 12673:1999 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+320;596;N12780.02;NEN-EN 12780:2002 en;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+321;597;N12879.01;NEN-EN 12879:2001 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+322;598;N12880.01;NEN-EN 12880:2001 en;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+323;599;N12918.99;NEN-EN 12918:1999 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+324;600;N13137.01;NEN-EN 13137:2001 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+325;216;N13211.01;NEN-EN 13211:2001 en;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+326;260;N13342.00;NEN-EN 13342:2000 en;Norm slib;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+327;602;N13346.00;NEN-EN 13346:2000 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+328;603;N13506.01;NEN-EN 13506:2001 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+329;604;N13577.07;NEN-EN 13577:2007 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+330;605;N13656.02;NEN-EN 13656:2002 en;Norm slib;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+331;606;N13657.02;NEN-EN 13657:2002 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+332;607;N13946.03;NEN-EN 13946:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+333;608;N14011.03;NEN-EN 14011:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+334;609;N14184.03;NEN-EN 14184:2003 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+335;610;N14207.03;NEN-EN 14207:2003 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+336;215;N14385.04;NEN-EN 14385:2004 en;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+337;611;N14393.02;NEN-EN 14393:2002 Ontw. en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+338;612;N14407.04;NEN-EN 14407:2004 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+339;613;N14486.05;NEN-EN 14486:2005 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+340;614;N14614.04;NEN-EN 14614:2004 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+341;615;N14671.06;NEN-EN 14671:2006 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+342;616;N14672.05;NEN-EN 14672:2005 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+343;617;N14701-1.06;NEN-EN 14701-1:2006 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+344;618;N14701-2.06;NEN-EN 14701-2:2006 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+345;619;N14701-3.06;NEN-EN 14701-3:2006 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+346;620;N14701-4.07;NEN-EN 14701-4:2007 Ontw. en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+347;621;N14702-1.06;NEN-EN 14702-1:2006 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+348;622;N14702-2.06;NEN-EN 14702-2:2006 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+349;623;N14757.05;NEN-EN 14757:2005 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+350;54;N1483.07;NEN-EN 1483:2007 en;Norm vervallen;;8 december 2017 00:00:00;1 januari 2100 00:00:00
+351;171;N1484.97;NEN-EN 1484:1997 en,nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+352;626;N14962.06;NEN-EN 14962:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+353;627;N14996.06;NEN-EN 14996:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+354;628;N15169.07;NEN-EN 15169:2007 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+355;629;N15170.05;NEN-EN 15170:2005 Ontw. en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+356;630;N15171.05;NEN-EN 15171:2005 Ontw. en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+357;318;N15192.06;NEN-EN 15192:2006 en;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+358;632;N15204.06;NEN-EN 15204:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+359;324;N15216.07;NEN-EN 15216:2007 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+360;634;N15308.08;NEN-EN 15308:2008 en;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+361;635;N15309.07;NEN-EN 15309:2007 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+362;636;N15400.11;NEN-EN 15400:2011 en;Norm slib;;27 april 2013 00:00:00;1 januari 2100 00:00:00
+363;637;N15460.07;NEN-EN 15460:2007 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+364;638;N15708.07;NEN-EN 15708:2007 Ontw. en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+365;981;N15934.12;NEN-EN 15934:2012 en;Norm slib;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+366;639;N1622.06;NEN-EN 1622:2006 en;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+367;1055;N16695.15;NEN-EN 16695:2015 en;Norm water-biologisch;;27 maart 2020 00:00:00;1 januari 2100 00:00:00
+368;640;N1899-1.98;NEN-EN 1899-1:1998 en,nl;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+369;641;N1899-2.98;NEN-EN 1899-2:1998 en,nl;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+370;173;N1948+A1.13;NEN-EN 1948-4:2010+A1:2013 en;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+371;101;N3106.86;NEN 3106:1986 nl;Norm bodem/water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+372;642;N5110.01;NEN 5110:2001 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+373;9;N5483.89;NEN 5483:1989 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+374;643;N5622.06;NEN 5622: 2006 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+375;644;N5623.02;NEN 5623:2002 nl;Norm radioactiviteit;;31 mei 2012 00:00:00;1 januari 2100 00:00:00
+376;645;N5627.06;NEN 5627: 2006 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+377;646;N5694+C1.11;NEN 5694:2007+C1:2011 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+378;647;N5704.96;NEN 5704:1996 nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+379;648;N5707+C1.06;NEN 5707:2003+C1:2006 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+380;184;N5707.13;NEN 5707:2013 Ontw. Nl;Norm bodem-fysisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+381;238;N5707.15;NEN 5707:2015 nl;Norm bodem-fysisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+382;227;N5709.06;NEN 5709:2006 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+383;650;N5719.99;NEN 5719:1999 nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+384;651;N5727.04;NEN 5727:2004;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+385;1;N5731.94;NEN 5731:1994 2e Ontw. nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+386;10;N5733.97;NEN 5733:1997 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+387;2;N5734.95;NEN 5734:1995 2e Ontw. nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+388;125;N5734.99;NEN 5734:1999;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+389;3;N5735.94;NEN 5735:1994 2e Ontw. nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+390;126;N5735.99;NEN 5735:1999 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+391;655;N5738.96;NEN 5738:1996 nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+392;272;N5739.96;NEN 5739:1996 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+393;79;N5742.00;NEN 5742:2000 Ontw. nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+394;978;N5742.01;NEN 5742:2001 nl;Norm bodem-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+395;82;N5742.91;NEN 5742:1991 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+396;83;N5743.95;NEN 5743:1995 nl;Norm bodem-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+397;84;N5744.11;NEN 5744:2011 nl;Norm bodem-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+398;128;N5747.90;NEN 5747:1990 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+399;130;N5748.90;NEN 5748:1990 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+400;131;N5749.91;NEN 5749:1991 nl;Norm bodem-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+401;132;N5750.89;NEN 5750:1989 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+402;114;N5751.89;NEN 5751:1989 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+403;133;N5752.95;NEN 5752:1995 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+404;134;N5753+C1.09;NEN 5753:2006+C1:2009 nl;Norm bodem-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+405;663;N5753.06;NEN 5753:2006 nl;Norm vervallen;;17 september 2011 00:00:00;1 januari 2100 00:00:00
+406;135;N5754.05;NEN 5754:2005 nl;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+407;996;N5754.14;NEN 5754:2014 nl;Norm bodem-chemisch;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+408;137;N5756.95;NEN 5756:1995 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+409;138;N5757.91;NEN 5757:1991 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+410;11;N5758.90;NEN 5758:1990 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+411;12;N5759.90;NEN 5759:1990 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+412;13;N5760.91;NEN 5760:1991 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+413;14;N5761.90;NEN 5761:1990 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+414;15;N5762.91;NEN 5762:1991 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+415;672;N5763.91;NEN 5763:1991 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+416;673;N5764.89;NEN 5764:1989 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+417;16;N5765.91;NEN 5765:1991 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+418;675;N5766.03;NEN 5766:2003 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+419;17;N5767.91;NEN 5767:1991 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+420;102;N5768.92;NEN 5768:1992 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+421;185;N5769.91;NEN 5769:1991 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+422;679;N5771.99;NEN 5771:1999 nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+423;680;N5773.90;NEN 5773:1990 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+424;681;N5774.90;NEN 5774:1990 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+425;139;N5776.06;NEN 5776:2006 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+426;683;N5777.94;NEN 5777:1994 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+427;71;N5779.94;NEN 5779:1994 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+428;685;N5780.96;NEN 5780:1996 nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+429;686;N5781.92;NEN 5781:1992 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+430;687;N5782.91;NEN 5782:1991 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+431;688;N5783.91;NEN 5783:1991 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+432;689;N5784.91;NEN 5784:1991 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+433;690;N5785.91;NEN 5785:1991 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+434;691;N5786.91;NEN 5786:1991 nl;Norm bodem-fysisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+435;692;N5787.94;NEN 5787:1994 nl;Norm bodem-fysisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+436;693;N5788.94;NEN 5788:1994 nl;Norm bodem-fysisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+437;694;N5789.91;NEN 5789:1991 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+438;695;N5791.95;NEN 5791:1995 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+439;140;N5896.03;NEN5896:2003 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+440;187;N5897.14;NEN 5897:2014 Ontw. Nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+441;261;N5897.15;NEN 5897:2015 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+442;1006;N5898+C1.16;NEN 5898+C1:2016 nl;Norm milieu;;1 juli 2017 00:00:00;1 januari 2100 00:00:00
+443;696;N6261.90;NEN 6261:1990/A1:2002;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+444;697;N6263.89;NEN 6263:1989 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+445;273;N6265.07;NEN 6265:2007 nl;Norm vervallen;;8 augustus 2018 00:00:00;1 januari 2100 00:00:00
+446;699;N6269.96;NEN 6269:1996 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+447;700;N6271.95;NEN 6271:1995 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+448;701;N6274.95;NEN 6274:1995 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+449;702;N6275.96;NEN 6275:1996 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+450;703;N6276.95;NEN 6276:1995 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+451;704;N6401.91;NEN 6401:1991 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+452;95;N6402.10;NEN 6402:2010 nl;Norm water-chemisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+453;705;N6402.91;NEN 6402:1991 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+454;18;N6403.98;NEN 6403:1998 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+455;707;N6407.97;NEN 6407:1997 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+456;20;N6408.99;NEN 6408:1999 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+457;141;N6411.06;NEN 6411:2006 Ontw. nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+458;709;N6411.81;NEN 6411:1981 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+459;710;N6412.79;NEN 6412:1979 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+460;711;N6414.07;NEN 6414:2007 Ontw. nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+461;229;N6414.08;NEN 6414:2008 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+462;713;N6414.88;NEN 6414:1988 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+463;142;N6415.82;NEN 6415:1982 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+464;714;N6420.86;NEN 6420:1986 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+465;715;N6421.06;NEN 6421:2006 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+466;716;N6424.88;NEN 6424:1988 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+467;21;N6426.95;NEN 6426:1995 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+468;22;N6427.99;NEN 6427:1999 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+469;23;N6429.94;NEN 6429:1994 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+470;24;N6430.94;NEN 6430:1994 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+471;25;N6432.93;NEN 6432:1993 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+472;26;N6433.93;NEN 6433:1993 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+473;27;N6434.93;NEN 6434:1993 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+474;28;N6435.97;NEN 6435:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+475;29;N6436.97;NEN 6436:1997 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+476;725;N6437.82;NEN 6437:1982 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+477;143;N6441.79;NEN 6441:1979 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+478;726;N6442.79;NEN 6442:1979 nl;Norm water-chemisch;;31 augustus 2011 00:00:00;1 januari 2100 00:00:00
+479;30;N6443.77;NEN 6443:1977 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+480;31;N6444.77;NEN 6444:1977 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+481;32;N6445.97;NEN 6445:1997 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+482;105;N6447.79;NEN 6447:1979 nl;Norm slib;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+483;33;N6448.81;NEN 6448:1981 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+484;730;N6449.81;NEN 6449:1981 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+485;34;N6451.80;NEN 6451:1980 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+486;35;N6452.80;NEN 6452:1980 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+487;36;N6453.80;NEN 6453:1980 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+488;37;N6454.94;NEN 6454:1994 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+489;106;N6455.81;NEN 6455:1981 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+490;144;N6456.81;NEN 6456:1981 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+491;116;N6457.94;NEN 6457:1994 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+492;38;N6458.83;NEN 6458:1983 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+493;739;N6460.81;NEN 6460:1981 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+494;740;N6461.81;NEN 6443:1981 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+495;39;N6462.82;NEN 6462:1982 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+496;40;N6463.97;NEN 6463:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+497;117;N6464.81;NEN 6464:1981 nl;Norm slib;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+498;107;N6465.92;NEN 6465:1992 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+499;145;N6467.82;NEN 6467:1982 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+500;41;N6468.94;NEN 6468:1994 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+501;42;N6470.97;NEN 6470:1997 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+502;745;N6471.81;NEN 6471:1981 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+503;746;N6472.83;NEN 6472:1983 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+504;43;N6476.81;NEN 6476:1981 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+505;748;N6480.82;NEN 6480:1982 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+506;749;N6481.83;NEN 6481:1983 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+507;146;N6482.82;NEN 6482:1982 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+508;44;N6483.82;NEN 6483:1982 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+509;751;N6484.06;NEN 6484:2006 Ontw. nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+510;147;N6484.07;NEN 6484:2007 nl;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+511;753;N6484.82;NEN 6484:1982 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+512;148;N6485.83;NEN 6485:1983 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+513;754;N6486.84;NEN 6486:1984 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+514;755;N6487.97;NEN 6487:1997 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+515;756;N6490.82;NEN 6490:1982 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+516;757;N6493.87;NEN 6493:1987 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+517;758;N6494.84;NEN 6494:1984 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+518;759;N6495.84;NEN 6495:1984 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+519;760;N6499.05;NEN 6499:2005 nl;Norm vervallen;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+520;761;N6499.10;NEN 6499:2010 nl;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+521;995;N6499.14;NEN 6499:2014 nl;Norm milieu;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+522;762;N6504.80;NEN 6504:1980 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+523;999;N6520+C1.11;NEN 6520:2006+C1:2011 nl;Norm water-biologisch/chem.;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+524;149;N6520.06;NEN 6520:2006 nl;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+525;764;N6521.91;NEN 6521:1991 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+526;765;N6523.90;NEN 6523:1990 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+527;766;N6524.84;NEN 6524:1984 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+528;150;N6526.06;NEN 6526:2006 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+529;70;N6527.00;NEN 6527:2000 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+530;769;N6530.86;NEN 6530:1986 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+531;770;N6531.86;NEN 6531:1986 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+532;151;N6532.86;NEN 6532:1986 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+533;152;N6533.90;NEN 6533:1990 nl;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+534;773;N6535.86;NEN 6535:1986 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+535;774;N6536.90;NEN 6536:1990 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+536;775;N6539.91;NEN 6539:1991 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+537;153;N6541.91;NEN 6541:1991 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+538;777;N6542.96;NEN 6542:1996 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+539;778;N6544.90;NEN 6544:1990 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+540;779;N6545.85;NEN 6545:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+541;780;N6547.86;NEN 6547:1986 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+542;781;N6548.88;NEN 6548:1988 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+543;782;N6549.88;NEN 6549:1988 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+544;783;N6552.81;NEN 6552:1981 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+545;784;N6557.81;NEN 6557:1981 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+546;785;N6563.82;NEN 6563:1982 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+547;786;N6567.85;NEN 6567:1985 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+548;230;N6570.82;NEN 6570:1982 nl;Norm water-biologisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+549;231;N6571.82;NEN 6571:1982 nl;Norm water-biologisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+550;789;N6572.82;NEN 6572:1982 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+551;790;N6573.87;NEN 6573:1987 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+552;791;N6576.85;NEN 6576:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+553;792;N6577.85;NEN 6577:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+554;793;N6578.85;NEN 6578:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+555;794;N6579.85;NEN 6579:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+556;795;N6580.85;NEN 6580:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+557;796;N6581.85;NEN 6581:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+558;797;N6582.85;NEN 6582:1985 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+559;798;N6587.90;NEN 6587:1990 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+560;799;N6589.05;NEN 6589:2005 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+561;800;N6591.90;NEN 6591:1990 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+562;801;N6594.93;NEN 6594:1993 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+563;239;N6604.07;NEN 6604:2007 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+564;803;N6606.07;NEN 6606:2007 Ontw. nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+565;804;N6606.09;NEN 6606:2009 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+566;805;N6606.92;NEN 6606:1992 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+567;259;N6608.96;NEN 6608:1996 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+568;45;N6609.97;NEN 6609:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+569;46;N6611.97;NEN 6611:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+570;47;N6612.97;NEN 6612:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+571;807;N6619.92;NEN 6619:1992 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+572;154;N6620.86;NEN 6620:1986 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+573;155;N6621.88;NEN 6621:1988 nl;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+574;810;N6622.88;NEN 6622:1988 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+575;156;N6623.05;NEN 6623:2005 nl;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+576;812;N6624.03;NEN 6624:2003 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+577;240;N6633.06;NEN 6633:2006/A1:2007 nl;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+578;157;N6633.98;NEN 6633:1998 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+579;814;N6634.91;NEN 6634:1991 nl;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+580;158;N6641.83;NEN 6641:1983 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+581;159;N6642.92;NEN 6642:1992 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+582;816;N6643.03;NEN 6643:2003 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+583;160;N6644.83;NEN 6644:1983 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+584;818;N6645.05;NEN 6645:2005 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+585;1001;N6646+C1.15;NEN 6646+C1:2015 nl;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+586;161;N6646.06;NEN 6646:2006 nl;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+587;1005;N6646.15;NEN 6646:2015 nl;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+588;48;N6651.92;NEN 6651:1992 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+589;821;N6652.92;NEN 6652:1992 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+590;822;N6653.92;NEN 6653:1992 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+591;823;N6654.92;NEN 6654:2005 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+592;824;N6655.92;NEN 6655:1992 Ontw. nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+593;49;N6655.97;NEN 6655:1997 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+594;826;N6662.85;NEN 6662:1985 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+595;162;N6663.87;NEN 6663:1987 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+596;828;N6669.81;NEN 6669:1981 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+597;50;N6670.03;NEN 6670:2003 nl;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+598;1002;N6671.13;NEN 6671:2013 nl;Norm water-chemisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+599;262;N6671.94;NEN 6671:1994 nl;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+600;263;N6672.94;NEN 6672:1994 nl;Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+601;163;N6674.81;NEN 6674:1981 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+602;164;N6675.89;NEN 6675:1989 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+603;834;N6676.94;NEN 6676:1994 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+604;835;N6682.96;NEN 6682:1996 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+605;836;N6685.83;NEN 6685:1983 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+606;837;N6686.83;NEN 6686:1983 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+607;838;N6687.83;NEN 6687:1983 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+608;839;N6688.83;NEN 6688:1983 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+609;840;N6689.83;NEN 6689:1983 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+610;841;N6691.88;NEN 6691:1988 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+611;842;N6692.92;NEN 6692:1992 nl;Norm slib;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+612;843;N6950.05;NEN 6950:2005 nl;Norm vervallen;;9 december 2020;1 januari 2100
+613;1057;N6950.20;NEN 6950:2020 nl;Norm bodem-chemisch;;9 december 2020;1 januari 2100
+614;844;N6953.05;NEN 6953:2005 nl;Norm vervallen;;26 april 2017 00:00:00;1 januari 2100 00:00:00
+615;1007;N6953.17;NEN 6953:2017 nl;Norm water-chemisch;;26 april 2017 00:00:00;1 januari 2100 00:00:00
+616;845;N6961.05;NEN 6961:2005 nl;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+617;212;N6961.13;NEN 6961:2013 Ontw. Nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+618;979;N6961.14;NEN 6961:2014 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+619;846;N6963.05;NEN 6963:2005 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+620;847;N6964+C1.06;NEN 6964:2005+C1:2006 nl;Norm bodem/water-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+621;848;N6964.05;NEN 6964:2005 nl;Norm bodem/water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+622;849;N6965+C1.06;NEN 6965:2005+C1:2006 nl;Norm bodem/water-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+623;850;N6965.05;NEN 6965:2005 nl;Norm bodem/water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+624;851;N6966+C1.06;NEN 6966:2005+C1:2006 nl;Norm bodem/water-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+625;242;N6966.05;NEN 6966:2005 nl;Norm bodem/water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+626;853;N6970.08;NEN 6970:2008 nl;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+627;992;N6970.16;NEN 6970:2016 nl;Norm bodem-chemisch;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+628;854;N6971+C1.10;NEN 6971:2008+C1:2010 nl;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+629;998;N6972+A1.12;NEN 6972:2008/A1:2012 nl;Norm bodem-chemisch;;4 februari 2017 00:00:00;1 januari 2100 00:00:00
+630;855;N6972.08;NEN 6972:2008 nl;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+631;856;N6973.08;NEN 6973:2008 nl;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+632;857;N6974+C1.10;NEN 6974:2008+C1:2010 nl;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+633;858;N6975.08;NEN 6975:2008 nl;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+634;993;N6975.16;NEN 6975:2016 nl;Norm bodem-chemisch;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+635;859;N6976.08;NEN 6976:2008 nl;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+636;244;N6977+C1.10;NEN 6977:2008+C1:2010 nl;Norm bodem-chemisch;;16 maart 2021 00:00:00;1 januari 2100 00:00:00
+637;861;N6978.08;NEN 6978:2008 nl;Norm vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+638;994;N6978.16;NEN 6978:2016 nl;Norm bodem-chemisch;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+639;862;N6980+C1.10;NEN 6980:2008+C1:2010 nl;Norm vervallen;;24 januari 2017 00:00:00;1 januari 2100 00:00:00
+640;997;N6980+C2.11;NEN 6980:2008+C1:2010+C2:2011 nl;Norm bodem-chemisch;;24 januari 2017 00:00:00;1 januari 2100 00:00:00
+641;863;N6981.08;NEN 6981:2008;Norm bodem-chemisch;;6 december 2011 00:00:00;1 januari 2100 00:00:00
+642;108;N7320.97;NEN 7320:1997 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+643;165;N7341.95;NEN 7341:1995 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+644;166;N7343.95;NEN 7343:1995 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+645;167;N7345.95;NEN 7345:1995 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+646;168;N7349.95;NEN 7349:1995 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+647;214;N7373.04;NEN 7373:2004 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+648;319;N7383.04;NEN 7383:2004 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+649;174;N872.05;NEN-EN 872:2005 en;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+650;221;N903.94;NEN-EN 903:1994 en;Norm water-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+651;866;Notove;Bepaling toetsoordeel (+ of -) met/volgens Notove-methodiek;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+652;190;OVAM2IB1;OVAM afvalstoffencompendium 2/I/B.1;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+653;191;OVAM2IC2.3;OVAM afvalstoffencompendium 2/I/C.2.3;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+654;192;OVAM2IIA3;OVAM afvalstoffencompendium 2/II/A.3;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+655;193;OVAM2IIA6;OVAM afvalstoffencompendium 2/II/A.6;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+656;194;OVAM3B;OVAM afvalstoffencompendium 3/B;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+657;195;OVAM3I;OVAM afvalstoffencompendium 3/I;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+658;196;OVAM3N;OVAM afvalstoffencompendium 3/N;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+659;197;OVAM3R1;OVAM afvalstoffencompendium 3/R1;Voorschrift;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+660;1037;P3020-123.16;Protocol 3020-1/2/3, 23-06-2016;Voorschrift;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+661;1038;P3030-1.16;Protocol 3030-2, 23-06-2016;Voorschrift;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+662;1039;P3110-4.16;Protocol 3110-4, 23-06-2016;Voorschrift;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+663;1040;P3110-5.16;Protocol 3110-5, 23-06-2016;Voorschrift;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+664;1041;P3130-1.16;Protocol 3130-1, 23-06-2016;Voorschrift;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+665;1042;P3130-2.16;Protocol 3130-2, 23-06-2016;Voorschrift;;15 februari 2020 00:00:00;1 januari 2100 00:00:00
+666;867;P3210-1.08;prestatieblad 3210-1, 25-6-2008 (droge stof);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+667;868;P3210-1.11;prestatieblad 3210-1, 10-2-2011 (droge stof);Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+668;966;P3210-1.13;prestatieblad 3210-1, 03-10-2013 (droge stof);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+669;982;P3210-1.16;prestatieblad 3210-1, 23-06-2016 (droge stof);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+670;967;P3210-2.13;prestatieblad 3210-2, 03-10-2013 (organische stof);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+671;983;P3210-2.16;prestatieblad 3210-2, 23-06-2016 (organische stof);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+672;869;P3210-2a.08;prestatieblad 3210-2a, 25-6-2008 (organische stof);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+673;870;P3210-2a.11;prestatieblad 3210-2a, 10-2-2011 (organische stof);Voorschrift vervallen;;16 juli 2015 00:00:00;1 januari 2100 00:00:00
+674;871;P3210-2b.08;prestatieblad 3210-2b, 25-6-2008 (gloeirest);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+675;872;P3210-2b.11;prestatieblad 3210-2b, 10-2-2011 (gloeirest);Voorschrift vervallen;;16 juli 2015 00:00:00;1 januari 2100 00:00:00
+676;873;P3210-3.08;prestatieblad 3210-3, 25-6-2008 (korrelgroottefractie);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+677;874;P3210-3.11;prestatieblad 3210-3, 10-2-2011 (korrelgroottefracti;Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+678;968;P3210-3.13;prestatieblad 3210-3, 03-10-2013 (korrelgroottefractie);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+679;984;P3210-3.16;prestatieblad 3210-3, 23-06-2016 (korrelgroottefractie);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+680;875;P3210-4.08;prestatieblad 3210-4, 25-6-2008 (metalen);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+681;876;P3210-4.11;prestatieblad 3210-4, 10-2-2011 (metalen);Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+682;969;P3210-4.13;prestatieblad 3210-4, 03-10-2013 (metalen);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+683;985;P3210-4.16;prestatieblad 3210-4, 23-06-2016 (metalen);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+684;877;P3210-5.08;prestatieblad 3210-5, 25-6-2008 (PAK);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+685;878;P3210-5.11;prestatieblad 3210-5, 10-2-2011 (PAK);Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+686;970;P3210-5.13;prestatieblad 3210-5, 03-10-2013 (PAK);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+687;986;P3210-5.16;prestatieblad 3210-5, 23-06-2016 (PAK);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+688;879;P3210-6.08;prestatieblad 3210-6, 25-6-2008 (minerale olie);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+689;880;P3210-6.11;prestatieblad 3210-6, 10-2-2011 (minerale olie);Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+690;971;P3210-6.13;prestatieblad 3210-6, 03-10-2013 (minerale olie);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+691;987;P3210-6.16;prestatieblad 3210-6, 23-06-2016 (minerale olie);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+692;881;P3210-7.08;prestatieblad 3210-7, 25-6-2008 (PCB);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+693;882;P3210-7.11;prestatieblad 3210-7, 10-2-2011 (PCB);Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+694;972;P3210-7.13;prestatieblad 3210-7, 03-10-2013 (PCB);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+695;988;P3210-7.16;prestatieblad 3210-7, 23-06-2016 (PCB);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+696;883;P3220-1.08;prestatieblad 3220-1, 25-6-2008 (OCB);Voorschrift vervallen;;1 januari 2013 00:00:00;1 januari 2100 00:00:00
+697;884;P3220-1.11;prestatieblad 3220-1, 10-2-2011 (OCB);Voorschrift vervallen;;14 juli 2015 00:00:00;1 januari 2100 00:00:00
+698;973;P3220-1.13;prestatieblad 3220-1, 03-10-2013 (OCB);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+699;989;P3220-1.16;prestatieblad 3220-1, 23-06-2016 (OCB);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+700;974;P3220-2.13;prestatieblad 3220-2, 03-10-2013 (OCB overig);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+701;990;P3220-2.16;prestatieblad 3220-2, 23-06-2016 (OCB overig);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+702;1053;P3230-1.16;Protocol 3230-1, 23-06-2016;Voorschrift;;6 maart 2020 00:00:00;1 januari 2100 00:00:00
+703;1054;P3240-1.16;Protocol 3240-1, 23-06-2016;Voorschrift;;6 maart 2020 00:00:00;1 januari 2100 00:00:00
+704;885;P3250-1.11;prestatieblad 3250-1, 10-2-2011 (elementen);Voorschrift vervallen;;16 juli 2015 00:00:00;1 januari 2100 00:00:00
+705;975;P3250-1.13;prestatieblad 3250-1, 03-10-2013 (metalen);Voorschrift vervallen;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+706;991;P3250-1.16;prestatieblad 3250-1, 23-06-2016 (metalen);Voorschrift;;14 december 2016 00:00:00;1 januari 2100 00:00:00
+707;965;P3260-1.11;prestatieblad 3260-1, 10-2-2011 (pentachloorfenol);Voorschrift;;29 november 2014 00:00:00;1 januari 2100 00:00:00
+708;886;P5637.06;NPR 5637:2006 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+709;887;P5638.06;NPR 5638:2006 nl;Norm radioactiviteit;;1 juli 2013 00:00:00;1 januari 2100 00:00:00
+710;888;P5792.97;NPR 5792:1997 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+711;889;P6264.89;NPR 6264:1989 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+712;1034;P6266.14;NPR 6266:2014 nl;Norm vervallen;;8 augustus 2018 00:00:00;1 januari 2100 00:00:00
+713;890;P6266.91;NPR 6266:1991 nl;Norm vervallen;;8 augustus 2018 00:00:00;1 januari 2100 00:00:00
+714;891;P6267.02;NPR 6267:2002 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+715;892;P6268.95;NPR 6268:1995 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+716;893;P6270.96;NPR 6270:1996 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+717;894;P6272.95;NPR 6272:1995 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+718;895;P6277.02;NPR 6277:2002 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+719;896;P6400.88;NPR 6400:1988 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+720;897;P6416.95;NPR 6416:1995 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+721;898;P6417.97;NPR 6417:1997 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+722;899;P6425.95;NPR 6425:1995 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+723;900;P6505.94;NPR 6505:1994 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+724;901;P6537.88;NPR 6537:1988 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+725;902;P6538.90;NPR 6538:1990 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+726;180;P6546.88;NPR 6546:1988 nl;Norm water-fysisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+727;904;P6554.81;NPR 6554:1981 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+728;905;P6558.81;NPR 6558:1981 nl;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+729;906;P6574.87;NPR 6574:1987 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+730;91;P6600.93;NPR 6600:1993 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+731;907;P6616.82;NPR 6616:1982 nl;Norm water-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+732;1035;P9060.16;NPR 9060:2016 nl;Norm water-biologisch;;19 juli 2019 00:00:00;1 januari 2100 00:00:00
+733;958;PZMJK-A;Protocol Zwemmersjeuk 2011 - A diagnose aandoening;Voorschrift;;23 oktober 2014 00:00:00;1 januari 2100 00:00:00
+734;959;PZMJK-C;Protocol Zwemmersjeuk 2011 - C slakken met Trichobilharzia;Voorschrift;;23 oktober 2014 00:00:00;1 januari 2100 00:00:00
+735;960;PZMJK-D;Protocol Zwemmersjeuk 2011 - D DNA Trichobilharzia in water;Voorschrift;;23 oktober 2014 00:00:00;1 januari 2100 00:00:00
+736;908;RWS-RMI.10;RWS Standaard voor inwinning hydrol. en meteo. gegevens 2010;Voorschrift;;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+737;909;RWSV-W006;RWSV 913.00.W006;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+738;910;RWSV-W007;RWSV 913.00.W007;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+739;911;RWSV-W008;RWSV 913.00.W008;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+740;912;RWSV-W009;RWSV 913.00.W009;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+741;913;RWSV-W012;RWSV 913.00.W012;Voorschrift;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+742;1008;SIII2.1v2.14;CWEA/S-III-2.1V2:2014;Norm bodem-chemisch;;16 mei 2017 00:00:00;1 januari 2100 00:00:00
+743;914;T11370.00;ISO/TS 11370:2000 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+744;915;T11905-2.97;ISO/TR 11905-2:1997 en;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+745;916;T14256-1.03;ISO/TS 14256-1:2003 en;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+746;917;T15214-1.06;NPR-CEN/TR 15214-1:2006 en;Norm slib;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+747;918;T15214-2.06;NPR-CEN/TR 15214-2:2006 en;Norm slib;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+748;919;T15214-3.06;NPR-CEN/TR 15214-3:2006 en;Norm slib;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+749;920;T15215-1.06;CEN/TR 15215-1:2006 en;Norm slib;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+750;921;T15462.06;NPR-ISO/TR 15462:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+751;922;T17892-1.04;ISO/TS 17892-1:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+752;923;T17892-1.06;NPR-CEN-ISO/TS 17892-1:2006 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+753;924;T17892-10.04;NPR-CEN-ISO/TS 17892-10:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+754;925;T17892-11.04;NPR-CEN-ISO/TS 17892-11:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+755;926;T17892-12.04;NPR-CEN-ISO/TS 17892-12:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+756;927;T17892-2.04;NPR-CEN-ISO/TS 17892-2:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+757;928;T17892-3.04;NPR-CEN-ISO/TS 17892-3:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+758;929;T17892-4.04;NPR-CEN-ISO/TS 17892-4:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+759;930;T17892-5.04;NPR-CEN-ISO/TS 17892-5:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+760;931;T17892-7.04;NPR-CEN-ISO/TS 17892-7:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+761;932;T17892-8.04;NPR-CEN-ISO/TS 17892-8:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+762;933;T17892-9.04;NPR-CEN-ISO/TS 17892-9:2004 en;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+763;934;T20281.06;ISO/TS 20281:2006 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+764;935;T23893-2.07;ISO/TS 23893-2:2007 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+765;313;T5727.04;NTA 5727:2004 nl;Norm bodem-fysisch;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+766;282;T8200.02;NTA 8200:2002 en;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+767;283;T8204.03;NTA 8204:2003 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+768;936;Towabo;Bepaling waterbodemklasse volgens Towabo-methodiek;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+769;937;V13843.01;NVN-ENV-ISO 13843:2001 en;Norm water-biologisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+770;109;V2057.86;NVN 2507:1986 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+771;236;V2795.06;NVN 2795:2006 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+772;309;V2946.89;NVN 2946:1989 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+773;938;V5694.96;NVN 5694:1996 nl (vervallen);Norm vervallen;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+774;939;V5710.03;NVN 5710:2003 Ontw. nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+775;940;V5718.94;NVN 5718:1994 nl;Norm vervallen;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+776;4;V5729.01;NVN 5729:2001 Ontw. nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+777;113;V5730.91;NVN 5730:1991 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+778;181;V5731.98;NVN 5731:1998 nl;Norm bodem-chemisch;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+779;72;V5732.99;NVN 5732:1999 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+780;110;V5770.93;NVN 5770:1993 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+781;944;V5790.96;NVN 5790:1996 nl;Norm bodem-fysisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+782;945;V6404.00;NVN 6404:2000 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+783;63;V6409.97;NVN 6409:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+784;946;V6419.06;NVN 6419:2006 Ontw. nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+785;947;V6517.00;NVN 6517:2000 nl;Norm water-biologisch;;1 april 2017 00:00:00;1 januari 2100 00:00:00
+786;948;V6590.90;NVN 6590:1990 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+787;949;V6592.90;NVN 6592:1990 nl;Norm water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+788;64;V6678.97;NVN 6678:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+789;950;V6982.06;NVN 6982:2006 Ontw. nl;Norm bodem/water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+790;951;V6983.06;NVN 6983:2006 Ontw. nl;Norm bodem/water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+791;952;V6984.06;NVN 6984:2006 Ontw. nl;Norm bodem/water-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+792;183;V7312.95;NVN 7312:1995 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+793;65;V7321.97;NVN 7321:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+794;66;V7322.97;NVN 7322:1997 nl;Norm vervallen;;19 november 2015 00:00:00;1 januari 2100 00:00:00
+795;67;V7324.97;NVN 7324:1997 nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+796;188;V7350.95;NVN 7350:1995 Ontw. Nl;Norm vervallen;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+797;980;V7350.97;NVN 7350:1997 nl;Norm milieu;;10 december 2015 00:00:00;1 januari 2100 00:00:00
+798;954;V7392.05;NVN 7392:2005 Ontw. nl;Norm bodem-chemisch;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+799;955;VOORLOPIG;Voorlopige bepaling klasse door deskundige;Methodiek;;5 november 2013 00:00:00;1 januari 2100 00:00:00
+800;956;ZINTUIGLIJK;Niet genormaliseerde zintuiglijke waardebepaling;Algemeen niet-genormaliseerd;;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+801;957;iWSR;Bepaling waarde / waterindex (0-100) volgens iWSR-methodiek;Methodiek;;11 juni 2011 00:00:00;1 januari 2100 00:00:00

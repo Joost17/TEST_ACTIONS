@@ -1,0 +1,13 @@
+id;name;valueTypeId
+namespace;Namespace;TEXT
+X_monster;X_monster;TEXT
+Y_monster;Y_monster;TEXT
+OpdrachtreferentieUitvoerder;OpdrachtreferentieUitvoerder;TEXT
+wegingsfactor;Wegingsfactor;TEXT
+OPPVTE_oever;OPPVTE oever (ha);TEXT
+OPPVTE_openwater;OPPVTE open water (ha);TEXT
+BeginDiepte;BeginDiepte;TEXT
+EindDiepte;EindDiepte;TEXT
+Referentievlak;Referentievlak;TEXT 
+activiteit;activiteit;TEXT
+Monster.Opmerking;Monster.Opmerking;TEXT 

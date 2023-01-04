@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taskList
+    xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/taskList.xsd"
+    xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <task>
+        <taskStatus>P</taskStatus>
+        <runOnFailOver>false</runOnFailOver>
+        <suspendDutyInFailOver>false</suspendDutyInFailOver>
+        <runOption>allMostRecentOnly</runOption>
+        <taskProperties>
+            <description>Amalgamate week</description>
+            <workflowId>wf_AmalgamateImportScalarWeek</workflowId>
+            <taskSelection>
+                <scheduledTask>
+                    <schedulingPeriod>
+                        <startDate>2021-07-09T13:48:37.000Z</startDate>
+                        <endDate>3021-07-09T13:48:37.000Z</endDate>
+                    </schedulingPeriod>
+                    <schedulingInterval unit="week" multiplier="1"/>
+                </scheduledTask>
+            </taskSelection>
+            <forecastPriority>Normal</forecastPriority>
+            <makeForcastCurrent>false</makeForcastCurrent>
+            <makeStateCurrent>false</makeStateCurrent>
+        </taskProperties>
+    </task>
+    <task>
+        <taskStatus>P</taskStatus>
+        <runOnFailOver>false</runOnFailOver>
+        <suspendDutyInFailOver>false</suspendDutyInFailOver>
+        <runOption>allMostRecentOnly</runOption>
+        <taskProperties>
+            <description>Amalgamate month</description>
+            <workflowId>wf_AmalgamateImportScalarMonth</workflowId>
+            <taskSelection>
+                <scheduledTask>
+                    <schedulingPeriod>
+                        <startDate>2021-07-13T13:49:09.000Z</startDate>
+                        <endDate>3021-07-13T13:49:09.000Z</endDate>
+                    </schedulingPeriod>
+                    <schedulingInterval unit="day" multiplier="30"/>
+                </scheduledTask>
+            </taskSelection>
+            <forecastPriority>Normal</forecastPriority>
+            <makeForcastCurrent>false</makeForcastCurrent>
+            <makeStateCurrent>false</makeStateCurrent>
+        </taskProperties>
+    </task>
+    <task>
+        <taskStatus>P</taskStatus>
+        <runOnFailOver>false</runOnFailOver>
+        <suspendDutyInFailOver>false</suspendDutyInFailOver>
+        <runOption>allMostRecentOnly</runOption>
+        <taskProperties>
+            <description>Amalgamate day</description>
+            <workflowId>wf_AmalgamateImportScalarDay</workflowId>
+            <taskSelection>
+                <scheduledTask>
+                    <schedulingPeriod>
+                        <startDate>2021-07-14T13:47:00.000Z</startDate>
+                        <endDate>3021-07-14T13:47:00.000Z</endDate>
+                    </schedulingPeriod>
+                    <schedulingInterval unit="day" multiplier="1"/>
+                </scheduledTask>
+            </taskSelection>
+            <forecastPriority>Normal</forecastPriority>
+            <makeForcastCurrent>false</makeForcastCurrent>
+            <makeStateCurrent>false</makeStateCurrent>
+        </taskProperties>
+    </task>
+    <task>
+        <taskStatus>S</taskStatus>
+        <runOnFailOver>false</runOnFailOver>
+        <suspendDutyInFailOver>false</suspendDutyInFailOver>
+        <runOption>allOneAtATime</runOption>
+        <taskProperties>
+            <description>Import Fysisch-Chemische data</description>
+            <workflowId>wf_Import_IMmetingen_FysischeChemie</workflowId>
+            <taskSelection>
+                <scheduledTask>
+                    <schedulingPeriod>
+                        <startDate>2021-07-14T20:00:00.000Z</startDate>
+                        <endDate>3021-07-14T20:00:00.000Z</endDate>
+                    </schedulingPeriod>
+                    <schedulingInterval unit="hour" multiplier="12"/>
+                </scheduledTask>
+            </taskSelection>
+            <forecastPriority>Normal</forecastPriority>
+            <makeForcastCurrent>false</makeForcastCurrent>
+            <makeStateCurrent>false</makeStateCurrent>
+        </taskProperties>
+    </task>
+    <task>
+        <taskStatus>P</taskStatus>
+        <runOnFailOver>false</runOnFailOver>
+        <suspendDutyInFailOver>false</suspendDutyInFailOver>
+        <runOption>all</runOption>
+        <taskProperties>
+            <description>Update snapshot </description>
+            <workflowId>wf_UpdateSnapshot</workflowId>
+            <taskSelection>
+                <scheduledTask>
+                    <schedulingPeriod>
+                        <startDate>2021-07-15T06:46:27.000Z</startDate>
+                        <endDate>3021-07-15T06:46:27.000Z</endDate>
+                    </schedulingPeriod>
+                    <schedulingInterval unit="hour" multiplier="1"/>
+                </scheduledTask>
+            </taskSelection>
+            <forecastPriority>Normal</forecastPriority>
+            <makeForcastCurrent>false</makeForcastCurrent>
+            <makeStateCurrent>false</makeStateCurrent>
+        </taskProperties>
+    </task>
+</taskList>

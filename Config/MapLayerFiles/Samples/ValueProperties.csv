@@ -1,0 +1,6 @@
+id;name;valueTypeId
+Gewicht_g;Gewicht_g;TEXT
+Oppervlakte_ha;Oppervlakte_ha;TEXT
+Meetinstantie;Meetinstantie;TEXT
+Resultaatdatum;Resultaatdatum;TEXT
+Resultaattijd;Resultaattijd;TEXT

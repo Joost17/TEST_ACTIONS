@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfiguration xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/clientConfig.xsd">
+	<clientType>Forecasting Shell</clientType>
+	<otherRootConfigFiles>
+		<name>patch.jar</name>
+		<name>fss_efcis_prod_global.properties</name>
+	</otherRootConfigFiles>
+	<jvmOption>-Xmn1100m</jvmOption>
+	<jvmOption>-Xmx1500m</jvmOption>
+	<autoExportModuleDataSet name="Import_preprocessing" exportDir="Modules/Import_preprocessing"/>
+	<autoExportModuleDataSet name="Export_postprocessing" exportDir="Modules/Export_postprocessing"/>
+</clientConfiguration>

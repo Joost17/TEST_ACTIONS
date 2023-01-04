@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flagConversions xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/flagConversions.xsd">
+	<flagConversion>
+		<inputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>The data value is the original value retrieved from an external source and it successfully passes all validation criteria set</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_RELIABLE</name>
+			<value>0</value>
+			<description>Best data quality</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>CORRECTED_RELIABLE</name>
+			<value>1</value>
+			<description>The original value was removed and corrected. Correction may be through byteerpolation or manual editing</description>
+		</inputFlag>
+		<outputFlag>
+			<name>CORRECTED_RELIABLE</name>
+			<value>98</value>
+			<description>Data value has been edited; this may be a manual or automatic process</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>COMPLETED_RELIABLE</name>
+			<value>2</value>
+			<description>Original value was missing. Value has been filled in through byteerpolation, transformation (e.g. stage discharge) or a model</description>
+		</inputFlag>
+		<outputFlag>
+			<name>COMPLETED_RELIABLE</name>
+			<value>98</value>
+			<description>Estimated value (e.g. modelled value)</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>ORIGINAL_DOUBTFUL</name>
+			<value>3</value>
+			<description>Observed value retrieved from external data source. Value is valid, but marked as suspect due to soft validation limits being exceeded</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_DOUBTFUL</name>
+			<value>50</value>
+			<description>An ureliable estimate</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>CORRECTED_DOUBTFUL</name>
+			<value>4</value>
+			<description>The original value was removed and corrected. However, the corrected value is doubtful due to validation limits</description>
+		</inputFlag>
+		<outputFlag>
+			<name>CORRECTED_DOUBTFUL</name>
+			<value>98</value>
+			<description>An ureliable estimate</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>COMPLETED_DOUBTFUL</name>
+			<value>5</value>
+			<description>Original value was missing. Value has been filled in as above, but resulting value is doubtful due to limits in transformation/byteerpolation or input value used for transformation being doubtful</description>
+		</inputFlag>
+		<outputFlag>
+			<name>COMPLETED_DOUBTFUL</name>
+			<value>98</value>
+			<description>An ureliable estimate</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>ORIGINAL_UNRELIABLE</name>
+			<value>6</value>
+			<description>Observed value retrieved from external data source. Value is invalid due to validation limits set. Value is removed.</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_UNRELIABLE</name>
+			<value>99</value>
+			<description>Data is out of range</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>CORRECTED_UNRELIABLE</name>
+			<value>7</value>
+			<description>The original value was removed and corrected. However, corrected value is unreliable and is removed.</description>
+		</inputFlag>
+		<outputFlag>
+			<name>CORRECTED_UNRELIABLE</name>
+			<value>99</value>
+			<description>An ureliable estimate</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>COMPLETED_UNRELIABLE</name>
+			<value>8</value>
+			<description>Original value was missing. Value has been filled in as above, but resulting value is unreliable and is removed.</description>
+		</inputFlag>
+		<outputFlag>
+			<name>COMPLETED_UNRELIABLE</name>
+			<value>99</value>
+			<description>An ureliable estimate</description>
+		</outputFlag>
+	</flagConversion>
+	<flagConversion>
+		<inputFlag>
+			<name>ORIGINAL_MISSING</name>
+			<value>9</value>
+			<description>Missing value in originally observed series. Note this is a special form of both ORIGINAL/UNRELIABLE
+and ORIGINAL/RELIABLE.</description>
+		</inputFlag>
+		<outputFlag>
+			<name>ORIGINAL_MISSING</name>
+			<value>99</value>
+			<description>Gaps / missing data.</description>
+		</outputFlag>
+	</flagConversion>
+	<missingValueFlag>
+		<name>MISSING</name>
+		<value>5</value>
+	</missingValueFlag>
+</flagConversions>

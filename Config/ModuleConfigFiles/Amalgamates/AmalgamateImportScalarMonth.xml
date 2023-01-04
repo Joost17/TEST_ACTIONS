@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Repository path:    $HeadURL: http://wist-fmc.hhdelfland.nl/svn/WISTest/Config/ModuleConfigFiles/Amalgamates/AmalgamateImportScalarMonth.xml $-->
+<!--Last committed:     $Revision: 13 $; $Author: jochem $; $Date: 2019-05-09 14:35:20 +0200 (do, 09 mei 2019) $-->
+<importAmalgamate xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/importAmalgamate.xsd">
+	<workflowId>wf_AmalgamateImportScalarWeek</workflowId>
+	<importRunMinimalAge unit="hour"/>
+	<amalgamateOrphans>false</amalgamateOrphans>
+</importAmalgamate>

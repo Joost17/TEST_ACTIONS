@@ -1,0 +1,91 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+1;125;AA;Autoanalyser (code AA+detectietechniek heeft de voorkeur);waardebepalingstechniek;4 september 2020;1 januari 2100
+2;126;AA-FOTM;Autoanalyser - fotometrie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+3;127;AAS;Atomaire absorptie spectrometrie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+4;9;AAS-F;Atomaire absorptie spectrometrie - flame;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+5;19;AAS-GF;Atomaire absorptie spectrometrie - grafietoven;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+6;2;AAS-HG;Atomaire absorptie spectrometrie - hydride generatie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+7;27;AAS-KD;Atomaire absorptie spectrometrie - koude-damptechniek;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+8;132;AERO;Aerometrie;waardebepalingstechniek;8 mei 2012 00:00:00;1 januari 2100 00:00:00
+9;133;AES-F;Atomaire emissie spectrometrie - vlam;waardebepalingstechniek;26 juni 2013 00:00:00;1 januari 2100 00:00:00
+10;134;AES-KD;Atomaire emissie spectrometrie - koude-damptechniek;waardebepalingstechniek;26 juni 2013 00:00:00;1 januari 2100 00:00:00
+11;135;AF;Atomaire fluorescentie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+12;136;AF-KD;Atomaire fluorescentie - koude-damptechniek;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+13;137;BACT;Bacteriologie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+14;38;CALO;Calorimetrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+15;40;COND;Conductometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+16;5;COUL;Coulometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+17;141;CUVT;Cuvettentest;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+18;142;DA;Discreetanalyser (code DA+detectietechniek heeft voorkeur);waardebepalingstechniek;4 september 2020;1 januari 2100
+19;143;DA-S;Discreetanalyser - spectrometrie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+20;144;ELCH;Electrochemie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+21;145;ELMSR;Electromagnetisch (EM);waardebepalingstechniek;4 september 2020;1 januari 2100
+22;146;FL;Fluorescentie;waardebepalingstechniek;22 januari 2013 00:00:00;1 januari 2100 00:00:00
+23;10;FOTM;Fotometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+24;148;GAMMAS;Gammaspectrometrie;waardebepalingstechniek;22 januari 2013 00:00:00;1 januari 2100 00:00:00
+25;12;GC;Gaschromatografie (code GC+detectietechniek heeft voorkeur);waardebepalingstechniek;4 september 2020;1 januari 2100
+26;13;GC-ECD;Gaschromatografie - electron capture detector;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+27;52;GC-ECD/ECD;Gaschromatografie - electron capture detector / el.capt.det.;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+28;152;GC-ECD/MS;Gaschromatografie - electron capture detector / massaspect.;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+29;54;GC-FID;Gaschromatografie - flame ionisation detector;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+30;56;GC-FID/ECD;Gaschromatografie - flame ionisation detector / el.capt.det.;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+31;15;GC-FID/IR;Gaschromatografie - flame ionisation detector / infrarood;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+32;156;GC-FPD;Gaschromatografie - flame photometric detector;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+33;157;GC-HRMS;Gaschromatografie - hoge resolutie massaspectrometrie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+34;158;GC-LRMS;Gaschromatografie - lage resolutie massaspectrometrie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+35;17;GC-MS;Gaschromatografie - massaspectrometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+36;69;GC-MS-HS;Gaschromatografie - massaspectrometrie - headspace;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+37;161;GC-MS-LV-PTV;Gaschromatografie - massaspectrometrie - groot volume - PTV;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+38;162;GC-MS-MS;Gaschromatografie - massaspectrometrie - massaspectrometrie;waardebepalingstechniek;8 mei 2012 00:00:00;1 januari 2100 00:00:00
+39;88;GC-MS-PT;Gaschromatografie - massaspectrometrie - purge-and-trap;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+40;164;GC-MS-PTV;Gaschromatografie - massaspectrometrie - PTV;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+41;165;GC-MS-TD;Gaschromatografie - massaspectrometrie - thermal desorption;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+42;18;GC-NPD;Gaschromatografie - stikstof-fosfor detector;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+43;206;GENEPSLCFRSE;Genexpressie - luciferase;waardebepalingstechniek;9 februari 2016 00:00:00;1 januari 2100 00:00:00
+44;58;GRAV;Gravimetrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+45;23;HPLC;Hoge druk vloeistofchromatografie (voorkeur HPLC+det.techn.);waardebepalingstechniek;4 september 2020;1 januari 2100
+46;169;HPLC-APCI-MS;Hoge druk vloeistofchromatografie - atm.press.chem.ion. - MS;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+47;170;HPLC-DAD;Hoge druk vloeistofchromatografie - diode array detector;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+48;207;HPLC-FL;Hoge druk vloeistofchromatografie - fluorescentiedetector;waardebepalingstechniek;24 mei 2016 00:00:00;1 januari 2100 00:00:00
+49;171;HPLC-MS-ESI;Hoge druk vloeistofchromatografie - electrospray - massasp.;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+50;211;HPLC-MS2-SPE;Hoge druk vloeistofchromat. - MS-MS Triplequad, Offline SPE;waardebepalingstechniek;24 september 2019 00:00:00;1 januari 2100 00:00:00
+51;25;HPLC-UV;Hoge druk vloeistofchromatografie - UV-detector;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+52;71;HPLC-UV-FL;Hoge druk vloeistofchromatografie - UV- en fluoresc.detector;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+53;26;IC;Ionchromatografie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+54;3;ICP-AES;Inductie gekoppeld plasma - atomaire emissie spectrometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+55;176;ICP-HRMS;Inductie gekoppeld plasma - hoge resolutie massaspect.;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+56;121;ICP-MS;Inductie gekoppeld plasma - massaspectrometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+57;178;IR;Infrarooddetectie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+58;51;IR-FT;Infrarood - fourier transmission;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+59;180;JODM;Jodometrie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+60;181;LC-FL;Vloeistofchromatografie - fluorescentie  (voorkeur: ID 207);waardebepalingstechniek;4 september 2020;1 januari 2100
+61;182;LC-GC-MS;Vloeistofchromatografie-gaschrom.-massaspect. (Hoge Druk);waardebepalingstechniek;4 september 2020;1 januari 2100
+62;34;LC-MS;Vloeistofchromatografie - massaspectrometrie (Hoge Druk);waardebepalingstechniek;4 september 2020;1 januari 2100
+63;184;LC-MS-MS;Vloeistofchromatografie-massaspect.-massaspect. (Hoge Druk);waardebepalingstechniek;4 september 2020;1 januari 2100
+64;185;LC-TQMS;Vloeistofchrom. -tandem quadrupool massaspect. (Hoge Druk);waardebepalingstechniek;4 september 2020;1 januari 2100
+65;186;LDO;Luminescentie;waardebepalingstechniek;4 september 2020;1 januari 2100
+66;187;LSC;vloeistofscintillatie;waardebepalingstechniek;22 januari 2013 00:00:00;1 januari 2100 00:00:00
+67;188;MEMBF;Membraanfiltratie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+68;85;MICCOUL;Microcoulometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+69;87;MICCOUL-PT;Microcoulometrie - purge-and-trap;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+70;190;MICSCOP;Microscopie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+71;191;MICTTPT;Microtiter-plaat;waardebepalingstechniek;7 juli 2012 00:00:00;1 januari 2100 00:00:00
+72;192;NEFLMTE;Nefelometrie;waardebepalingstechniek;8 mei 2012 00:00:00;1 januari 2100 00:00:00
+73;193;ORGNLTSCH;Organoleptisch;waardebepalingstechniek;8 mei 2012 00:00:00;1 januari 2100 00:00:00
+74;31;POTM;Potentiometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+75;99;POTM_TITM;Potentiometrische titratie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+76;208;RADOMT-BWHH;Radiometrie, boven water - hand-held;waardebepalingstechniek;9 juli 2016 00:00:00;1 januari 2100 00:00:00
+77;210;RADOMT-BWHHG;Radiometrie, boven water - hand-held met gyroscoop;waardebepalingstechniek;9 juli 2016 00:00:00;1 januari 2100 00:00:00
+78;209;RADOMT-BWVO;Radiometrie, boven water - vaste opstelling;waardebepalingstechniek;9 juli 2016 00:00:00;1 januari 2100 00:00:00
+79;195;RONTGDF;Röntgendiffractie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+80;104;RONTGTM;Röntgentransmissie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+81;101;RONTGTM_GRAV;Röntgentransmissie en gravimetrie (met zeef);waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+82;197;SEDI;Sedigraaf;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+83;109;STER/POLMIC;Stereo- en polarisatiemicrosopie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+84;199;THERMG;Thermografie;waardebepalingstechniek;6 oktober 2011 00:00:00;1 januari 2100 00:00:00
+85;200;THERMM;Thermometrie;waardebepalingstechniek;5 juli 2014 00:00:00;1 januari 2100 00:00:00
+86;110;TITM;Titrimetrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+87;107;UV/VIS;Spectrofotometrie;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+88;115;VISL;Visueel;waardebepalingstechniek;21 november 2015 00:00:00;1 januari 2100 00:00:00
+89;204;VOL;Volumetrie;waardebepalingstechniek;8 mei 2012 00:00:00;1 januari 2100 00:00:00
+90;205;qPCR;Kwantitatieve polymerase-kettingreactie;waardebepalingstechniek;12 februari 2013 00:00:00;1 januari 2100 00:00:00

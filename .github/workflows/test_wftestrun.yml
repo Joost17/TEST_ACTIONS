@@ -1,0 +1,45 @@
+name: workflow testrun
+on:
+  push:
+    branches:
+      - productie
+      - test
+      - ontwikkel
+  pull_request:
+    branches:
+      - productie
+      - test
+      - ontwikkel
+      
+jobs:
+  create-env:
+    name: Workflow testrun
+    runs-on: windows-2019
+    defaults:
+      run:
+        shell: bash -l {0}
+    strategy:
+      fail-fast: false
+        
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
+        
+      - name: list directory
+        run: ls
+      - name: run workflow testrun
+        run: wf_testrun/run_wf_testrun.bat
+
+      - name: Set up Python 
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pytest
+      - name: Test config
+        run: pytest tests/test_wf_test.py
+        
+        
+        

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Repository path:    $HeadURL: http://wist-fmc.hhdelfland.nl/svn/WISTest/Config/WorkflowTestRuns/wftr_ImportPvss.xml $-->
+<!--Last committed:     $Revision: 1084 $; Last changed by:    $Author: jochem $; Last changed datse:    $Date: 2021-11-25 13:23:40 +0100 (do, 25 nov 2021) $-->
+<workflowTestRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews ../../../Schemas/workflowTestRun.xsd">
+	<general>
+		<description>Test export EFCIS</description>
+	</general>
+	<activities>
+		<workflowActivity>
+			<workflowId>wf_Export_IMmetingen_dummy</workflowId>
+		</workflowActivity>
+	</activities>
+</workflowTestRun>

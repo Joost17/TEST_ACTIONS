@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<timeSeriesDisplay xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesDisplay.xsd">
+	<generalDisplayConfig>
+		<convertDatum>true</convertDatum>
+		<valueEditorPermission>bewerken</valueEditorPermission>
+		<labelEditorPermission>bewerken</labelEditorPermission>
+		<commentEditorPermission>bewerken</commentEditorPermission>
+	</generalDisplayConfig>
+	<defaultViewPeriod unit="day" start="-365" end="0"/>
+	<timeMarkersDisplayConfig>
+		<timeMarkerDisplayOptions marker="systemTime">
+			<color>green</color>
+			<lineStyle>solid</lineStyle>
+			<label>Systeem Tijd</label>
+		</timeMarkerDisplayOptions>
+		<timeMarkerDisplayOptions marker="timeZero">
+			<color>gray</color>
+			<lineStyle>dotted</lineStyle>
+			<label>T0</label>
+		</timeMarkerDisplayOptions>
+		<timeMarkerDisplayOptions marker="displayTime">
+			<color>red</color>
+			<lineStyle>solid</lineStyle>
+			<label>Huidige Tijd</label>
+		</timeMarkerDisplayOptions>
+		<timeMarkerDisplayOptions marker="threshold">
+			<color>orange</color>
+			<lineStyle>dashed</lineStyle>
+			<label>Waarschuwings Limiet</label>
+		</timeMarkerDisplayOptions>
+		<timeMarkerDisplayOptions marker="forecastConfidence1">
+			<color>purple</color>
+			<lineStyle>dashed</lineStyle>
+			<label>Betrouwbaarheid Periode 1</label>
+		</timeMarkerDisplayOptions>
+		<timeMarkerDisplayOptions marker="forecastConfidence2">
+			<color>black</color>
+			<lineStyle>dashed</lineStyle>
+			<label>Betrouwbaarheid Periode 2</label>
+		</timeMarkerDisplayOptions>
+		<timeMarkerDisplayOptions marker="forecastConfidence3">
+			<color>purple</color>
+			<lineStyle>dashed</lineStyle>
+			<label>Betrouwbaarheid Periode 3</label>
+		</timeMarkerDisplayOptions>
+	</timeMarkersDisplayConfig>
+	<parametersDisplayConfig>
+		<defaults>
+			<preferredColor>blue</preferredColor>
+			<lineStyle>solid</lineStyle>
+			<precision>10</precision>
+		</defaults>
+		<parameterDisplayOptions id="AANTL[n]">
+			<preferredColor>blue</preferredColor>
+			<lineStyle>solid</lineStyle>
+			<precision>10</precision>
+		</parameterDisplayOptions>
+	</parametersDisplayConfig>
+	<moduleInstanceIdMappings>
+		<moduleInstanceIdMapping id="Import_IMmetingen">
+			<description>Sample data</description>
+		</moduleInstanceIdMapping>
+	</moduleInstanceIdMappings>
+	<statisticalFunctions>
+		<statisticalFunction function="frequencyDistribution" ignoreMissings="true">
+			<samples amount="5"/>
+			<samples amount="10"/>
+			<samples amount="50"/>
+			<samples amount="100"/>
+			<samples amount="500"/>
+		</statisticalFunction>
+		<statisticalFunction function="gaussianCurve" ignoreMissings="true">
+			<samples amount="10"/>
+			<samples amount="50"/>
+			<samples amount="100"/>
+			<samples amount="500"/>
+		</statisticalFunction>
+		<statisticalFunction function="showPeaksAbove" ignoreMissings="true"/>
+		<statisticalFunction function="showLowsBelow" ignoreMissings="true"/>
+		
+	<statisticalFunction function="historicalShowPeaksAbove">
+			<season startMonthDay="--01-01" endMonthDay="--12-31" label="Heel jaar" color="black"/>
+			<season startMonthDay="--04-01" endMonthDay="--09-30" label="Groeiseizoen" color="gray"/>
+			<season startMonthDay="--12-01" endMonthDay="--02-29" label="Meteo Winter" color="blue"/>
+			<season startMonthDay="--03-01" endMonthDay="--05-31" label="Meteo Voorjaar" color="green"/>
+			<season startMonthDay="--06-01" endMonthDay="--08-31" label="Meteo Zomer" color="yellow1"/>
+			<season startMonthDay="--09-01" endMonthDay="--11-30" label="Meteo Najaar" color="red"/>
+			<season startMonthDay="--01-01" endMonthDay="--01-31" label="Januari" color="red"/>
+			<season startMonthDay="--02-01" endMonthDay="--02-29" label="Februari" color="maroon"/>
+			<season startMonthDay="--03-01" endMonthDay="--03-31" label="Maart" color="yellow1"/>
+			<season startMonthDay="--04-01" endMonthDay="--04-30" label="April" color="dark green"/>
+			<season startMonthDay="--05-01" endMonthDay="--05-31" label="Mei" color="lime green"/>
+			<season startMonthDay="--06-01" endMonthDay="--06-30" label="Juni" color="green"/>
+			<season startMonthDay="--07-01" endMonthDay="--07-31" label="Juli" color="cyan"/>
+			<season startMonthDay="--08-01" endMonthDay="--08-31" label="Augustus" color="turquoise4"/>
+			<season startMonthDay="--09-01" endMonthDay="--09-30" label="September" color="blue"/>
+			<season startMonthDay="--10-01" endMonthDay="--10-31" label="Oktober" color="navy"/>
+			<season startMonthDay="--11-01" endMonthDay="--11-30" label="November" color="magenta"/>
+			<season startMonthDay="--12-01" endMonthDay="--12-31" label="December" color="purple"/>
+		</statisticalFunction>
+		<statisticalFunction function="historicalShowLowsBelow">
+			<season startMonthDay="--01-01" endMonthDay="--12-31" label="Heel jaar" color="black"/>
+			<season startMonthDay="--04-01" endMonthDay="--09-30" label="Groeiseizoen" color="gray"/>
+			<season startMonthDay="--12-01" endMonthDay="--02-29" label="Meteo Winter" color="blue"/>
+			<season startMonthDay="--03-01" endMonthDay="--05-31" label="Meteo Voorjaar" color="green"/>
+			<season startMonthDay="--06-01" endMonthDay="--08-31" label="Meteo Zomer" color="yellow1"/>
+			<season startMonthDay="--09-01" endMonthDay="--11-30" label="Meteo Najaar" color="red"/>
+			<season startMonthDay="--01-01" endMonthDay="--01-31" label="Januari" color="red"/>
+			<season startMonthDay="--02-01" endMonthDay="--02-29" label="Februari" color="maroon"/>
+			<season startMonthDay="--03-01" endMonthDay="--03-31" label="Maart" color="yellow1"/>
+			<season startMonthDay="--04-01" endMonthDay="--04-30" label="April" color="dark green"/>
+			<season startMonthDay="--05-01" endMonthDay="--05-31" label="Mei" color="lime green"/>
+			<season startMonthDay="--06-01" endMonthDay="--06-30" label="Juni" color="green"/>
+			<season startMonthDay="--07-01" endMonthDay="--07-31" label="Juli" color="cyan"/>
+			<season startMonthDay="--08-01" endMonthDay="--08-31" label="Augustus" color="turquoise4"/>
+			<season startMonthDay="--09-01" endMonthDay="--09-30" label="September" color="blue"/>
+			<season startMonthDay="--10-01" endMonthDay="--10-31" label="Oktober" color="navy"/>
+			<season startMonthDay="--11-01" endMonthDay="--11-30" label="November" color="magenta"/>
+			<season startMonthDay="--12-01" endMonthDay="--12-31" label="December" color="purple"/>
+		</statisticalFunction>		
+		
+		<statisticalFunction function="scatterPlot" ignoreMissings="true"/>
+		<statisticalFunction function="boxPlot" ignoreMissings="true"/>
+		<statisticalFunction function="durationExceedence" ignoreMissings="true"/>
+		<statisticalFunction function="relativeAggregation" ignoreMissings="true">
+			<movingAccumulationTimeSpan unit="hour" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="3"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="6"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="2"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="4"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="365"/>
+		</statisticalFunction>
+		<statisticalFunction function="cumulative" ignoreMissings="true"/>
+		<statisticalFunction function="accumulationInterval" ignoreMissings="true">
+			<movingAccumulationTimeSpan unit="day" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="2"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="4"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="365"/>
+		</statisticalFunction>
+		<statisticalFunction function="centralMovingAverage" ignoreMissings="true">
+			<movingAccumulationTimeSpan unit="hour" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="3"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="6"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="2"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="4"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="365"/>
+		</statisticalFunction>
+		<statisticalFunction function="differences">
+			<timeStep id="dag"/>
+			<timeStep id="week"/>
+			<timeStep id="maand"/>
+			<timeStep id="seizoen"/>
+		</statisticalFunction>
+		<statisticalFunction function="movingAverage" ignoreMissings="true">
+			<movingAccumulationTimeSpan unit="hour" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="3"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="6"/>
+			<movingAccumulationTimeSpan unit="hour" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="1"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="2"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="4"/>
+			<movingAccumulationTimeSpan unit="week" multiplier="12"/>
+			<movingAccumulationTimeSpan unit="day" multiplier="365"/>
+		</statisticalFunction>
+		<statisticalFunction function="historicalAnalysis">
+			<historicalPeriods>
+				<historicalPeriod>
+					<startForwardLookingPeriod>--12-21</startForwardLookingPeriod>
+					<season startMonthDay="--01-01" endMonthDay="--12-31" label="Heel jaar"/>
+				</historicalPeriod>
+				<historicalPeriod>
+					<startForwardLookingPeriod>--10-01</startForwardLookingPeriod>
+					<season startMonthDay="--04-01" endMonthDay="--09-30" label="Groeiseizoen"/>
+				</historicalPeriod>
+			</historicalPeriods>
+		</statisticalFunction>
+	</statisticalFunctions>
+	<descriptiveFunctionGroups>
+		<descriptiveFunctionGroup name="Summary">
+			<descriptiveFunction function="info"/>
+			<descriptiveFunction function="infoLocationId"/>
+			<descriptiveFunction function="infoLocationName"/>
+			<descriptiveFunction function="infoParameterId"/>
+			<descriptiveFunction function="infoParameterName"/>
+			<descriptiveFunction function="infoModuleinstance"/>
+			<descriptiveFunction function="startTime"/>
+			<descriptiveFunction function="endTime"/>
+			<descriptiveFunction function="count"/>
+			<descriptiveFunction function="missings"/>
+			<descriptiveFunction function="reliables"/>
+			<descriptiveFunction function="doubtfuls"/>
+			<descriptiveFunction function="unreliables"/>
+			<descriptiveFunction function="completed"/>
+			<descriptiveFunction function="corrected"/>
+		</descriptiveFunctionGroup>
+		<descriptiveFunctionGroup name="Statistics">
+			<descriptiveFunction function="min" ignoreMissings="true"/>
+			<descriptiveFunction function="mean" ignoreMissings="true"/>
+			<descriptiveFunction function="max" ignoreMissings="true"/>
+			<descriptiveFunction function="sum" ignoreMissings="true"/>
+			<descriptiveFunction function="standardDeviation" ignoreMissings="true"/>
+		</descriptiveFunctionGroup>
+	</descriptiveFunctionGroups>
+</timeSeriesDisplay>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<timeSeriesExportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesExportRun.xsd">
+	<!-- This is an example export configuration file for exporting data from as UmAquo CSV file -->
+	<export>
+		<general>
+			<exportType>generalCSV</exportType>
+			<folder>$EXPORT_DIR$/IMmetingen/CSV</folder>
+			<exportFileName>
+				<name>TEST_EXPORT.csv</name>
+			</exportFileName>
+			<table>
+				<dateColumn name="Begindatum" pattern="dd/MM/yyyy"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<locationColumn name="Meetobject.LokaalID"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="Parameter.code"/>
+				<qualifierColumn name="Compartiment_Code" prefix="MCO_"/>
+				<qualifierColumn name="Grootheid_Code" prefix="GH_"/>
+				<qualifierColumn name="Biotaxa.code" prefix="BN_"/>
+				<qualifierColumn name="Levensvorm.Code" prefix="LV_"/>
+				<qualifierColumn name="LengteKlasse.Code" prefix="LC_"/>
+				<sampleIdColumn name="SampleId"></sampleIdColumn>
+				<propertyColumn name="Leverancier.code" key="leverancier"/>
+				<commentColumn name="Notitie.code"/>				
+				<valueColumn name="Waarde_berekend"></valueColumn>
+			</table>
+			<idMapId>IdExport_IMmetingen</idMapId>
+			  
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<!--			<exportMissingValue>-999</exportMissingValue>
+-->
+			<omitMissingValues>false</omitMissingValues>
+		</general>
+		<filterId>TEST_VALIDATIE</filterId>
+	</export>
+</timeSeriesExportRun>

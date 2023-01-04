@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<importAmalgamate xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/importAmalgamate.xsd">
+	<workflowId>wf_Import_IMmetingen_Biologie</workflowId>
+	<workflowId>wf_Import_IMmetingen_FysischeChemie</workflowId>
+	<workflowId>wf_Import_IMmetingen_EFCIS_dump</workflowId>
+	<workflowId>wf_Import_IMmetingen_toetsing</workflowId>
+		
+	<importRunMinimalAge unit="day" multiplier="30"/>
+	<amalgamateOrphans>false</amalgamateOrphans>
+</importAmalgamate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<timeSeriesExportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesExportRun.xsd">
+	<!-- This is an example export configuration file for exporting data from as UmAquo CSV file -->
+	<export>
+		<general>
+			<exportType>generalCSV</exportType>
+			<folder>$EXPORT_DIR$/IMmetingen/CSV</folder>
+			<exportFileName>
+				<name>_$EXPORT_NAME$.csv</name>
+				<prefix>
+					<timeZeroFormattingString>yyyyMMdd</timeZeroFormattingString>
+				</prefix>
+			</exportFileName>
+			<table>
+				<propertyColumn name="Meetobject.Namespace" key="namespace"/>
+				<locationColumn name="Meetobject.lokaalID"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<propertyColumn name="ResultaatDatum" key="Resultaatdatum"/>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<dateColumn name="Einddatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Eindtijd" pattern="HH:mm:ss"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Parameter.code" prefix="PC_"/>
+				<attributeColumn name="Parameter.groep" id="PAR_Omschrijving"/>
+				<attributeColumn name="Eenheid.code" id="unit_export"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+				<valueColumn name="Numeriekewaarde" ignoreForEnumerationParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" ignoreForNumericalParameters="true"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+			</table>
+			<idMapId>IdExport_IMmetingen</idMapId>
+			<flagConversionsId>ExportFlagConversions_IMmetingen</flagConversionsId>
+			<exportMissingValueString></exportMissingValueString>
+			<exportTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</exportTimeZone>
+			<convertValuesToEnumerationLabels>true</convertValuesToEnumerationLabels>
+
+		</general>
+		<filterId>$FILTERID$</filterId>
+	</export>
+</timeSeriesExportRun>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/workflow.xsd" version="1.1">
+	<activity>
+		<properties>
+			<string key="FILTERID" value="Export_IMmetingen_LEW_MAFA_BIO_allTT"/>
+			<string key="EXPORT_NAME" value="LEW_MAFA_BIO_allTT"/>
+		</properties>
+		<runIndependent>true</runIndependent>
+		<moduleInstanceId>Export_IMmetingen_BIO</moduleInstanceId>
+	</activity>
+	<activity>
+		<properties>
+			<string key="SAMPLE_ID_COL" value="Monster.lokaalID"/>
+			<string key="EXPORT_NAME" value="LEW_MAFA_BIO_allTT"/>
+		</properties>
+		<runIndependent>true</runIndependent>
+		<moduleInstanceId>Export_PostProcessing</moduleInstanceId>
+	</activity>
+</workflow>

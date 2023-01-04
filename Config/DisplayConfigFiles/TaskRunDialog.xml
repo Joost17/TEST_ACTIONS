@@ -1,0 +1,21 @@
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<taskRunDialog xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews 
+http://fews.wldelft.nl/schemas/version1.0/taskRunDialog.xsd">
+	<taskGroup name="Workflows">
+		<simpleTask name="Import data (EFCIS dump)" workflowId="wf_Import_IMmetingen_EFCIS_dump">
+			<relativePeriod unit="week" start="-200" end="0"/>
+		</simpleTask>
+		<simpleTask name="Import data (IMmetingen)" workflowId="wf_Import_IMmetingen_samples">
+			<relativePeriod unit="week" start="-200" end="0"/>
+		</simpleTask>
+		<simpleTask name="Import data (Toetsing)" workflowId="wf_Import_IMmetingen_toetsing">
+			<relativePeriod unit="week" start="-200" end="0"/>
+		</simpleTask>
+		<simpleTask name="Export data (alles)" workflowId="wf_Export_IMmetingen_alles">
+			<relativePeriod unit="day" start="-365" end="0"/>
+		</simpleTask>
+		<simpleTask name="Export data (test)" workflowId="wf_Export_IMmetingen_TEST">
+			<relativePeriod unit="day" start="-365" end="0"/>
+		</simpleTask>
+	</taskGroup>
+</taskRunDialog>

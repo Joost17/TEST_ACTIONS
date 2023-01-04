@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Repository path:    $HeadURL: https://hkvsub001.hkv.nl/svn/OmsTIJMuiden/trunk/FEWS/Config/RootConfigFiles/mc00Config.xml $-->
+<!--Last committed:     $Revision: 35 $; $Author: verkaik@HKV $; $Date: 2021-02-25 10:54:13 +0100 (Thu, 25 Feb 2021) $-->
+<mc xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/mc.xsd">
+	<mcId>efcis</mcId>
+	<databaseIntId>0</databaseIntId>
+	<logging>
+	<logEntryExpiryTime unit="day" multiplier="60"/>
+	</logging>
+	<adminInterface>
+		<title>EFCIS HDSR TEST</title>
+		<dateFormat>
+			<dateTimePattern>dd/MM/yyyy HH:mm:ss</dateTimePattern>
+		</dateFormat>
+		<timeZone>
+			<timeZoneName>CET</timeZoneName>
+		</timeZone>
+		<autoRefreshDelay unit="minute" multiplier="5"/>
+		<heartbeatMaxAge unit="minute" multiplier="20"/>
+		<logEntriesMaxDisplayCount>100000</logEntriesMaxDisplayCount>
+		<activeSessionMaxAge unit="second" multiplier="3600"/>
+		<taskFormDefaultRunExpiryTime unit="day" multiplier="100"/>
+		<folders>
+			<folder id="successfulimports" name="Successful imports">
+				<url>//ad.hdsr.nl/fs/FEWSDATA/FEWS-EFCIS/TEST/fromfss/ImportBackup</url>
+			</folder>
+			<folder id="failedimports" name="Failed imports">
+				<url>//ad.hdsr.nl/fs/FEWSDATA/FEWS-EFCIS/TEST/fromfss/ImportFailed</url>
+			</folder>
+			<folder id="dumpfiles" name="Dump files">
+				<url>//ad.hdsr.nl/fs/FEWSDATA/FEWS-EFCIS/TEST/fromfss/DumpFiles</url>
+			</folder>
+		</folders>
+		<!--<bookmarks>
+			<bookmark id="FewsWebServices" name="Fews Web Services">
+				<url>http://wist-fmc.hhdelfland.nl:8081/InternalReadWriteService/</url>
+			</bookmark>
+		</bookmarks>-->
+	</adminInterface>
+</mc>

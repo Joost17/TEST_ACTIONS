@@ -1,0 +1,1074 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<TITLE>FEWS-EFCIS - system status report</TITLE>
+<style type="text/css">
+
+P.breakhere {
+    page-break-before: always;
+}
+
+A:visited {
+    color: #767070;
+}
+
+A:link {
+    color: #00467A;
+}
+
+BODY {
+    margin: 2px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+P {
+    font-size: 10px;
+    margin-top: 0px;
+    color: #000000;
+}
+
+H1 {
+    font-size: 12pt;
+    color: #0A2610;
+}
+
+H2 {
+    font-size: 11pt;
+
+    color: #0A2610;
+}
+
+H3 {
+    font-size: 9pt;
+    margin-top: 1px;
+    color: #0A2610;
+}
+
+H4 {
+    font-size: 8pt;
+    color: #0A2610;
+}
+
+H5 {
+    font-size: 8pt;
+    margin-top: 12px;
+    color: #000000;
+}
+
+UL {
+    font-size: 8pt;
+}
+
+OL {
+    font-size: 8pt;
+}
+
+DL {
+    font-size: 10pt;
+    margin-left: 20px;
+}
+
+LI {
+    font-size: 8pt;
+    margin-left: 0px;
+}
+
+TD {
+    font-size: 10pt;
+}
+
+.scrollable {
+    overflow: auto; /* required */
+    height: 400px; /* height is required, its value arbitrary */
+    width: 650px; /* arbitrary, wide enough to contain the table */
+    padding-left: 5px; /* Mozilla hides the table's left border unless this is here */
+    padding-right: 10px; /* Mozilla hides the table's left border unless this is here */
+}
+
+    /* Table general aspects */
+
+.tableheader_left {
+    text-align: left;
+}
+
+.tableheader_right {
+    text-align: right;
+}
+
+.tableheader_center {
+    text-align: center;
+}
+
+    /* Table containing timeseries data */
+
+table#timeseries {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 2px;
+    margin-left: 10pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#timeseries td {
+    padding: 2px;
+    border: solid #000000 1px;
+}
+
+table#timeseries th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+}
+
+.timeseriesdata1 {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.timeseriesdata2 {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCCC;
+    font-size: smaller;
+    color: #FFFFFF;
+}
+
+.timeseriesdata1max {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.timeseriesdata1threshold {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+    /* Table containing threshold indicators */
+
+table#thresholds {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 0px;
+    margin-left: 10pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#thresholds td {
+    padding: 2px;
+    border: solid #000000 0px;
+    font-size: 9px;
+}
+
+table#thresholds td.thresholds_white {
+    border-bottom: solid #808080 1px;
+    border-left: solid #808080 1px;
+    border-right: solid #808080 1px;
+}
+
+table#thresholds th {
+    padding: 2px;
+    border: solid #000000 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+}
+
+.threshold_data {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+    /* Table containing threshold indicators */
+.thresholds_palegreen {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #79d867;
+}
+
+.thresholds_greenyellow {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #b1fb17;
+}
+
+.thresholds_yellow {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #ffff00;
+}
+
+.thresholds_sandybrown {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #ee9a4d;
+}
+
+.thresholds_orange {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #f87a17;
+}
+
+.thresholds_darkorange {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #e56717;
+}
+
+.thresholds_chocolate {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #c85a17;
+}
+
+.thresholds_red {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #ff0000;
+    border-left: solid #000000 2px;
+}
+
+.thresholds_white {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #ffffff;
+    border-left: solid #000000 2px;
+}
+
+    /* Table containing threshold overviews */
+
+table#thresholdoverview {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 2px;
+    margin-left: 10pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#thresholdoverview td {
+    padding: 2px;
+    border: solid #000000 1px;
+}
+
+table#thresholdoverview th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+
+.thresholdexceedance {
+    text-align: center;
+    font-size: smaller;
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+.tabpos {
+    text-align: left;
+}
+
+    /* Workflow Table */
+
+table#workflows {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 2px;
+    margin-left: 10pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#workflows td {
+    padding: 2px;
+    border: solid #000000 1px;
+    font-size: smaller;
+}
+
+table#workflows th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+    text-align: center;
+    font-size: smaller;
+}
+
+    /* Sample Table */
+
+table#sample {
+    background-color: #FFFFFF;
+    border: solid #000000 2px;
+    width: 500px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#sample td {
+    padding: 2px;
+    border: solid #000000 1px;
+}
+
+.data {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCCC;
+    font-size: smaller;
+    color: #FFFFFF;
+}
+
+.toprow {
+    font-style: italic;
+    font-size: smaller;
+    text-align: right;
+    background-color: #FFFFCC;
+}
+
+.leftcol {
+    text-align: left;
+    width: 150px;
+    background-color: #CCCCCC;
+}
+
+.bottomrow {
+    font-size: smaller;
+    text-align: left;
+    background-color: #FFFFCC;
+}
+
+.testdata {
+    color: #4040FF;
+    text-align: left;
+    background-color: #CCCCCC;
+    font-size: smaller;
+}
+
+    /* Breadcrumb */
+table#breadcrumb {
+    background-color: #FFFFFF;
+    border: solid #000000 0px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#breadcrumb td {
+    padding: 0px;
+    border: solid #000000 0px;
+    font-size: 11px;
+}
+
+    /* Print */
+table#print {
+    background-color: #FFFFFF;
+    border: solid #000000 0px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#print td {
+    padding: 0px;
+    border: solid #000000 0px;
+    font-size: 10px;
+}
+
+    /* Forecast Details */
+
+table#forecast_details {
+    background-color: #FFFFFF;
+    border: solid #FFFFFF 0px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#forecast_details th {
+    padding: 0px;
+    border: solid #FFFFFF 0px;
+    font-size: 14px;
+    text-align: left;
+}
+
+table#forecast_details td {
+    padding: 0px;
+    border: solid #FFFFFF 0px;
+    font-size: 10px;
+}
+
+    /* tableStyle1 */
+
+table#tableStyle1 {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #FFFFFF 2px;
+    margin-left: 10pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+
+table#tableStyle1 td {
+    padding: 2px;
+    border: solid #000000 1px;
+}
+
+table#tableStyle1 th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+}
+
+.tableStyle1_data {
+    text-align: center;
+    font-size: smaller;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle1_warning {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCCC;
+    font-size: smaller;
+    color: #FFFFFF;
+}
+
+.tableStyle1_data_datamax {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle1_threshold {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+    /* tableStyle3 */
+
+table#tableStyle3 {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 2px;
+    margin-left: 0pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+table#tableStyle3 td {
+    padding: 3px;
+    border: solid #000000 1px;
+}
+
+table#tableStyle3 th {
+    padding: 5px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+}
+
+.tableStyle3_data {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle3_warning {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCCC;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.tableStyle3_data_datamax {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle3_threshold {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+.tableStyle3_leftcol {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle3_hist {
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle3_forc {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle3_hist_datamax {
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle3_forc_datamax {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle3_beforeT0 {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle3_firstAfterT0 {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle3_afterT0 {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+    /* Logs Table */
+
+table#logs {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 2px;
+    margin-left: 10pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+table#logs td {
+    padding: 2px;
+    border: solid #000000 1px;
+    font-size: 7pt;
+}
+
+table#logs th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+    text-align: center;
+    font-size: 7pt;
+}
+
+    /* tableStyle2 */
+
+table#tableStyle2 {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 2px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+table#tableStyle2 td {
+    padding: 2px;
+    border: solid #000000 1px;
+}
+
+table#tableStyle2 th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+}
+
+.tableStyle2_data {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle2_warning {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCCC;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.tableStyle2_data_datamax {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle2_threshold {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+.tableStyle2_leftcol {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle2_hist {
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle2_forc {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle2_hist_datamax {
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle2_forc_datamax {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFF00;
+}
+
+.tableStyle2_beforeT0 {
+    text-align: left;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle2_firstAfterT0 {
+    text-align: left;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle2_afterT0 {
+    text-align: left;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+    /* Fluvial Thresholds */
+table#tableStyle5 {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 0px;
+    margin-left: 0pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
+table#tableStyle5 td {
+    border: solid #C0C0C0 1px;
+    font-size: 9px;
+    text-align: left;
+}
+
+table#tableStyle5 th {
+    padding: 1px;
+    spacing: 1px;
+    border: solid #000000 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 9px;
+    text-align: left;
+}
+
+.tableStyle5_leftcol {
+    text-align: left;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 9px;
+}
+
+.tableStyle5_warning {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCFF;
+    font-size: smaller;
+    color: #FFFFFF;
+}
+
+.tableStyle5_thresholds {
+    text-align: center;
+    padding: 1px;
+    spacing: 1px;
+    font-size: 9px;
+    border-top: solid #C0C0C0 1px;
+}
+
+.tableStyle5_thresholds_0 {
+    background-color: #33CC00;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_1 {
+    background-color: #FFFF00;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_2 {
+    background-color: #FF0000;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_3 {
+    background-color: #ffff00;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_4 {
+    background-color: #f87a17;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_5 {
+    background-color: #ff0000;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_6 {
+    background-color: #c85a17;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle5_thresholds_7 {
+    background-color: #ff0000;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle5_thresholds_NaN {
+    background-color: #999999;
+    text-align: center;
+    font-size: 9px;
+}
+
+.tableStyle5_thresholds_NaN_NoThresholdDefinition {
+    background-color: #acaba9;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle5_thresholds_NoThresholdDefinition {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle5_thresholdcount {
+    text-align: center;
+    padding: 4px;
+    spacing: 4px;
+
+}
+
+    /* Coastal Thresholds */
+table#tableStyle6 {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 0px;
+    margin-left: 0pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
+table#tableStyle6 td {
+    border: solid #C0C0C0 1px;
+    font-size: 9px;
+    text-align: center;
+}
+
+table#tableStyle6 th {
+    padding: 2px;
+    spacing: 2px;
+    border: solid #000000 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 9px;
+    text-align: left;
+}
+
+.tableStyle6_leftcol {
+    text-align: left;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 9px;
+}
+
+.tableStyle6_warning {
+    color: #000000;
+    text-align: left;
+    background-color: #CCCCFF;
+    font-size: smaller;
+    color: #FFFFFF;
+}
+
+.tableStyle6_thresholds {
+    text-align: center;
+    padding: 1px;
+    spacing: 1px;
+    font-size: 9px;
+    border-top: solid #C0C0C0 1px;
+}
+
+.tableStyle6_thresholds_0 {
+    background-color: #C0FFC0;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle6_thresholds_1 {
+    background-color: #79d867;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle6_thresholds_2 {
+    background-color: #b1fb17;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle6_thresholds_3 {
+    background-color: #ffff00;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+    }
+
+.tableStyle6_thresholds_4 {
+    background-color: #f87a17;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle6_thresholds_5 {
+    background-color: #ff0000;
+    text-align: center;
+    font-size: 9px;
+
+}
+
+.tableStyle6_thresholdcount {
+    text-align: center;
+    padding: 4px;
+    spacing: 4px;
+
+}
+
+table#tableStyle8 {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 0px;
+    margin-left: 0pt;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
+}
+
+table#tableStyle8 td {
+    border: solid #C0C0C0 1px;
+    font-size: 11px;
+    text-align: center;
+}
+
+table#tableStyle8 th {
+    padding: 2px;
+    spacing: 2px;
+    border: solid #000000 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 11px;
+    text-align: left;
+}
+
+table#tableStyle1_systemstatus {
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border: solid #000000 1px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+table#tableStyle1_systemstatus td {
+    padding: 2px;
+    border: solid #000000 1px;
+    font-size: 11px;
+}
+
+table#tableStyle1_systemstatus caption {
+    text-align: left;
+    color: #000000;
+}
+
+table#tableStyle1_systemstatus th {
+    padding: 4px;
+    border: solid #000000 1px;
+    color: #000066;
+    background-color: #C0C0C0;
+    font-size: 11px;
+}
+
+.tableStyle1_systemstatus_item {
+    text-align: left;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle1_systemstatus_benchmark {
+    text-align: center;
+    font-size: 11px;
+    border: solid #000000 1px;
+    color: #000066;
+    font-weight: bold;
+    background-color: #C0C0C0;
+}
+
+.tableStyle1_systemstatus_status {
+    text-align: center;
+    font-size: 11px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.tableStyle1_fh_statusDescription {
+    color: #000000;
+    width: 60px;
+}
+
+.tableStyle1_fh_dispatchTime {
+    color: #000000;
+    width: 60px;
+}
+
+.tableStyle1_fh_completionTime {
+    color: #000000;
+    width: 60px;
+}
+
+.tableStyle1_fh_T0 {
+    color: #000000;
+    width: 60px;
+}
+</style>
+<!--check for right levels up-->
+<!--<link href="../css/styles.css" rel="styleSheet" type="text/css">-->
+<!--<link href="../css/tables.css" rel="styleSheet" type="text/css">-->
+</head>
+<body>
+<table border=1 id="print">
+    <tr>
+        <td width="568" valign="top"><h2>FEWS-EFCIS - system status report</h2>
+
+            <h2>Time of Report: $CURRENTTIME(dateFormat1)$</h2></td>
+        <td width="200" valign="top" align="right"><a href="javascript:window.print();">print report</a></td>
+    </tr>
+</table>
+<table id="forecast_details">
+    <tr>
+        <td valign="top" colspan="3"><h3>System status Details</h3></td>
+    </tr>
+
+</table>
+<br>
+$TABLE(liveSystemStatusTable)$
+<br>
+<br>
+$TABLE(importStatusTable)$
+<br>
+<br>
+$TABLE(completedWorkflowsTable)$
+<br>
+
+</body>
+</html>

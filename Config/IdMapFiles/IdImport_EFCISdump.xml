@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idMap xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/idMap.xsd">
+	<parameterIdFunction externalParameterFunction="@EFCIS_ID@"/>
+	<!--<parameterIdFunction externalParameterFunction="@WNS_ID@"/>-->
+	<qualifierIdFunction externalQualifierFunction="@ExternalQualifierId_DUMP@"/>
+	<locationIdFunction externalLocationFunction="@ExternalLocationId@" internalLocationSet="meetnet"/>
+</idMap>

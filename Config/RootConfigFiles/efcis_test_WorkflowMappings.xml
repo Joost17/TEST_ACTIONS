@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflowMappings>
+<workflowMapping workflowId='wf_Export_IMmetingen_KRW_FC'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_ASM_FC'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_PRJ_MAFY_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_ASM_MAFA_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_ASM_VIS_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_PRJ_MAFA_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_LEW_VIS_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_hoofdwater_FC'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_LEW_MAFA_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_TEST'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_PRJ_VIS_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_KRW_FYTO_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_KRW_MAFY_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_ASM_MAFY_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_LEW_FYTO_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_LEW_MAFY_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_LEW_FC'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_KRW_MAFA_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_alles'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_KRW_VIS_BIO'  fssGroupId='FSS02'  />
+<workflowMapping workflowId='wf_Export_IMmetingen_PRJ_FYTO_BIO'  fssGroupId='FSS02'  />
+</workflowMappings>

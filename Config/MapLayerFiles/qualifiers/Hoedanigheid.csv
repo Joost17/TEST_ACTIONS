@@ -1,0 +1,631 @@
+﻿fewsid;Id;Code;Omschrijving;Groep;Begin geldigheid;Eind geldigheid
+1;720;105oC;t.o.v. 105 graden Celsius;HoedanigheidReferentieBasis;24 januari 2020 00:00:00;1 januari 2100 00:00:00
+2;58;136gTZV;uitgedrukt in 136 g TZV;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+3;59;136gTZVd;uitgedrukt in 136 g TZV / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+4;60;150gTZV;uitgedrukt in 150 g TZV;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+5;61;180gTZV;uitgedrukt in 180 g TZV;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+6;62;180gTZVd;uitgedrukt in 180 g TZV / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+7;63;18oC;t.o.v. 18 graden Celsius;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+8;754;200um;uitgedrukt in 200 um eenheidslengte;HoedanigheidEquivalent;27 maart 2020 00:00:00;1 januari 2100 00:00:00
+9;64;20oC;t.o.v. 20 graden Celsius;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+10;65;20oCINSU;t.o.v. 20 graden Celsius / in situ gemeten;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+11;66;22oC;t.o.v. 22 graden Celsius;HoedanigheidReferentieBasis;26 augustus 2011 00:00:00;1 januari 2100 00:00:00
+12;67;25oC;t.o.v. 25 graden Celsius;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+13;68;25oCINSU;t.o.v. 25 graden Celsius / in situ gemeten;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+14;717;30oC;t.o.v. 30 graden Celsius;HoedanigheidReferentieBasis;24 januari 2020 00:00:00;1 januari 2100 00:00:00
+15;69;36oC;t.o.v. 36 graden Celsius;HoedanigheidReferentieBasis;26 augustus 2011 00:00:00;1 januari 2100 00:00:00
+16;609;37oC;t.o.v. 37 graden Celcius;HoedanigheidReferentieBasis;22 augustus 2015 00:00:00;1 januari 2100 00:00:00
+17;718;44oC;t.o.v. 44 graden Celsius;HoedanigheidReferentieBasis;24 januari 2020 00:00:00;1 januari 2100 00:00:00
+18;70;54gBZV;uitgedrukt in 54 g BZV;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+19;71;54gBZVdg;uitgedrukt in 54 g BZV / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+20;492;550oC;t.o.v. 550 graden Celsius;HoedanigheidReferentieBasis;13 september 2014 00:00:00;1 januari 2100 00:00:00
+21;719;90oC;t.o.v. 90 graden Celsius;HoedanigheidReferentieBasis;24 januari 2020 00:00:00;1 januari 2100 00:00:00
+22;73;ASTNMH;t.o.v. astronomisch getij;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+23;610;As;uitgedrukt in arseen;HoedanigheidEquivalent;21 januari 2016 00:00:00;1 januari 2100 00:00:00
+24;75;BODM;t.o.v. de bodem;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+25;76;BOORVLR;t.o.v. boorvloer;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+26;80;BZVdg;uitgedrukt in BZV / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+27;79;BrO3;uitgedrukt in bromaat;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+28;77;BraunBS;uitgedrukt volgens Braun-Blanquet-Schaal;HoedanigheidEquivalent;28 juni 2011 00:00:00;1 januari 2100 00:00:00
+29;78;Brnf;uitgedrukt in bromide / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+30;81;C;uitgedrukt in koolstof;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+31;442;C05C06;koolwaterstoffractie C5-C6;KoolwaterstofFractie;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+32;674;C05C06dg;koolwaterstoffractie C5-C6 / drooggewicht;HoedanigheidCombinatie;27 juni 2017 00:00:00;1 januari 2100 00:00:00
+33;476;C05C08;koolwaterstoffractie C5-C8;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+34;477;C05C08dg;koolwaterstoffractie C5-C8 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+35;493;C05C10;koolwaterstoffractie C5-C10;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+36;494;C05C10dg;koolwaterstoffractie C5-C10 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+37;761;C05C40dg;koolwaterstoffractie C5-C40 / drooggewicht;HoedanigheidCombinatie;25 augustus 2020;1 januari 2100
+38;495;C06C07;koolwaterstoffractie C6-C7;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+39;496;C06C07dg;koolwaterstoffractie C6-C7 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+40;481;C06C08;koolwaterstoffractie C6-C8;KoolwaterstofFractie;17 oktober 2013 00:00:00;1 januari 2100 00:00:00
+41;482;C06C08dg;koolwaterstoffractie C6-C8 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+42;82;C06C10;koolwaterstoffractie C6-C10;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+43;83;C06C10dg;koolwaterstoffractie C6-C10 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+44;443;C06C16;koolwaterstoffractie C6-C16;KoolwaterstofFractie;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+45;478;C06C16dg;koolwaterstoffractie C6-C16 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+46;499;C06C35;koolwaterstoffractie C6-C35;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+47;500;C06C35dg;koolwaterstoffractie C6-C35 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+48;479;C06C40;koolwaterstoffractie C6-C40;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+49;480;C06C40dg;koolwaterstoffractie C6-C40 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+50;497;C07C08;koolwaterstoffractie C7-C8;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+51;498;C07C08dg;koolwaterstoffractie C7-C8 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+52;461;C08C10;koolwaterstoffractie C8-C10;KoolwaterstofFractie;17 oktober 2013 00:00:00;1 januari 2100 00:00:00
+53;84;C08C10dg;koolwaterstoffractie C8-C10 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+54;85;C10C12;koolwaterstoffractie C10-C12;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+55;86;C10C12dg;koolwaterstoffractie C10-C12 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+56;87;C10C16;koolwaterstoffractie C10-C16;KoolwaterstofFractie;19 december 2015 00:00:00;1 januari 2100 00:00:00
+57;88;C10C16dg;koolwaterstoffractie C10-C16 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+58;89;C10C19dg;koolwaterstoffractie C10-C19 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+59;90;C10C20;koolwaterstoffractie C10-C20;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+60;91;C10C20dg;koolwaterstoffractie C10-C20 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+61;747;C10C20nf;koolwaterstoffractie C10-C20 / opgeloste fractie;HoedanigheidCombinatie;28 februari 2020 00:00:00;1 januari 2100 00:00:00
+62;470;C10C25;koolwaterstoffractie C10-C25;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+63;471;C10C25dg;koolwaterstoffractie C10-C25 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+64;675;C10C35dg;koolwaterstoffractie C10-C35 / drooggewicht;HoedanigheidCombinatie;27 juni 2017 00:00:00;1 januari 2100 00:00:00
+65;92;C10C40;koolwaterstoffractie C10-C40;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+66;93;C10C40dg;koolwaterstoffractie C10-C40 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+67;466;C12C14;koolwaterstoffractie C12-C14;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+68;94;C12C14dg;koolwaterstoffractie C12-C14 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+69;95;C12C16;koolwaterstoffractie C12-C16;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+70;96;C12C16dg;koolwaterstoffractie C12-C16 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+71;489;C12C20;koolwaterstoffractie C12-C20;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+72;97;C12C20dg;koolwaterstoffractie C12-C20 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+73;98;C12C22;koolwaterstoffractie C12-C22;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+74;99;C12C22dg;koolwaterstoffractie C12-C22 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+75;457;C14C20;koolwaterstoffractie C14-C20;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+76;100;C14C20dg;koolwaterstoffractie C14-C20 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+77;101;C16C20;koolwaterstoffractie C16-C20;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+78;102;C16C20dg;koolwaterstoffractie C16-C20 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+79;462;C16C21;koolwaterstoffractie C16-C21;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+80;103;C16C21dg;koolwaterstoffractie C16-C21 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+81;104;C16C22;koolwaterstoffractie C16-C22;KoolwaterstofFractie;26 mei 2012 00:00:00;1 januari 2100 00:00:00
+82;105;C16C22dg;koolwaterstoffractie C16-C22 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+83;472;C17;koolwaterstoffractie C17;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+84;473;C17dg;koolwaterstoffractie C17 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+85;106;C20C24;koolwaterstoffractie C20-C24;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+86;107;C20C24dg;koolwaterstoffractie C20-C24 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+87;458;C20C26;koolwaterstoffractie C20-C26;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+88;108;C20C26dg;koolwaterstoffractie C20-C26 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+89;444;C20C27;koolwaterstoffractie C20-C27;KoolwaterstofFractie;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+90;109;C20C29dg;koolwaterstoffractie C20-C29 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+91;474;C20C30;koolwaterstoffractie C20-C30;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+92;475;C20C30dg;koolwaterstoffractie C20-C30 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+93;110;C20C40;koolwaterstoffractie C20-C40;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+94;111;C20C40dg;koolwaterstoffractie C20-C40 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+95;748;C20C40nf;koolwaterstoffractie C20-C40 / opgeloste fractie;HoedanigheidCombinatie;28 februari 2020 00:00:00;1 januari 2100 00:00:00
+96;463;C21C30;koolwaterstoffractie C21-C30;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+97;112;C21C30dg;koolwaterstoffractie C21-C30 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+98;490;C21C35;koolwaterstoffractie C21-C35;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+99;491;C21C35dg;koolwaterstoffractie C21-C35 / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+100;113;C22C30;koolwaterstoffractie C22-C30;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+101;114;C22C30dg;koolwaterstoffractie C22-C30 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+102;115;C24C28;koolwaterstoffractie C24-C28;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+103;116;C24C28dg;koolwaterstoffractie C24-C28 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+104;459;C26C34;koolwaterstoffractie C26-C34;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+105;117;C26C34dg;koolwaterstoffractie C26-C34 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+106;118;C28C32;koolwaterstoffractie C28-C32;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+107;119;C28C32dg;koolwaterstoffractie C28-C32 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+108;464;C30C35;koolwaterstoffractie C30-C35;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+109;120;C30C35dg;koolwaterstoffractie C30-C35 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+110;121;C30C40;koolwaterstoffractie C30-C40;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+111;122;C30C40dg;koolwaterstoffractie C30-C40 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+112;123;C32C36;koolwaterstoffractie C32-C36;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+113;124;C32C36dg;koolwaterstoffractie C32-C36 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+114;460;C34C40;koolwaterstoffractie C34-C40;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+115;125;C34C40dg;koolwaterstoffractie C34-C40 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+116;465;C35C40;koolwaterstoffractie C35-C40;KoolwaterstofFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+117;126;C35C40dg;koolwaterstoffractie C35-C40 / drooggewicht;HoedanigheidCombinatie;2 augustus 2011 00:00:00;1 januari 2100 00:00:00
+118;127;C36C40;koolwaterstoffractie C36-C40;KoolwaterstofFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+119;128;C36C40dg;koolwaterstoffractie C36-C40 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+120;594;CHCl3;uitgedrukt in chloroform;HoedanigheidEquivalent;12 februari 2015 00:00:00;1 januari 2100 00:00:00
+121;487;CN;uitgedrukt in cyanide;HoedanigheidEquivalent;13 september 2014 00:00:00;1 januari 2100 00:00:00
+122;488;CNdg;uitgedrukt in cyanide / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+123;141;CS2;uitgedrukt in koolstofdisulfide;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+124;142;CS2dg;uitgedrukt in koolstofdisulfide / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+125;512;CTAB;uitgedrukt in cetyltrimethylammoniumbromide;HoedanigheidEquivalent;12 april 2014 00:00:00;1 januari 2100 00:00:00
+126;143;CZVdg;uitgedrukt in CZV / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+127;130;CaCO3;uitgedrukt in calciumcarbonaat;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+128;599;CaCO3nf;uitgedrukt in calciumcarbonaat  / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+129;129;CaCl2dg;uitgedrukt in calciumchloride / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+130;440;CaO;uitgedrukt in calciumoxide;HoedanigheidEquivalent;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+131;131;CaOdg;uitgedrukt in calciumoxide / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+132;7;Cdg;uitgedrukt in koolstof / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+133;133;Cl;uitgedrukt in chloor;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+134;608;ClO3;uitgedrukt in chloraat;HoedanigheidEquivalent;18 juli 2015 00:00:00;1 januari 2100 00:00:00
+135;134;Cldg;uitgedrukt in chloor / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+136;135;Clnb;uitgedrukt in chloor na beluchten;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+137;136;Clnf;uitgedrukt in chloor / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+138;137;Cnf;uitgedrukt in koolstof / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+139;139;Cpg;uitgedrukt in koolstof particulair gebonden;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+140;625;D00001-001;diameter tussen 0.01 en 1 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+141;626;D001-002;diameter tussen 1 en 2 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+142;702;D001-003;diameter tussen 1 en 3 um;KorrelgrootteFractie;30 januari 2019 00:00:00;1 januari 2100 00:00:00
+143;627;D002-004;diameter tussen 2 en 4 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+144;755;D002-008;diameter tussen 2 en 8 um;KorrelgrootteFractie;17 juni 2020;1 januari 2100
+145;767;D002-016;diameter tussen 2 en 16 um;KorrelgrootteFractie;9 september 2020;1 januari 2100
+146;579;D002-032;diameter tussen 2 en 32 mm;KorrelgrootteFractie;24 mei 2014 00:00:00;1 januari 2100 00:00:00
+147;516;D002-032dg;diameter tussen 2 en 32 mm / drooggewicht;KorrelgrootteFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+148;628;D004-008;diameter tussen 4 en 8 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+149;629;D008-016;diameter tussen 8 en 16 um;KorrelgrootteFractie;6 juli 2018 00:00:00;1 januari 2100 00:00:00
+150;756;D008-032;diameter tussen 8 en 32 um;KorrelgrootteFractie;17 juni 2020;1 januari 2100
+151;630;D016-025;diameter tussen 16 en 25 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+152;757;D016-032;diameter tussen 16 en 32 um;KorrelgrootteFractie;17 juni 2020;1 januari 2100
+153;762;D016-045;diameter tussen 16 en 45 um;KorrelgrootteFractie;9 september 2020;1 januari 2100
+154;760;D016-2000;diameter tussen 16 en 2000 um;KorrelgrootteFractie;12 augustus 2020;1 januari 2100
+155;631;D025-035;diameter tussen 25 en 35 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+156;750;D030-100;diameter tussen 30 en 100 um;KorrelgrootteFractie;11 maart 2020 00:00:00;1 januari 2100 00:00:00
+157;758;D032-063;diameter tussen 32 en 63 um;KorrelgrootteFractie;17 juni 2020;1 januari 2100
+158;632;D035-050;diameter tussen 35 en 50 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+159;144;D038-050;diameter tussen 38 en 50 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+160;145;D038-063;diameter tussen 38 en 63 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+161;763;D045-063;diameter tussen 45 en 63 um;KorrelgrootteFractie;9 september 2020;1 januari 2100
+162;146;D050-063;diameter tussen 50 en 63 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+163;633;D063-075;diameter tussen 63 en 75 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+164;147;D063-090;diameter tussen 63 en 90 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+165;148;D063-125;diameter tussen 63 en 125 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+166;652;D063-2000;diameter tussen 63 en 2000 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+167;634;D075-088;diameter tussen 75 en 88 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+168;635;D088-105;diameter tussen 88 en 105 um;KorrelgrootteFractie;6 juli 2018 00:00:00;1 januari 2100 00:00:00
+169;149;D090-125;diameter tussen 90 en 125 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+170;751;D100-500;diameter tussen 100 en 500 um;KorrelgrootteFractie;11 maart 2020 00:00:00;1 januari 2100 00:00:00
+171;648;D1000-1190;diameter tussen 1 en 1.19 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+172;636;D105-125;diameter tussen 105 en 125 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+173;150;D106-150;diameter tussen 106 en 150 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+174;649;D1190-1410;diameter tussen 1.19 en 1.41 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+175;637;D125-150;diameter tussen 125 en 150 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+176;151;D125-180;diameter tussen 125 en 180 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+177;152;D125-250;diameter tussen 125 en 250 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+178;708;D1400-2000;diameter tussen 1400 en 2000 um;KorrelgrootteFractie;15 maart 2019 00:00:00;1 januari 2100 00:00:00
+179;650;D1410-1680;diameter tussen 1.41 en 1.68 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+180;638;D150-177;diameter tussen 150 en 177 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+181;153;D150-212;diameter tussen 150 en 212 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+182;651;D1680-2000;diameter tussen 1.68 en 2 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+183;639;D177-210;diameter tussen 177 en 210 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+184;154;D180-250;diameter tussen 180 en 250 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+185;155;D1E3-2E3;diameter tussen 1000 en 2000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+186;766;D1E3-4E3;diameter tussen 1000 en 1400 um;KorrelgrootteFractie;7 oktober 2020;1 januari 2100
+187;705;D200-400;diameter tussen 200 en 400 um;KorrelgrootteFractie;15 maart 2019 00:00:00;1 januari 2100 00:00:00
+188;640;D210-250;diameter tussen 210 en 250 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+189;156;D212-250;diameter tussen 212 en 250 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+190;157;D250-300;diameter tussen 250 en 300 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+191;158;D250-355;diameter tussen 250 en 355 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+192;159;D250-500;diameter tussen 250 en 500 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+193;656;D256E3-512E3;diameter tussen 256 en 512 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+194;653;D2E3-4E3;diameter tussen 2000 en 4000 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+195;641;D300-354;diameter tussen 300 en 354 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+196;160;D300-425;diameter tussen 300 en 425 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+197;642;D354-420;diameter tussen 354 en 420 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+198;161;D355-500;diameter tussen 355 en 500 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+199;706;D400-600;diameter tussen 400 en 600 um;KorrelgrootteFractie;15 maart 2019 00:00:00;1 januari 2100 00:00:00
+200;643;D420-500;diameter tussen 420 en 500 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+201;162;D500-1E3;diameter tussen 500 en 1000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+202;697;D500-2E3;diameter tussen 500 en 2000 um;KorrelgrootteFractie;13 juni 2018 00:00:00;1 januari 2100 00:00:00
+203;644;D500-600;diameter tussen 500 en 600 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+204;764;D500-710;diameter tussen 500 en 710 um;KorrelgrootteFractie;9 september 2020;1 januari 2100
+205;657;D512E3-1024E;diameter tussen 512 en 1024 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+206;707;D600-1400;diameter tussen 600 en 1400 um;KorrelgrootteFractie;15 maart 2019 00:00:00;1 januari 2100 00:00:00
+207;645;D600-707;diameter tussen 600 en 707 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+208;655;D64E3-256E3;diameter tussen 64 en 256 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+209;646;D707-850;diameter tussen 707 en 850 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+210;765;D710-1E3;diameter tussen 710 en 1000 um;KorrelgrootteFractie;9 september 2020;1 januari 2100
+211;647;D850-1000;diameter tussen 850 en 1000 um;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+212;654;D8E3-64E3;diameter tussen 8 en 64 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+213;595;DHT;uitgedrukt in dihydrotestosterone equivalenten;HoedanigheidEquivalent;17 juni 2015 00:00:00;1 januari 2100 00:00:00
+214;601;DHTdg;uitgedrukt in dihydrotestosterone equivalenten /drooggewicht;HoedanigheidCombinatie;11 juli 2015 00:00:00;1 januari 2100 00:00:00
+215;446;DICHT;dicht;HoedanigheidFractieBasis;7 augustus 2013 00:00:00;1 januari 2100 00:00:00
+216;451;DNAKPN;uitgedrukt in DNA-kopieën;HoedanigheidEquivalent;12 februari 2013 00:00:00;1 januari 2100 00:00:00
+217;221;DRIJVD;Drijvende fractie;HoedanigheidFractieBasis;5 augustus 2011 00:00:00;1 januari 2100 00:00:00
+218;753;Dg0005;diameter groter dan 5 um;KorrelgrootteFractie;11 maart 2020 00:00:00;1 januari 2100 00:00:00
+219;167;Dg0038;diameter groter dan 38 um;KorrelgrootteFractie;8 december 2012 00:00:00;1 januari 2100 00:00:00
+220;168;Dg0043;diameter groter dan 43 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+221;169;Dg0050;diameter groter dan 50 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+222;170;Dg0053;diameter groter dan 53 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+223;171;Dg0063;diameter groter dan 63 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+224;721;Dg0125;diameter groter dan 125 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+225;172;Dg0150;diameter groter dan 150 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+226;722;Dg0180;diameter groter dan 180 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+227;173;Dg0210;diameter groter dan 210 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+228;723;Dg0212;diameter groter dan 212 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+229;174;Dg0250;diameter groter dan 250 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+230;724;Dg0300;diameter groter dan 300 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+231;578;Dg032;diameter groter dan 32 mm;KorrelgrootteFractie;24 mei 2014 00:00:00;1 januari 2100 00:00:00
+232;515;Dg032dg;diameter groter dan 32 mm / drooggewicht;KorrelgrootteFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+233;725;Dg0355;diameter groter dan 355 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+234;175;Dg0425;diameter groter dan 425 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+235;726;Dg0500;diameter groter dan 500 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+236;727;Dg0600;diameter groter dan 600 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+237;728;Dg0710;diameter groter dan 710 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+238;729;Dg0800;diameter groter dan 800 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+239;730;Dg0850;diameter groter dan 850 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+240;731;Dg0900;diameter groter dan 900 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+241;732;Dg1000;diameter groter dan 1000 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+242;658;Dg1024E3;diameter groter dan 1024 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+243;733;Dg1180;diameter groter dan 1180 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+244;734;Dg1250;diameter groter dan 1250 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+245;735;Dg1400;diameter groter dan 1400 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+246;736;Dg1700;diameter groter dan 1700 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+247;737;Dg1800;diameter groter dan 1800 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+248;176;Dg2000;diameter groter dan 2000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+249;177;Dg2000md;diameter groter dan 2000 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+250;738;Dg2360;diameter groter dan 2360 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+251;739;Dg2500;diameter groter dan 2500 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+252;709;Dg256E3;diameter groter dan 256 mm;KorrelgrootteFractie;29 maart 2019 00:00:00;1 januari 2100 00:00:00
+253;740;Dg2800;diameter groter dan 2800 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+254;741;Dg3150;diameter groter dan 3150 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+255;742;Dg3350;diameter groter dan 3350 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+256;743;Dg4000;diameter groter dan 4000 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+257;744;Dg4750;diameter groter dan 4750 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+258;659;Dg64E3;diameter groter dan 64 mm;KorrelgrootteFractie;26 januari 2017 00:00:00;1 januari 2100 00:00:00
+259;745;Dg6700;diameter groter dan 6700 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+260;746;Dg8000;diameter groter dan 8000 um;KorrelgrootteFractie;4 februari 2020 00:00:00;1 januari 2100 00:00:00
+261;2;Dk0002;diameter kleiner dan 2 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+262;3;Dk0002dg;diameter kleiner dan 2 um / drooggewicht;KorrelgrootteFractie;26 mei 2012 00:00:00;1 januari 2100 00:00:00
+263;179;Dk0002md;diameter kleiner dan 2 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+264;180;Dk0004;diameter kleiner dan 4 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+265;752;Dk0005;diameter kleiner dan 5 um;KorrelgrootteFractie;11 maart 2020 00:00:00;1 januari 2100 00:00:00
+266;181;Dk0008;diameter kleiner dan 8 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+267;680;Dk0008md;diameter kleiner dan 8 um / minerale delen;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+268;182;Dk0010;diameter kleiner dan 10 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+269;183;Dk0016;diameter kleiner dan 16 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+270;184;Dk0016dg;diameter kleiner dan 16 um / drooggewicht;KorrelgrootteFractie;26 mei 2012 00:00:00;1 januari 2100 00:00:00
+271;185;Dk0016md;diameter kleiner dan 16 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+272;186;Dk0020;diameter kleiner dan 20 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+273;686;Dk0020dg;diameter kleiner dan 20 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+274;681;Dk0020md;diameter kleiner dan 20 um / minerale delen;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+275;682;Dk0025md;diameter kleiner dan 25 um / minerale delen;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+276;749;Dk0030;diameter kleiner dan 30 um;KorrelgrootteFractie;11 maart 2020 00:00:00;1 januari 2100 00:00:00
+277;187;Dk0032;diameter kleiner dan 32 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+278;517;Dk0032dg;diameter kleiner dan 32 um / drooggewicht;KorrelgrootteFractie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+279;188;Dk0032md;diameter kleiner dan 32 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+280;189;Dk0035;diameter kleiner dan 35 um;KorrelgrootteFractie;26 mei 2012 00:00:00;1 januari 2100 00:00:00
+281;687;Dk0035dg;diameter kleiner dan 35 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+282;190;Dk0038;diameter kleiner dan 38 um;KorrelgrootteFractie;8 december 2012 00:00:00;1 januari 2100 00:00:00
+283;191;Dk0038md;diameter kleiner dan 38 um / minerale delen;KorrelgrootteFractie;8 december 2012 00:00:00;1 januari 2100 00:00:00
+284;192;Dk0045;diameter kleiner dan 45 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+285;683;Dk0045md;diameter kleiner dan 45 um / minerale delen;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+286;193;Dk0050;diameter kleiner dan 50 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+287;194;Dk0050md;diameter kleiner dan 50 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+288;195;Dk0053;diameter kleiner dan 53 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+289;684;Dk0060md;diameter kleiner dan 60 um / minerale delen;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+290;196;Dk0063;diameter kleiner dan 63 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+291;511;Dk0063dg;diameter kleiner dan 63 um / drooggewicht;KorrelgrootteFractie;21 november 2013 00:00:00;1 januari 2100 00:00:00
+292;197;Dk0063md;diameter kleiner dan 63 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+293;198;Dk0080;diameter kleiner dan 80 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+294;199;Dk0090;diameter kleiner dan 90 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+295;200;Dk0090md;diameter kleiner dan 90 um / minerale delen;KorrelgrootteFractie;8 december 2012 00:00:00;1 januari 2100 00:00:00
+296;201;Dk0105;diameter kleiner dan 105 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+297;202;Dk0106;diameter kleiner dan 106 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+298;203;Dk0125;diameter kleiner dan 125 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+299;688;Dk0125dg;diameter kleiner dan 125 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+300;204;Dk0125md;diameter kleiner dan 125 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+301;205;Dk0180;diameter kleiner dan 180 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+302;689;Dk0180dg;diameter kleiner dan 180 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+303;206;Dk0180md;diameter kleiner dan 180 um / minerale delen;KorrelgrootteFractie;8 december 2012 00:00:00;1 januari 2100 00:00:00
+304;704;Dk0200;diameter kleiner dan 200 um;KorrelgrootteFractie;15 maart 2019 00:00:00;1 januari 2100 00:00:00
+305;685;Dk0200md;diameter kleiner dan 200 um / minerale delen;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+306;207;Dk0210;diameter kleiner dan 210 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+307;677;Dk0212dg;diameter kleiner dan 212 um / drooggewicht;KorrelgrootteFractie;27 juni 2017 00:00:00;1 januari 2100 00:00:00
+308;676;Dk0212md;diameter kleiner dan 212 um / minerale delen;KorrelgrootteFractie;27 juni 2017 00:00:00;1 januari 2100 00:00:00
+309;690;Dk0224dg;diameter kleiner dan 224 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+310;208;Dk0250;diameter kleiner dan 250 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+311;209;Dk0250md;diameter kleiner dan 250 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+312;691;Dk0315dg;diameter kleiner dan 315 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+313;210;Dk0355;diameter kleiner dan 355 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+314;211;Dk0355md;diameter kleiner dan 355 um / minerale delen;KorrelgrootteFractie;8 december 2012 00:00:00;1 januari 2100 00:00:00
+315;212;Dk0500;diameter kleiner dan 500 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+316;213;Dk0500md;diameter kleiner dan 500 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+317;214;Dk1000;diameter kleiner dan 1000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+318;692;Dk1000dg;diameter kleiner dan 1000 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+319;215;Dk1000md;diameter kleiner dan 1000 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+320;693;Dk1400dg;diameter kleiner dan 1400 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+321;699;Dk16000;diameter kleiner dan 16000 um;KorrelgrootteFractie;18 december 2018 00:00:00;1 januari 2100 00:00:00
+322;216;Dk2000;diameter kleiner dan 2000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+323;694;Dk2000dg;diameter kleiner dan 2000 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+324;217;Dk2000md;diameter kleiner dan 2000 um / minerale delen;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+325;696;Dk20E3dg;diameter kleiner dan 20 mm / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+326;700;Dk31500;diameter kleiner dan 31500 um;KorrelgrootteFractie;18 december 2018 00:00:00;1 januari 2100 00:00:00
+327;218;Dk4000;diameter kleiner dan 4000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+328;695;Dk4000dg;diameter kleiner dan 4000 um / drooggewicht;KorrelgrootteFractie;3 februari 2018 00:00:00;1 januari 2100 00:00:00
+329;701;Dk63000;diameter kleiner dan 63000 um;KorrelgrootteFractie;18 december 2018 00:00:00;1 januari 2100 00:00:00
+330;219;Dk8000;diameter kleiner dan 8000 um;KorrelgrootteFractie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+331;226;EEQ;uitgedrukt in 17b-estradiol equivalenten;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+332;600;EEQdg;uitgedrukt in 17b-estradiol equivalenten / drooggewicht;HoedanigheidCombinatie;11 juli 2015 00:00:00;1 januari 2100 00:00:00
+333;227;EKR;uitgedrukt in Ecologische Kwaliteitsratio;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+334;228;EMS;Emerse fractie;HoedanigheidFractieBasis;5 augustus 2011 00:00:00;1 januari 2100 00:00:00
+335;229;EPSG:19986;ETRS89-LambertEqualArea;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+336;230;EPSG:23031;ED50/UTM31;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+337;231;EPSG:23032;ED50/UTM32;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+338;232;EPSG:28991;Rijksdriehoekstelsel-Oud;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+339;233;EPSG:28992;Rijksdriehoekstelsel-Nieuw;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+340;234;EPSG:3034;ETRS89-LambertConformConic;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+341;503;EPSG:4258;ETRS89 lengte- en breedtegraden;ReferentiePlaats;1 december 2016 00:00:00;1 januari 2100 00:00:00
+342;235;F003;golffrequentie tussen 25 en 35 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+343;584;F003-010;golffrequentie tussen 30 en 100 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+344;586;F003-050;golffrequentie tussen 30 en 500 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+345;585;F003-100;golffrequentie tussen 30 en 1000 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+346;236;F004;golffrequentie tussen 35 en 45 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+347;237;F005;golffrequentie tussen 45 en 55 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+348;238;F006;golffrequentie tussen 55 en 65 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+349;239;F007;golffrequentie tussen 65 en 75 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+350;240;F008;golffrequentie tussen 75 en 85 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+351;241;F009;golffrequentie tussen 85 en 95 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+352;242;F010;golffrequentie tussen 95 en 105 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+353;581;F010-020;golffrequentie tussen 100 en 200 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+354;243;F011;golffrequentie tussen 105 en 115 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+355;244;F012;golffrequentie tussen 115 en 125 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+356;245;F013;golffrequentie tussen 125 en 135 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+357;246;F014;golffrequentie tussen 135 en 145 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+358;247;F015;golffrequentie tussen 145 en 155 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+359;248;F016;golffrequentie tussen 155 en 165 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+360;249;F017;golffrequentie tussen 165 en 175 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+361;250;F018;golffrequentie tussen 175 en 185 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+362;251;F019;golffrequentie tussen 185 en 195 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+363;252;F020;golffrequentie tussen 195 en 205 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+364;583;F020-050;golffrequentie tussen 200 en 500 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+365;582;F020-100;golffrequentie tussen 200 en 1000 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+366;253;F021;golffrequentie tussen 205 en 215 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+367;254;F022;golffrequentie tussen 215 en 225 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+368;255;F023;golffrequentie tussen 225 en 235 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+369;256;F024;golffrequentie tussen 235 en 245 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+370;257;F025;golffrequentie tussen 245 en 255 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+371;258;F026;golffrequentie tussen 255 en 265 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+372;259;F027;golffrequentie tussen 265 en 275 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+373;260;F028;golffrequentie tussen 275 en 285 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+374;261;F029;golffrequentie tussen 285 en 295 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+375;262;F030;golffrequentie tussen 295 en 305 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+376;263;F031;golffrequentie tussen 305 en 315 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+377;264;F032;golffrequentie tussen 315 en 325 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+378;265;F033;golffrequentie tussen 325 en 335 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+379;266;F034;golffrequentie tussen 335 en 345 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+380;267;F035;golffrequentie tussen 345 en 355 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+381;268;F036;golffrequentie tussen 355 en 365 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+382;269;F037;golffrequentie tussen 365 en 375 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+383;270;F038;golffrequentie tussen 375 en 385 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+384;271;F039;golffrequentie tussen 385 en 395 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+385;272;F040;golffrequentie tussen 395 en 405 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+386;273;F041;golffrequentie tussen 405 en 415 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+387;274;F042;golffrequentie tussen 415 en 425 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+388;275;F043;golffrequentie tussen 425 en 435 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+389;276;F044;golffrequentie tussen 435 en 445 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+390;277;F045;golffrequentie tussen 445 en 455 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+391;278;F046;golffrequentie tussen 455 en 465 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+392;279;F047;golffrequentie tussen 465 en 475 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+393;280;F048;golffrequentie tussen 475 en 485 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+394;281;F049;golffrequentie tussen 485 en 495 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+395;282;F050;golffrequentie tussen 495 en 505 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+396;587;F050-100;golffrequentie tussen 500 en 1000 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+397;588;F051;golffrequentie tussen 505 en 515 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+398;589;F052;golffrequentie tussen 515 en 525 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+399;590;F100;golffrequentie tussen 995 en 1005 mHz;GolffrequentieKlasse;28 oktober 2014 00:00:00;1 januari 2100 00:00:00
+400;759;Gd;uitgedrukt in gadolinium;HoedanigheidEquivalent;4 augustus 2020;1 januari 2100
+401;288;H3;uitgedrukt in tritium;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+402;290;HALVWTKL;halve waterkolom;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+403;291;HAT;t.o.v. Highest Astronomical Tide;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+404;289;HAc;uitgedrukt in azijnzuur;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+405;292;HCO3;uitgedrukt in waterstofcarbonaat;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+406;293;HOOGPL;t.o.v. hoog peil;ReferentieVlak;18 januari 2012 00:00:00;1 januari 2100 00:00:00
+407;294;HOOGTRF;hoog tarief;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+408;298;I-TEQ;uitgedrukt in I-TEQ;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+409;299;I-TEQdg;uitgedrukt in I-TEQ / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+410;297;INSU;In situ;niet gebruiken;16 maart 2013 00:00:00;1 januari 2100 00:00:00
+411;441;K2O;uitgedrukt in kaliumoxide;HoedanigheidEquivalent;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+412;300;K2Odg;uitgedrukt in kaliumoxide / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+413;301;KAARTNDN;t.o.v. kaart Noorden;ReferentieRichting;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+414;302;KCldg;uitgedrukt in kaliumchloride / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+415;303;KELLBSG;t.o.v. Kelly Bushing;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+416;591;KERDHTE;t.o.v. kerende hoogte;ReferentieVlak;15 januari 2015 00:00:00;1 januari 2100 00:00:00
+417;304;KL5;uitgedrukt in 5 klassen;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+418;306;KVE;uitgedrukt in kolonie vormende eenheden;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+419;307;L250nm;gemeten bij golflengte 250 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+420;308;L254nm;gemeten bij golflengte 254 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+421;309;L380nm;gemeten bij golflengte 380 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+422;452;L400-700;gemeten bij golflengtebereik 400 tot 700 nm;HoedanigheidOnterecht;12 februari 2013 00:00:00;1 januari 2100 00:00:00
+423;310;L400nm;gemeten bij golflengte 400 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+424;504;L435-525;gemeten bij golflengtebereik 435 tot 525 nm;HoedanigheidOnterecht;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+425;311;L440nm;gemeten bij golflengte 440 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+426;710;L450nm;gemeten bij golflengte 450 nm;HoedanigheidOnterecht;11 mei 2019 00:00:00;1 januari 2100 00:00:00
+427;312;L455nm;gemeten bij golflengte 455 nm;HoedanigheidOnterecht;6 oktober 2012 00:00:00;1 januari 2100 00:00:00
+428;313;L465nm;gemeten bij golflengte 465 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+429;314;L470nm;gemeten bij golflengte 470 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+430;505;L510-600;gemeten bij golflengtebereik 510 tot 600 nm;HoedanigheidOnterecht;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+431;315;L525nm;gemeten bij golflengte 525 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+432;679;L550nm;gemeten bij golflengte 550 nm;HoedanigheidOnterecht;20 december 2017 00:00:00;1 januari 2100 00:00:00
+433;506;L570-670;gemeten bij golflengtebereik 570 tot 670 nm;HoedanigheidOnterecht;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+434;316;L570nm;gemeten bij golflengte 570 nm;HoedanigheidOnterecht;29 februari 2012 00:00:00;1 januari 2100 00:00:00
+435;317;L590nm;gemeten bij golflengte 590 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+436;318;L610nm;gemeten bij golflengte 610 nm;HoedanigheidOnterecht;29 februari 2012 00:00:00;1 januari 2100 00:00:00
+437;703;L635nm;gemeten bij golflengte 635 nm;HoedanigheidOnterecht;30 januari 2019 00:00:00;1 januari 2100 00:00:00
+438;319;L650nm;gemeten bij golflengte 650 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+439;320;L655nm;gemeten bij golflengte 655 nm;HoedanigheidOnterecht;6 oktober 2012 00:00:00;1 januari 2100 00:00:00
+440;321;L665nm;gemeten bij golflengte 665 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+441;322;L672nm;gemeten bij golflengte 672 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+442;507;L700-825;gemeten bij golflengtebereik 700 tot 825 nm;HoedanigheidOnterecht;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+443;323;L776nm;gemeten bij golflengte 776 nm;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+444;508;L825-950;gemeten bij golflengtebereik 825 tot 950 nm;HoedanigheidOnterecht;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+445;324;LAAGPL;t.o.v. laag peil;ReferentieVlak;18 januari 2012 00:00:00;1 januari 2100 00:00:00
+446;325;LAAGTRF;laag tarief;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+447;326;LAT;t.o.v. Lowest Astronomical Tide;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+448;698;LEL;t.o.v. de onderste explosie limiet;HoedanigheidReferentieBasis;7 augustus 2018 00:00:00;1 januari 2100 00:00:00
+449;328;LINKOVR;t.o.v. linkeroever;ReferentieRichting;18 januari 2012 00:00:00;1 januari 2100 00:00:00
+450;329;LLWS1980;t.o.v. Laag Laag Water Spring 1980.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+451;330;LLWS1985;t.o.v. Laag Laag Water Spring 1985.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+452;331;LLWS1992;t.o.v. Laag Laag Water Spring 1992.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+453;513;LS;uitgedrukt in C12ySO4 (laurylsulfaat);HoedanigheidEquivalent;12 april 2014 00:00:00;1 januari 2100 00:00:00
+454;21;LS-0-0.1;LS-waarde 0 tot 0.1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+455;29;LS-0-1;LS-waarde 0 tot 1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+456;31;LS-0-2;LS-waarde 0 tot 2 ml/g;UitloogFractie;1 september 2016 00:00:00;1 januari 2100 00:00:00
+457;22;LS-0.1-0.2;LS-waarde 0.1 tot 0.2 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+458;23;LS-0.2-0.5;LS-waarde 0.2 tot 0.5 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+459;24;LS-0.5-1;LS-waarde 0.5 tot 1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+460;30;LS-1-10;LS-waarde 1 tot 10 ml/g;UitloogFractie;1 september 2016 00:00:00;1 januari 2100 00:00:00
+461;25;LS-1-2;LS-waarde 1 tot 2 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+462;42;LS-10;LS-waarde cumulatief 10.0 ± 0.1 ml/g;UitloogFractie;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+463;47;LS-100;LS-waarde cumulatief 100.0 ± 0.1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+464;453;LS-10dg;LS-waarde cumulatief 10.0 ± 0.1 ml/g / drooggewicht;HoedanigheidCombinatie;30 oktober 2013 00:00:00;1 januari 2100 00:00:00
+465;454;LS-10nf;LS-waarde cumulatief 10.0 ±0.1 ml/g / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+466;32;LS-2-10;LS-waarde 2 tot 10 ml/g;UitloogFractie;1 september 2016 00:00:00;1 januari 2100 00:00:00
+467;26;LS-2-5;LS-waarde 2 tot 5 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+468;43;LS-20;LS-waarde cumulatief 20.0 ± 0.1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+469;44;LS-40;LS-waarde cumulatief 40.0 ± 0.1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+470;27;LS-5-10;LS-waarde 5 tot 10 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+471;45;LS-60;LS-waarde cumulatief 60.0 ± 0.1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+472;46;LS-80;LS-waarde cumulatief 80.0 ± 0.1 ml/g;UitloogFractie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+473;11;MAAIVD;t.o.v. maaiveld;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+474;593;MAATGAVR;t.o.v. maatgevende afvoer;HoedanigheidReferentieBasis;7 februari 2015 00:00:00;1 januari 2100 00:00:00
+475;714;MC;t.o.v. modern carbon;HoedanigheidReferentieBasis;30 oktober 2019 00:00:00;1 januari 2100 00:00:00
+476;351;METLN;t.o.v. metalen;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+477;352;METLNG;t.o.v. metalen grijze lijst;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+478;353;METLNZ;t.o.v. metalen zwarte lijst;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+479;355;MSL;t.o.v. Mean Sea Level;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+480;356;MWA;meest waarschijnlijke aantal;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+481;469;MgO;uitgedrukt in magnesiumoxide;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+482;354;MgOdg;uitgedrukt in magnesiumoxide / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+483;357;N;uitgedrukt in stikstof;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+484;12;NAP;t.o.v. Normaal Amsterdams Peil;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+485;467;NH4;uitgedrukt in ammonium;HoedanigheidEquivalent;13 september 2014 00:00:00;1 januari 2100 00:00:00
+486;468;NH4dg;uitgedrukt in ammonium / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+487;485;NO2;uitgedrukt in nitriet;HoedanigheidEquivalent;13 september 2014 00:00:00;1 januari 2100 00:00:00
+488;486;NO2dg;uitgedrukt in nitriet / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+489;483;NO3;uitgedrukt in nitraat;HoedanigheidEquivalent;13 september 2014 00:00:00;1 januari 2100 00:00:00
+490;484;NO3dg;uitgedrukt in nitraat / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+491;711;NORMCDTS;t.o.v. normaalcondities;HoedanigheidReferentieBasis;26 juli 2019 00:00:00;1 januari 2100 00:00:00
+492;8;NVT;Niet van toepassing;(technisch);16 maart 2013 00:00:00;1 januari 2100 00:00:00
+493;358;Na2Odg;uitgedrukt in natriumoxide / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+494;435;NaCl;uitgedrukt in natriumchloride;HoedanigheidEquivalent;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+495;364;Ndg;uitgedrukt in stikstof / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+496;368;Nnbzndc;uitgedrukt in stikstof na bezinken na decanteren;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+497;369;Nndc;uitgedrukt in stikstof na decanteren;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+498;16;Nnf;uitgedrukt in stikstof / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+499;370;Nnfdg;uitgedrukt in stikstof / opgeloste fractie / drooggewicht;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+500;371;Nodg;uitgedrukt in stikstof / organisch drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+501;372;Nos;uitgedrukt in stikstof / organische stof;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+502;373;Npg;uitgedrukt in stikstof particulair gebonden;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+503;375;O;uitgedrukt in zuurstof (element);HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+504;376;O2;uitgedrukt in zuurstof;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+505;377;O2dg;uitgedrukt in zuurstof / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+506;613;O2nbz;uitgedrukt in zuurstof na bezinken;HoedanigheidCombinatie;8 juni 2016 00:00:00;1 januari 2100 00:00:00
+507;378;O2ndc;uitgedrukt in zuurstof na decanteren;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+508;379;O2nf;uitgedrukt in zuurstof / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+509;381;OLA;t.o.v. Overeengekomen Lage Afvoer;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+510;382;OLR1982;t.o.v. Overeengekomen Lage Rivierstand 1982.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+511;509;OLR1992;t.o.v. Overeengekomen Lage Rivierstand 1992.0;ReferentieVlak;31 oktober 2013 00:00:00;1 januari 2100 00:00:00
+512;510;OLR2002;t.o.v. Overeengekomen Lage Rivierstand 2002.0;ReferentieVlak;31 oktober 2013 00:00:00;1 januari 2100 00:00:00
+513;383;OLW1972;t.o.v. Overeengekomen Lage Waterstand 1972.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+514;384;OLW1982;t.o.v. Overeengekomen Lage Waterstand 1982.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+515;385;OLW1991;t.o.v. Overeengekomen Lage Waterstand 1991.0;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+516;447;OPN;open;HoedanigheidFractieBasis;7 augustus 2013 00:00:00;1 januari 2100 00:00:00
+517;612;Olsendg;fractie Olsen (na P-extractie);HoedanigheidFractieBasis;6 februari 2016 00:00:00;1 januari 2100 00:00:00
+518;387;P;uitgedrukt in fosfor;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+519;501;P2O5;uitgedrukt in P2O5;HoedanigheidEquivalent;13 september 2014 00:00:00;1 januari 2100 00:00:00
+520;388;P2O5dg;uitgedrukt in P2O5 / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+521;389;P2O5ng;uitgedrukt in P2O5 / natgewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+522;6;PAF;uitgedrukt in Potentieel Aangetaste Fractie;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+523;14;PBBK;t.o.v. peilbuis bovenkant;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+524;392;PLAATSLR;t.o.v. plaatselijk referentievlak;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+525;437;PO4;uitgedrukt in fosfaat;HoedanigheidEquivalent;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+526;455;PO4dg;uitgedrukt in fosfaat / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+527;394;POlsendg;uitgedrukt in Olsen-P (fosfor) / drooggewicht;HoedanigheidCombinatie;1 september 2011 00:00:00;1 januari 2100 00:00:00
+528;445;POlsenng;uitgedrukt in Olsen-P (fosfor) / natgewicht;HoedanigheidCombinatie;7 september 2013 00:00:00;1 januari 2100 00:00:00
+529;15;PUTDSBK;t.o.v. putdeksel bovenkant;ReferentieVlak;13 september 2014 00:00:00;1 januari 2100 00:00:00
+530;398;PVE;uitgedrukt in plaque vormende eenheden;HoedanigheidEquivalent;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+531;390;Pdg;uitgedrukt in fosfor / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+532;393;Pndc;uitgedrukt in fosfor na decanteren;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+533;17;Pnf;uitgedrukt in fosfor / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+534;395;Pos;uitgedrukt in fosfor / organische stof;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+535;396;Ppg;uitgedrukt in fosfor particulair gebonden;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+536;397;PtCo;uitgedrukt volgens PtCo-schaal;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+537;399;RAAIRTG;t.o.v. raairichting;ReferentieRichting;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+538;400;RECHTOVR;t.o.v. rechteroever;ReferentieRichting;18 januari 2012 00:00:00;1 januari 2100 00:00:00
+539;401;S;uitgedrukt in zwavel;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+540;678;SACFORS;uitgedrukt volgens de SACFOR-schaal;HoedanigheidEquivalent;13 december 2017 00:00:00;1 januari 2100 00:00:00
+541;402;SENSR;t.o.v. (hoogte van) sensor;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+542;439;SO4;uitgedrukt in sulfaat;HoedanigheidEquivalent;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+543;456;SO4dg;uitgedrukt in sulfaat / drooggewicht;HoedanigheidCombinatie;13 september 2014 00:00:00;1 januari 2100 00:00:00
+544;408;SO4nf;uitgedrukt in sulfaat / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+545;409;SPRONGLG;t.o.v. spronglaag;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+546;592;STREEFPL;t.o.v. streefpeil;ReferentieVlak;15 januari 2015 00:00:00;1 januari 2100 00:00:00
+547;410;SUBMS;Submerse fractie;HoedanigheidFractieBasis;5 augustus 2011 00:00:00;1 januari 2100 00:00:00
+548;438;Sdg;uitgedrukt in zwavel / drooggewicht;HoedanigheidCombinatie;21 januari 2014 00:00:00;1 januari 2100 00:00:00
+549;611;Se;uitgedrukt in seleen;HoedanigheidEquivalent;21 januari 2016 00:00:00;1 januari 2100 00:00:00
+550;403;Si;uitgedrukt in silicium;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+551;404;Sinf;uitgedrukt in silicium / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+552;405;Sipg;uitgedrukt in silicium particulair gebonden;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+553;406;Sn;uitgedrukt in tin;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+554;4;Sndg;uitgedrukt in tin / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+555;407;Snf;uitgedrukt in zwavel / opgeloste fractie;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+556;412;TAW;t.o.v. Tweede Algemene Waterpassing;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+557;10;TEQ;uitgedrukt in Toxiciteit equivalenten;HoedanigheidEquivalent;31 december 2019 00:00:00;1 januari 2100 00:00:00
+558;5;TEQdg;uitgedrukt in Toxiciteit equivalenten / drooggewicht;HoedanigheidCombinatie;31 december 2019 00:00:00;1 januari 2100 00:00:00
+559;413;TOERTHG;toerental hoog;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+560;414;TOERTLG;toerental laag;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+561;415;TOERTMDL;toerental middel;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+562;715;TU;uitgedrukt in tritium units;HoedanigheidEquivalent;30 oktober 2019 00:00:00;1 januari 2100 00:00:00
+563;411;TansleyS;uitgedrukt volgens Tansley-schaal;HoedanigheidEquivalent;28 juni 2011 00:00:00;1 januari 2100 00:00:00
+564;713;V-PDB-Canorg;t.o.v. Vienna-Pee Dee Belemnite in anorganisch koolstof;HoedanigheidReferentieBasis;30 oktober 2019 00:00:00;1 januari 2100 00:00:00
+565;712;V-SMOW;t.o.v. Vienna-Standard Mean Ocean Water;HoedanigheidReferentieBasis;30 oktober 2019 00:00:00;1 januari 2100 00:00:00
+566;418;VETGWT;t.o.v. vetgewicht;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+567;432;WARNDN;t.o.v. ware Noorden;ReferentieRichting;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+568;433;WATKLM;uitgedrukt in hoogte waterkolom;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+569;13;WATSGL;t.o.v. waterspiegel;ReferentieVlak;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+570;434;WI;uitgedrukt in Waterindex;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+571;449;absdg;t.o.v. absorbent drooggewicht;HoedanigheidReferentieBasis;16 maart 2013 00:00:00;1 januari 2100 00:00:00
+572;72;adg;asvrij drooggewicht;HoedanigheidFractieBasis;26 augustus 2011 00:00:00;1 januari 2100 00:00:00
+573;56;asbf0005-001;fractie 0,5 - 1 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+574;55;asbf001-002;fractie 1 - 2 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+575;54;asbf002-004;fractie 2 - 4 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+576;53;asbf004-008;fractie 4 - 8 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+577;52;asbf008-016;fractie 8 - 16 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+578;51;asbfg016;fractie groter dan 16 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+579;624;asbfg020;fractie groter dan 20 mm;AsbestFractie;10 januari 2017 00:00:00;1 januari 2100 00:00:00
+580;57;asbfk0005;fractie kleiner dan 0,5 mm;AsbestFractie;25 februari 2016 00:00:00;1 januari 2100 00:00:00
+581;74;blauwalg;fractie afkomstig van blauwalgen;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+582;132;cel;uitgedrukt in cellen;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+583;140;cryptofy;fractie afkomstig van cryptofyten;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+584;163;dBZV;BZV verwijderd;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+585;164;dBZVdg;BZV verwijderd / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+586;165;dCZV;CZV verwijderd;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+587;166;dCZVdg;CZV verwijderd / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+588;222;dTZV;TZV verwijderd;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+589;223;dTZVdg;TZV verwijderd / drooggewicht;HoedanigheidCombinatie;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+590;604;dexmtsdg;uitgedrukt in dexamethason equivalenten / drooggewicht;HoedanigheidCombinatie;11 juli 2015 00:00:00;1 januari 2100 00:00:00
+591;598;dexmtsn;uitgedrukt in dexamethason equivalenten;HoedanigheidEquivalent;17 juni 2015 00:00:00;1 januari 2100 00:00:00
+592;1;dg;t.o.v. drooggewicht;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+593;178;diatomee;fractie afkomstig van diatomeeën;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+594;602;flutmddg;uitgedrukt in flutamide equivalenten / drooggewicht;HoedanigheidCombinatie;11 juli 2015 00:00:00;1 januari 2100 00:00:00
+595;596;flutmde;uitgedrukt in flutamide equivalenten;HoedanigheidEquivalent;17 juni 2015 00:00:00;1 januari 2100 00:00:00
+596;286;glucse;uitgedrukt als glucose;HoedanigheidEquivalent;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+597;450;grensWTP;t.o.v. grensvlak wel/geen begroeiing waterplanten;HoedanigheidReferentieBasis;2 maart 2013 00:00:00;1 januari 2100 00:00:00
+598;287;groenalg;fractie afkomstig van groenalgen;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+599;295;hor-vlak;in horizontaal vlak;ReferentieRichting;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+600;296;hyf;hydroliseerbare fractie;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+601;350;md;minerale delen (OS / calciet verwijderd);HoedanigheidFractieBasis;31 december 2019 00:00:00;1 januari 2100 00:00:00
+602;359;nb;na beluchten;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+603;360;nbz;na bezinken;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+604;361;nc;na centrifugeren;HoedanigheidOnterecht;19 december 2015 00:00:00;1 januari 2100 00:00:00
+605;362;nd;na verdunning;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+606;363;ndc;na decanteren;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+607;365;ne;na extractie;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+608;9;nf;opgeloste fractie (bijv. na filtratie);HoedanigheidFractieBasis;29 november 2016 00:00:00;1 januari 2100 00:00:00
+609;366;nfdg;opgeloste fractie / drooggewicht;HoedanigheidCombinatie;29 november 2016 00:00:00;1 januari 2100 00:00:00
+610;367;ng;t.o.v. natgewicht;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+611;374;nv;na vriesdrogen;HoedanigheidOnterecht;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+612;380;odg;t.o.v. organisch drooggewicht;HoedanigheidReferentieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+613;603;or2058dg;uitgedrukt in org2058 equivalenten / drooggewicht;HoedanigheidCombinatie;11 juli 2015 00:00:00;1 januari 2100 00:00:00
+614;597;org2058;uitgedrukt in org2058 equivalenten;HoedanigheidEquivalent;17 juni 2015 00:00:00;1 januari 2100 00:00:00
+615;391;pg;particulair gebonden;HoedanigheidFractieBasis;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+616;716;planktothrix;fractie afkomstig van planktothrix;HoedanigheidFractieBasis;1 januari 2020 00:00:00;1 januari 2100 00:00:00
+617;617;rosgtzdg;uitgedrukt in rosiglitazon equivalenten / drooggewicht;HoedanigheidCombinatie;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+618;616;rosgtzn;uitgedrukt in rosiglitazon equivalenten;HoedanigheidEquivalent;20 augustus 2016 00:00:00;1 januari 2100 00:00:00
+619;514;tX100;uitgedrukt in tritX100 (triton X-100);HoedanigheidEquivalent;12 april 2014 00:00:00;1 januari 2100 00:00:00
+620;416;toxblauw;fractie afkomstig van toxische blauwalgen;HoedanigheidFractieBasis;11 juni 2011 00:00:00;1 januari 2100 00:00:00
+621;417;ver-vlak;in verticaal vlak;ReferentieRichting;10 juni 2011 00:00:00;1 januari 2100 00:00:00
+622;-99;WK;0 cm vanaf de waterkant gemeten;Extra;;
+623;-99;WK+025CM;25 cm vanaf de waterkant gemeten;Extra;;
+624;-99;WK+050CM;50 cm vanaf de waterkant gemeten;Extra;;
+625;-99;WK+075CM;75 cm vanaf de waterkant gemeten;Extra;;
+626;-99;WK+100CM;100 cm vanaf de waterkant gemeten;Extra;;
+627;-99;WK+150CM;150 cm vanaf de waterkant gemeten;Extra;;
+628;-99;WK+200CM;200 cm vanaf de waterkant gemeten;Extra;;
+629;-99;WK+250CM;250 cm vanaf de waterkant gemeten;Extra;;
+630;811;EL370nm;gemeten na excitatie bij golflengte 370 nm;HoedanigheidOnterecht;16 februari 2021;1 januari 2100

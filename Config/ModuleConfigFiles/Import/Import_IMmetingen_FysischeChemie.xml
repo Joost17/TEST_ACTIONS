@@ -1,0 +1,74 @@
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by ICT (Stichting Deltares) -->
+<timeSeriesImportRun xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/timeSeriesImportRun.xsd">
+	<import>
+		<general>
+			<importType>generalCSV</importType>
+			<folder>$IMPORT_FOLDER$/SampleData/FysischeChemie</folder>
+			<fileNamePatternFilter>*_FEWS_FC_succesvol.csv</fileNamePatternFilter>
+			<failedFolder>$IMPORT_FAILED_FOLDER$/SampleData/FysischeChemie</failedFolder>
+			<backupFolder>$IMPORT_BACKUP_FOLDER$/SampleData/FysischeChemie</backupFolder>
+			<deleteImportedFiles>true</deleteImportedFiles>
+			<table>
+				<dateColumn name="Begindatum" pattern="yyyy-MM-dd"/>
+				<timeColumn name="Begintijd" pattern="HH:mm:ss"/>
+				<locationColumn name="Meetobject.code"/>
+				<unitColumn name="Eenheid.code"/>
+				<parameterColumn name="custom.waarnemingssoort.nummer"/>
+				<qualifierColumn name="Grootheid.code" prefix="GH_"/>
+				<qualifierColumn name="Typering.code" prefix="TP_"/>
+				<qualifierColumn name="LevensStadium.code" prefix="LS_"/>
+				<qualifierColumn name="LengteKlasse.code" prefix="LK_"/>
+				<qualifierColumn name="Geslacht.code" prefix="GS_"/>
+				<qualifierColumn name="Gedrag.code" prefix="GG_"/>
+				<qualifierColumn name="Kwaliteitsoordeel.code" prefix="KW_"/>
+				<qualifierColumn name="Hoedanigheid.code" prefix="HH_"/>
+				<qualifierColumn name="VerschijningsVorm.code" prefix="VV_"/>
+				<qualifierColumn name="Levensvorm.Code" prefix="LV_"/>
+				<qualifierColumn name="LocatieTypeWaardeBepaling.id" prefix="LT_"/>
+				<qualifierColumn name="Orgaan.code" prefix="OR_"/>
+				<qualifierColumn name="Organisme.taxonnaamtype" prefix="OG_"/>
+				<qualifierColumn name="MonsterCompartiment.code" prefix="MCO_"/>
+				<propertyColumn name="Meetinstantie.code" key="Meetinstantie"/>
+				<propertyColumn name="X_monster" key="X_monster"/>
+				<propertyColumn name="Y_monster" key="Y_monster"/>
+				<qualifierColumn name="Duplicaat.code" prefix="DP_"/>
+				<qualifierColumn name="Waardebewerkingsmethode.code" prefix="WB_"/>
+				<qualifierColumn name="Waardebepalingsmethode.code" prefix="WP_"/>
+				<qualifierColumn name="Waardebepalingstechniek.code" prefix="WBT_"/>
+				<qualifierColumn name="Bemonsteringsapparaat.code" prefix="BA_"/>
+				<qualifierColumn name="custom.waarnemingssoort.nummer"/>
+				<qualifierColumn name="AnalyseCompartiment.code" prefix="ACO_"/>
+				<qualifierColumn name="Parameter.Code" prefix="PC_"/>
+				<propertyColumn name="Referentievlak.code" key="Referentievlak"/>
+				<propertyColumn name="Monster.Opmerking" key="Monster.Opmerking"/>
+				<propertyColumn name="Namespace" key="namespace"/>
+				<propertyColumn name="OpdrachtreferentieUitvoerder" key="OpdrachtreferentieUitvoerder"/>
+				<propertyColumn name="BeginDiepte_m" key="BeginDiepte"/>
+				<propertyColumn name="EindDiepte_m" key="EindDiepte"/>
+				<propertyColumn name="Resultaatdatum_fews" key="Resultaatdatum"/>
+				<propertyColumn name="Resultaattijd_fews" key="Resultaattijd"/>
+				<sampleIdColumn name="Monster.lokaalID"/>
+				<commentColumn name="MeetwaardeOpmerking"/>
+				<valueColumn name="Numeriekewaarde" requireNumericalParameters="true"/>
+				<valueColumn name="Alfanumeriekewaarde" requireEnumerationParameters="true"/>
+				<limitSymbolColumn name="Limietsymbool"/>
+			</table>
+			<logWarningsForUnmappableLocations>true</logWarningsForUnmappableLocations>
+			<logWarningsForUnmappableParameters>true</logWarningsForUnmappableParameters>
+			<logWarningsForUnmappableQualifiers>true</logWarningsForUnmappableQualifiers>
+			<failOnUnmappableLocations>true</failOnUnmappableLocations>
+			<maxLogWarnings>100000</maxLogWarnings>
+			<logWarningsToSeparateFile>true</logWarningsToSeparateFile>
+			<idMapId>IdImport_IMmetingen</idMapId>
+			<flagConversionsId>ImportFlagConversions_IMmetingen</flagConversionsId>
+			<missingValue>-999</missingValue>
+			<importTimeZone>
+				<timeZoneName>CET</timeZoneName>
+			</importTimeZone>
+			<dataFeedId>Samples_Chemie</dataFeedId>
+			<mergeWithExistingSampleData>false</mergeWithExistingSampleData>
+			<rejectCompleteSampleOnUnmappableId>true</rejectCompleteSampleOnUnmappableId>
+
+<rejectCompleteSampleOnDuplicateValues>true</rejectCompleteSampleOnDuplicateValues>		</general>
+	</import>
+</timeSeriesImportRun>
