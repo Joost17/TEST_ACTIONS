@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfiguration xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/clientConfig.xsd">
+	<!-- template-->
+	<!--
+	<connection id="mc00">
+		<databaseServer>
+			<url>jdbc:oracle:thin:@[host]:[port]/[sid]</url>
+			<user>[user]</user>
+			<encryptedPassword>[secretEncryptedPassword]</encryptedPassword>
+		</databaseServer>
+	</connection>
+	<connection id="mc01">
+		<databaseServer>
+			<url>jdbc:postgresql://[host]:[port]/[database]</url>
+			<user>[user]</user>
+			<encryptedPassword>[secretEncryptedPassword]</encryptedPassword>
+		</databaseServer>
+	</connection>
+	<connection id="mc02">
+		<databaseServer>
+			<url>jdbc:sqlserver://[host]:[port]\[instance];databaseName=[databaseName];sendStringParametersAsUnicode=false</url>
+			<user>[user]</user>
+			<encryptedPassword>[secretEncryptedPassword]</encryptedPassword>
+		</databaseServer>
+	</connection>-->
+</clientConfiguration>
