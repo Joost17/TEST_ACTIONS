@@ -7,7 +7,7 @@
 		<string key="LOGFILE" value="log_PreProImport_BIO.txt"/>
 	</properties>
 		<runIndependent>false</runIndependent>
-		<moduleInstanceId>Import_IMmetingen_preprocessing</moduleInstanceId>
+		<moduleInstanceId>Import_IMmetingen_cpreprocessing</moduleInstanceId>
 	</activity>
 	<activity>
 		<runIndependent>false</runIndependent>
