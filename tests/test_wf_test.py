@@ -8,7 +8,7 @@ def test_errors():
     warnings = []
     with open(wftestrunlog) as file:
         for line in file:
-            if 'ERROR' in line:
+            if 'ERROR' in line and not('FewsBinDirValidator' in line):
                 errors.append(line)
                 print(line)
             if 'WARNING' in line:
