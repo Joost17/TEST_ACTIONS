@@ -1,6 +1,6 @@
 ﻿fewsid;Id;Code;Omschrijving;Groep;Cijfercode;Begin geldigheid;Eind geldigheid
 1;40;AL;Afval;Medium;119;24 september 2016 00:00:00;1 januari 2100 00:00:00
-2;37;AT;Asfalt;Medium;116;24 september 2016 00:00:00;1 januari 2100 00:00:00
+1;37;AT;Asfalt;Medium;116;24 september 2016 00:00:00;1 januari 2100 00:00:00
 3;3;AW;Afvalwater;Medium;30;10 juni 2011 00:00:00;1 januari 2100 00:00:00
 4;8;BF;Bouwstof;Medium;109;19 januari 2013 00:00:00;1 januari 2100 00:00:00
 5;55;BN;Bronwater;Medium;134;9 oktober 2020;1 januari 2100
