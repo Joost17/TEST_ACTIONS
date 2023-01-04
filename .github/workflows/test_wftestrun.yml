@@ -1,5 +1,4 @@
-name: Run workflow testrun FEWS-EFCIS
-on:
+name: workflow testrun
   push:
     branches:
       - productie
