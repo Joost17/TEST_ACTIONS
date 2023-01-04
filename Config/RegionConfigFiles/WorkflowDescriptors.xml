@@ -26,6 +26,11 @@
 		<runPermission>importeren_workflow</runPermission>
 	</workflowDescriptor>
 	<!--Workflows for exporting tasks-->
+	<workflowDescriptor id="wf_Export_IMmetingen_dummy" name="Export dummy voor wf-testrun" forecast="false" visible="false" autoApprove="false">
+		<description>Export dummy voor wf-testrun</description>
+		<viewPermission>exporteren_workflow</viewPermission>
+		<runPermission>exporteren_workflow</runPermission>
+	</workflowDescriptor>
 	<workflowDescriptor id="wf_Export_IMmetingen_alles" name="Export Biologie en Fysische-Chemie uitgebreid" forecast="false" visible="true" autoApprove="false">
 		<description>Exporteer fysisch-chemische en biologische gegevens van afgelopen maand voor alle locaties</description>
 		<viewPermission>exporteren_workflow</viewPermission>
