@@ -2,8 +2,6 @@ name: pre-processing
 on:
   push:
     paths:
-      - Config/ModuleDataSetFiles/PreProImport_BIO.py
-      - Config/ModuleDataSetFiles/PreProImport_FC.py
       - Config/ModuleDataSetFiles/Import_preprocessing.zip
       - .github/workflows/test.yml
     branches:
@@ -33,7 +31,7 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
-      - name: inzip preprocessing
+      - name: Unzip preprocessing
         run: 7z x Config/ModuleDataSetFiles/Import_preprocessing.zip -oConfig/ModuleDataSetFiles/Import_preprocessing
       - name: list directory
         run: ls Config/ModuleDataSetFiles/
