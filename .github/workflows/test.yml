@@ -4,6 +4,7 @@ on:
     paths:
       - Config/ModuleDataSetFiles/PreProImport_BIO.py
       - Config/ModuleDataSetFiles/PreProImport_FC.py
+      - Config/ModuleDataSetFiles/Import_preprocessing.zip
       - .github/workflows/test.yml
     branches:
       - productie
@@ -32,7 +33,10 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
-        
+      - name: inzip preprocessing
+        run: 7z x Config/ModuleDataSetFiles/Import_preprocessing.zip -oConfig/ModuleDataSetFiles/Import_preprocessing
+      - name: list directory
+        run: ls Config/ModuleDataSetFiles/
       - name: create environment with mamba
         uses: conda-incubator/setup-miniconda@v2
         with:
