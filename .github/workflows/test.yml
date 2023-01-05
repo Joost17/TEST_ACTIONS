@@ -52,10 +52,10 @@ jobs:
           C:/Miniconda/condabin/conda.bat list
       - name: Run preprocessing BIO
         run: |
-          python Config/ModuleDataSetFiles/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
+          python Config/ModuleDataSetFiles/Import_preprocessing/PreProImport_BIO.py tests/testfiles/Diatomeeen_test.csv
       - name: Run preprocessing FC
         run: | 
-          python Config/ModuleDataSetFiles/PreProImport_FC.py tests/testfiles/FC_test.csv
+          python Config/ModuleDataSetFiles/Import_preprocessing/PreProImport_FC.py tests/testfiles/FC_test.csv
       - name: Install test dependencies
         run: C:/Miniconda/condabin/conda.bat install pytest      
       - name: Test preprocessing BIO
